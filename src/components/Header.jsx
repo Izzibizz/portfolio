@@ -52,14 +52,14 @@ export const Header = () => {
     console.log("frontend", frontendPortfolioDisplay, "art", artPortfolioDisplay, "bg", bgWhite)
 
   return (
-    <header className="w-full max-w-full h-fit flex justify-between px-8 py-4 absolute top-0 left-0 z-50 animate-fadeIn">
+    <header className="w-full max-w-full h-fit flex justify-between absolute top-0 left-0 z-50 animate-fadeIn">
         <NavLink to="/" aria-label={`Link to Home page`} className="h-fit" onClick={() => { setBgWhite(false); 
             setArtPortfolioDisplay(false)
             setFrontendPortfolioDisplay(false)}}>
     {bgWhite? (
         <img src="/Izabel-svart.svg" className="w-[160px] cursor-hollowDark p-8"/>
     ) : (
-      <img src="/izabel-white.svg" className="w-[160px] opacity-[70%] cursor-hollow p-8"/>
+      <img src="/izabel-white.svg" className="w-[150px] opacity-[70%] cursor-hollow p-8"/>
     )}
     </NavLink>
     { (artPortfolioDisplay || frontendPortfolioDisplay) && (
@@ -69,28 +69,26 @@ export const Header = () => {
         ref={buttonRef}
         onClick={toggleMenu}
         aria-label="Toggle Menu"
-        className="flex flex-col justify-center items-center laptop:hidden z-40 "
+        className="flex flex-col justify-center items-center laptop:hidden px-8 z-40 opacity-60 "
       >
-        <span
-          className={`${menuColor} block transition-all duration-300 ease-out 
-                      h-0.5 w-6 rounded-sm ${
-                        isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
-                      }`}
-        >
-          {" "}
-        </span>
-        <span
-          className={`${menuColor} block transition-all duration-300 ease-out 
-                      h-0.5 w-6 rounded-sm my-0.5 ${
-                        isOpen ? "opacity-0" : "opacity-100"
-                      }`}
-        ></span>
-        <span
-          className={`${menuColor} block transition-all duration-300 ease-out 
-                      h-0.5 w-6 rounded-sm ${
-                        isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
-                      }`}
-        ></span>
+<span
+  className={`${menuColor} block transition-all duration-300 ease-out 
+               h-[1px] w-6 rounded-sm ${
+                isOpen ? "rotate-45 translate-y-[3px]" : "-translate-y-[4px]"
+              }`}
+></span>
+<span
+  className={`${menuColor} block transition-all duration-300 ease-out 
+              h-[1px] w-6 rounded-sm my-0.5 ${
+                isOpen ? "opacity-0" : "opacity-100"
+              }`}
+></span>
+<span
+  className={`${menuColor} block transition-all duration-300 ease-out 
+               h-[1px] w-6 rounded-sm ${
+                isOpen ? "-rotate-45 -translate-y-[3px]" : "translate-y-[4px]"
+              }`}
+></span>
       </button>
       {isOpen && (
         <div
