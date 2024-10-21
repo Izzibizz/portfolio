@@ -70,7 +70,7 @@ export const Header = () => {
   );
 
   return (
-    <header className="w-full max-w-full h-fit flex justify-between absolute top-0 left-0 z-50 animate-fadeIn">
+    <header className="w-full max-w-screen h-fit flex justify-between absolute top-0 left-0 z-50 animate-fadeIn">
       <NavLink
         to="/"
         aria-label={`Link to Home page`}
@@ -84,12 +84,12 @@ export const Header = () => {
         {bgWhite ? (
           <img
             src="/Izabel-svart.svg"
-            className="w-[160px] cursor-hollowDark p-8 transform transition-transform duration-300 ease-in-out  hover:scale-125"
+            className={`w-[160px] cursor-hollowDark p-8 transform transition-transform duration-300 ease-in-out ${artPortfolioDisplay && "hover:scale-125"} `}
           />
         ) : (
           <img
             src="/izabel-white.svg"
-            className="w-[150px] opacity-[70%] cursor-hollow p-8 transform transition-transform duration-300 ease-in-out  hover:scale-125"
+            className={`w-[150px] opacity-[70%] cursor-hollow p-8 transform transition-transform duration-300 ease-in-out ${frontendPortfolioDisplay && "hover:scale-125"} `}
           />
         )}
       </NavLink>
@@ -156,7 +156,7 @@ export const Header = () => {
           <div
             className={`flex ${
               artPortfolioDisplay ? "text-black" : "text-white"
-            } h-fit font-body pr-4 font-light animate-fadeIn hidden laptop:flex`}
+            } h-fit font-body font-light animate-fadeIn hidden laptop:flex`}
           >
             <NavLink
               to={projectsPath}

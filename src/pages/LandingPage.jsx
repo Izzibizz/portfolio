@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { useProjectsStore } from "../stores/useProjectsStore";
 import { NavLink } from "react-router-dom"
 
@@ -35,6 +35,12 @@ export const LandingPage = () => {
         }
       }
 
+      useEffect(() => {
+        setBgWhite(false)
+        setArtPortfolioDisplay(false)
+        setFrontendPortfolioDisplay(false)
+      }, [])
+
     return (
         <section className="animate-fadeIn ">
           <video
@@ -50,7 +56,7 @@ export const LandingPage = () => {
           <NavLink to="/frontend" aria-label={`Link to frontend portfolio page`} onClick={() => choosePortfolio("frontend")}>
         <img
           src={bgWhite ? "/Fd-bl.svg" : "/fd-white.svg"}
-          className={`relative cursor-hollow hover:scale-[200%] transform text-center transition-transform duration-500 font-heading text-lg p-4 w-[200px]`}
+          className={`relative cursor-hollow hover:scale-[220%] transform text-center transition-transform duration-500 font-heading text-lg p-4 w-[200px]`}
           onMouseEnter={() => handleHover("-translate-x-[10%]")}
           onMouseLeave={handleHoverOut} 
         />
