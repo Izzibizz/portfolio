@@ -1,7 +1,7 @@
 import { useEffect } from "react" 
-import { useProjectsStore } from "../../stores/UseProjectsStore"
-import { SwiperComponent } from "../components/SwiperComponent"
-import artProjects from "../data/artProjects.json"
+import { useProjectsStore } from "../../stores/useProjectsStore"
+/* import { SwiperComponent } from "../components/SwiperComponent"
+import artProjects from "../data/artProjects.json" */
 
 
 export const ArtHome = () => {

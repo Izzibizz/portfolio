@@ -1,6 +1,6 @@
 
 import { useEffect } from "react" 
-import { useProjectsStore } from "../../stores/UseProjectsStore"
+import { useProjectsStore } from "../../stores/useProjectsStore"
 
 export const FrontendContact = () => {
 

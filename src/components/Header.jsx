@@ -1,4 +1,4 @@
-import { useProjectsStore } from "../stores/UseProjectsStore"
+import { useProjectsStore } from "../stores/useProjectsStore"
 import { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom"
 
