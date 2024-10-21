@@ -1,0 +1,20 @@
+
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: 'Baguile';
+  src: url('./assets//fonts//Baguile.otf') format('opentype')
+}
+
+@tailwind utilities;
+
+*,
+*:before,
+*:after {
+  @apply cursor-default;
+}
+
+a, button {
+  @apply cursor-pointer;
+}

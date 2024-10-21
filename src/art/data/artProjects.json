@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Oblivion",
+        "year": 2020,
+        "material": "3D, VR and sculpture",
+        "description": "A large metallic installation where the visitor can enter a virtual landscape of the scannet Nikehallen in Konstakademien",
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650485/Izabel_Lind_VR_Oblivion_2020_Konstakademin_nycope.jpg",
+            "alt": "A seascape painting with twilight colors.",
+            "photographer": "Jane Doe"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650850/ung-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_qqzrd7.jpg",
+            "alt": "Close-up of the brushstrokes in the painting.",
+            "photographer": "John Smith"
+          }
+        ],
+        "video": null,
+        "exhibitedAt": "Konstakademien",
+        "commissionedBy": null,
+        "fundedBy": "KKH"
+      },
+      {
+        "title": "Whispers of the Sea",
+        "year": 2021,
+        "material": "Oil on canvas",
+        "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728656186/Dripping_off_r1qtnm.jpg",
+            "alt": "A seascape painting with twilight colors.",
+            "photographer": "Jane Doe"
+          }
+        ],
+        "video": null,
+        "exhibitedAt": "Oceanic Art Gallery, New York",
+        "commissionedBy": "Private collector",
+        "fundedBy": "Art Lovers Foundation"
+      },
+      {
+        "title": "Whispers of the Sea",
+        "year": 2021,
+        "material": "Oil on canvas",
+        "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728656234/stream.orebro.izabel.lind.2023.2_zj3prk.jpg",
+            "alt": "A seascape painting with twilight colors.",
+            "photographer": "Jane Doe"
+          }
+        ],
+        "video": null,
+        "exhibitedAt": "Oceanic Art Gallery, New York",
+        "commissionedBy": "Private collector",
+        "fundedBy": "Art Lovers Foundation"
+      }
+]
