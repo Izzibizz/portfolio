@@ -20,8 +20,8 @@ export const Header = () => {
     ? "/art/contact"
     : "/frontend/contact";
   const projectsPath = artPortfolioDisplay
-    ? "/art/projects"
-    : "/frontend/projects";
+    ? "/art"
+    : "/frontend";
   const menuColor = bgWhite ? "bg-black" : "bg-white";
   const bgColor = bgWhite ? "bg-white" : "bg-black";
   const textColor = bgWhite ? "text-black" : "text-white";
@@ -124,10 +124,10 @@ export const Header = () => {
           {isOpen && (
             <div
               ref={dropdownRef}
-              className={`absolute top-24 right-0 w-fit text-xl bg-background rounded-bl-xl bg-opacity-60 backdrop-blur-sm ${bgColor} `}
+              className={`absolute top-24 right-0 w-fit text-xl  rounded-bl-xl animate-semiFadeIn ${bgColor} `}
             >
               <ul
-                className={`flex flex-col items-end gap-6 p-8 pr-8 tablet:pb-20 ${textColor} animate-fadeIn font-body font-light`}
+                className={`flex flex-col items-end gap-6 p-8 pr-8 tablet:pb-20 ${textColor} font-body font-light`}
               >
                 <NavLink
                   to={projectsPath}

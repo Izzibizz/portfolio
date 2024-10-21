@@ -16,6 +16,7 @@ export default {
     },
     fontWeight: {
       light: "100",
+      medium: "200",
     },
     screens: {
       tablet: "600px", 
@@ -24,6 +25,10 @@ export default {
     },
     keyframes: {
       fadeIn: {
+        '0%': { opacity: '0' },
+        '100%': { opacity: '1' },
+      },
+      semiFadeIn: {
         '0%': { opacity: '0' },
         '100%': { opacity: '1' },
       },
@@ -39,6 +44,7 @@ export default {
     },
     animation: {
       fadeIn: 'fadeIn 3s ease-out',
+      semiFadeIn: 'fadeIn 0.5s ease-out',
       fadeInVideo: 'fadeInVideo 2s ease-out',
       fadeInOut: 'fadeInOut 3s ease-in-out infinite',
     },
