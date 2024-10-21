@@ -84,12 +84,12 @@ export const Header = () => {
         {bgWhite ? (
           <img
             src="/Izabel-svart.svg"
-            className={`w-[160px] cursor-hollowDark p-8 transform transition-transform duration-300 ease-in-out ${artPortfolioDisplay && "hover:scale-125"} `}
+            className={`w-[140px] tablet:w-[150px] cursor-hollowDark p-8 transform transition-transform duration-300 ease-in-out ${artPortfolioDisplay && "hover:scale-125"} `}
           />
         ) : (
           <img
             src="/izabel-white.svg"
-            className={`w-[150px] opacity-[70%] cursor-hollow p-8 transform transition-transform duration-300 ease-in-out ${frontendPortfolioDisplay && "hover:scale-125"} `}
+            className={`w-[140px] tablet:w-[150px] opacity-[70%] cursor-hollow p-8 transform transition-transform duration-300 ease-in-out ${frontendPortfolioDisplay && "hover:scale-125"} `}
           />
         )}
       </NavLink>
