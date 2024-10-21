@@ -46,7 +46,7 @@ export const LandingPage = () => {
            >
             <source src="https://res.cloudinary.com/dbf8xygxz/video/upload/v1728898269/Sequence_01_8_qeiugg.mp4" type="video/mp4" />
           </video>
-          <div className={`w-full h-full absolute top-0 left-0 flex flex-col laptop:flex-row justify-center items-center gap-20 tablet:gap-72 laptop:gap-[700px] ${direction === "-translate-x-[90%]" ? "text-black" : "text-white"} `}>
+          <div className={`w-full h-full absolute top-0 left-0 pt-10 tablet:pt-0 flex flex-col laptop:flex-row justify-center items-center gap-20 tablet:gap-72 laptop:gap-[700px] ${direction === "-translate-x-[90%]" ? "text-black" : "text-white"} `}>
           <NavLink to="/frontend" aria-label={`Link to frontend portfolio page`} onClick={() => choosePortfolio("frontend")}>
         <img
           src={bgWhite ? "/Fd-bl.svg" : "/fd-white.svg"}
