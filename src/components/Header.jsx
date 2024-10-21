@@ -1,22 +1,31 @@
-import { useProjectsStore } from "../stores/useProjectsStore"
+import { useProjectsStore } from "../stores/useProjectsStore";
 import { useState, useEffect, useRef } from "react";
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
 
 export const Header = () => {
+  const {
+    bgWhite,
+    setBgWhite,
+    artPortfolioDisplay,
+    setArtPortfolioDisplay,
+    frontendPortfolioDisplay,
+    setFrontendPortfolioDisplay,
+  } = useProjectsStore();
+  const dropdownRef = useRef();
+  const buttonRef = useRef();
+  const [isOpen, setIsOpen] = useState(false);
 
-    const { bgWhite, setBgWhite, artPortfolioDisplay, setArtPortfolioDisplay, frontendPortfolioDisplay, setFrontendPortfolioDisplay } = useProjectsStore()
-    const dropdownRef = useRef()
-    const buttonRef = useRef()
-    const [isOpen, setIsOpen] = useState(false);
+  const aboutPath = artPortfolioDisplay ? "/art/about" : "/frontend/about";
+  const contactPath = artPortfolioDisplay
+    ? "/art/contact"
+    : "/frontend/contact";
+  const projectsPath = artPortfolioDisplay
+    ? "/art/projects"
+    : "/frontend/projects";
+  const menuColor = bgWhite ? "bg-black" : "bg-white";
+  const bgColor = bgWhite ? "bg-white" : "bg-black";
+  const textColor = bgWhite ? "text-black" : "text-white";
 
-    const aboutPath = artPortfolioDisplay ? "/art/about" : "/frontend/about";
-    const contactPath = artPortfolioDisplay ? "/art/contact" : "/frontend/contact";
-    const projectsPath = artPortfolioDisplay ? "/art/projects" : "/frontend/projects";
-    const menuColor = bgWhite ?  "bg-black" : "bg-white";
-    const bgColor = bgWhite ? "bg-white" : "bg-black";
-    const textColor = bgWhite ? "text-black" : "text-white";
-
-    
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -30,129 +39,155 @@ export const Header = () => {
     closeMenu();
   }, [location]);
 
-   // Close the menu when clicking outside of it
+  // Close the menu when clicking outside of it
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (
-        dropdownRef.current && !dropdownRef.current.contains(event.target) &&
-        buttonRef.current && !buttonRef.current.contains(event.target)
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target) &&
+        buttonRef.current &&
+        !buttonRef.current.contains(event.target)
       ) {
         closeMenu();
       }
     };
 
-     // Bind the event listener
-     document.addEventListener("mousedown", handleClickOutside);
-     return () => {
-       // Clean up the event listener
-       document.removeEventListener("mousedown", handleClickOutside);
-     };
-   }, []);
-    
-    console.log("frontend", frontendPortfolioDisplay, "art", artPortfolioDisplay, "bg", bgWhite)
+    // Bind the event listener
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      // Clean up the event listener
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+  console.log(
+    "frontend",
+    frontendPortfolioDisplay,
+    "art",
+    artPortfolioDisplay,
+    "bg",
+    bgWhite
+  );
 
   return (
     <header className="w-full max-w-full h-fit flex justify-between absolute top-0 left-0 z-50 animate-fadeIn">
-        <NavLink to="/" aria-label={`Link to Home page`} className="h-fit" onClick={() => { setBgWhite(false); 
-            setArtPortfolioDisplay(false)
-            setFrontendPortfolioDisplay(false)}}>
-    {bgWhite? (
-        <img src="/Izabel-svart.svg" className="w-[160px] cursor-hollowDark p-8"/>
-    ) : (
-      <img src="/izabel-white.svg" className="w-[150px] opacity-[70%] cursor-hollow p-8"/>
-    )}
-    </NavLink>
-    { (artPortfolioDisplay || frontendPortfolioDisplay) && (
-    <>
+      <NavLink
+        to="/"
+        aria-label={`Link to Home page`}
+        className="h-fit"
+        onClick={() => {
+          setBgWhite(false);
+          setArtPortfolioDisplay(false);
+          setFrontendPortfolioDisplay(false);
+        }}
+      >
+        {bgWhite ? (
+          <img
+            src="/Izabel-svart.svg"
+            className="w-[160px] cursor-hollowDark p-8 transform transition-transform duration-300 ease-in-out  hover:scale-125"
+          />
+        ) : (
+          <img
+            src="/izabel-white.svg"
+            className="w-[150px] opacity-[70%] cursor-hollow p-8 transform transition-transform duration-300 ease-in-out  hover:scale-125"
+          />
+        )}
+      </NavLink>
+      {(artPortfolioDisplay || frontendPortfolioDisplay) && (
+        <>
           {/* Mobile and tablet */}
           <button
-        ref={buttonRef}
-        onClick={toggleMenu}
-        aria-label="Toggle Menu"
-        className="flex flex-col justify-center items-center laptop:hidden px-8 z-40 opacity-60 "
-      >
-<span
-  className={`${menuColor} block transition-all duration-300 ease-out 
+            ref={buttonRef}
+            onClick={toggleMenu}
+            aria-label="Toggle Menu"
+            className="flex flex-col justify-center items-center laptop:hidden px-8 z-40 opacity-60 "
+          >
+            <span
+              className={`${menuColor} block transition-all duration-300 ease-out 
                h-[1px] w-6 rounded-sm ${
-                isOpen ? "rotate-45 translate-y-[3px]" : "-translate-y-[4px]"
-              }`}
-></span>
-<span
-  className={`${menuColor} block transition-all duration-300 ease-out 
+                 isOpen ? "rotate-45 translate-y-[3px]" : "-translate-y-[4px]"
+               }`}
+            ></span>
+            <span
+              className={`${menuColor} block transition-all duration-300 ease-out 
               h-[1px] w-6 rounded-sm my-0.5 ${
                 isOpen ? "opacity-0" : "opacity-100"
               }`}
-></span>
-<span
-  className={`${menuColor} block transition-all duration-300 ease-out 
+            ></span>
+            <span
+              className={`${menuColor} block transition-all duration-300 ease-out 
                h-[1px] w-6 rounded-sm ${
-                isOpen ? "-rotate-45 -translate-y-[3px]" : "translate-y-[4px]"
+                 isOpen ? "-rotate-45 -translate-y-[3px]" : "translate-y-[4px]"
+               }`}
+            ></span>
+          </button>
+          {isOpen && (
+            <div
+              ref={dropdownRef}
+              className={`absolute top-24 right-0 w-fit text-xl bg-background rounded-bl-xl bg-opacity-60 backdrop-blur-sm ${bgColor} `}
+            >
+              <ul
+                className={`flex flex-col items-end gap-6 p-8 pr-8 tablet:pb-20 ${textColor} animate-fadeIn font-body font-light`}
+              >
+                <NavLink
+                  to={projectsPath}
+                  aria-label={`Link to Projects page`}
+                  onClick={toggleMenu}
+                >
+                  Projects
+                </NavLink>
+                <NavLink
+                  to={aboutPath}
+                  aria-label={`Link to about page`}
+                  onClick={toggleMenu}
+                >
+                  About
+                </NavLink>
+                <NavLink
+                  to={contactPath}
+                  aria-label={`Link to contact page`}
+                  onClick={toggleMenu}
+                >
+                  Contact
+                </NavLink>
+              </ul>
+            </div>
+          )}
+          <div
+            className={`flex ${
+              artPortfolioDisplay ? "text-black" : "text-white"
+            } h-fit font-body pr-4 font-light animate-fadeIn hidden laptop:flex`}
+          >
+            <NavLink
+              to={projectsPath}
+              aria-label={`Link to Projects page`}
+              className={`  py-8 px-4 h-fit transform transition-transform duration-300 ease-in-out  hover:scale-125 ${
+                artPortfolioDisplay ? "cursor-hollowDark" : "cursor-hollow"
               }`}
-></span>
-      </button>
-      {isOpen && (
-        <div
-          ref={dropdownRef}
-          className={`absolute top-24 right-0 w-fit text-xl bg-background rounded-bl-xl bg-opacity-60 backdrop-blur-sm ${bgColor} `}
-        >
-          <ul className={`flex flex-col items-end gap-6 p-8 pr-8 tablet:pb-20 ${textColor}`}>
-            <NavLink
-              to="/dancer"
-              aria-label="Link to Dancer"
-              onClick={toggleMenu}
-              className={({ isActive }) => ` ${isActive ? "underline" : "hover:scale-110"}`}
             >
-              <li>Dancer</li>
+              Projects
             </NavLink>
             <NavLink
-              to="/choreographer"
-              aria-label="Link to Choreographer"
-              onClick={toggleMenu}
-              className={({ isActive }) => ` ${isActive ? "underline" : "hover:scale-110"}`}
+              to={aboutPath}
+              aria-label={`Link to about page`}
+              className={`  py-8 px-4 h-fit transform transition-transform duration-300 ease-in-out  hover:scale-125 ${
+                artPortfolioDisplay ? "cursor-hollowDark" : "cursor-hollow"
+              }`}
             >
-              <li>Choreographer</li>
+              About
             </NavLink>
             <NavLink
-              to="/pedagog"
-              aria-label="Link to Pedagog"
-              onClick={toggleMenu}
-              className={({ isActive }) => ` ${isActive ? "underline" : "hover:scale-110"}`}
+              to={contactPath}
+              aria-label={`Link to contact page`}
+              className={` py-8 px-4 h-fit transform transition-transform duration-300 ease-in-out  hover:scale-125 ${
+                artPortfolioDisplay ? "cursor-hollowDark" : "cursor-hollow"
+              }`}
             >
-              <li>Pedagog</li>
+              Contact
             </NavLink>
-            <NavLink
-              to="/about"
-              aria-label="Link to About"
-              onClick={toggleMenu}
-              className={({ isActive }) => ` ${isActive ? "underline" : "hover:scale-110"}`}
-            >
-              <li>About</li>
-            </NavLink>
-            <NavLink
-              to="/contact"
-              aria-label="Link to Contact"
-              onClick={toggleMenu}
-              className={({ isActive }) => ` ${isActive ? "underline" : "hover:scale-110"}`}
-            >
-              <li>Contact</li>
-            </NavLink>
-          </ul>
-        </div>
+          </div>
+        </>
       )}
-    <div className={`flex ${artPortfolioDisplay? "text-black": "text-white"} font-heading h-fit animate-fadeIn hidden laptop:flex`}>
-         <NavLink to={projectsPath} aria-label={`Link to Projects page`} className={`  p-8 pr-4 h-fit ${artPortfolioDisplay? "cursor-hollowDark" : "cursor-hollow"}`}>
-        Projects
-        </NavLink>
-        <NavLink to={aboutPath} aria-label={`Link to about page`} className={`  p-8 pr-4 h-fit ${artPortfolioDisplay? "cursor-hollowDark" : "cursor-hollow"}`}>
-        About
-        </NavLink>
-        <NavLink to={contactPath} aria-label={`Link to contact page`} className={` p-8 pl-4 h-fit ${artPortfolioDisplay? "cursor-hollowDark" : "cursor-hollow"}`}>
-        Contact
-        </NavLink>
-    </div>
-    </>
-    )}
     </header>
-  )
-}
-
+  );
+};

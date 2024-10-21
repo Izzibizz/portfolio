@@ -13,7 +13,7 @@ function App() {
     <div className={`h-screen min-h-screen w-screen max-w-screen ${bgWhite? "bg-white" : "bg-black"} `}>
       <ScrollToTop />
       <Header />
-      <main className="pt-32 laptop:pt-36 w-full mx-auto">
+      <main className="pt-32 laptop:pt-36 w-full">
       <MainRoutes />
       </main>
       <Footer/>

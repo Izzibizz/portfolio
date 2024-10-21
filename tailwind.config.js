@@ -10,7 +10,12 @@ export default {
       
     },
     fontFamily: {
-      heading: ["Baguile", "serif"],
+      heading: ["Shadows Into Light", "cursive"],
+      body: ["Lexend", "sans-serif"]
+
+    },
+    fontWeight: {
+      light: "100",
     },
     screens: {
       tablet: "600px", 
