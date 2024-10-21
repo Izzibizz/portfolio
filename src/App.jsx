@@ -3,7 +3,7 @@ import { Header } from "./components/Header"
 import { MainRoutes } from "./routes/MainRoutes";
 import { Footer } from "./components/Footer";
 import { ScrollToTop } from "./components/ScrollToTop";
-import { useProjectsStore } from "./stores/UseProjectsStore";
+import { useProjectsStore } from "./stores/useProjectsStore";
 
 function App() {
 
