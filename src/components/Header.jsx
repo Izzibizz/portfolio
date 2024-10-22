@@ -70,7 +70,7 @@ export const Header = () => {
   );
 
   return (
-    <header className="w-full max-w-screen h-fit flex justify-between absolute top-0 left-0 z-50 animate-fadeIn px-8">
+    <header className={`w-full max-w-screen h-fit flex justify-between absolute top-0 left-0 z-50 animate-fadeIn px-8 ${frontendPortfolioDisplay ? "bg-black bg-opacity-80" : artPortfolioDisplay && "bg-white bg-opacity-80"}`}>
       <NavLink
         to="/"
         aria-label={`Link to Home page`}

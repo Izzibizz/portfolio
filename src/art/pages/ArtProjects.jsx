@@ -30,6 +30,7 @@ export const ArtProjects = () => {
           animation={"animate-slideUp"}
           col={"col-span-1"}
         />
+        <h3 className="col-span-1">oblivion 2020</h3>
       </div>
 
       {/*    <div className=" animate-fadeIn grid grid-cols-3">
