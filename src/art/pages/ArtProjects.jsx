@@ -18,17 +18,17 @@ export const ArtProjects = () => {
 
   return (
     <section className="font-body font-medium animate-fadeIn flex flex-col gap-10">
-      <img src="/art-1.svg" className="w-[100px] self-end " />
-      <div className=" grid grid-cols-3 gap-8 ">
+      <img src="/art-1.svg" className="w-[60px] tablet:w-[100px] self-end " />
+      <div className=" grid tablet:grid-cols-3 gap-y-8 tablet:gap-x-8 ">
         <Magnifier
           url={image1}
           animation={"animate-slideIn"}
-          className="col-span-3"
+          col={"col-span-2"}
         />
         <Magnifier
           url={image2}
           animation={"animate-slideUp"}
-          className="col-span-1"
+          col={"col-span-1"}
         />
       </div>
 

@@ -70,7 +70,7 @@ export const Header = () => {
   );
 
   return (
-    <header className="w-full max-w-screen h-fit flex justify-between absolute top-0 left-0 z-50 animate-fadeIn px-4">
+    <header className="w-full max-w-screen h-fit flex justify-between absolute top-0 left-0 z-50 animate-fadeIn px-8">
       <NavLink
         to="/"
         aria-label={`Link to Home page`}
@@ -84,12 +84,12 @@ export const Header = () => {
         {bgWhite ? (
           <img
             src="/Izabel-svart.svg"
-            className={`w-[120px] tablet:w-[130px] cursor-hollowDark px-4 py-8 transform transition-transform duration-300 ease-in-out ${artPortfolioDisplay && "hover:scale-125"} `}
+            className={`w-[120px] laptop:w-[130px] cursor-hollowDark pr-4 py-8 transform transition-transform duration-300 ease-in-out ${artPortfolioDisplay && "hover:scale-125"} `}
           />
         ) : (
           <img
             src="/izabel-white.svg"
-            className={`w-[120px] tablet:w-[130px] opacity-[70%] cursor-hollow px-4 py-8 transform transition-transform duration-300 ease-in-out ${frontendPortfolioDisplay && "hover:scale-125"} `}
+            className={`w-[120px] laptop:w-[130px] opacity-[70%] cursor-hollow pr-4 py-8 transform transition-transform duration-300 ease-in-out ${frontendPortfolioDisplay && "hover:scale-125"} `}
           />
         )}
       </NavLink>
@@ -100,7 +100,7 @@ export const Header = () => {
             ref={buttonRef}
             onClick={toggleMenu}
             aria-label="Toggle Menu"
-            className="flex flex-col justify-center items-center laptop:hidden px-8 z-40 opacity-60 "
+            className="flex flex-col justify-center items-center laptop:hidden z-40 opacity-60 "
           >
             <span
               className={`${menuColor} block transition-all duration-300 ease-out 
@@ -124,10 +124,10 @@ export const Header = () => {
           {isOpen && (
             <div
               ref={dropdownRef}
-              className={`absolute top-24 right-0 w-fit text-xl  rounded-bl-xl animate-semiFadeIn ${bgColor} `}
-            >
+              className={`absolute top-24 right-0 w-fit text-xl rounded-bl-xl ${bgColor} transition-all duration-700 ease-in-out fadeIn overflow-hidden ${ isOpen ? "h-fit" : "h-0" }`}
+         >
               <ul
-                className={`flex flex-col items-end gap-6 p-8 pr-8 tablet:pb-20 ${textColor} font-body font-light`}
+                className={`flex flex-col items-end gap-6 p-10 pr-8 ${textColor} font-body font-light`}
               >
                 <NavLink
                   to={projectsPath}

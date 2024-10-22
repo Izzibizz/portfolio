@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const Magnifier = ({url, animation}) => {
+export const Magnifier = ({url, col, animation}) => {
   const [magnifierStyle, setMagnifierStyle] = useState({
     display: "none",
     top: 0,
@@ -34,7 +34,7 @@ export const Magnifier = ({url, animation}) => {
   };
 
   return (
-    <div className="relative w-full">
+    <div className={`relative w-full ${col}`}>
       <div
         className="absolute h-[500px] w-[500px] rounded-full pointer-events-none z-20"
         style={{
@@ -48,7 +48,7 @@ export const Magnifier = ({url, animation}) => {
         }}
       ></div>
       <div
-        className={`w-auto h-auto`}
+        className="w-full h-auto "
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
       >
