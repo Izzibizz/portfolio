@@ -10,10 +10,10 @@ function App() {
   const { bgWhite } = useProjectsStore() 
 
   return (
-    <div className={`h-screen min-h-screen w-screen max-w-screen ${bgWhite? "bg-white" : "bg-black"} `}>
+    <div className={`h-screen min-h-screen w-screen max-w-screen ${bgWhite? "bg-white" : "bg-black"} overflow-x-hidden no-scrollbar`}>
       <ScrollToTop />
       <Header />
-      <main className="pt-32 laptop:pt-36 w-11/12 laptop:w-10/12 mx-auto">
+      <main className="pt-32 laptop:pt-36 w-11/12 laptop:w-10/12 mx-auto ">
       <MainRoutes />
       </main>
       <Footer/>

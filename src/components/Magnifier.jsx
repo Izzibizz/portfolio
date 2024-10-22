@@ -36,7 +36,7 @@ export const Magnifier = ({url, col, animation}) => {
   return (
     <div className={`relative w-full ${col}`}>
       <div
-        className="absolute h-[500px] w-[500px] rounded-full pointer-events-none z-20"
+        className="absolute h-[500px] w-[500px] rounded-full pointer-events-none z-20 hidden laptop:block"
         style={{
           display: magnifierStyle.display,
           top: magnifierStyle.top,
