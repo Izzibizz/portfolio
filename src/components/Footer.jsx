@@ -1,9 +1,3 @@
-
-
 export const Footer = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <Footer className="h-24 w-full mt-10">footer section</Footer>;
+};

@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 
-export const Magnifier = ({url, col, animation}) => {
-
-    const [isLaptopWidth, setIsLaptopWidth] = useState(window.innerWidth > 1024)
+export const Magnifier = ({ url, col, animation }) => {
+  const [isLaptopWidth, setIsLaptopWidth] = useState(window.innerWidth > 1024);
 
   const [magnifierStyle, setMagnifierStyle] = useState({
     display: "none",
@@ -21,23 +20,23 @@ export const Magnifier = ({url, col, animation}) => {
     const percY = (posY / imgPosition.height) * 105;
 
     if (isLaptopWidth) {
-    setMagnifierStyle({
+      setMagnifierStyle({
         display: "block",
-        top: posY - 75,  
+        top: posY - 75,
         left: posX - 75,
         backgroundPosition: `${percX}% ${percY}%`,
-    });
-  }
-}
+      });
+    }
+  };
 
   const handleMouseLeave = () => {
     if (isLaptopWidth) {
-    setMagnifierStyle({
-      display: "none",
-      top: 0,
-      left: 0,
-      backgroundPosition: "0% 0%",
-    });
+      setMagnifierStyle({
+        display: "none",
+        top: 0,
+        left: 0,
+        backgroundPosition: "0% 0%",
+      });
     }
   };
 
@@ -45,7 +44,7 @@ export const Magnifier = ({url, col, animation}) => {
     const handleResize = () => {
       const laptopWidth = window.innerWidth > 1024; // Change this value as needed
       setIsLaptopWidth(laptopWidth);
-      
+
       // Hide magnifier if the screen is resized to a width that isn't laptop size
       if (!laptopWidth) {
         setMagnifierStyle((prev) => ({ ...prev, display: "none" }));
@@ -66,8 +65,7 @@ export const Magnifier = ({url, col, animation}) => {
           display: magnifierStyle.display,
           top: magnifierStyle.top,
           left: magnifierStyle.left,
-          backgroundImage:
-            `url(${url})`,
+          backgroundImage: `url(${url})`,
           backgroundSize: "2000%",
           backgroundPosition: magnifierStyle.backgroundPosition,
         }}
@@ -86,4 +84,3 @@ export const Magnifier = ({url, col, animation}) => {
     </div>
   );
 };
-

@@ -19,9 +19,7 @@ export const Header = () => {
   const contactPath = artPortfolioDisplay
     ? "/art/contact"
     : "/frontend/contact";
-  const projectsPath = artPortfolioDisplay
-    ? "/art"
-    : "/frontend";
+  const projectsPath = artPortfolioDisplay ? "/art" : "/frontend";
   const menuColor = bgWhite ? "bg-black" : "bg-white";
   const bgColor = bgWhite ? "bg-white" : "bg-black";
   const textColor = bgWhite ? "text-black" : "text-white";
@@ -70,7 +68,13 @@ export const Header = () => {
   );
 
   return (
-    <header className={`w-full max-w-screen h-fit flex justify-between absolute top-0 left-0 z-50 animate-fadeIn px-8 ${frontendPortfolioDisplay ? "bg-black bg-opacity-80" : artPortfolioDisplay && "bg-white bg-opacity-80"}`}>
+    <header
+      className={`w-full max-w-screen h-fit flex justify-between absolute top-0 left-0 z-50 animate-fadeIn px-8 ${
+        frontendPortfolioDisplay
+          ? "bg-black bg-opacity-80"
+          : artPortfolioDisplay && "bg-white bg-opacity-80"
+      }`}
+    >
       <NavLink
         to="/"
         aria-label={`Link to Home page`}
@@ -84,12 +88,16 @@ export const Header = () => {
         {bgWhite ? (
           <img
             src="/Izabel-svart.svg"
-            className={`w-[120px] laptop:w-[130px] cursor-hollowDark pr-4 py-8 transform transition-transform duration-300 ease-in-out ${artPortfolioDisplay && "hover:scale-125"} `}
+            className={`w-[120px] laptop:w-[130px] cursor-hollowDark pr-4 py-8 transform transition-transform duration-300 ease-in-out ${
+              artPortfolioDisplay && "hover:scale-125"
+            } `}
           />
         ) : (
           <img
             src="/izabel-white.svg"
-            className={`w-[120px] laptop:w-[130px] opacity-[70%] cursor-hollow pr-4 py-8 transform transition-transform duration-300 ease-in-out ${frontendPortfolioDisplay && "hover:scale-125"} `}
+            className={`w-[120px] laptop:w-[130px] opacity-[70%] cursor-hollow pr-4 py-8 transform transition-transform duration-300 ease-in-out ${
+              frontendPortfolioDisplay && "hover:scale-125"
+            } `}
           />
         )}
       </NavLink>
@@ -124,8 +132,10 @@ export const Header = () => {
           {isOpen && (
             <div
               ref={dropdownRef}
-              className={`absolute top-24 right-0 w-fit text-xl rounded-bl-xl ${bgColor} transition-all duration-700 ease-in-out fadeIn overflow-hidden ${ isOpen ? "h-fit" : "h-0" }`}
-         >
+              className={`absolute top-24 right-0 w-fit text-xl rounded-bl-xl ${bgColor} transition-all duration-700 ease-in-out fadeIn overflow-hidden ${
+                isOpen ? "h-fit" : "h-0"
+              }`}
+            >
               <ul
                 className={`flex flex-col items-end gap-6 p-10 pr-8 ${textColor} font-body font-light`}
               >
