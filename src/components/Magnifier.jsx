@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const Magnifier = ({url}) => {
+export const Magnifier = ({url, animation}) => {
   const [magnifierStyle, setMagnifierStyle] = useState({
     display: "none",
     top: 0,
@@ -13,14 +13,14 @@ export const Magnifier = ({url}) => {
     const imgPosition = img.getBoundingClientRect();
     const posX = e.pageX - imgPosition.left;
     const posY = e.pageY - imgPosition.top;
-    const percX = (posX / imgPosition.width) * 100;
-    const percY = (posY / imgPosition.height) * 100;
+    const percX = (posX / imgPosition.width) * 105;
+    const percY = (posY / imgPosition.height) * 105;
 
     setMagnifierStyle({
-      display: "block",
-      top: posY,
-      left: posX,
-      backgroundPosition: `${percX}% ${percY}%`,
+        display: "block",
+        top: posY - 75,  
+        left: posX - 75,
+        backgroundPosition: `${percX}% ${percY}%`,
     });
   };
 
@@ -34,9 +34,9 @@ export const Magnifier = ({url}) => {
   };
 
   return (
-    <div className="relative w-full overflow-x-hidden">
+    <div className="relative w-full">
       <div
-        className="absolute h-[300px] w-[300px] rounded-full pointer-events-none"
+        className="absolute h-[500px] w-[500px] rounded-full pointer-events-none z-20"
         style={{
           display: magnifierStyle.display,
           top: magnifierStyle.top,
@@ -48,14 +48,14 @@ export const Magnifier = ({url}) => {
         }}
       ></div>
       <div
-        className="max-w-screen h-auto overflow-hidden"
+        className={`w-auto h-auto`}
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
       >
         <img
           src={`${url}`}
           alt="magnified"
-          className="w-full h-full object-cover cursor-hollow"
+          className={`w-full h-full object-cover cursor-hollow ${animation} `}
         />
       </div>
     </div>
