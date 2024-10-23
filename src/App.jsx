@@ -8,9 +8,10 @@ import { useProjectsStore } from "./stores/useProjectsStore";
 function App() {
 
   const { bgWhite } = useProjectsStore() 
+  
 
   return (
-    <div className={`h-screen min-h-screen w-screen max-w-screen ${bgWhite? "bg-white" : "bg-black"} overflow-x-hidden no-scrollbar`}>
+    <div className={`h-screen min-h-screen w-screen max-w-screen ${bgWhite? "bg-white" : "bg-black"} overflow-x-hidden no-scrollbar scroll-smooth`}>
       <ScrollToTop />
       <Header />
       <main className="pt-32 laptop:pt-36 w-11/12 laptop:w-10/12 mx-auto ">

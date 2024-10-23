@@ -22,7 +22,7 @@ export default {
           "0%": { opacity: "0" },
           "100%": { opacity: "1" },
         },
-        semiFadeIn: {
+        longFadeIn: {
           "0%": { opacity: "0" },
           "100%": { opacity: "1" },
         },
@@ -43,14 +43,19 @@ export default {
           "0%": { transform: "translateY(100%)", opacity: "0" },
           "100%": { transform: "translateY(0)", opacity: "1" },
         },
+        slowSlide: {
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(100%)' },
+        },
       },
       animation: {
         fadeIn: "fadeIn 3s ease-out",
-        semiFadeIn: "fadeIn 0.5s ease-out",
+        longFadeIn: "fadeIn 4.5s ease-out",
         fadeInVideo: "fadeInVideo 2s ease-out",
         fadeInOut: "fadeInOut 3s ease-in-out infinite",
-        slideIn: "slideIn 1s ease-out forwards",
-        slideUp: "slideUp 1s ease-out forwards",
+        slideIn: "slideIn 2s ease-out forwards",
+        slideUp: "slideUp 2s ease-out forwards",
+        slowSlide: 'slowSlide 2s ease-in-out',
       },
       cursor: {
         hollow: "url(/hollow-circle.svg), pointer",

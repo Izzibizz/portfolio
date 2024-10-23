@@ -53,7 +53,7 @@ export const LandingPage = () => {
           zoom ? `scale-[200%] ${direction} ` : "scale-100 -translate-x-1/2"
         } ${
           bgWhite && direction === "-translate-x-[90%]"
-            ? "invert transition-all duration-1000 ease-in-out"
+            ? "invert transition-all duration-1000 fadeIn"
             : ""
         }`}
       >
