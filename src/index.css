@@ -24,3 +24,7 @@ html {
   scroll-behavior: smooth;
 }
 
+.brightness-filter {
+  filter: brightness(1.1) contrast(1); /* Adjust these values as needed */
+}
+

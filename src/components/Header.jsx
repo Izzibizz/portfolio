@@ -144,7 +144,7 @@ export const Header = () => {
                   aria-label={`Link to Projects page`}
                   onClick={toggleMenu}
                 >
-                  Projects
+                  Seleted Projects
                 </NavLink>
                 <NavLink
                   to={aboutPath}
@@ -175,7 +175,7 @@ export const Header = () => {
                 artPortfolioDisplay ? "cursor-hollowDark" : "cursor-hollow"
               }`}
             >
-              Projects
+              Selected Projects
             </NavLink>
             <NavLink
               to={aboutPath}

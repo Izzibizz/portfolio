@@ -8,6 +8,7 @@ export const LandingPage = () => {
     setArtPortfolioDisplay,
     setFrontendPortfolioDisplay,
     bgWhite,
+    setTitleAndVideoVisible
   } = useProjectsStore();
   const [zoom, setZoom] = useState(false);
   const [direction, setDirection] = useState("");
@@ -33,6 +34,7 @@ export const LandingPage = () => {
     } else if (choice === "art") {
       setArtPortfolioDisplay(true);
       setFrontendPortfolioDisplay(false);
+      setTitleAndVideoVisible(true)
     }
   };
 
@@ -40,6 +42,7 @@ export const LandingPage = () => {
     setBgWhite(false);
     setArtPortfolioDisplay(false);
     setFrontendPortfolioDisplay(false);
+    setTitleAndVideoVisible(true)
   }, []);
 
   return (

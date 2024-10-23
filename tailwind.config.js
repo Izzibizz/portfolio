@@ -50,7 +50,7 @@ export default {
       },
       animation: {
         fadeIn: "fadeIn 3s ease-out",
-        longFadeIn: "fadeIn 4.5s ease-out",
+        longFadeIn: "fadeIn 4s ease-out",
         fadeInVideo: "fadeInVideo 2s ease-out",
         fadeInOut: "fadeInOut 3s ease-in-out infinite",
         slideIn: "slideIn 2s ease-out forwards",

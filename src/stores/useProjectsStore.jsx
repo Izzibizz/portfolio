@@ -5,10 +5,12 @@ export const useProjectsStore = create((set) => ({
 bgWhite: false,
 artPortfolioDisplay: false,
 frontendPortfolioDisplay: false,
+titleAndVideoVisible: true,
 
 
 setBgWhite: (input) => set({bgWhite: input}),
 setArtPortfolioDisplay: (input) => set({artPortfolioDisplay: input}),
 setFrontendPortfolioDisplay: (input) => set({frontendPortfolioDisplay: input}),
+setTitleAndVideoVisible: (input) => set({titleAndVideoVisible: input}),
 
 }))

@@ -22,8 +22,22 @@ export const ArtProjects = () => {
 
   return (
     <section className="font-body font-medium animate-fadeIn flex flex-col gap-10">
-      <img src="/artist.svg" className="w-[60px] tablet:w-[100px] self-end " />
-      <div className=" flex flex-col gap-y-8 tablet:gap-x-8 ">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className={`absolute top-0 left-0 w-screen h-screen object-cover brightness-filter z-10`}
+        style={{ pointerEvents: "none" }}
+      >
+        <source
+          src="https://res.cloudinary.com/dbf8xygxz/video/upload/v1729689910/Sequence_01_10_o6l2w4.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <img src="/art-portfolio.svg" className="hidden laptop:block w-full tablet:w-10/12 mx-auto z-20" />
+      <img src="/art-portfolio-vertical.svg" className="w-11/12 tablet:w-10/12 laptop:hidden mx-auto mt-10 z-20" />
+      <div className=" absolute w-full top-[100vh] p-8 tablet:p-24 left-0 flex flex-col gap-y-8 tablet:gap-x-8 z-20">
         <div className="grid grid-cols-1 tablet:grid-cols-3 gap-y-8 tablet:gap-x-8  ">
           <Magnifier
             url={image1}
