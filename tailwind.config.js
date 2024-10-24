@@ -3,7 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        light: "#eeeeee"
+      },
       fontFamily: {
         heading: ["Shadows Into Light", "cursive"],
         body: ["Lexend", "sans-serif"],
@@ -35,6 +37,10 @@ export default {
           "50%": { opacity: "1" },
           "100%": { opacity: "0" },
         },
+        fadeOut: {
+          "0%": { opacity: "1" },
+          "100%": { opacity: "0" },
+        },
         slideIn: {
           "0%": { transform: "translateX(-100%)", opacity: "0" },
           "100%": { transform: "translateX(0)", opacity: "1" },
@@ -53,6 +59,7 @@ export default {
         longFadeIn: "fadeIn 4s ease-out",
         fadeInVideo: "fadeInVideo 2s ease-out",
         fadeInOut: "fadeInOut 3s ease-in-out infinite",
+        fadeOut: "fadeOut 2s ease-out",
         slideIn: "slideIn 2s ease-out forwards",
         slideUp: "slideUp 2s ease-out forwards",
         slowSlide: 'slowSlide 2s ease-in-out',

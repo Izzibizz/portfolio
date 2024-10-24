@@ -72,7 +72,7 @@ export const Header = () => {
       className={`w-full max-w-screen h-fit flex justify-between absolute top-0 left-0 z-50 animate-fadeIn px-8 ${
         frontendPortfolioDisplay
           ? "bg-black bg-opacity-80"
-          : artPortfolioDisplay && "bg-white bg-opacity-80"
+          : artPortfolioDisplay && "bg-light bg-opacity-80"
       }`}
     >
       <NavLink
