@@ -14,7 +14,7 @@ function App() {
     <div className={`h-screen min-h-screen w-screen max-w-screen flex flex-col  ${bgWhite? "bg-light" : "bg-black"} overflow-x-hidden no-scrollbar scroll-smooth`}>
       <ScrollToTop />
       <Header />
-      <main className="pt-32 laptop:pt-36 w-11/12 laptop:w-10/12 mx-auto flex-grow  min-h-screen ">
+      <main className="pt-32 laptop:pt-36 w-full mx-auto flex-grow  min-h-screen ">
       <MainRoutes />
       </main>
       <Footer/>

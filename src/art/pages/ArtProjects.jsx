@@ -60,23 +60,26 @@ export const ArtProjects = () => {
           />
         </>
       ) : (
-      <div className=" w-full p-8 tablet:p-24 flex flex-col gap-y-8 tablet:gap-x-8 z-20">
-        <div className="grid grid-cols-1 tablet:grid-cols-3 gap-y-8 tablet:gap-x-8  ">
+      <div className=" w-full flex flex-col gap-y-8 tablet:gap-x-8 z-20">
+        <div className="flex flex-col">
+        <div className="flex px-8 tablet:px-20 gap-8 overflow-x-scroll tablet:grid tablet:grid-cols-3 tablet:overflow-visible">
           <Magnifier
             url={image1}
             animation={"animate-slideUp"}
-            col={"tablet:col-span-2"}
+            col={"tablet:col-span-2 tablet:mt-10"}
           />
           <Magnifier
             url={image2}
             animation={"animate-slideUp"}
             col={"tablet:col-span-1"}
           />
+          </div>
           <div>
             <h3>oblivion 2020</h3>
           </div>
         </div>
-        <div className="grid grid-cols-1 tablet:grid-cols-3 gap-y-8 tablet:gap-x-8 ">
+        <img src="/line.svg" alt="separation line" className="w-screen z-10" />
+        <div className="grid grid-cols-1 px-8 tablet:px-20  tablet:grid-cols-3 gap-y-8 tablet:gap-x-8 ">
           <Magnifier
             url={matrix1}
             animation={"animate-slideUp"}
@@ -86,7 +89,7 @@ export const ArtProjects = () => {
             <Magnifier
               url={matrix2}
               animation={"animate-slideUp"}
-              col="col-span-1"
+              col="col-span-1 tablet:mt-8"
             />
             <Magnifier
               url={matrix3}
