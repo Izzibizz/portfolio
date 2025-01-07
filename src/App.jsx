@@ -5,16 +5,16 @@ import { Footer } from "./components/Footer";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { useProjectsStore } from "./stores/useProjectsStore";
 
-function App() {
+const App = () => {
 
-  const { bgWhite } = useProjectsStore() 
+  const { bgWhite, frontendPortfolioDisplay } = useProjectsStore() 
   
 
   return (
     <div className={`h-screen min-h-screen w-screen max-w-screen flex flex-col  ${bgWhite? "bg-light" : "bg-black"} overflow-x-hidden no-scrollbar scroll-smooth`}>
       <ScrollToTop />
       <Header />
-      <main className="pt-32 laptop:pt-36 w-full mx-auto flex-grow  min-h-screen ">
+      <main className={` ${frontendPortfolioDisplay ? "pt-none": "pt-32 laptop:pt-36"} w-full mx-auto flex-grow  min-h-screen `}>
       <MainRoutes />
       </main>
       <Footer/>

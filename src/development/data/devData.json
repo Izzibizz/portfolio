@@ -1,0 +1,130 @@
+[
+    {
+        "title": "Ama Kyei",
+        "year": 2024,
+        "genre": "Fullstack portfolio werbsite",
+        "description": "Ama Kyei is a beautiful dancer and choreographer working mainly in Scandinavia. I created the design in Figma, and then built this fullstack site where she can log in and upload projects herself.",
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650485/Izabel_Lind_VR_Oblivion_2020_Konstakademin_nycope.jpg",
+            "alt": "A seascape painting with twilight colors.",
+            "photographer": "Jane Doe"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650850/ung-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_qqzrd7.jpg",
+            "alt": "Close-up of the brushstrokes in the painting.",
+            "photographer": "John Smith"
+          }
+        ],
+        "used": ["JavaScript", "Figma", "React", "vite", "REST API", "Zustand globalstore", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind"],
+        "viewLive": "https://amakyei.se/dancer",
+        "github": "https://github.com/Izzibizz/amakyei"
+      },
+    {
+        "title": "Glim",
+        "year": 2024,
+        "genre": "Fullstack e-commerce",
+        "description": "Glim is a test e-commerce I created as my final exam in a team of 3. It is specialized at personalized skincare and beauty products, where you create a user with your specific skin and hair type and get recommendations.",
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650485/Izabel_Lind_VR_Oblivion_2020_Konstakademin_nycope.jpg",
+            "alt": "A seascape painting with twilight colors.",
+            "photographer": "Jane Doe"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650850/ung-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_qqzrd7.jpg",
+            "alt": "Close-up of the brushstrokes in the painting.",
+            "photographer": "John Smith"
+          }
+        ],
+        "used": ["JavaScript", "React", "vite", "REST API", "Zustand globalstore", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Figma"],
+        "viewLive": "https://glim-skincare.netlify.app/",
+        "github": "https://github.com/Izzibizz/project-final"
+      },
+      {
+        "title": "WeatherFlow",
+        "year": 2024,
+        "genre": "Weather forecast app",
+        "description": "In this weather forecast I am fetching and displaying live data from the API service X so that one can search for a city and browse through the information availbale.",
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650485/Izabel_Lind_VR_Oblivion_2020_Konstakademin_nycope.jpg",
+            "alt": "A seascape painting with twilight colors.",
+            "photographer": "Jane Doe"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650850/ung-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_qqzrd7.jpg",
+            "alt": "Close-up of the brushstrokes in the painting.",
+            "photographer": "John Smith"
+          }
+        ],
+        "used": ["JavaScript", "React", "vite", "REST API", "Zustand globalstore", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Figma"],
+        "viewLive": "https://glim-skincare.netlify.app/",
+        "github": "https://github.com/Izzibizz/project-final"
+      },
+      {
+        "title": "Artsome",
+        "year": 2024,
+        "genre": "Fullstack website",
+        "description": "Artsome is my first fullstack project where I learned how to create an API using Express.js during my education. It presents information on famous artists and their works.",
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650485/Izabel_Lind_VR_Oblivion_2020_Konstakademin_nycope.jpg",
+            "alt": "A seascape painting with twilight colors.",
+            "photographer": "Jane Doe"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650850/ung-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_qqzrd7.jpg",
+            "alt": "Close-up of the brushstrokes in the painting.",
+            "photographer": "John Smith"
+          }
+        ],
+        "tags": ["JavaScript", "React", "REST API", "Zustand", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3"],
+        "viewLive": "https://glim-skincare.netlify.app/",
+        "github": "https://github.com/Izzibizz/project-final"
+      },
+      {
+        "title": "The Survivors",
+        "year": 2024,
+        "genre": "Story game",
+        "description": "This story-like game lets the user interact and move back and forth between different phases/locations of the game. The project was created to learn how to use Zustand and POST the reply of the user to the API. The data is stored and global, based on the users name input.",
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650485/Izabel_Lind_VR_Oblivion_2020_Konstakademin_nycope.jpg",
+            "alt": "A seascape painting with twilight colors.",
+            "photographer": "Jane Doe"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650850/ung-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_qqzrd7.jpg",
+            "alt": "Close-up of the brushstrokes in the painting.",
+            "photographer": "John Smith"
+          }
+        ],
+        "tags": ["JavaScript", "React", "REST API", "Zustand", "UseSound", "HTML5", "CSS3"],
+        "viewLive": "https://glim-skincare.netlify.app/",
+        "github": "https://github.com/Izzibizz/project-labyrinth-zustand-vite"
+      },
+      {
+        "title": "Cinemove",
+        "year": 2024,
+        "genre": "Movie site",
+        "description": "This story-like game lets the user interact and move back and forth between different phases/locations of the game. The project was created to learn how to use Zustand and POST the reply of the user to the API. The data is stored and global, based on the users name input.",
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650485/Izabel_Lind_VR_Oblivion_2020_Konstakademin_nycope.jpg",
+            "alt": "A seascape painting with twilight colors.",
+            "photographer": "Jane Doe"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650850/ung-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_qqzrd7.jpg",
+            "alt": "Close-up of the brushstrokes in the painting.",
+            "photographer": "John Smith"
+          }
+        ],
+        "tags": ["JavaScript", "React", "REST API", "Zustand", "UseSound", "HTML5", "CSS3"],
+        "viewLive": "https://glim-skincare.netlify.app/",
+        "github": "https://github.com/Izzibizz/project-labyrinth-zustand-vite"
+      }
+
+      
+]

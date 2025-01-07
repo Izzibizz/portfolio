@@ -70,9 +70,7 @@ export const Header = () => {
   return (
     <header
       className={`w-full max-w-screen h-fit flex justify-between absolute top-0 left-0 z-50 animate-fadeIn px-8 ${
-        frontendPortfolioDisplay
-          ? "bg-black bg-opacity-80"
-          : artPortfolioDisplay && "bg-light bg-opacity-80"
+      artPortfolioDisplay && "bg-light bg-opacity-80"
       }`}
     >
       <NavLink
@@ -164,14 +162,14 @@ export const Header = () => {
             </div>
           )}
           <div
-            className={`flex ${
+            className={`flex items-center ${
               artPortfolioDisplay ? "text-black" : "text-white"
-            } h-fit w-fit font-body font-light animate-fadeIn hidden laptop:flex`}
+            }  w-fit gap-2 font-body font-light animate-fadeIn hidden laptop:flex`}
           >
             <NavLink
               to={projectsPath}
               aria-label={`Link to Projects page`}
-              className={`  py-8 px-4 h-fit transform transition-transform duration-300 ease-in-out  hover:scale-125 ${
+              className={`  py-8 px-4 h-full max-h-full flex items-center transform transition-transform duration-300 ease-in-out  hover:scale-125 ${
                 artPortfolioDisplay ? "cursor-hollowDark" : "cursor-hollow"
               }`}
             >
@@ -180,7 +178,7 @@ export const Header = () => {
             <NavLink
               to={aboutPath}
               aria-label={`Link to about page`}
-              className={`  py-8 px-4 h-fit transform transition-transform duration-300 ease-in-out  hover:scale-125 ${
+              className={`  py-8 px-4  h-full max-h-full flex items-center transform transition-transform duration-300 ease-in-out  hover:scale-125 ${
                 artPortfolioDisplay ? "cursor-hollowDark" : "cursor-hollow"
               }`}
             >
@@ -189,7 +187,7 @@ export const Header = () => {
             <NavLink
               to={contactPath}
               aria-label={`Link to contact page`}
-              className={` py-8 px-4 h-fit transform transition-transform duration-300 ease-in-out  hover:scale-125 ${
+              className={` py-8 px-4 h-full max-h-full flex items-center  transform transition-transform duration-300 ease-in-out  hover:scale-125 ${
                 artPortfolioDisplay ? "cursor-hollowDark" : "cursor-hollow"
               }`}
             >
