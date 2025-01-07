@@ -12,20 +12,24 @@ export const FrontendProjects = () => {
     setArtPortfolioDisplay(false);
   }, []);
 
-  console.log(devData[0].description)
+  console.log(devData[0].images[0].url)
 
   return (
     <section className="font-body font-medium text-white animate-fadeIn flex flex-col ">
       <MovingBg />
-      <div className="flex flex-col gap-10 w-11/12 mx-auto mt-40 z-20">
+      <div className="flex flex-col gap-10 w-8/12 mx-auto mt-40 z-20">
       <img
         src="/frontend-developer-w.svg"
-        className="w-[90px] tablet:w-[150px] self-end"
-      /><ul className="w-10/12 mx-auto text-white flex flex-col gap-10">
+        className="w-[90px] tablet:w-[150px] "
+      /><ul className=" mx-auto text-white flex flex-col gap-16">
       {devData.map((project, index) => (
-        <li key={index}>
-        <h3>{project.title}</h3>
-        <h4>{project.description}</h4>
+        <li key={index} className="flex gap-10">
+        <img src={project.images[0].url} alt={project.images.alt} className="w-1/3 rounded" />
+        <div className="flex flex-col gap-4">
+          <h3 className="text-xl">{project.title}</h3>
+        <p className="text-sm w-11/12 text-justify">{project.description}</p>
+        </div>
+        
         </li>
       ))}
       </ul>

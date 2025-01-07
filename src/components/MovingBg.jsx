@@ -40,7 +40,7 @@ export const MovingBg = () => {
   }, []); // Initial circle generation
 
   useEffect(() => {
-    const adjustSpeed = 0.4; // Slower movement speed
+    const adjustSpeed = 0.5; 
 
     const moveCircles = () => {
       setCircles((prevCircles) => {
