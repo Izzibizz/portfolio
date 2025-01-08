@@ -48,6 +48,10 @@ export default {
         slideUp: {
           "0%": { transform: "translateY(100%)", opacity: "0" },
           "100%": { transform: "translateY(0)", opacity: "1" },
+        }, 
+        smallSlideUp: {
+          "0%": { transform: "translateY(2%) translateX(-0.5%)", opacity: "0" },
+          "100%": { transform: "translateY(0) translateX(0)", opacity: "1" },
         },
         slowSlide: {
           '0%': { transform: 'translateY(0)' },
@@ -55,6 +59,7 @@ export default {
         },
       },
       animation: {
+        shortFadeIn: "fadeIn 1s ease-out",
         fadeIn: "fadeIn 3s ease-out",
         longFadeIn: "fadeIn 4s ease-out",
         fadeInVideo: "fadeInVideo 2s ease-out",
@@ -62,6 +67,7 @@ export default {
         fadeOut: "fadeOut 2s ease-out",
         slideIn: "slideIn 2s ease-out forwards",
         slideUp: "slideUp 2s ease-out forwards",
+        smallSlideUp: "smallSlideUp 2s ease-out forwards",
         slowSlide: 'slowSlide 2s ease-in-out',
       },
       cursor: {

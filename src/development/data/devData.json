@@ -2,7 +2,8 @@
     {
         "title": "Ama Kyei",
         "year": 2024,
-        "genre": "Fullstack portfolio werbsite",
+        "genre": "Portfolio",
+        "introduction": "Fullstack + design",
         "description": "Portfolio project for dancer & choreographer Ama Kyei, working mainly in Scandinavia. I created the design in Figma, and then built this fullstack site where she can log in and upload projects herself.",
         "images": [
           {
@@ -11,13 +12,14 @@
           }
         ],
         "used": ["JavaScript", "Figma", "React", "vite", "REST API", "Zustand globalstore", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind"],
-        "viewLive": "https://amakyei.se",
+        "netlify": "https://amakyei.se",
         "github": "https://github.com/Izzibizz/amakyei"
       },
     {
         "title": "Glim",
         "year": 2024,
-        "genre": "Fullstack e-commerce",
+        "genre": "E-commerce",
+        "introduction": "Fullstack + design",
         "description": "Glim is a test e-commerce I created as my final exam in a team of 3. It is specialized at personalized skincare and beauty products, where you create a user with your specific skin and hair type and get recommendations.",
         "images": [
           {
@@ -27,13 +29,14 @@
           }
         ],
         "used": ["JavaScript", "React", "vite", "REST API", "Zustand globalstore", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Figma"],
-        "viewLive": "https://glim-skincare.netlify.app/",
+        "netlify": "https://glim-skincare.netlify.app/",
         "github": "https://github.com/Izzibizz/project-final"
       },
       {
         "title": "WeatherFlow",
         "year": 2024,
-        "genre": "Weather forecast app",
+        "genre": "Forecast",
+        "introduction": "Frontend + design",
         "description": "In this weather forecast I am fetching and displaying live data from the API service X so that one can search for a city and browse through the information availbale.",
         "images": [
           {
@@ -43,13 +46,14 @@
           }
         ],
         "used": ["JavaScript", "React", "vite", "REST API", "Zustand globalstore", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Figma"],
-        "viewLive": "https://glim-skincare.netlify.app/",
+        "netlify": "https://glim-skincare.netlify.app/",
         "github": "https://github.com/Izzibizz/project-final"
       },
       {
         "title": "Artsome",
         "year": 2024,
-        "genre": "Fullstack website",
+        "genre": "Art",
+        "introduction": "Fullstack + design",
         "description": "Artsome is my first fullstack project where I learned how to create an API using Express.js during my education. It presents information on famous artists and their works.",
         "images": [
           {
@@ -59,13 +63,14 @@
           }
         ],
         "tags": ["JavaScript", "React", "REST API", "Zustand", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3"],
-        "viewLive": "https://glim-skincare.netlify.app/",
+        "netlify": "https://glim-skincare.netlify.app/",
         "github": "https://github.com/Izzibizz/project-final"
       },
       {
         "title": "The Survivors",
         "year": 2024,
-        "genre": "Story game",
+        "genre": "Game",
+        "introduction": "Frontend + design",
         "description": "This story-like game lets the user interact and move back and forth between different phases/locations of the game. The project was created to learn how to use Zustand and POST the reply of the user to the API. The data is stored and global, based on the users name input.",
         "images": [
           {
@@ -75,13 +80,14 @@
           }
         ],
         "tags": ["JavaScript", "React", "REST API", "Zustand", "UseSound", "HTML5", "CSS3"],
-        "viewLive": "https://glim-skincare.netlify.app/",
+        "netlify": "https://glim-skincare.netlify.app/",
         "github": "https://github.com/Izzibizz/project-labyrinth-zustand-vite"
       },
       {
         "title": "Cinemove",
         "year": 2024,
-        "genre": "Movie site",
+        "genre": "Movies",
+        "introduction": "Frontend + design",
         "description": "This story-like game lets the user interact and move back and forth between different phases/locations of the game. The project was created to learn how to use Zustand and POST the reply of the user to the API. The data is stored and global, based on the users name input.",
         "images": [
           {
@@ -91,7 +97,7 @@
           }
         ],
         "tags": ["JavaScript", "React", "REST API", "Zustand", "UseSound", "HTML5", "CSS3"],
-        "viewLive": "https://glim-skincare.netlify.app/",
+        "netlify": "https://glim-skincare.netlify.app/",
         "github": "https://github.com/Izzibizz/project-labyrinth-zustand-vite"
       }
 

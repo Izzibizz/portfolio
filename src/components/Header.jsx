@@ -86,14 +86,14 @@ export const Header = () => {
         {bgWhite ? (
           <img
             src="/Izabel-svart.svg"
-            className={`w-[120px] laptop:w-[130px] cursor-hollowDark pr-4 py-8 transform transition-transform duration-300 ease-in-out ${
+            className={`w-[100px] laptop:w-[130px] cursor-hollowDark pr-4 py-8 transform transition-transform duration-300 ease-in-out ${
               artPortfolioDisplay && "hover:scale-125"
             } `}
           />
         ) : (
           <img
             src="/izabel-white.svg"
-            className={`w-[120px] laptop:w-[130px] opacity-[70%] cursor-hollow pr-4 py-8 transform transition-transform duration-300 ease-in-out ${
+            className={`w-[100px] laptop:w-[130px] opacity-[70%] cursor-hollow pr-4 py-8 transform transition-transform duration-300 ease-in-out ${
               frontendPortfolioDisplay && "hover:scale-125"
             } `}
           />
