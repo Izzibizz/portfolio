@@ -3,16 +3,41 @@ import { useEffect, useState } from 'react';
 const rand = (min, max) => Math.random() * (max - min) + min;
 
 export const MovingBg = () => {
-  const [circles, setCircles] = useState([]);
+  const [ circles, setCircles ] = useState([]);
+  const [ count, setCount ] = useState(30)
+  const [ radiusRange, setRadiusRange ] = useState([10, 500]);
+  const [ adjustSpeed, setAdjustSpeed ] = useState(0.9); 
 
-  const count = 30;
-  const radiusRange = [10, 500];
   const blurValue = 60;
   const colors = [
     ['#303438', '#210c0d'], 
     ['#1c1b24', '#131e29'], 
     ['#1f1216', '#000000'], 
   ];
+
+  const updateCountBasedOnScreenSize = () => {
+    if (window.matchMedia('(max-width: 768px)').matches) {
+      setCount(50); // More circles for smaller screens
+      setRadiusRange([5, 100])
+      setAdjustSpeed(1.6)
+    } else {
+      setCount(30); // Default or fewer circles for larger screens
+      setRadiusRange([10, 500])
+      setAdjustSpeed(0.9)
+    }
+  };
+
+  useEffect(() => {
+    // Set initial circle count based on screen size
+    updateCountBasedOnScreenSize();
+
+    // Add event listener for screen size changes
+    window.addEventListener('resize', updateCountBasedOnScreenSize);
+
+    return () => {
+      window.removeEventListener('resize', updateCountBasedOnScreenSize);
+    };
+  }, []);
 
   useEffect(() => {
     const generatedCircles = [];
@@ -40,7 +65,7 @@ export const MovingBg = () => {
   }, []); // Initial circle generation
 
   useEffect(() => {
-    const adjustSpeed = 0.5; 
+    
 
     const moveCircles = () => {
       setCircles((prevCircles) => {
@@ -76,6 +101,7 @@ export const MovingBg = () => {
       window.cancelAnimationFrame(animationFrame);
     };
   }, [circles]); // Movement and animation
+
 
   return (
     <div className="absolute z-0 w-full h-screen overflow-hidden animate-fadeIn">

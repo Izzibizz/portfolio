@@ -3,8 +3,9 @@
         "title": "Ama Kyei",
         "year": 2024,
         "genre": "Portfolio",
+        "category": ["Branding", "UX & UI design", "Fullstack development"],
         "introduction": "Fullstack + design",
-        "description": "Portfolio project for dancer & choreographer Ama Kyei, working mainly in Scandinavia. I created the design in Figma, and then built this fullstack site where she can log in and upload projects herself.",
+        "description": "This portfolio project for dancer & choreographer Ama Kyei I created a visual design focusing on her work. Using Figma, I started with and presented a few ideas for brainstorming to find her identity and preference. When we settled upon one direction I built a fullstack site where she can log in and upload projects herself.",
         "images": [
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736263400/Sk%C3%A4rmbild_2024-10-07_154010_qwkpiw.png",
@@ -35,6 +36,7 @@
         "title": "Glim",
         "year": 2024,
         "genre": "E-commerce",
+        "category": ["Branding", "UX & UI design", "Fullstack development"],
         "introduction": "Fullstack + design",
         "description": "Glim is a test e-commerce I created as my final exam in a team of 3. It is specialized at personalized skincare and beauty products, where you create a user with your specific skin and hair type and get recommendations.",
         "images": [
@@ -55,6 +57,7 @@
         "title": "WeatherFlow",
         "year": 2024,
         "genre": "Forecast",
+        "category": ["Branding", "UX & UI design", "Frontend development"],
         "introduction": "Frontend + design",
         "description": "In this weather forecast I am fetching and displaying live data from the API service X so that one can search for a city and browse through the information availbale.",
         "images": [
@@ -79,6 +82,7 @@
         "title": "Artsome",
         "year": 2024,
         "genre": "Art",
+        "category": ["Branding", "UX & UI design", "Fullstack development"],
         "introduction": "Fullstack + design",
         "description": "Artsome is my first fullstack project where I learned how to create an API using Express.js during my education. It presents information on famous artists and their works.",
         "images": [
@@ -95,6 +99,7 @@
         "title": "The Survivors",
         "year": 2024,
         "genre": "Game",
+        "category": ["Branding", "UX & UI design", "Fullstack development"],
         "introduction": "Frontend + design",
         "description": "This story-like game lets the user interact and move back and forth between different phases/locations of the game. The project was created to learn how to use Zustand and POST the reply of the user to the API. The data is stored and global, based on the users name input.",
         "images": [
@@ -111,6 +116,7 @@
         "title": "Cinemove",
         "year": 2024,
         "genre": "Movies",
+        "category": ["Branding", "UX & UI design", "Fullstack development"],
         "introduction": "Frontend + design",
         "description": "This story-like game lets the user interact and move back and forth between different phases/locations of the game. The project was created to learn how to use Zustand and POST the reply of the user to the API. The data is stored and global, based on the users name input.",
         "images": [
