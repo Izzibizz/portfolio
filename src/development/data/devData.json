@@ -28,7 +28,7 @@
             "alt": "Ama kyei portfolio website screenshot."
           }
         ],
-        "used": ["JavaScript", "Figma", "React", "vite", "REST API", "Zustand globalstore", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind"],
+        "used": ["JavaScript", "React", "vite", "REST API", "Zustand", "Node.js", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Postman", "Git", "Figma"],
         "netlify": "https://amakyei.se",
         "github": "https://github.com/Izzibizz/amakyei"
       },

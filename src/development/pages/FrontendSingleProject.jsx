@@ -7,6 +7,12 @@ import { MovingBg } from "../../components/MovingBg"
 import { ImageModal } from "../../components/ImageModal"
 import projectHeading from "/project.svg"
 import { SlArrowLeft } from "react-icons/sl";
+import { MdOutlineArrowOutward } from "react-icons/md";
+import { FaNodeJs } from "react-icons/fa";
+import { FaJs } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
 /* import { NotFound } from "./NotFound"; */
 
 // Import Swiper styles
@@ -26,13 +32,20 @@ export const FrontendSingleProject = () => {
     const [ project, setProject ] = useState([])
     const [ imageSrc, setImageSrc ] = useState()
     const [ imageAlt, setImageAlt ] = useState()
-    const [ previewIsClicked, setPreviewIsClicked ] = useState(false)
     const [ isModalOpen, setIsModalOpen ] = useState(false)
+    const [ techHovered, setTechHovered] = useState(null);
+
+    const technologyIcons = {
+      "Node.js": <FaNodeJs />,
+      "Express.js": <FaJs />,
+      "MongoDB": <SiMongodb />,
+      "React": <FaReact />,
+      "Javascript": <IoLogoJavascript />,
+    };
 
     const handlePreviewClick = (src, alt) => {
       setImageSrc(src);
       setImageAlt(alt);
-      setPreviewIsClicked(true)
     };
 
     const handleOpenModal = () => {
@@ -85,15 +98,15 @@ if (currentProjectIndex !== -1) {
         <NavLink
             to={`/frontend`}
           >
-            <SlArrowLeft className="cursor-pointer w-4 h-4 laptop:w-6 laptop:h-6 absolute z-20 top-40 laptop:left-20 hover:scale-125" />{" "}
+            <SlArrowLeft className="cursor-hollow pl-2 w-6 h-6 laptop:w-8 laptop:h-6 absolute z-20 top-52 laptop:left-20 hover:scale-125" />{" "}
           </NavLink>
           {project.images && project.images.length > 0 && (
             <>
               <img src={projectHeading} className="w-[55px] self-end"/>
-              <h3 className="text-end text-2xl laptop:text-3xl tracking-wider">{project.title}</h3>
+              <a href={project.netlify} target="_blank" className="text-end text-2xl laptop:text-3xl tracking-wider cursor-hollow">{project.title}</a>
               <div className="flex flex-col laptop:flex-row gap-4 laptop:gap-10">
               <div className="laptop:w-8/12 desktop:w-7/12 flex flex-col mt-6 laptop:mt-0 animate-smallSlideIn"> 
-              <img src={ imageSrc } alt={ imageAlt } className="rounded-xl"  onClick={() =>
+              <img src={ imageSrc } alt={ imageAlt } className="rounded-xl cursor-hollow"  onClick={() =>
                         handleOpenModal()
                       } /> 
              
@@ -146,15 +159,30 @@ if (currentProjectIndex !== -1) {
                 ))}
               </Swiper>
               </div>
-              <div className="flex flex-col tablet:flex-row laptop:flex-col gap-6">
-              <div className="grid grid-cols-2 laptop:w-1/2 h-fit p-4 gap-y-4 bg-black bg-opacity-[30%] rounded-xl">Category <ul>{project.category.map((object, index)=> (
+              <div className="flex flex-col tablet:flex-row laptop:flex-col gap-6 laptop:mt-10 laptop:items-end">
+              <div className="grid grid-cols-2 w-2/3 h-fit p-4 gap-y-4 bg-black bg-opacity-[30%] rounded-xl">Category <ul>{project.category.map((object, index)=> (
                 <li key={index}>{object}</li>
               ))}</ul>
               <p>Genre</p> {project.genre}
-              <p>Year</p> {project.year}</div>
-                <p className="text-justify tablet:w-1/2">
+              <p>Year</p> {project.year}
+              <p>View project</p>
+              <div className=" flex flex-col gap-2 ">
+                <a href={project.netlify} target="_blank" alt="website link" className="h-[20px] cursor-hollow rounded-xl bg-grey flex gap-1 items-center transform translate-transform hover:scale-110 origin-left group"><MdOutlineArrowOutward  className="group-hover:text-orange-500" />Website</a>
+                <a href={project.github} target="_blank" alt="button for viewing site" className=" h-[20px] cursor-hollow flex gap-1 items-center transform translate-transform hover:scale-110 origin-left group"><MdOutlineArrowOutward className="group-hover:text-orange-500"/> Github</a>
+                </div>
+                </div>
+                <div className="grid grid-cols-2 w-2/3 h-fit p-4 gap-y-4 bg-black bg-opacity-[30%] rounded-xl">Technologies<ul className="">{project.used.map((tech, index)=> (
+                <li key={index} className="flex gap-1 items-center" onMouseEnter={() => setTechHovered(tech)}
+                onMouseLeave={() => setTechHovered(null)}>{tech}
+                 {techHovered === tech && (
+            <span className="">{technologyIcons[tech]}</span>
+          )}
+          </li>
+              ))}</ul></div>
+                <p className="text-justify tablet:w-1/2 laptop:w-11/12">
                   {project.description}
                 </p>
+                
               </div>
               </div>
               {isModalOpen && (
