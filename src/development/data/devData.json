@@ -26,6 +26,11 @@
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262928/glim_wlfuyx.png",
             "alt": "Website screenshot of Glim",
             "photographer": "Izabel Lind"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736345846/Sk%C3%A4rmbild_2024-06-30_142555_tna0gt.png",
+            "alt": "Website screenshot of Glim",
+            "photographer": "Izabel Lind"
           }
         ],
         "used": ["JavaScript", "React", "vite", "REST API", "Zustand globalstore", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Figma"],

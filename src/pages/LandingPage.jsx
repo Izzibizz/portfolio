@@ -66,7 +66,7 @@ export const LandingPage = () => {
         />
       </video>
       <div
-        className={`w-full h-full absolute top-0 left-0 pt-10 tablet:pt-0 flex flex-col laptop:flex-row justify-center items-center gap-20 tablet:gap-72 laptop:gap-[700px] ${
+        className={`w-full h-full absolute top-0 left-0 pt-10 tablet:pt-0 flex flex-col laptop:flex-row justify-center items-center gap-20 tablet:gap-72 laptop:gap-1/3 desktop:gap-[600px] ${
           direction === "-translate-x-[90%]" ? "text-black" : "text-white"
         } `}
       >

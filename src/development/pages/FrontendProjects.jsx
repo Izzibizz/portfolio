@@ -7,6 +7,7 @@ import { MovingBg } from "../../components/MovingBg"
 export const FrontendProjects = () => {
   const { setFrontendPortfolioDisplay, setArtPortfolioDisplay } =
     useProjectsStore();
+  const [loaded, setLoaded] = useState(false);
   const [hoveredProjectIndex, setHoveredProjectIndex] = useState(null);
   const [showImage, setShowImage] = useState(false);
 
@@ -15,6 +16,10 @@ export const FrontendProjects = () => {
     setFrontendPortfolioDisplay(true);
     setArtPortfolioDisplay(false);
   }, []);
+  
+    useEffect(() => {
+      setLoaded(true);
+    }, []);
 
   useEffect(() => {
     if (hoveredProjectIndex !== null) {
@@ -26,7 +31,7 @@ export const FrontendProjects = () => {
   console.log(devData[0].images[0].url)
 
   return (
-    <section className="font-body font-medium text-white animate-fadeIn flex flex-col ">
+    <section className="font-body font-medium text-white  flex flex-col ">
       <MovingBg />
       <div className="flex flex-col gap-0 w-9/12 tablet:w-7/12 laptop:w-8/12 mx-auto mt-40 z-20">
         <img
@@ -49,7 +54,10 @@ export const FrontendProjects = () => {
             {devData.map((project, index) => (
               <NavLink to={`/frontend/${project.title.replace(/\s+/g, '-').toLowerCase()}`} key={index}>
               <li
-                className={`flex border-b justify-between pb-2 cursor-hollow ${index === 0 ? "pt-0" : "pt-10"} group`}
+                className={`flex border-b justify-between pb-2 cursor-hollow group ${index === 0 ? "pt-0" : "pt-10"} animate-slideUp transform transition-transform `}
+                style={{
+                  animationDelay: `${index * 200}ms`,
+                }}
                 onMouseEnter={() => setHoveredProjectIndex(index)}
                 onMouseLeave={() => setHoveredProjectIndex(null)}
               >
