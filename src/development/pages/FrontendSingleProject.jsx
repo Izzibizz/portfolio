@@ -159,8 +159,8 @@ if (currentProjectIndex !== -1) {
                 ))}
               </Swiper>
               </div>
-              <div className="flex flex-col tablet:flex-row laptop:flex-col gap-6 laptop:mt-10 laptop:items-end">
-              <div className="grid grid-cols-2 w-2/3 h-fit p-4 gap-y-4 bg-black bg-opacity-[30%] rounded-xl">Category <ul>{project.category.map((object, index)=> (
+              <div className="flex flex-col laptop:flex-col gap-6 laptop:mt-10 laptop:items-end">
+              <div className="grid grid-cols-2 w-full desktop:w-2/3 h-fit p-4 gap-y-4 bg-black bg-opacity-[30%] rounded-xl">Category <ul>{project.category.map((object, index)=> (
                 <li key={index}>{object}</li>
               ))}</ul>
               <p>Genre</p> {project.genre}
@@ -171,7 +171,7 @@ if (currentProjectIndex !== -1) {
                 <a href={project.github} target="_blank" alt="button for viewing site" className=" h-[20px] cursor-hollow flex gap-1 items-center transform translate-transform hover:scale-110 origin-left group"><MdOutlineArrowOutward className="group-hover:text-orange-500"/> Github</a>
                 </div>
                 </div>
-                <div className="grid grid-cols-2 w-2/3 h-fit p-4 gap-y-4 bg-black bg-opacity-[30%] rounded-xl">Technologies<ul className="">{project.used.map((tech, index)=> (
+                <div className="grid grid-cols-2 w-full desktop:w-2/3 h-fit p-4 gap-y-4 bg-black bg-opacity-[30%] rounded-xl">Technologies<ul className="">{project.used.map((tech, index)=> (
                 <li key={index} className="flex gap-1 items-center" onMouseEnter={() => setTechHovered(tech)}
                 onMouseLeave={() => setTechHovered(null)}>{tech}
                  {techHovered === tech && (
@@ -179,7 +179,7 @@ if (currentProjectIndex !== -1) {
           )}
           </li>
               ))}</ul></div>
-                <p className="text-justify tablet:w-1/2 laptop:w-11/12">
+                <p className="text-justify laptop:w-11/12 tablet:block">
                   {project.description}
                 </p>
                 
