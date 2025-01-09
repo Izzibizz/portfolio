@@ -11,6 +11,7 @@ import "swiper/css";
 import "swiper/css/controller";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
+import "swiper/css/free-mode";
 
 // Import required modules for Swiper
 import { FreeMode, Navigation, Pagination, Autoplay, A11y } from "swiper/modules";
@@ -20,6 +21,15 @@ export const FrontendSingleProject = () => {
     const { setFrontendPortfolioDisplay, setArtPortfolioDisplay } = useProjectsStore()
     const { id } = useParams();
     const [ project, setProject ] = useState([])
+    const [ imageSrc, setImageSrc ] = useState()
+    const [ imageAlt, setImageAlt ] = useState()
+    const [ imageIsClicked, setImageIsClicked ] = useState(false)
+
+    const handleImageClick = (src, alt) => {
+      setImageSrc(src);
+      setImageAlt(alt);
+      setImageIsClicked(true)
+    };
 
     useEffect(() => {
         setFrontendPortfolioDisplay(true)
@@ -45,6 +55,8 @@ if (currentProjectIndex !== -1) {
     }
   }, [id]);
 
+  
+
     console.log(project)
     console.log(id)
 
@@ -55,39 +67,62 @@ if (currentProjectIndex !== -1) {
     return (
       <section className="font-body font-medium text-white animate-fadeIn flex flex-col">
         <MovingBg />
-        <div className="flex flex-col gap-0 w-9/12 tablet:w-7/12 laptop:w-8/12 mx-auto mt-40 z-20">
+        <div className="flex flex-col gap-0 w-9/12 tablet:w-7/12 laptop:w-9/12 mx-auto mt-40 z-20">
           {project.images && project.images.length > 0 && (
             <>
               <h2>{project.title}</h2>
-              {/* <img src={project.images[0].url} alt={project.title} className="laptop:w-1/2" /> */}
+              <div className="laptop:w-8/12 flex flex-col"> 
+              <img src={ imageIsClicked? imageSrc : project.images[0].url} alt={ imageIsClicked? imageAlt : project.alt} className="rounded-xl" /> 
              
               <Swiper
                 key={project.title} 
-                slidesPerView={1}
+                slidesPerView={4}
+                spaceBetween={20}
                 speed={1200}
                 loop
                 zoom
                 updateOnWindowResize
-                freeMode={true}
+                FreeMode={true}
                 scrollbar={{ draggable: true }}
                 autoplay={{
                   delay: 3000, // Delay in ms
                   disableOnInteraction: false, // Continue autoplay after user interactions
                 }}
+                breakpoints={{
+                  // Small screens
+                  320: {
+                    spaceBetween: 10,
+                  },
+                  // Medium screens
+                  768: {
+                    spaceBetween: 15,
+                  },
+                  // Large screens
+                  1024: {
+                    spaceBetween: 20,
+                  },
+                  // Extra large screens
+                  1280: {
+                    spaceBetween: 25,
+                  }}}
                 effect="fade"
                 modules={[Navigation, Pagination, A11y, Autoplay]}
-                className="w-1/2 h-auto"
+                className="w-full my-4 h-auto"
               >
                 {project.images.map((file, index) => (
                   <SwiperSlide key={index}>
                     <img
                       src={file.url}
                       alt={file.alt}
-                      className="w-full h-full object-cover cursor-pointer rounded-xl"
+                      className="w-full h-full object-cover cursor-pointer rounded laptop:rounded-xl"
+                      onClick={() =>
+                        handleImageClick(file.url, file.alt)
+                      }
                     />
                   </SwiperSlide>
                 ))}
               </Swiper>
+              </div>
             </>
           )}
         </div>

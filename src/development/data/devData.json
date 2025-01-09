@@ -9,6 +9,22 @@
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736263400/Sk%C3%A4rmbild_2024-10-07_154010_qwkpiw.png",
             "alt": "Ama kyei portfolio website screenshot."
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-2_zxmal9.jpg",
+            "alt": "Ama kyei portfolio website screenshot."
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736416531/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind.flower_c5h4sj.jpg",
+            "alt": "Ama kyei portfolio website screenshot."
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-3_xnblch.jpg",
+            "alt": "Ama kyei portfolio website screenshot."
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-4_p9g3xs.jpg",
+            "alt": "Ama kyei portfolio website screenshot."
           }
         ],
         "used": ["JavaScript", "Figma", "React", "vite", "REST API", "Zustand globalstore", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind"],
@@ -24,13 +40,11 @@
         "images": [
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262928/glim_wlfuyx.png",
-            "alt": "Website screenshot of Glim",
-            "photographer": "Izabel Lind"
+            "alt": "Website screenshot of Glim"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736345846/Sk%C3%A4rmbild_2024-06-30_142555_tna0gt.png",
-            "alt": "Website screenshot of Glim",
-            "photographer": "Izabel Lind"
+            "alt": "Website screenshot of Glim"
           }
         ],
         "used": ["JavaScript", "React", "vite", "REST API", "Zustand globalstore", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Figma"],
@@ -45,9 +59,16 @@
         "description": "In this weather forecast I am fetching and displaying live data from the API service X so that one can search for a city and browse through the information availbale.",
         "images": [
           {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736264341/Sk%C3%A4rmbild_2024-10-07_144730_gbz0wf.png",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413622/weatherflow-izabel.lind-frontend-developer_ocic2f.jpg",
+            "alt": "website preview of Weatherflow"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413623/weather-flow-izabel-lind-izla-bonita-2_cvgjao.jpg",
+            "alt": "website preview of Weatherflow"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413622/weatherflow-izabel.lind-frontend-developer-3_pur0tj.jpg",
+            "alt": "website preview of Weatherflow"
           }
         ],
         "used": ["JavaScript", "React", "vite", "REST API", "Zustand globalstore", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Figma"],
@@ -63,8 +84,7 @@
         "images": [
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262931/artsome_rszks4.png",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
+            "alt": "A seascape painting with twilight colors."
           }
         ],
         "tags": ["JavaScript", "React", "REST API", "Zustand", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3"],
@@ -80,8 +100,7 @@
         "images": [
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262931/the-survivors_cfofhh.png",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
+            "alt": "A seascape painting with twilight colors."
           }
         ],
         "tags": ["JavaScript", "React", "REST API", "Zustand", "UseSound", "HTML5", "CSS3"],
@@ -97,8 +116,7 @@
         "images": [
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
+            "alt": "A seascape painting with twilight colors."
           }
         ],
         "tags": ["JavaScript", "React", "REST API", "Zustand", "UseSound", "HTML5", "CSS3"],
