@@ -79,7 +79,7 @@ export const LandingPage = () => {
             src={
               bgWhite ? "/frontend-developer.svg" : "/frontend-developer-w.svg"
             }
-            className={`relative cursor-hollow hover:scale-[220%] transform text-center transition-transform duration-500 font-heading text-lg p-4  w-[250px] tablet:w-[300px]`}
+            className={`relative cursor-hollow hover:scale-[180%] transform text-center transition-transform duration-500 font-heading text-lg p-4  w-[250px] tablet:w-[300px]`}
             onMouseEnter={() => handleHover("-translate-x-[10%]")}
             onMouseLeave={handleHoverOut}
           />
@@ -91,7 +91,7 @@ export const LandingPage = () => {
         >
           <img
             src={bgWhite ? "/artist.svg" : "/artist-w.svg"}
-            className={`relative cursor-hollowDark hover:scale-[270%] transform transition-transform duration-500 font-heading text-lg p-4 w-[200px] tablet:w-[250px]`}
+            className={`relative cursor-hollowDark hover:scale-[200%] transform transition-transform duration-500 font-heading text-lg p-4 w-[200px] tablet:w-[250px]`}
             onMouseEnter={() => handleHover("-translate-x-[90%]")}
             onMouseLeave={handleHoverOut}
           />
