@@ -7,9 +7,22 @@ import { MovingBg } from "../../components/MovingBg";
 export const FrontendProjects = () => {
   const { setFrontendPortfolioDisplay, setArtPortfolioDisplay } =
     useProjectsStore();
-  const [loaded, setLoaded] = useState(false);
-  const [hoveredProjectIndex, setHoveredProjectIndex] = useState(null);
+    const [hoveredProjectTitle, setHoveredProjectTitle] = useState(null);
   const [showImage, setShowImage] = useState(false);
+  const [showOlder, setShowOlder] = useState(false);
+  const latestProjects = devData.slice(0, 5);
+  const olderProjects = devData.slice(5);
+  const [projectsToShow, setProjectsToShow] = useState(latestProjects);
+
+  const handleShowOther = () => {
+    setShowOlder(!showOlder);
+    if (showOlder) {
+      setProjectsToShow(latestProjects);
+    } else {
+      setProjectsToShow(olderProjects);
+    }
+  };
+
 
   useEffect(() => {
     setFrontendPortfolioDisplay(true);
@@ -17,17 +30,12 @@ export const FrontendProjects = () => {
   }, []);
 
   useEffect(() => {
-    setLoaded(true);
-  }, []);
-
-  useEffect(() => {
-    if (hoveredProjectIndex !== null) {
+    if (hoveredProjectTitle !== null) {
       setShowImage(false); // Hide image to reset animation
       setTimeout(() => setShowImage(true), 0); // Re-show image to trigger animation
     }
-  }, [hoveredProjectIndex]);
+  }, [hoveredProjectTitle]);
 
-  console.log(devData[0].images[0].url);
 
   return (
     <section className="font-body font-medium text-white  flex flex-col ">
@@ -44,42 +52,58 @@ export const FrontendProjects = () => {
         </h2>
 
         <div className="relative">
-          {hoveredProjectIndex !== null && showImage && (
+        {hoveredProjectTitle !== null && showImage && (
             <img
-              src={devData[hoveredProjectIndex].images[0].url}
-              alt={`Image of ${devData[hoveredProjectIndex].title}`}
+              src={devData.find(project => project.title === hoveredProjectTitle).images[0].url}
+              alt={`Image of ${hoveredProjectTitle}`}
               className="absolute w-1/2 rounded-xl hidden laptop:block animate-shortFadeIn animate-smallSlideUp"
             />
           )}
         </div>
 
         <ul className="flex flex-col laptop:w-5/12 laptop:self-end">
-          {devData.map((project, index) => (
+        {projectsToShow.map((project, index) => (
             <NavLink
               to={`/frontend/${project.title
                 .replace(/\s+/g, "-")
                 .toLowerCase()}`}
-              key={index}
+              key={project.title}
             >
               <li
                 className={`flex border-b justify-between pb-2 cursor-hollow group ${
                   index === 0 ? "pt-0" : "pt-10"
-                } animate-slideUp transform transition-transform `}
+                } animate-mediumSlideIn transform transition-transform`}
                 style={{
+                  opacity: 0,
                   animationDelay: `${index * 200}ms`,
                 }}
-                onMouseEnter={() => setHoveredProjectIndex(index)}
-                onMouseLeave={() => setHoveredProjectIndex(null)}
+                onMouseEnter={() => setHoveredProjectTitle(project.title)} // Set hovered title
+                onMouseLeave={() => setHoveredProjectTitle(null)}
               >
                 <h3 className="text-2xl cursor-hollow transition-transform transform origin-left group-hover:scale-125">
                   {project.title}
                 </h3>
-                <p className="text-xs laptop:text-sm align-middle self-end cursor-hollow ">
-                  {project.introduction}
-                </p>
+                <p className={`text-[10px] laptop:text-sm align-middle self-end justify-between cursor-hollow italic gap-1 flex`}>
+  {project.introduction.split(' ').map((word, index) => {
+    if (word.toLowerCase() === "fullstack") {
+      return (
+        <span key={index} className="text-orange-400"> {/* Add any style here */}
+          {word}
+        </span>
+      );
+    }
+    return `${word} `;
+  })}
+</p>
               </li>
             </NavLink>
           ))}
+          <button
+        onClick={handleShowOther}
+        className="mt-4 text-blue-500 hover:underline"
+      >
+        {showOlder ? 'New Projects' : 'Older Projects'}
+      </button>
         </ul>
       </div>
     </section>

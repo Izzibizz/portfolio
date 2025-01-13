@@ -23,7 +23,7 @@ import "swiper/css/effect-fade";
 import "swiper/css/free-mode";
 
 // Import required modules for Swiper
-import {  Navigation, Pagination, Autoplay, A11y } from "swiper/modules";
+import {  Autoplay } from "swiper/modules";
 
 export const FrontendSingleProject = () => {
 
@@ -86,11 +86,13 @@ if (currentProjectIndex !== -1) {
     if (!project) {
       return <div>Loading...</div>;
     }
+
+    console.log(project.images)
   
     return (
       <section className="font-body font-medium text-white animate-fadeIn flex flex-col">
        <MovingBg />
-        <div className="flex flex-col w-10/12 laptop:w-9/12 mx-auto mt-40 z-20">
+        <div className="flex flex-col w-10/12 laptop:w-9/12 mx-auto mt-32 z-20">
         <NavLink
             to={`/frontend`}
           >
@@ -117,39 +119,40 @@ if (currentProjectIndex !== -1) {
                 scrollbar={{ draggable: true }}
                 autoplay={{
                   delay: 4000, 
-                  disableOnInteraction: false, // Continue autoplay after user interactions
+                  pauseOnMouseEnter: true,
+                  disableOnInteraction: false
                 }}
+                
                 breakpoints={{
-                  // Small screens
                   320: {
                     spaceBetween: 10,
                   },
-                  // Medium screens
                   768: {
                     spaceBetween: 15,
                   },
-                  // Large screens
                   1024: {
                     spaceBetween: 20,
                   },
-                  // Extra large screens
                   1280: {
                     spaceBetween: 25,
                   }}}
                 effect="fade"
-                modules={[Navigation, Pagination, A11y, Autoplay]}
+                modules={[ Autoplay]}
                 className="w-full my-4 h-auto"
               >
                 {project.images.map((file, index) => (
-                  <SwiperSlide key={index}>
+                  <SwiperSlide key={index} >
+                    <div className="relative group">
                     <img
                       src={file.url}
                       alt={file.alt}
-                      className="w-full h-full object-cover cursor-pointer rounded laptop:rounded-xl"
-                      onClick={() =>
-                        handlePreviewClick(file.url, file.alt)
-                      }
+                      className="w-full h-full object-cover cursor-hollow rounded laptop:rounded-xl "
+                     
                     />
+                     <div className="absolute rounded laptop:rounded-xl max-w-full max-h-full inset-0 bg-black opacity-40 group-hover:opacity-0 transition-opacity duration-500 ease-in-out"  onClick={() =>
+                        handlePreviewClick(file.url, file.alt)
+                      }></div>
+                     </div>
                   </SwiperSlide>
                 ))}
               </Swiper>
@@ -166,7 +169,7 @@ if (currentProjectIndex !== -1) {
                 <a href={project.github} target="_blank" alt="button for viewing site" className=" h-[20px] cursor-hollow flex gap-1 items-center transform translate-transform hover:scale-110 origin-left group"><MdOutlineArrowOutward className="group-hover:text-orange-500"/> Github</a>
                 </div>
                 </div>
-                <div className="grid grid-cols-2 w-full desktop:w-2/3 h-fit p-4 gap-y-4 bg-black bg-opacity-[30%] rounded-xl">Technologies<ul className="">{project.used.map((tech, index)=> (
+                <div className={`grid ${project.tags.length > 6 ? 'grid-cols-3' : 'grid-cols-2'} w-full desktop:w-2/3 h-fit p-4 gap-10 bg-black bg-opacity-[30%] rounded-xl`}>Tech<ul className="col-span-2 grid grid-cols-2 w-full gap-x-10">{project.tags.map((tech, index)=> (
                 <li key={index} className="flex gap-1 items-center" onMouseEnter={() => setTechHovered(tech)}
                 onMouseLeave={() => setTechHovered(null)}>{tech}
                  {techHovered === tech && (
@@ -176,6 +179,7 @@ if (currentProjectIndex !== -1) {
               ))}</ul></div>
                 <p className="text-justify laptop:w-11/12 tablet:block mb-28">
                   {project.description}
+                  {project.link?.length > 0 && <a href={project.link} target="_blank" alt="website link" className="ml-2 hover:underline flex cursor-hollow py-4 flex gap-1 items-center"><MdOutlineArrowOutward/> Elin Bradway (UX-designer)</a>}
                 </p>
                 
               </div>

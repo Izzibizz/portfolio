@@ -28,7 +28,7 @@
             "alt": "Ama kyei portfolio website screenshot."
           }
         ],
-        "used": ["JavaScript", "React", "vite", "REST API", "Zustand", "Node.js", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Postman", "Git", "Figma"],
+        "tags": ["JavaScript", "React", "vite", "REST API", "Zustand", "Node.js", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Postman", "Git", "Figma"],
         "netlify": "https://amakyei.se",
         "github": "https://github.com/Izzibizz/amakyei"
       },
@@ -41,15 +41,28 @@
         "description": "Glim is a test e-commerce I created as my final exam in a team of 3. It is specialized at personalized skincare and beauty products, where you create a user with your specific skin and hair type and get recommendations.",
         "images": [
           {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262928/glim_wlfuyx.png",
-            "alt": "Website screenshot of Glim"
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736774194/glim.hemsida.products-izabel.lind_wqrssl.jpg",
+            "alt": "Website screenshot of Glim overview page"
           },
           {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736345846/Sk%C3%A4rmbild_2024-06-30_142555_tna0gt.png",
-            "alt": "Website screenshot of Glim"
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736773964/glim-startsida.izabel.lind_eufnkd.png",
+            "alt": "Website screenshot of Glim start page"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736774413/glim.hemsida.product-page-izabel.lind_zveawt.jpg",
+            "alt": "Website screenshot of product Glim"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736774361/glim.hemsida.account-user-page-izabel.lind_pyl4ir.jpg",
+            "alt": "Website screenshot of Glim user page"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736774752/glim.hemsida.account-checkout-page-izabel.lind_z3ktuj.jpg",
+            "alt": "Website screenshot of Glim checkout page"
           }
+
         ],
-        "used": ["JavaScript", "React", "vite", "REST API", "Zustand globalstore", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Figma"],
+        "tags": ["JavaScript", "React", "vite", "REST API", "Zustand globalstore", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Figma"],
         "netlify": "https://glim-skincare.netlify.app/",
         "github": "https://github.com/Izzibizz/project-final"
       },
@@ -72,11 +85,20 @@
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413622/weatherflow-izabel.lind-frontend-developer-3_pur0tj.jpg",
             "alt": "website preview of Weatherflow"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736776508/weatherflow-izabel.lind-frontend-developer-snow_esfaxf.jpg",
+            "alt": "website preview of Weatherflow"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736776507/weatherflow-izabel.lind-frontend-developer-night_ofoemj.jpg",
+            "alt": "website preview of Weatherflow"
           }
+         
         ],
-        "used": ["JavaScript", "React", "vite", "REST API", "Zustand globalstore", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Figma"],
-        "netlify": "https://glim-skincare.netlify.app/",
-        "github": "https://github.com/Izzibizz/project-final"
+        "tags": ["JavaScript", "React", "vite", "REST API", "Zustand globalstore", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Figma"],
+        "netlify": "https://weather-flow.netlify.app/",
+        "github": "https://github.com/Izzibizz/weatherflow"
       },
       {
         "title": "Artsome",
@@ -88,30 +110,129 @@
         "images": [
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262931/artsome_rszks4.png",
-            "alt": "A seascape painting with twilight colors."
+            "alt": "Website preview of Artsome"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262931/artsome_rszks4.png",
+            "alt": "Website preview of Artsome"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262931/artsome_rszks4.png",
+            "alt": "Website preview of Artsome"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262931/artsome_rszks4.png",
+            "alt": "Website preview of Artsome"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262931/artsome_rszks4.png",
+            "alt": "Website preview of Artsome"
           }
         ],
         "tags": ["JavaScript", "React", "REST API", "Zustand", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3"],
-        "netlify": "https://glim-skincare.netlify.app/",
-        "github": "https://github.com/Izzibizz/project-final"
+        "netlify": "https://artsome.netlify.app/",
+        "github": "https://github.com/Izzibizz/artsome"
       },
       {
         "title": "The Survivors",
         "year": 2024,
-        "genre": "Game",
+        "genre": "Story",
         "category": ["Branding", "UX & UI design", "Fullstack development"],
         "introduction": "Frontend + design",
-        "description": "This story-like game lets the user interact and move back and forth between different phases/locations of the game. The project was created to learn how to use Zustand and POST the reply of the user to the API. The data is stored and global, based on the users name input.",
+        "description": "This story telling navigation lets the user interact and move back and forth between different phases/locations of the 'game' using an excisting API. The project was created during the Technigo Bootcamp to learn how to use Zustand Global store and POST the reply of the user to the API, also learning how to use Postman.",
         "images": [
           {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262931/the-survivors_cfofhh.png",
-            "alt": "A seascape painting with twilight colors."
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778877/survivors-story-frontend-api-3-izabel.lind_j0do2m.jpg",
+            "alt": "Website preview of survivors story game"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778878/survivors-story-frontend-api-4-izabel.lind_lmx2h2.jpg",
+            "alt": "Website preview of survivors story game"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778881/survivors-story-frontend-api-izabel.lind_vfyyli.jpg",
+            "alt": "Website preview of survivors story game"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778880/survivors-story-frontend-api-5-izabel.lind_jmrfez.jpg",
+            "alt": "Website preview of survivors story game"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778876/survivors-story-frontend-api-2-izabel.lind_xrrnjv.jpg",
+            "alt": "Website preview of survivors story game"
           }
         ],
-        "tags": ["JavaScript", "React", "REST API", "Zustand", "UseSound", "HTML5", "CSS3"],
-        "netlify": "https://glim-skincare.netlify.app/",
+        "tags": ["JavaScript", "React", "REST API", "Zustand", "UseSound", "Postman", "HTML5", "CSS3"],
+        "netlify": "https://the-survivors.netlify.app/",
         "github": "https://github.com/Izzibizz/project-labyrinth-zustand-vite"
       },
+      {
+        "title": "Music Releases",
+        "year": 2024,
+        "genre": "Music",
+        "category": ["Branding", "UX & UI design", "Frontend development"],
+        "introduction": "Frontend + design",
+        "description": "Using a restful Music API, me and a collegue built this music release site.",
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+            "alt": "Website preview of Music releases."
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+            "alt": "Website preview of Music releases."
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+            "alt": "Website preview of Music releases."
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+            "alt": "Website preview of Music releases."
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+            "alt": "Website preview of Music releases."
+          }
+        ],
+        "tags": ["JavaScript", "React", "REST API", "Zustand", "HTML5", "CSS3"],
+        "netlify": "https://vite-music-releases.netlify.app/",
+        "github": "https://github.com/Izzibizz/project-music-releases"
+      },
+      {
+        "title": "Liftly",
+        "year": 2024,
+        "genre": "Training",
+        "category": ["Branding", "UX-designer teamwork", "Frontend development"],
+        "introduction": "Frontend",
+        "description": "This project was part of the Frontend Bootcamp where we got to co-operate with an UX-designer who had set a design in Figma that we had to follow to the pixel. It is a design-test website therefore its only a static starting page",
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736779488/liftly-ux-designer-handoff-frontend-izabel.lind_ozz7ei.jpg",
+            "alt": "Website preview of Liftly"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736780714/liftly-ux-designer-handoff-frontend-3-izabel.lind_bhl1yh.jpg",
+            "alt": "Website preview of Liftly"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736780712/liftly-ux-designer-handoff-frontend-2-izabel.lind_dumzgy.jpg",
+            "alt": "Website preview of Liftly"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736780715/liftly-ux-designer-handoff-frontend-izabel.cta_o3dglr.jpg",
+            "alt": "Website preview of Liftly"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736780711/liftly-ux-designer-handoff-frontend-figma-izabel.lind_vilpbh.jpg",
+            "alt": "Website preview of Liftly"
+          }
+        ],
+        "tags": ["JavaScript", "React", "Zustand", "HTML5", "CSS3", "Figma"],
+        "netlify": "https://liftly.netlify.app/",
+        "github": "https://github.com/Izzibizz/project-design-handoff-vite",
+        "link": "https://www.linkedin.com/in/elin-bradway-75a8aa2a9/?locale=sv_SE"
+      },  
       {
         "title": "Cinemove",
         "year": 2024,
@@ -122,7 +243,23 @@
         "images": [
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
-            "alt": "A seascape painting with twilight colors."
+            "alt": "Website preview of Cinemove"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
+            "alt": "Website preview of Cinemove"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
+            "alt": "Website preview of Cinemove"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
+            "alt": "Website preview of Cinemove"
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
+            "alt": "Website preview of Cinemove"
           }
         ],
         "tags": ["JavaScript", "React", "REST API", "Zustand", "UseSound", "HTML5", "CSS3"],
