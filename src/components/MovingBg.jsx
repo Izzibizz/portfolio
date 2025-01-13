@@ -8,12 +8,31 @@ export const MovingBg = () => {
   const [radiusRange] = useState([10, 500]); // Fixed size range
   const [adjustSpeed] = useState(0.9); // Fixed speed
 
+  const [isMobile, setIsMobile] = useState(false); // State for detecting mobile
   const blurValue = 60;
   const colors = [
     ['#303438', '#210c0d'],
     ['#1c1b24', '#131e29'],
     ['#1f1216', '#000000'],
   ];
+
+  useEffect(() => {
+    // Detect the screen size to decide if it's mobile or desktop
+    const handleResize = () => {
+      if (window.innerWidth <= 768) {
+        setIsMobile(true);
+      } else {
+        setIsMobile(false);
+      }
+    };
+
+    handleResize(); // Set the initial screen size
+    window.addEventListener('resize', handleResize); // Update on window resize
+
+    return () => {
+      window.removeEventListener('resize', handleResize); // Clean up the event listener
+    };
+  }, []);
 
   useEffect(() => {
     const generatedCircles = [];
@@ -41,11 +60,16 @@ export const MovingBg = () => {
   }, [count, radiusRange]); // Initial circle generation
 
   useEffect(() => {
+    if (isMobile) return; // Skip animation on mobile
+
+    let animationFrameId;
+
     const moveCircles = () => {
       setCircles((prevCircles) => {
         return prevCircles.map((circle) => {
           let { x, y, initialXDirection, initialYDirection } = circle;
 
+          // Boundary conditions
           if (x + (initialXDirection * adjustSpeed) >= window.innerWidth || x + (initialXDirection * adjustSpeed) <= 0) {
             initialXDirection = -initialXDirection;
           }
@@ -53,6 +77,7 @@ export const MovingBg = () => {
             initialYDirection = -initialYDirection;
           }
 
+          // Update position
           x += (initialXDirection * adjustSpeed);
           y += (initialYDirection * adjustSpeed);
 
@@ -66,11 +91,17 @@ export const MovingBg = () => {
         });
       });
 
-      window.requestAnimationFrame(moveCircles);
+      // Schedule the next frame
+      animationFrameId = window.requestAnimationFrame(moveCircles);
     };
 
     moveCircles();
-  }, [adjustSpeed]);
+
+    // Cleanup function to cancel the animation
+    return () => {
+      window.cancelAnimationFrame(animationFrameId);
+    };
+  }, [adjustSpeed, isMobile]); // Only run on desktop
 
   return (
     <div className="absolute z-0 w-full h-screen overflow-hidden animate-fadeIn">

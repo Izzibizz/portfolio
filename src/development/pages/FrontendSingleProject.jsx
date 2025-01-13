@@ -179,7 +179,7 @@ if (currentProjectIndex !== -1) {
           )}
           </li>
               ))}</ul></div>
-                <p className="text-justify laptop:w-11/12 tablet:block">
+                <p className="text-justify laptop:w-11/12 tablet:block mb-28">
                   {project.description}
                 </p>
                 

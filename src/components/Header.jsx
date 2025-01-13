@@ -70,7 +70,7 @@ export const Header = () => {
   return (
     <header
       className={`w-full max-w-screen h-fit flex justify-between absolute top-0 left-0 z-50 animate-fadeIn px-8 ${
-      artPortfolioDisplay ? "bg-light bg-opacity-90" : frontendPortfolioDisplay ? "bg-black bg-opacity-90" : ""
+      artPortfolioDisplay ? "bg-light bg-opacity-0" : frontendPortfolioDisplay ? "bg-black bg-opacity-0" : ""
       }`}
     >
       <NavLink
@@ -86,14 +86,14 @@ export const Header = () => {
         {bgWhite ? (
           <img
             src="/Izabel-svart.svg"
-            className={`w-[100px] laptop:w-[130px] cursor-hollowDark pr-4 py-8 transform transition-transform duration-300 ease-in-out ${
+            className={`w-[90px] cursor-hollowDark pr-4 py-8 transform transition-transform duration-300 ease-in-out ${
               artPortfolioDisplay && "hover:scale-125"
             } `}
           />
         ) : (
           <img
             src="/izabel-white.svg"
-            className={`w-[100px] laptop:w-[130px] opacity-[70%] cursor-hollow pr-4 py-8 transform transition-transform duration-300 ease-in-out ${
+            className={`w-[90px] opacity-[70%] cursor-hollow pr-4 py-8 transform transition-transform duration-300 ease-in-out ${
               frontendPortfolioDisplay && "hover:scale-125"
             } `}
           />
@@ -169,7 +169,7 @@ export const Header = () => {
             <NavLink
               to={projectsPath}
               aria-label={`Link to Projects page`}
-              className={`  py-8 px-4 h-full max-h-full flex items-center transform transition-transform duration-300 ease-in-out  hover:scale-125 ${
+              className={`py-8 px-4 h-full max-h-full flex items-center transform transition-transform duration-300 ease-in-out  hover:scale-125 ${
                 artPortfolioDisplay ? "cursor-hollowDark" : "cursor-hollow"
               }`}
             >
