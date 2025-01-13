@@ -116,7 +116,7 @@ if (currentProjectIndex !== -1) {
                 updateOnWindowResize
                 scrollbar={{ draggable: true }}
                 autoplay={{
-                  delay: 3000, // Delay in ms
+                  delay: 4000, 
                   disableOnInteraction: false, // Continue autoplay after user interactions
                 }}
                 breakpoints={{
