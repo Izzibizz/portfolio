@@ -82,10 +82,6 @@ if (currentProjectIndex !== -1) {
     }
   }, [id]);
 
-  
-
-    console.log(isModalOpen, imageSrc)
-    console.log(id)
 
     if (!project) {
       return <div>Loading...</div>;
@@ -103,7 +99,7 @@ if (currentProjectIndex !== -1) {
           {project.images && project.images.length > 0 && (
             <>
               <img src={projectHeading} className="w-[55px] self-end"/>
-              <a href={project.netlify} target="_blank" className="text-end text-2xl laptop:text-3xl tracking-wider cursor-hollow">{project.title}</a>
+              <a href={project.netlify} target="_blank" className="self-end w-fit text-2xl laptop:text-3xl tracking-wider cursor-hollow">{project.title}</a>
               <div className="flex flex-col laptop:flex-row gap-4 laptop:gap-10">
               <div className="laptop:w-8/12 desktop:w-7/12 flex flex-col mt-6 laptop:mt-0 animate-smallSlideUp laptop:animate-smallSlideIn"> 
               <img src={ imageSrc } alt={ imageAlt } className="rounded-xl cursor-hollow"  onClick={() =>
