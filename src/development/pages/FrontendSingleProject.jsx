@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react" 
-import { useParams, useNavigate, NavLink } from "react-router-dom"
+import { useParams, NavLink } from "react-router-dom"
 import { useProjectsStore } from "../../stores/useProjectsStore"
 import { Swiper, SwiperSlide } from "swiper/react";
 import devData from "../data/devData.json"
