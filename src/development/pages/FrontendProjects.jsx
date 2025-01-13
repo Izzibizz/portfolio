@@ -32,7 +32,7 @@ export const FrontendProjects = () => {
 
   return (
     <section className="font-body font-medium text-white  flex flex-col ">
-      {/* <MovingBg /> */}
+      <MovingBg />
       <div className="flex flex-col gap-0 w-9/12 tablet:w-7/12 laptop:w-8/12 mx-auto mt-40 z-20">
         <img
           src="/frontend-developer-w.svg"

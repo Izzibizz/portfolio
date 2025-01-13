@@ -52,7 +52,7 @@ export const ArtProjects = () => {
           </video>
           <img
             src="/art-portfolio.svg"
-            className={`hidden laptop:block w-full tablet:w-10/12 mx-auto z-20 ${fadeOut && "animate-fadeOut"}`}
+            className={`hidden laptop:block w-full tablet:w-10/12 laptop:w-1/2 mx-auto z-20 ${fadeOut && "animate-fadeOut"}`}
           />
           <img
             src="/art-portfolio-vertical.svg"
