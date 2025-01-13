@@ -36,7 +36,9 @@ export const FrontendProjects = () => {
       <div className="flex flex-col gap-0 w-9/12 tablet:w-7/12 laptop:w-8/12 mx-auto mt-40 z-20">
         <img
           src="/frontend-developer-w.svg"
-          className="w-[120px] tablet:w-[150px]"
+          className="w-[120px] tablet:w-[150px] h-[auto]" // Adjust the height proportionally
+  alt="Frontend Developer"
+  style={{ objectFit: "contain" }}
         />
          <h2 className="text-lg laptop:text-[40px] text-end mb-8 laptop:mb-10">Projects</h2>
         
