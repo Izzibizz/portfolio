@@ -23,7 +23,7 @@ import "swiper/css/effect-fade";
 import "swiper/css/free-mode";
 
 // Import required modules for Swiper
-import { FreeMode, Navigation, Pagination, Autoplay, A11y } from "swiper/modules";
+import {  Navigation, Pagination, Autoplay, A11y } from "swiper/modules";
 
 export const FrontendSingleProject = () => {
 
@@ -114,7 +114,6 @@ if (currentProjectIndex !== -1) {
                 loop
                 zoom
                 updateOnWindowResize
-                freeMode={true}
                 scrollbar={{ draggable: true }}
                 autoplay={{
                   delay: 3000, // Delay in ms
@@ -138,7 +137,7 @@ if (currentProjectIndex !== -1) {
                     spaceBetween: 25,
                   }}}
                 effect="fade"
-                modules={[Navigation, Pagination, A11y, Autoplay, FreeMode]}
+                modules={[Navigation, Pagination, A11y, Autoplay]}
                 className="w-full my-4 h-auto"
               >
                 {project.images.map((file, index) => (

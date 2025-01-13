@@ -38,7 +38,7 @@ export const FrontendProjects = () => {
           src="/frontend-developer-w.svg"
           className="w-[120px] tablet:w-[150px]"
         />
-         <h2 className="text-2xl laptop:text-[50px] text-end mb-8 laptop:mb-10">Projects</h2>
+         <h2 className="text-lg laptop:text-[40px] text-end mb-8 laptop:mb-10">Projects</h2>
         
         <div className="relative">
           {hoveredProjectIndex !== null && showImage && (
