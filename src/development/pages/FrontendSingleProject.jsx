@@ -93,7 +93,7 @@ if (currentProjectIndex !== -1) {
   
     return (
       <section className="font-body font-medium text-white animate-fadeIn flex flex-col">
-        <MovingBg />
+       {/*  <MovingBg /> */}
         <div className="flex flex-col w-10/12 laptop:w-9/12 mx-auto mt-40 z-20">
         <NavLink
             to={`/frontend`}
