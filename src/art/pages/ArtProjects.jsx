@@ -28,10 +28,10 @@ export const ArtProjects = () => {
     setBgWhite(true);
     setTimeout(() => {
       setFadeout(true)
-    }, 2000)
+    }, 1000)
     setTimeout(() => {
       setTitleAndVideoVisible(false);
-    }, 4000);
+    }, 2000);
   }, []);
 
   return (
@@ -56,7 +56,7 @@ export const ArtProjects = () => {
           />
           <img
             src="/art-portfolio-vertical.svg"
-            className={`w-11/12 tablet:w-10/12 laptop:hidden mx-auto mt-10 z-20 ${fadeOut && "animate-fadeOut"}`}
+            className={`w-9/12 tablet:w-10/12 laptop:hidden mx-auto mt-10 z-20 ${fadeOut && "animate-fadeOut"}`}
           />
         </>
       ) : (

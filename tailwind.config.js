@@ -68,7 +68,7 @@ export default {
         longFadeIn: "fadeIn 4s ease-out",
         fadeInVideo: "fadeInVideo 2s ease-out",
         fadeInOut: "fadeInOut 3s ease-in-out infinite",
-        fadeOut: "fadeOut 2s ease-out",
+        fadeOut: "fadeOut 1s ease-out",
         slideIn: "slideIn 2s ease-out forwards",
         slideUp: "slideUp 2s ease-out forwards",
         smallSlideIn: "smallSlideIn 2s ease-out forwards",

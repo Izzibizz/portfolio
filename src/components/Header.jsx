@@ -70,7 +70,7 @@ export const Header = () => {
   return (
     <header
       className={`w-full max-w-screen h-fit flex justify-between absolute top-0 left-0 z-50 animate-fadeIn px-8 ${
-      artPortfolioDisplay && "bg-light bg-opacity-80"
+      artPortfolioDisplay ? "bg-light bg-opacity-90" : frontendPortfolioDisplay ? "bg-black bg-opacity-90" : ""
       }`}
     >
       <NavLink
@@ -130,7 +130,7 @@ export const Header = () => {
           {isOpen && (
             <div
               ref={dropdownRef}
-              className={`absolute top-24 right-0 w-fit text-xl rounded-bl-xl ${bgColor} transition-all duration-700 ease-in-out fadeIn overflow-hidden ${
+              className={`absolute top-24 right-0 w-fit text-xl rounded-bl-xl ${bgColor} bg-opacity-90 transition-all duration-700 ease-in-out fadeIn overflow-hidden ${
                 isOpen ? "h-fit" : "h-0"
               }`}
             >
