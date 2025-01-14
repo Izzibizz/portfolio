@@ -71,7 +71,7 @@ export const FrontendProjects = () => {
           )}
         </div>
 
-        <ul className="flex flex-col laptop:w-5/12 laptop:self-end">
+        <ul className="flex flex-col laptop:w-5/12 laptop:self-end animate-longFadeIn">
           {projectsToShow.map((project, index) => (
             <NavLink
               to={`/frontend/${project.title
