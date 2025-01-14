@@ -38,12 +38,12 @@ export const FrontendProjects = () => {
 
 
   return (
-    <section className="font-body font-medium text-white  flex flex-col ">
+    <section className="font-body font-medium text-white flex flex-col ">
       <MovingBg />
       <div className="flex flex-col gap-0 w-9/12 tablet:w-7/12 laptop:w-8/12 mx-auto mt-40 z-20">
         <img
           src="/frontend-developer-w.svg"
-          className="w-[120px] tablet:w-[150px] h-[auto]" 
+          className="w-[auto] h-[100px] laptop:h-[150px] self-end laptop:self-start" 
           alt="Frontend Developer"
           style={{ objectFit: "contain" }}
         />
@@ -70,7 +70,7 @@ export const FrontendProjects = () => {
               key={project.title}
             >
               <li
-                className={`flex border-b justify-between pb-2 cursor-hollow group ${
+                className={`flex border-b justify-between pb-2 laptop:cursor-hollow group ${
                   index === 0 ? "pt-0" : "pt-10"
                 } animate-mediumSlideIn transform transition-transform`}
                 style={{
@@ -80,10 +80,10 @@ export const FrontendProjects = () => {
                 onMouseEnter={() => setHoveredProjectTitle(project.title)} // Set hovered title
                 onMouseLeave={() => setHoveredProjectTitle(null)}
               >
-                <h3 className="text-2xl cursor-hollow transition-transform transform origin-left group-hover:scale-125">
+                <h3 className="text-2xl laptop:cursor-hollow transition-transform transform origin-left laptop:group-hover:scale-125">
                   {project.title}
                 </h3>
-                <p className={`text-[10px] laptop:text-sm align-middle self-end justify-between cursor-hollow italic gap-1 flex`}>
+                <p className={`text-[10px] laptop:text-sm align-middle self-end justify-between laptop:cursor-hollow italic gap-1 flex`}>
   {project.introduction.split(' ').map((word, index) => {
     if (word.toLowerCase() === "fullstack") {
       return (
@@ -100,7 +100,7 @@ export const FrontendProjects = () => {
           ))}
           <button
         onClick={handleShowOther}
-        className="mt-4 text-blue-500 hover:underline"
+        className="mt-4 text-blue-500 laptop:hover:underline"
       >
         {showOlder ? 'New Projects' : 'Older Projects'}
       </button>
