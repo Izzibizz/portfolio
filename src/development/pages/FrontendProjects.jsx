@@ -15,7 +15,7 @@ export const FrontendProjects = () => {
   const latestProjects = devData.slice(0, 5);
   const olderProjects = devData.slice(5);
   const [projectsToShow, setProjectsToShow] = useState(latestProjects);
-  const [isLoading, setIsLoading] = useState(true);
+
 
 
 
@@ -28,11 +28,6 @@ export const FrontendProjects = () => {
     }
   };
 
-  useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false), 1000);
-  
-    return () => clearTimeout(timer);
-  }, []);
   
  
 
@@ -48,9 +43,6 @@ export const FrontendProjects = () => {
     }
   }, [hoveredProjectTitle]);
 
-  if (isLoading) {
-    return <div className="text-light text-center mt-40">Loading...</div>;
-  }
 
   return (
     <section className="font-body font-medium text-white flex flex-col ">
@@ -93,7 +85,7 @@ export const FrontendProjects = () => {
                 } animate-mediumSlideIn transform transition-transform`}
                 style={{
                   opacity: 0,
-                  animationDelay: `${index * 200}ms`,
+                  animationDelay:index === 0 ? "200ms" : `${index * 200}ms`,
                 }}
                 onMouseEnter={() => setHoveredProjectTitle(project.title)} // Set hovered title
                 onMouseLeave={() => setHoveredProjectTitle(null)}
