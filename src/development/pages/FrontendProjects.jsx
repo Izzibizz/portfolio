@@ -15,6 +15,9 @@ export const FrontendProjects = () => {
   const latestProjects = devData.slice(0, 5);
   const olderProjects = devData.slice(5);
   const [projectsToShow, setProjectsToShow] = useState(latestProjects);
+  const [isLoading, setIsLoading] = useState(true);
+
+
 
   const handleShowOther = () => {
     setShowOlder(!showOlder);
@@ -24,6 +27,14 @@ export const FrontendProjects = () => {
       setProjectsToShow(olderProjects);
     }
   };
+
+  useEffect(() => {
+    const timer = setTimeout(() => setIsLoading(false), 1000);
+  
+    return () => clearTimeout(timer);
+  }, []);
+  
+ 
 
   useEffect(() => {
     setFrontendPortfolioDisplay(true);
@@ -36,6 +47,10 @@ export const FrontendProjects = () => {
       setTimeout(() => setShowImage(true), 0); // Re-show image to trigger animation
     }
   }, [hoveredProjectTitle]);
+
+  if (isLoading) {
+    return <div className="text-light text-center mt-40">Loading...</div>;
+  }
 
   return (
     <section className="font-body font-medium text-white flex flex-col ">
