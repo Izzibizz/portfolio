@@ -107,7 +107,7 @@ export const FrontendProjects = () => {
           ))}
           <button
             onClick={handleShowOther}
-            className="mt-4 text-blue-500 laptop:hover:scale-105 laptop:cursor-hollow flex items-center gap-2 self-end group animate-fadeIn"
+            className="mt-4 text-blue-500 laptop:hover:scale-105 laptop:cursor-hollow flex items-center gap-2 self-end group animate-longFadeIn"
           >
             {showOlder ? (
               <>

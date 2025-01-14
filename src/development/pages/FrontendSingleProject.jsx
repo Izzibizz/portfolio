@@ -86,7 +86,7 @@ export const FrontendSingleProject = () => {
   console.log(project.images);
 
   return (
-    <section className="font-body font-medium text-white animate-fadeIn flex flex-col">
+    <section className="font-body font-medium text-white  flex flex-col">
       <MovingBg />
       <div className="flex flex-col w-10/12 laptop:w-9/12 mx-auto mt-32 z-20">
         <NavLink to={`/frontend`}>
@@ -94,11 +94,11 @@ export const FrontendSingleProject = () => {
         </NavLink>
         {project.images && project.images.length > 0 && (
           <>
-            <img src={projectHeading} className="w-[55px] self-end" />
+            <img src={projectHeading} className="h-[50px] w-auto self-end animate-smallSlideInRight" />
             <a
               href={project.netlify}
               target="_blank"
-              className="self-end w-fit text-2xl laptop:text-3xl tracking-wider cursor-hollow"
+              className="self-end w-fit text-2xl laptop:text-3xl tracking-wider cursor-hollow animate-smallSlideInRight"
             >
               {project.title}
             </a>
@@ -161,7 +161,7 @@ export const FrontendSingleProject = () => {
                   ))}
                 </Swiper>
               </div>
-              <div className="flex flex-col laptop:flex-col gap-6 laptop:mt-10 laptop:items-end">
+              <div className="flex flex-col laptop:flex-col gap-6 laptop:mt-10 laptop:items-end animate-longFadeIn">
                 <div className="grid grid-cols-2 w-full desktop:w-2/3 h-fit p-4 gap-y-4 bg-black bg-opacity-[30%] rounded-xl">
                   Category{" "}
                   <ul>

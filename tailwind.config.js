@@ -49,6 +49,10 @@ export default {
           "0%": { transform: "translateX(-5%)", opacity: "0" },
           "100%": { transform: "translateX(0)", opacity: "1" },
         },
+        smallSlideInRight: {
+          "0%": { transform: "translateX(10%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
         mediumSlideIn: {
           "0%": { transform: "translateX(-20%)", opacity: "0" },
           "100%": { transform: "translateX(0)", opacity: "1" },
@@ -80,6 +84,7 @@ export default {
         slideIn: "slideIn 2s ease-out forwards",
         slideUp: "slideUp 2s ease-out forwards",
         smallSlideIn: "smallSlideIn 2s ease-out forwards",
+        smallSlideInRight: "smallSlideInRight 2s ease-out forwards",
         mediumSlideIn: "mediumSlideIn 0.5s ease-out forwards",
         smallSlideUp: "smallSlideUp 2s ease-out forwards",
         slowSlide: 'slowSlide 2s ease-in-out',
