@@ -53,9 +53,9 @@ export const LandingPage = () => {
         muted
         playsInline
         className={`fixed top-1/2 left-1/2 w-screen h-screen object-cover transform -translate-x-1/2 -translate-y-1/2 transform transition-transform duration-500 ${
-          zoom ? `scale-[200%] ${direction} ` : "scale-100 -translate-x-1/2"
+          zoom ? `laptop:scale-[200%] ${direction} ` : "scale-100 laptop:-translate-x-1/2"
         } ${
-          bgWhite && direction === "-translate-x-[90%]"
+          bgWhite && direction === "laptop:-translate-x-[90%]"
             ? "invert transition-all duration-1000 fadeIn"
             : ""
         }`}
@@ -67,7 +67,7 @@ export const LandingPage = () => {
       </video>
       <div
         className={`w-full h-full absolute top-0 left-0 pt-10 tablet:pt-0 flex flex-col laptop:flex-row justify-center items-center gap-20 tablet:gap-72 laptop:gap-1/3 desktop:gap-[600px] ${
-          direction === "-translate-x-[90%]" ? "text-black" : "text-white"
+          direction === "laptop:-translate-x-[90%]" ? "text-black" : "text-white"
         } `}
       >
         <NavLink
