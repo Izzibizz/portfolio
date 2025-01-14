@@ -65,6 +65,10 @@ export default {
           '0%': { transform: 'translateY(0)' },
           '100%': { transform: 'translateY(100%)' },
         },
+        bounceUpDown: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10%)' },
+        },
       },
       animation: {
         shortFadeIn: "fadeIn 1s ease-out",
@@ -79,6 +83,7 @@ export default {
         mediumSlideIn: "mediumSlideIn 0.5s ease-out forwards",
         smallSlideUp: "smallSlideUp 2s ease-out forwards",
         slowSlide: 'slowSlide 2s ease-in-out',
+        bounceUpDown: 'bounceUpDown 1s infinite'
       },
       cursor: {
         hollow: "url(/hollow-circle.svg), pointer",
