@@ -96,7 +96,7 @@ if (currentProjectIndex !== -1) {
         <NavLink
             to={`/frontend`}
           >
-            <SlArrowLeft className="cursor-hollow pl-2 w-6 h-6 laptop:w-8 laptop:h-6 absolute z-20 top-52 laptop:left-20 hover:scale-125" />{" "}
+            <SlArrowLeft className="cursor-hollow pl-2 w-6 h-6 laptop:w-8 laptop:h-6 absolute z-20 top-40 laptop:top-52 laptop:left-20 hover:scale-125" />{" "}
           </NavLink>
           {project.images && project.images.length > 0 && (
             <>
