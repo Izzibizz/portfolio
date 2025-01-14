@@ -43,11 +43,11 @@ export const FrontendProjects = () => {
       <div className="flex flex-col gap-0 w-9/12 tablet:w-7/12 laptop:w-8/12 mx-auto mt-40 z-20">
         <img
           src="/frontend-developer-w.svg"
-          className="w-[auto] h-[100px] laptop:h-[150px] self-start"
+          className="w-[auto] h-[100px] laptop:h-[150px] self-start animate-fadeIn"
           alt="Frontend Developer"
           style={{ objectFit: "contain" }}
         />
-        <h2 className="text-lg laptop:text-[40px] text-end mb-8 laptop:mb-10">
+        <h2 className="text-lg laptop:text-[40px] text-end mb-8 laptop:mb-10 animate-fadeIn">
           Projects
         </h2>
 
