@@ -16,7 +16,7 @@ export const LandingPage = () => {
   const handleHover = (dir) => {
     setZoom(true); // Enable zoom on hover
     setDirection(dir);
-    if (dir === "-translate-x-[90%]") {
+    if (dir === "laptop:-translate-x-[90%]") {
       setTimeout(() => setBgWhite(true), 100);
     }
   };
@@ -53,7 +53,7 @@ export const LandingPage = () => {
         muted
         playsInline
         className={`fixed top-1/2 left-1/2 w-screen h-screen object-cover transform -translate-x-1/2 -translate-y-1/2 transform transition-transform duration-500 ${
-          zoom ? `laptop:scale-[200%] ${direction} ` : "scale-100 laptop:-translate-x-1/2"
+          zoom ? `laptop:scale-[180%] ${direction} ` : "scale-100 laptop:-translate-x-1/2"
         } ${
           bgWhite && direction === "laptop:-translate-x-[90%]"
             ? "invert transition-all duration-1000 fadeIn"
@@ -79,7 +79,7 @@ export const LandingPage = () => {
             src={
               bgWhite ? "/frontend-developer.svg" : "/frontend-developer-w.svg"
             }
-            className={`relative cursor-hollow laptop:hover:scale-[180%] transform text-center transition-transform duration-500 font-heading text-lg p-4  w-[250px] tablet:w-[300px]`}
+            className={`relative cursor-hollow laptop:hover:scale-[160%] transform text-center transition-transform duration-500 font-heading text-lg p-4  h-[190px] tablet:h-[240px]`}
             onMouseEnter={() => handleHover("laptop:-translate-x-[10%]")}
             onMouseLeave={handleHoverOut}
           />
@@ -91,7 +91,7 @@ export const LandingPage = () => {
         >
           <img
             src={bgWhite ? "/artist.svg" : "/artist-w.svg"}
-            className={`relative cursor-hollowDark laptop:hover:scale-[200%] transform transition-transform duration-500 font-heading text-lg p-4 w-[200px] tablet:w-[250px]`}
+            className={`relative cursor-hollowDark laptop:hover:scale-[180%] transform transition-transform duration-500 font-heading text-lg p-4 h-[190px] tablet:h-[240px]`}
             onMouseEnter={() => handleHover("laptop:-translate-x-[90%]")}
             onMouseLeave={handleHoverOut}
           />
