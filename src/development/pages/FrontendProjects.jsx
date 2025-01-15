@@ -85,7 +85,7 @@ export const FrontendProjects = () => {
                 } animate-mediumSlideIn transform transition-transform`}
                 style={{
                   opacity: 0,
-                  animationDelay:index === 0 ? "200ms" : `${index * 200}ms`,
+                  animationDelay:index === 0 ? "200ms" : `${index * 300}ms`,
                 }}
                 onMouseEnter={() => setHoveredProjectTitle(project.title)} // Set hovered title
                 onMouseLeave={() => setHoveredProjectTitle(null)}
@@ -114,7 +114,7 @@ export const FrontendProjects = () => {
           ))}
           <button
             onClick={handleShowOther}
-            className="mt-4 text-blue-500 laptop:hover:scale-105 laptop:cursor-hollow flex items-center gap-2 self-end group animate-longFadeIn"
+            className="mt-4 text-gray-400 laptop:hover:scale-105 laptop:cursor-hollow flex items-center gap-2 self-end group animate-longFadeIn"
           >
             {showOlder ? (
               <>

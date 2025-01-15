@@ -5,7 +5,7 @@
         "genre": "Portfolio",
         "category": ["Branding", "UX & UI design", "Fullstack development"],
         "introduction": "Fullstack + design",
-        "description": "This portfolio project for dancer & choreographer Ama Kyei I created a visual design focusing on her work. Using Figma, I started with and presented a few ideas for brainstorming to find her identity and preference. When we settled upon one direction I built a fullstack site where she can log in and upload projects herself.",
+        "description": "In this portfolio project for dancer & choreographer Ama Kyei I created a visual design focusing on her work using Figma. I started with and presented a few ideas for brainstorming to find her identity and preference. When we settled upon one direction I built a fullstack site where she can log in and upload new projects herself.",
         "images": [
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736263400/Sk%C3%A4rmbild_2024-10-07_154010_qwkpiw.png",

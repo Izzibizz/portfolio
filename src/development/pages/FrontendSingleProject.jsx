@@ -94,11 +94,11 @@ export const FrontendSingleProject = () => {
         </NavLink>
         {project.images && project.images.length > 0 && (
           <>
-            <img src={projectHeading} className="h-[50px] w-auto self-end animate-smallSlideInRight" />
+            <img src={projectHeading} className="h-[50px] w-auto self-end animate-longFadeIn" />
             <a
               href={project.netlify}
               target="_blank"
-              className="self-end w-fit text-2xl laptop:text-3xl tracking-wider cursor-hollow animate-smallSlideInRight"
+              className="self-end w-fit text-2xl laptop:text-3xl tracking-wider cursor-hollow animate-longFadeIn"
             >
               {project.title}
             </a>
