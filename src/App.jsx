@@ -13,7 +13,7 @@ const App = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      if (scrollPosition > 10) {
+      if (scrollPosition > 70) {
         console.log("Scrolling", scrollPosition);
         setIsScrolled(true); 
       } else {
