@@ -85,7 +85,7 @@ export const FrontendProjects = () => {
                 } animate-mediumSlideIn transform transition-transform`}
                 style={{
                   opacity: 0,
-                  animationDelay:index === 0 ? "200ms" : `${index * 300}ms`,
+                  animationDelay: `${(index + 1) * 200}ms`
                 }}
                 onMouseEnter={() => setHoveredProjectTitle(project.title)} // Set hovered title
                 onMouseLeave={() => setHoveredProjectTitle(null)}
