@@ -32,6 +32,39 @@
         "netlify": "https://amakyei.se",
         "github": "https://github.com/Izzibizz/amakyei"
       },
+      {
+        "title": "Izabel Lind",
+        "year": 2025,
+        "genre": "Portfolio",
+        "category": ["Branding", "UX & UI design", "Frontend development"],
+        "introduction": "Frontend + design",
+        "description": "This project showcases my work as a frontend developer, highlighting both my frontend and fullstack projects. Built using React, this portfolio is designed for easy maintenance and scalability. The decision to keep it as a dedicated frontend project allows me to focus on delivering a seamless user experience, with a particular emphasis on animations and interactive elements. One of the standout features of this portfolio is the animated moving background in the frontend section (larger viewports).",
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736932386/izabel-lind-portfolio-frontend-ux-designer_e21f9j.jpg",
+            "alt": "Izabel Lind portfolio website screenshot."
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736932392/izabel-lind-portfolio-frontend-ux-designer-overview_i49gzf.jpg",
+            "alt": "Izabel Lind portfolio website screenshot."
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736932424/izabel-lind-portfolio-frontend-ux-designer-project-page_mfy03g.jpg",
+            "alt": "Izabel Lind portfolio website screenshot."
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736932388/izabel-lind-portfolio-frontend-ux-designer-artist_kgqcxf.jpg",
+            "alt": "Izabel Lind portfolio website screenshot."
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736932393/izabel-lind-portfolio-frontend-ux-designer-art_zzsv4m.jpg",
+            "alt": "Izabel Lind portfolio website screenshot."
+          }
+        ],
+        "tags": ["JavaScript", "React", "vite", "REST API", "Zustand", "Node.js", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Postman", "Git", "Figma"],
+        "netlify": "https://amakyei.se",
+        "github": "https://github.com/Izzibizz/amakyei"
+      },
     {
         "title": "Glim",
         "year": 2024,
@@ -167,39 +200,6 @@
         "github": "https://github.com/Izzibizz/project-labyrinth-zustand-vite"
       },
       {
-        "title": "Music Releases",
-        "year": 2024,
-        "genre": "Music",
-        "category": ["Branding", "UX & UI design", "Frontend development"],
-        "introduction": "Frontend + design",
-        "description": "Using a restful Music API, me and a collegue built this music release site.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
-            "alt": "Website preview of Music releases."
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
-            "alt": "Website preview of Music releases."
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
-            "alt": "Website preview of Music releases."
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
-            "alt": "Website preview of Music releases."
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
-            "alt": "Website preview of Music releases."
-          }
-        ],
-        "tags": ["JavaScript", "React", "REST API", "Zustand", "HTML5", "CSS3"],
-        "netlify": "https://vite-music-releases.netlify.app/",
-        "github": "https://github.com/Izzibizz/project-music-releases"
-      },
-      {
         "title": "Liftly",
         "year": 2024,
         "genre": "Training",
@@ -232,14 +232,47 @@
         "netlify": "https://liftly.netlify.app/",
         "github": "https://github.com/Izzibizz/project-design-handoff-vite",
         "link": "https://www.linkedin.com/in/elin-bradway-75a8aa2a9/?locale=sv_SE"
-      },  
+      },
+      {
+        "title": "Music Releases",
+        "year": 2024,
+        "genre": "Music",
+        "category": ["Branding", "UX & UI design", "Frontend development"],
+        "introduction": "Frontend + design",
+        "description": "Using a restful Music API, me and a collegue built this music release site during the Technigo Bootcamp, to learn how to work with an API and develop more skills in css.",
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+            "alt": "Website preview of Music releases."
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+            "alt": "Website preview of Music releases."
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+            "alt": "Website preview of Music releases."
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+            "alt": "Website preview of Music releases."
+          },
+          {
+            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+            "alt": "Website preview of Music releases."
+          }
+        ],
+        "tags": ["JavaScript", "React", "REST API", "Zustand", "HTML5", "CSS3"],
+        "netlify": "https://vite-music-releases.netlify.app/",
+        "github": "https://github.com/Izzibizz/project-music-releases"
+      },
       {
         "title": "Cinemove",
         "year": 2024,
         "genre": "Movies",
-        "category": ["Branding", "UX & UI design", "Fullstack development"],
+        "category": ["Branding", "UX & UI design", "Frontend development"],
         "introduction": "Frontend + design",
-        "description": "This story-like game lets the user interact and move back and forth between different phases/locations of the game. The project was created to learn how to use Zustand and POST the reply of the user to the API. The data is stored and global, based on the users name input.",
+        "description": "Working with a REST API, we developed this movie site to display movies from different genres.",
         "images": [
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
