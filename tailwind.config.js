@@ -19,6 +19,9 @@ export default {
         laptop: "1025px",
         desktop: "1300px",
       },
+      gridTemplateColumns: {
+        16: 'repeat(16, minmax(0, 1fr))', 
+      },
       keyframes: {
         fadeIn: {
           "0%": { opacity: "0" },
@@ -73,6 +76,10 @@ export default {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-10%)' },
         },
+        rotateCircle: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
       },
       animation: {
         shortFadeIn: "fadeIn 1s ease-out",
@@ -88,7 +95,8 @@ export default {
         mediumSlideIn: "mediumSlideIn 0.5s ease-out forwards",
         smallSlideUp: "smallSlideUp 2s ease-out forwards",
         slowSlide: 'slowSlide 2s ease-in-out',
-        bounceUpDown: 'bounceUpDown 1s infinite'
+        bounceUpDown: 'bounceUpDown 1s infinite',
+        rotateCircle: 'rotateCircle 20s linear infinite',
       },
       cursor: {
         hollow: "url(/hollow-circle.svg), pointer",

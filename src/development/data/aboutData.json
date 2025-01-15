@@ -1,0 +1,22 @@
+[{
+    "description": "I am frontend developer & artist with a strong background in sculpture, painting, and artistic digital technologies. My interest in frontend development grew from collaborations on digital art projects, leading me to complete the Technigo bootcamp in 2024. I specialize in building responsive, animated interfaces and I am constantly on a journey to improve my skills. I focus on creating dynamic, user-friendly web experiences, seamlessly blending my artistic creativity with technical expertise.",
+    "skills": [
+        { "name": "JavaScript", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951901/javascript-1_qllikc.svg" },
+        { "name": "TypeScript", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951913/typescript_tnugd2.svg" },
+        { "name": "React", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736952418/react-2_zkmwnn.svg" },
+        { "name": "Vite", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736952315/vitejs_kc0y8s.svg" },
+        { "name": "REST API", "image": "" },
+        { "name": "Zustand", "image": "" },
+        { "name": "Node.js", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736952400/nodejs-1_pzr808.svg" },
+        { "name": "Express.js", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951898/icons8-express-js_fhohjs.svg" },
+        { "name": "MongoDB", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951903/mongodb-icon-1_trxjth.svg" },
+        { "name": "Mongoose", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951988/mongoose_h5tiqy.svg" },
+        { "name": "HTML5", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951896/html5-2_qz3cuy.svg" },
+        { "name": "CSS3", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951891/css-3_ljhrcr.svg" },
+        { "name": "Tailwind CSS", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951910/tailwind-css-2_rqcyf2.svg" },
+        { "name": "Postman", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951908/postman_epro8l.svg" },
+        { "name": "Git", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736952405/git-icon_b9ox0d.svg" },
+        { "name": "Figma", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951893/figma-icon_voe5mx.svg" }
+]
+}
+]

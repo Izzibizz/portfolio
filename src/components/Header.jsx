@@ -123,12 +123,12 @@ export const Header = () => {
           {isOpen && (
             <div
               ref={dropdownRef}
-              className={`absolute top-20 right-0 w-fit text-xl rounded-bl-xl ${bgColor} bg-opacity-90 transition-all duration-700 ease-in-out fadeIn overflow-hidden ${
-                isOpen ? "h-fit" : "h-0"
+              className={`absolute top-0 right-0 text-xl  ${bgColor} bg-opacity-90 transition-all duration-700 ease-in-out fadeIn overflow-hidden ${
+                isOpen ? "h-screen w-screen" : "h-0 w-0"
               }`}
             >
               <ul
-                className={`flex flex-col items-end gap-6 p-10 pr-8 ${textColor} font-body font-light`}
+                className={`flex flex-col items-center mt-[30%] gap-6 p-10 ${textColor} font-body font-light`}
               >
                 <NavLink
                   to={projectsPath}
