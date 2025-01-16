@@ -1,12 +1,12 @@
 [{
-    "description": "I am frontend developer & artist with a strong background in sculpture, painting, and artistic digital technologies. My interest in frontend development grew from collaborations on digital art projects, leading me to complete the Technigo bootcamp in 2024. I specialize in building responsive, animated interfaces and I am constantly on a journey to improve my skills. I focus on creating dynamic, user-friendly web experiences, seamlessly blending my artistic creativity with technical expertise.",
+    "description": "I am frontend developer & artist with a strong background in sculpture, painting and artistic digital technologies such as VR and 3D. My interest in frontend development grew from collaborations on a public digital art project, leading me to complete the Javascript Technigo bootcamp in 2024. I specialize in building interesting but user-friendly responsive interfaces and I am constantly on a journey to improve my skills. By creating dynamic, animated web experiences, I can seamlessly blend my artistic creativity with technical expertise.",
     "skills": [
         { "name": "JavaScript", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951901/javascript-1_qllikc.svg" },
         { "name": "TypeScript", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951913/typescript_tnugd2.svg" },
         { "name": "React", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736952418/react-2_zkmwnn.svg" },
         { "name": "Vite", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736952315/vitejs_kc0y8s.svg" },
-        { "name": "REST API", "image": "" },
-        { "name": "Zustand", "image": "" },
+        { "name": "REST API", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737012305/rest-api-svgrepo-com_h5uxvy.svg" },
+        { "name": "Zustand", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737012310/zustand_rnobga.svg" },
         { "name": "Node.js", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736952400/nodejs-1_pzr808.svg" },
         { "name": "Express.js", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951898/icons8-express-js_fhohjs.svg" },
         { "name": "MongoDB", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951903/mongodb-icon-1_trxjth.svg" },
