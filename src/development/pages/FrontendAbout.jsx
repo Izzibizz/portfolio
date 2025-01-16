@@ -21,9 +21,9 @@ export const FrontendAbout = () => {
     <img 
       src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1736934642/about-me-white_vitglw.svg" 
       alt="about text" 
-      className="h-[100px] w-auto self-start mb-8"
+      className="h-[100px] w-auto self-start laptop:mb-8"
     />
-    <div className="flex flex-col flex-col-reverse laptop:flex-row justify-between tablet:gap-10">
+    <div className="flex flex-col flex-col-reverse laptop:flex-row justify-between gap-8 tablet:gap-10">
       <div className="flex flex-col laptop:max-w-[600px] gap-8">
         <p className="text-justify w-full tablet:p-6 tablet:bg-black tablet:bg-opacity-[20%] h-fit rounded-xl">
           <span className="text-xl font-medium">Hey, </span><br/>
@@ -32,7 +32,7 @@ export const FrontendAbout = () => {
         <div className="p-4 rounded-xl w-full tablet:p-6 bg-black bg-opacity-[20%]">
           <ul className="grid grid-cols-2 tablet:grid-cols-4 gap-4">
             {aboutData[0].skills.map((skill, index) => (
-              <li key={index} className="col-span-1 flex gap-2 justify-center">
+              <li key={index} className="col-span-1 flex gap-2 tablet:justify-center">
                 {skill.name}
                 {skill.image.length > 0 && (
                   <img src={skill.image} className="w-[20px]" alt="logo" />
@@ -42,7 +42,7 @@ export const FrontendAbout = () => {
           </ul>
         </div>
       </div>
-      <div className="relative w-full tablet:w-auto h-[400px] tablet:h-[500px] laptop:h-[600px] flex tablet:justify-end mt-8 tablet:mt-0">
+      <div className="relative w-full tablet:w-auto h-auto tablet:h-[500px] laptop:h-[600px] flex tablet:justify-end mt-8 tablet:mt-0">
         <img 
           src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1737014471/izabel.lind-frontend-developer-artist_qve3us.jpg" 
           alt="portrait Izabel Lind" 
