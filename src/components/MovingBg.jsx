@@ -104,7 +104,7 @@ export const MovingBg = () => {
   }, [adjustSpeed, isMobile]); // Only run on desktop
 
   return (
-    <div className="fixed z-0 w-full h-full overflow-hidden animate-fadeIn">
+    <div className="z-0 w-full max-h-full h-full relative">
       {circles.map((circle, index) => (
         <div
           key={index}

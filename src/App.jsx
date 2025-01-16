@@ -32,7 +32,7 @@ const App = () => {
     <div className={`min-h-screen w-screen max-w-screen flex flex-col  ${bgWhite? "bg-light" : "bg-black"} overflow-hidden no-scrollbar scroll-smooth`}>
       <ScrollToTop />
       <Header />
-      <main className={` ${frontendPortfolioDisplay ? "pt-none": "pt-32 laptop:pt-36"} w-full mx-auto flex-grow  min-h-screen pb-20 `}>
+      <main className={` ${frontendPortfolioDisplay ? "pt-none": "pt-32 laptop:pt-36"} w-full mx-auto flex-grow `}>
       <MainRoutes />
       </main>
       <Footer/>
