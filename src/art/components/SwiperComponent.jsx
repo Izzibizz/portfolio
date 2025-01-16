@@ -13,7 +13,7 @@ export const SwiperComponent = ({projects}) => {
   return (
     <Swiper
     spaceBetween={30}
-    slidesPerView={1}
+    slidesPerView={8}
     navigation
     loop
     speed={1200}
@@ -33,21 +33,13 @@ export const SwiperComponent = ({projects}) => {
         .toLowerCase();
 
       return (
-        <SwiperSlide key={index} className="hover:scale-105 py-6 ">
-          <NavLink
-            to={`/art/project/${projectEndpoint}`}
-            aria-label={`Link to ${project.title}`}
-          >
+        <SwiperSlide key={index} className="hover:scale-105 h-full py-6 ">
+        
             <img
               src={project.images[0].url}
               alt={project.title}
-              className="aspect-square object-cover rounded-xl"
+              className="object-cover h-full w-auto"
             />
-            <div className="font-heading text-xs pt-2">
-              <p>{project.title}</p>
-              <p>{project.year}</p>
-            </div>
-          </NavLink>
         </SwiperSlide>
       );
     })}

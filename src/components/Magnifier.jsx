@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-export const Magnifier = ({ url, col, animation }) => {
+export const Magnifier = ({ url, animation }) => {
   const [isLaptopWidth, setIsLaptopWidth] = useState(window.innerWidth > 1024);
   const [isVisible, setIsVisible] = useState(false);
   const [hasAnimated, setHasAnimated] = useState(false)
@@ -85,7 +85,7 @@ export const Magnifier = ({ url, col, animation }) => {
   }, [hasAnimated]);
 
   return (
-    <div className={`relative w-screen tablet:w-full ${col}`}>
+    <div className={`relative w-full tablet:w-1/4`}>
       <div
         className="absolute h-[500px] w-[500px] rounded-full pointer-events-none z-20"
         style={{
@@ -98,7 +98,7 @@ export const Magnifier = ({ url, col, animation }) => {
         }}
       ></div>
       <div
-        className="w-full aspect-square tablet:aspect-auto h-auto "
+        className="w-full tablet:aspect-[3/4] h-auto "
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
         ref={imageRef}

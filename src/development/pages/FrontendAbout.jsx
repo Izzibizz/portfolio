@@ -17,7 +17,7 @@ export const FrontendAbout = () => {
   return (
     <section className="text-white animate-fadeIn flex flex-col">
   <MovingBg />
-  <div className="flex flex-col w-10/12 laptop:w-8/12 mx-auto mt-32 z-20 font-body font-light">
+  <div className="flex flex-col w-10/12 laptop:w-8/12 mx-auto pt-6 z-20 font-body font-light">
     <img 
       src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1736934642/about-me-white_vitglw.svg" 
       alt="about text" 
@@ -46,7 +46,7 @@ export const FrontendAbout = () => {
         <img 
           src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1737014471/izabel.lind-frontend-developer-artist_qve3us.jpg" 
           alt="portrait Izabel Lind" 
-          className="h-full w-auto object-cover rounded-xl"
+          className="h-full w-auto object-cover sepia rounded-xl"
         />
         <div className="absolute bottom-[-4%] laptop:bottom-[90%] right-[-5%] laptop:right-[-12%] w-[100px] h-[100px] border-none rounded-full group  ">
           <div className="w-1/2 h-1/2 top-1/4 left-1/4 rounded-full bg-light relative flex justify-center items-center text-black font-medium font-body text-xl  laptop:group-hover:scale-[110%]">CV</div>

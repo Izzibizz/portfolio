@@ -7,7 +7,7 @@ import { SlArrowDown } from "react-icons/sl";
 import { SlArrowUp } from "react-icons/sl";
 
 export const FrontendProjects = () => {
-  const { setFrontendPortfolioDisplay, setArtPortfolioDisplay } =
+  const { setFrontendPortfolioDisplay, setArtPortfolioDisplay, setBgWhite } =
     useProjectsStore();
   const [hoveredProjectTitle, setHoveredProjectTitle] = useState(null);
   const [showImage, setShowImage] = useState(false);
@@ -33,6 +33,7 @@ export const FrontendProjects = () => {
 
   useEffect(() => {
     setFrontendPortfolioDisplay(true);
+    setBgWhite(false)
     setArtPortfolioDisplay(false);
   }, []);
 
@@ -47,7 +48,7 @@ export const FrontendProjects = () => {
   return (
     <section className="font-body font-medium text-white flex flex-col ">
       <MovingBg />
-      <div className="flex flex-col gap-0 w-9/12 tablet:w-7/12 laptop:w-8/12 mx-auto mt-40 z-20">
+      <div className="flex flex-col gap-0 w-9/12 tablet:w-7/12 laptop:w-8/12 mx-auto mt-20 z-20">
         <img
           src="/frontend-developer-w.svg"
           className="w-[auto] h-[100px] laptop:h-[150px] self-start animate-fadeIn"

@@ -1,6 +1,8 @@
 import { useProjectsStore } from "../stores/useProjectsStore";
 import { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
+import { IoIosArrowDroprightCircle } from "react-icons/io";
+
 
 export const Header = () => {
   const {
@@ -15,12 +17,14 @@ export const Header = () => {
   const dropdownRef = useRef();
   const buttonRef = useRef();
   const [isOpen, setIsOpen] = useState(false);
+  const [logoIsHovered, setLogoIsHovered] = useState(false);
 
   const aboutPath = artPortfolioDisplay ? "/art/about" : "/frontend/about";
   const contactPath = artPortfolioDisplay
     ? "/art/contact"
     : "/frontend/contact";
   const projectsPath = artPortfolioDisplay ? "/art" : "/frontend";
+  const otherPortfolioPath = artPortfolioDisplay ? "/frontend" : "/art";
   const menuColor = bgWhite ? "bg-black" : "bg-white";
   const bgColor = bgWhite ? "bg-white" : "bg-black";
   const textColor = bgWhite ? "text-black" : "text-white";
@@ -186,6 +190,17 @@ export const Header = () => {
             >
               Contact
             </NavLink>
+            <NavLink to={otherPortfolioPath}
+              aria-label={`Link to art page`}>
+
+            <img
+      src= {logoIsHovered && frontendPortfolioDisplay ? "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737051825/art-logo-izabel-lind_bcfqrh.svg" : !logoIsHovered && frontendPortfolioDisplay ? "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737019576/logo-white-izabel-lind_kbssdk.svg" : logoIsHovered && artPortfolioDisplay ? "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737052620/dev-logo-izabel-lind_mmo4u0.svg" : !logoIsHovered && artPortfolioDisplay ? "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737019579/logo-black-izabel-lind_pz4dbw.svg" : ""}
+      alt="to art portfolio"
+      className="w-[40px] transition-opacity duration-2000 ease-in-out cursor-hollow"
+      onMouseEnter={() => setLogoIsHovered(true)}
+      onMouseLeave={() => setLogoIsHovered(false)}
+    />
+    </NavLink>
           </div>
         </>
       )}

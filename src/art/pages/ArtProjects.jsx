@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { useProjectsStore } from "../../stores/useProjectsStore";
 import { Magnifier } from "../../components/Magnifier";
+import { SwiperComponent }from "../components/SwiperComponent"
+import artProjects from "../data/artProjects.json"
 
 export const ArtProjects = () => {
   const {
@@ -13,14 +15,7 @@ export const ArtProjects = () => {
   const [ fadeOut, setFadeout ] = useState(false)
   const image1 =
     "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650485/Izabel_Lind_VR_Oblivion_2020_Konstakademin_nycope.jpg";
-  const image2 =
-    "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650850/ung-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_qqzrd7.jpg";
-  const matrix1 =
-    "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728656164/Current.2023.side.zoom_uz3fnv.jpg";
-  const matrix2 =
-    "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728656186/Dripping_off_r1qtnm.jpg";
-  const matrix3 =
-    "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728656205/current.2023.inside_wxpopq.jpg";
+
 
   useEffect(() => {
     setArtPortfolioDisplay(true);
@@ -35,7 +30,7 @@ export const ArtProjects = () => {
   }, []);
 
   return (
-    <section className="font-body font-medium animate-fadeIn flex flex-col gap-10">
+    <section className="font-body font-medium animate-fadeIn flex flex-col gap-10 w-10/12 laptop:w-full mx-auto">
       {titleAndVideoVisible ? (
         <>
           <video
@@ -56,56 +51,26 @@ export const ArtProjects = () => {
           />
           <img
             src="/art-portfolio-vertical.svg"
-            className={`w-9/12 tablet:w-10/12 laptop:hidden mx-auto mt-10 z-20 ${fadeOut && "animate-fadeOut"}`}
+            className={`w-6/12 laptop:hidden mx-auto mt-10 z-20 ${fadeOut && "animate-fadeOut"}`}
           />
         </>
       ) : (
-      <div className=" w-full flex flex-col gap-y-8 tablet:gap-x-8 z-20">
-        <div className="flex flex-col">
-        <div className="flex px-8 tablet:px-20 gap-8 overflow-x-scroll tablet:grid tablet:grid-cols-3 tablet:overflow-visible">
-          <Magnifier
-            url={image1}
-            animation={"animate-slideUp"}
-            col={"tablet:col-span-2 tablet:mt-10"}
-          />
-          <Magnifier
-            url={image2}
-            animation={"animate-slideUp"}
-            col={"tablet:col-span-1"}
-          />
+        <div className="w-full flex px-10">
+            <div className="flex flex-col items-end">
+              <Magnifier
+                url={image1}
+                animation={"animate-slideUp"}
+              />
+       {/*          <NavLink
+            to={`/art/project/${projectEndpoint}`}
+            aria-label={`Link to ${project.title}`}
+          ></NavLink> */}
+            </div>
           </div>
-          <div>
-            <h3>oblivion 2020</h3>
-          </div>
-        </div>
-        <img src="/line.svg" alt="separation line" className="w-screen z-10" />
-        <div className="grid grid-cols-1 px-8 tablet:px-20  tablet:grid-cols-3 gap-y-8 tablet:gap-x-8 ">
-          <Magnifier
-            url={matrix1}
-            animation={"animate-slideUp"}
-            col="col-span-1"
-          />
-          <div className="flex flex-col gap-8">
-            <Magnifier
-              url={matrix2}
-              animation={"animate-slideUp"}
-              col="col-span-1 tablet:mt-8"
-            />
-            <Magnifier
-              url={matrix3}
-              animation={"animate-slideUp"}
-              col="col-span-1"
-            />
-          </div>
-        </div>
-      </div>
       )}
-
-      {/*    <div className=" animate-fadeIn grid grid-cols-3">
+      <div className="w-full h-[200px]">
        <SwiperComponent projects={artProjects} />
-      <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650485/Izabel_Lind_VR_Oblivion_2020_Konstakademin_nycope.jpg" alt="oblivion artwork"className="col-span-2 h-full object-cover"/>
-      <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650850/ung-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_qqzrd7.jpg" alt="oblivion"/>
-      </div> */}
+      </div>
     </section>
   );
 };

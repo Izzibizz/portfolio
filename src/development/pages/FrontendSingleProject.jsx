@@ -88,7 +88,7 @@ export const FrontendSingleProject = () => {
   return (
     <section className="font-body font-medium text-white  flex flex-col">
       <MovingBg />
-      <div className="flex flex-col w-10/12 laptop:w-9/12 mx-auto mt-32 z-20">
+      <div className="flex flex-col w-10/12 laptop:w-9/12 mx-auto pt-6 z-20">
         <NavLink to={`/frontend`}>
           <SlArrowLeft className="cursor-hollow pl-2 w-6 h-6 laptop:w-8 laptop:h-6 absolute z-20 top-40 laptop:top-52 laptop:left-20 hover:scale-125" />{" "}
         </NavLink>
