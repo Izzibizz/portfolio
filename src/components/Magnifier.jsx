@@ -85,7 +85,7 @@ export const Magnifier = ({ url, animation }) => {
   }, [hasAnimated]);
 
   return (
-    <div className={`relative w-full tablet:w-1/4`}>
+    <div className={`relative w-full tablet:w-2/3 laptop:w-1/4`}>
       <div
         className="absolute h-[500px] w-[500px] rounded-full pointer-events-none z-20"
         style={{
@@ -98,7 +98,7 @@ export const Magnifier = ({ url, animation }) => {
         }}
       ></div>
       <div
-        className="w-full tablet:aspect-[3/4] h-auto "
+        className="w-full aspect-[4/3] tablet:aspect-[3/4] h-auto "
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
         ref={imageRef}

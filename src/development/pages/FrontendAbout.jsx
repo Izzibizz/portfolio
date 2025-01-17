@@ -44,9 +44,9 @@ export const FrontendAbout = () => {
       </div>
       <div className="relative w-full tablet:w-auto h-auto tablet:h-[500px] laptop:h-[600px] flex tablet:justify-end mt-8 tablet:mt-0">
         <img 
-          src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1737014471/izabel.lind-frontend-developer-artist_qve3us.jpg" 
+          src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1737101809/izabel.lind-frontend-developer-artist-2_ectyvj.jpg" 
           alt="portrait Izabel Lind" 
-          className="h-full w-auto object-cover sepia rounded-xl"
+          className="h-full w-auto object-cover rounded-xl"
         />
         <div className="absolute bottom-[-4%] laptop:bottom-[90%] right-[-5%] laptop:right-[-12%] w-[100px] h-[100px] border-none rounded-full group  ">
           <div className="w-1/2 h-1/2 top-1/4 left-1/4 rounded-full bg-light relative flex justify-center items-center text-black font-medium font-body text-xl  laptop:group-hover:scale-[110%]">CV</div>

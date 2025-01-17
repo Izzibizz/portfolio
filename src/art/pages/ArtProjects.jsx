@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom"
 import { useProjectsStore } from "../../stores/useProjectsStore";
 import { Magnifier } from "../../components/Magnifier";
-import { SwiperComponent }from "../components/SwiperComponent"
 import artProjects from "../data/artProjects.json"
 
 export const ArtProjects = () => {
@@ -30,7 +30,7 @@ export const ArtProjects = () => {
   }, []);
 
   return (
-    <section className="font-body font-medium animate-fadeIn flex flex-col gap-10 w-10/12 laptop:w-full mx-auto">
+    <section className="font-body font-medium animate-fadeIn h-full max-w-screen overflow-hidden justify-between flex flex-col gap-10">
       {titleAndVideoVisible ? (
         <>
           <video
@@ -55,22 +55,29 @@ export const ArtProjects = () => {
           />
         </>
       ) : (
-        <div className="w-full flex px-10">
+        <>
             <div className="flex flex-col items-end">
               <Magnifier
                 url={image1}
-                animation={"animate-slideUp"}
+                animation={"animate-smallSlideInRight"}
               />
        {/*          <NavLink
             to={`/art/project/${projectEndpoint}`}
             aria-label={`Link to ${project.title}`}
           ></NavLink> */}
             </div>
-          </div>
+          
+      <ul className="w-full grid grid-cols-4 gap-2 tablet:grid-cols-8 laptop:grid-cols-16">
+      {artProjects.map((project, index) => (
+        <li key={index} className="list-none">
+          <img src={project.images[0].url} alt={project.images[0].alt} className="aspect-[3/4] object-cover"/>
+        </li>
+      ))}
+  
+     </ul>
+     </>
       )}
-      <div className="w-full h-[200px]">
-       <SwiperComponent projects={artProjects} />
-      </div>
+
     </section>
   );
 };
