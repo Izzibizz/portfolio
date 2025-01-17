@@ -30,7 +30,7 @@ export const ArtProjects = () => {
   }, []);
 
   return (
-    <section className="font-body font-medium animate-fadeIn h-full max-w-screen overflow-hidden justify-between flex flex-col gap-10">
+    <section className="font-body font-medium animate-fadeIn h-full justify-between flex flex-col gap-10">
       {titleAndVideoVisible ? (
         <>
           <video
@@ -57,10 +57,11 @@ export const ArtProjects = () => {
       ) : (
         <>
             <div className="flex flex-col items-end">
-              <Magnifier
+              <img src={image1} className="w-full tablet:w-2/3 laptop:w-1/4 aspect-[4/3] tablet:aspect-[3/4] object-cover" />
+           {/*    <Magnifier
                 url={image1}
                 animation={"animate-smallSlideInRight"}
-              />
+              /> */}
        {/*          <NavLink
             to={`/art/project/${projectEndpoint}`}
             aria-label={`Link to ${project.title}`}
