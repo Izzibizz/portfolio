@@ -85,7 +85,7 @@ export const Magnifier = ({ url, animation }) => {
   }, [hasAnimated]);
 
   return (
-    <div className={`relative w-full tablet:w-2/3 laptop:w-1/4`}>
+    <div className={`relative w-full tablet:w-2/3 laptop:w-1/4  object-cover`}>
       <div
         className="absolute h-[500px] w-[500px] rounded-full pointer-events-none z-20"
         style={{

@@ -2,7 +2,6 @@
 import { useEffect } from "react"
 import { Header } from "./components/Header"
 import { MainRoutes } from "./routes/MainRoutes";
-import { Footer } from "./components/Footer";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { useProjectsStore } from "./stores/useProjectsStore";
 
@@ -35,7 +34,6 @@ const App = () => {
       <main className={` ${frontendPortfolioDisplay ? "mt-28": "mt-24"} w-full`}>
       <MainRoutes />
       </main>
-      <Footer/>
    </div>
   )
 }

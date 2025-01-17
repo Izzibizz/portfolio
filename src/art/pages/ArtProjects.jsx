@@ -13,9 +13,8 @@ export const ArtProjects = () => {
     titleAndVideoVisible,
   } = useProjectsStore();
   const [ fadeOut, setFadeout ] = useState(false)
-  const image1 =
-    "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650485/Izabel_Lind_VR_Oblivion_2020_Konstakademin_nycope.jpg";
-
+  const [ clickedImage, setClickedImage ] = useState(artProjects[0].images[0].url)
+  
 
   useEffect(() => {
     setArtPortfolioDisplay(true);
@@ -57,11 +56,11 @@ export const ArtProjects = () => {
       ) : (
         <>
             <div className="flex flex-col items-end">
-              <img src={image1} className="w-full tablet:w-2/3 laptop:w-1/4 aspect-[4/3] tablet:aspect-[3/4] object-cover" />
-           {/*    <Magnifier
-                url={image1}
+              {/* <img src={image1} className="w-full tablet:w-2/3 laptop:w-1/4 aspect-[4/3] tablet:aspect-[3/4] object-cover" /> */}
+           <Magnifier
+                url={clickedImage}
                 animation={"animate-smallSlideInRight"}
-              /> */}
+              /> 
        {/*          <NavLink
             to={`/art/project/${projectEndpoint}`}
             aria-label={`Link to ${project.title}`}
@@ -70,7 +69,7 @@ export const ArtProjects = () => {
           
       <ul className="w-full grid grid-cols-4 gap-2 tablet:grid-cols-8 laptop:grid-cols-16">
       {artProjects.map((project, index) => (
-        <li key={index} className="list-none">
+        <li key={index} className="list-none" onClick={() => setClickedImage(project.images[0].url)}>
           <img src={project.images[0].url} alt={project.images[0].alt} className="aspect-[3/4] object-cover"/>
         </li>
       ))}
