@@ -147,7 +147,7 @@ export const FrontendSingleProject = () => {
                     <SwiperSlide key={index}>
                       <div className="relative group">
                         <img
-                          src={file.url}
+                          src={file.thumbnail}
                           alt={file.alt}
                           className="w-full h-full object-cover cursor-hollow rounded laptop:rounded-xl "
                         />

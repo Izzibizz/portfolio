@@ -9,22 +9,27 @@
         "images": [
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736263400/Sk%C3%A4rmbild_2024-10-07_154010_qwkpiw.png",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736263400/Sk%C3%A4rmbild_2024-10-07_154010_qwkpiw.png",
             "alt": "Ama kyei portfolio website screenshot."
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-2_zxmal9.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-2_zxmal9.jpg",
             "alt": "Ama kyei portfolio website screenshot."
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736416531/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind.flower_c5h4sj.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736416531/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind.flower_c5h4sj.jpg",
             "alt": "Ama kyei portfolio website screenshot."
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-3_xnblch.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-3_xnblch.jpg",
             "alt": "Ama kyei portfolio website screenshot."
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-4_p9g3xs.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-4_p9g3xs.jpg",
             "alt": "Ama kyei portfolio website screenshot."
           }
         ],
@@ -42,22 +47,27 @@
         "images": [
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736932386/izabel-lind-portfolio-frontend-ux-designer_e21f9j.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736932386/izabel-lind-portfolio-frontend-ux-designer_e21f9j.jpg",
             "alt": "Izabel Lind portfolio website screenshot."
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736932392/izabel-lind-portfolio-frontend-ux-designer-overview_i49gzf.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736932392/izabel-lind-portfolio-frontend-ux-designer-overview_i49gzf.jpg",
             "alt": "Izabel Lind portfolio website screenshot."
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736932424/izabel-lind-portfolio-frontend-ux-designer-project-page_mfy03g.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736932424/izabel-lind-portfolio-frontend-ux-designer-project-page_mfy03g.jpg",
             "alt": "Izabel Lind portfolio website screenshot."
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736932388/izabel-lind-portfolio-frontend-ux-designer-artist_kgqcxf.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736932388/izabel-lind-portfolio-frontend-ux-designer-artist_kgqcxf.jpg",
             "alt": "Izabel Lind portfolio website screenshot."
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736932393/izabel-lind-portfolio-frontend-ux-designer-art_zzsv4m.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736932393/izabel-lind-portfolio-frontend-ux-designer-art_zzsv4m.jpg",
             "alt": "Izabel Lind portfolio website screenshot."
           }
         ],
@@ -75,22 +85,27 @@
         "images": [
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736774194/glim.hemsida.products-izabel.lind_wqrssl.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736774194/glim.hemsida.products-izabel.lind_wqrssl.jpg",
             "alt": "Website screenshot of Glim overview page"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736773964/glim-startsida.izabel.lind_eufnkd.png",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736773964/glim-startsida.izabel.lind_eufnkd.png",
             "alt": "Website screenshot of Glim start page"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736774413/glim.hemsida.product-page-izabel.lind_zveawt.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736774413/glim.hemsida.product-page-izabel.lind_zveawt.jpg",
             "alt": "Website screenshot of product Glim"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736774361/glim.hemsida.account-user-page-izabel.lind_pyl4ir.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736774361/glim.hemsida.account-user-page-izabel.lind_pyl4ir.jpg",
             "alt": "Website screenshot of Glim user page"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736774752/glim.hemsida.account-checkout-page-izabel.lind_z3ktuj.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736774752/glim.hemsida.account-checkout-page-izabel.lind_z3ktuj.jpg",
             "alt": "Website screenshot of Glim checkout page"
           }
 
@@ -109,22 +124,27 @@
         "images": [
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413622/weatherflow-izabel.lind-frontend-developer_ocic2f.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736413622/weatherflow-izabel.lind-frontend-developer_ocic2f.jpg",
             "alt": "website preview of Weatherflow"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413623/weather-flow-izabel-lind-izla-bonita-2_cvgjao.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736413623/weather-flow-izabel-lind-izla-bonita-2_cvgjao.jpg",
             "alt": "website preview of Weatherflow"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413622/weatherflow-izabel.lind-frontend-developer-3_pur0tj.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736413622/weatherflow-izabel.lind-frontend-developer-3_pur0tj.jpg",
             "alt": "website preview of Weatherflow"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736776508/weatherflow-izabel.lind-frontend-developer-snow_esfaxf.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736776508/weatherflow-izabel.lind-frontend-developer-snow_esfaxf.jpg",
             "alt": "website preview of Weatherflow"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736776507/weatherflow-izabel.lind-frontend-developer-night_ofoemj.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736776507/weatherflow-izabel.lind-frontend-developer-night_ofoemj.jpg",
             "alt": "website preview of Weatherflow"
           }
          
@@ -143,22 +163,27 @@
         "images": [
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262931/artsome_rszks4.png",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736262931/artsome_rszks4.png",
             "alt": "Website preview of Artsome"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262931/artsome_rszks4.png",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736262931/artsome_rszks4.png",
             "alt": "Website preview of Artsome"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262931/artsome_rszks4.png",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736262931/artsome_rszks4.png",
             "alt": "Website preview of Artsome"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262931/artsome_rszks4.png",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736262931/artsome_rszks4.png",
             "alt": "Website preview of Artsome"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262931/artsome_rszks4.png",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736262931/artsome_rszks4.png",
             "alt": "Website preview of Artsome"
           }
         ],
@@ -176,22 +201,27 @@
         "images": [
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778877/survivors-story-frontend-api-3-izabel.lind_j0do2m.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736778877/survivors-story-frontend-api-3-izabel.lind_j0do2m.jpg",
             "alt": "Website preview of survivors story game"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778878/survivors-story-frontend-api-4-izabel.lind_lmx2h2.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736778878/survivors-story-frontend-api-4-izabel.lind_lmx2h2.jpg",
             "alt": "Website preview of survivors story game"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778881/survivors-story-frontend-api-izabel.lind_vfyyli.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736778881/survivors-story-frontend-api-izabel.lind_vfyyli.jpg",
             "alt": "Website preview of survivors story game"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778880/survivors-story-frontend-api-5-izabel.lind_jmrfez.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736778880/survivors-story-frontend-api-5-izabel.lind_jmrfez.jpg",
             "alt": "Website preview of survivors story game"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778876/survivors-story-frontend-api-2-izabel.lind_xrrnjv.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736778876/survivors-story-frontend-api-2-izabel.lind_xrrnjv.jpg",
             "alt": "Website preview of survivors story game"
           }
         ],
@@ -209,22 +239,27 @@
         "images": [
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736779488/liftly-ux-designer-handoff-frontend-izabel.lind_ozz7ei.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736779488/liftly-ux-designer-handoff-frontend-izabel.lind_ozz7ei.jpg",
             "alt": "Website preview of Liftly"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736780714/liftly-ux-designer-handoff-frontend-3-izabel.lind_bhl1yh.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736780714/liftly-ux-designer-handoff-frontend-3-izabel.lind_bhl1yh.jpg",
             "alt": "Website preview of Liftly"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736780712/liftly-ux-designer-handoff-frontend-2-izabel.lind_dumzgy.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736780712/liftly-ux-designer-handoff-frontend-2-izabel.lind_dumzgy.jpg",
             "alt": "Website preview of Liftly"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736780715/liftly-ux-designer-handoff-frontend-izabel.cta_o3dglr.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736780715/liftly-ux-designer-handoff-frontend-izabel.cta_o3dglr.jpg",
             "alt": "Website preview of Liftly"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736780711/liftly-ux-designer-handoff-frontend-figma-izabel.lind_vilpbh.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736780711/liftly-ux-designer-handoff-frontend-figma-izabel.lind_vilpbh.jpg",
             "alt": "Website preview of Liftly"
           }
         ],
@@ -243,22 +278,27 @@
         "images": [
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
             "alt": "Website preview of Music releases."
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
             "alt": "Website preview of Music releases."
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
             "alt": "Website preview of Music releases."
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
             "alt": "Website preview of Music releases."
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
             "alt": "Website preview of Music releases."
           }
         ],
@@ -276,22 +316,27 @@
         "images": [
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736262927/cine-movies_ull9ic.png",
             "alt": "Website preview of Cinemove"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
             "alt": "Website preview of Cinemove"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
             "alt": "Website preview of Cinemove"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
+            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
             "alt": "Website preview of Cinemove"
           },
           {
             "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
+            "thumbnail": "",
             "alt": "Website preview of Cinemove"
           }
         ],

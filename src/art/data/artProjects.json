@@ -12,6 +12,544 @@
         "photographer": "Jane Doe"
       },
       {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737103189/core-2024-izabel-lind-closeup_jv82kw.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": [],
+    "commissionedBy": [],
+    "fundedBy": []
+  },
+  {
+    "title": "Oblivion",
+    "year": 2020,
+    "material": "3D, VR and sculpture",
+    "description": "A large metallic installation where the visitor can enter a virtual landscape of the scannet Nikehallen in Konstakademien",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737403398/konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_hnornw.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737403398/konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_hnornw.jpg",
+        "alt": "Close-up of the brushstrokes in the painting.",
+        "photographer": "John Smith"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737057958/1500-oblivion-tra%CC%88d-2-izabel-lind-fa%CC%88rnstrand_kb5rob.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737057958/1500-oblivion-tra%CC%88d-2-izabel-lind-fa%CC%88rnstrand_kb5rob.jpg",
+        "alt": "Close-up of the brushstrokes in the painting.",
+        "photographer": "John Smith"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737057975/1500-oblivion-Izabel-Lind-Fa%CC%88rnstrand_agjidz.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737057975/1500-oblivion-Izabel-Lind-Fa%CC%88rnstrand_agjidz.jpg",
+        "alt": "Close-up of the brushstrokes in the painting.",
+        "photographer": "John Smith"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650485/Izabel_Lind_VR_Oblivion_2020_Konstakademin_nycope.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1728650485/Izabel_Lind_VR_Oblivion_2020_Konstakademin_nycope.jpg",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737057963/1500-oculus-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_cyc3f3.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737057963/1500-oculus-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_cyc3f3.jpg",
+        "alt": "Close-up of the brushstrokes in the painting.",
+        "photographer": "John Smith"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": ["Konstakademien"],
+    "commissionedBy": null,
+    "fundedBy": ["KKH"]
+  },
+  {
+    "title": "Matrix",
+    "year": 2021,
+    "material": "Sculpture",
+    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058965/Izabel-lind-farnstrand-brons-skulptur-Matrix-2000-1_j06rvo.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058965/Izabel-lind-farnstrand-brons-skulptur-Matrix-2000-1_j06rvo.jpg",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "jean baptiste béranger"
+      },
+
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728656186/Dripping_off_r1qtnm.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "jean baptiste béranger"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058852/Izabel-Matrix-2000-podie.2_n73ube.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "jean baptiste béranger"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": "Oceanic Art Gallery, New York",
+    "commissionedBy": "Private collector",
+    "fundedBy": "Art Lovers Foundation"
+  },
+  {
+    "title": "Stream",
+    "year": 2024,
+    "material": "Live streamed light sculpture",
+    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058683/sensor-stream-led-skulptur-orebro-universitet-izabel-lind_s5kwb7.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058683/sensor-stream-led-skulptur-orebro-universitet-izabel-lind_s5kwb7.jpg",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058578/2-stream-led-skulptur-orebro-universitet-izabel-lind_fymtig.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737099537/3D-skanning-orebro-universitet-izabel-lind_ptr71t.png",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737099459/skiss-stream-izabel-lind-orebro-universitet-statens-konstrad-2023_xbyedy.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": ["Örebro Universitet"],
+    "commissionedBy": ["Akademiska hus", "Statens Konstråd"],
+    "fundedBy": ["Akademiska hus", "Statens Konstråd"]
+  },
+
+  {
+    "title": "The Welcoming",
+    "year": 2022,
+    "material": "Painting",
+    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058382/izabel-lind-farnstrand-the-welcoming-2022-konstna%CC%88r-kkh-_oatbin.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058382/izabel-lind-farnstrand-the-welcoming-2022-konstna%CC%88r-kkh-_oatbin.jpg",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058374/the-welcoming-izabel.lind.farnstrand-face_acyl0z.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": ["KKH"],
+    "commissionedBy": [],
+    "fundedBy": []
+  },
+  {
+    "title": "Memoar",
+    "year": 2022,
+    "material": "Painting",
+    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737059623/systrar3-izabel-lind_zr231d.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737059623/systrar3-izabel-lind_zr231d.jpg",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737059701/tryck-spelet-izabel-lind_vbbrda.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": [],
+    "commissionedBy": [],
+    "fundedBy": []
+  },
+  {
+    "title": "How to prepare for death",
+    "year": 2019,
+    "material": "Painting",
+    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058015/How-to-prepare-for-death-2000-3_hzix1m.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058015/How-to-prepare-for-death-2000-3_hzix1m.jpg",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058017/How-to-prepare-for-death-2000-1_pitxid.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058024/How-to-prepare-for-death-2000-4_y8ha6x.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058036/How-to-prepare-for-death-2000-11_oezjay.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058027/How-to-prepare-for-death-2000-12_put74r.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058033/How-to-prepare-for-death-2000-2_s64l4y.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058042/How-to-prepare-for-death-2000-10_gn3akt.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058030/detalj2-va%CC%88gg-kroppssplitter-izabel-lind-farnstrand_b4sjex.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058039/detalj3-va%CC%88gg-kroppssplitter-izabel-lind-farnstrand_pmxqnn.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058011/2-va%CC%88gg-kroppssplitter-izabel-lind-farnstrand_npcghv.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": [],
+    "commissionedBy": [],
+    "fundedBy": []
+  },
+  {
+    "title": "Trust",
+    "year": 2018,
+    "material": "video",
+    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737403524/izabel-lind-trust-2011-2018-video_w7odmj.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737403524/izabel-lind-trust-2011-2018-video_w7odmj.jpg",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058060/1-survivors-trust_hijp3h.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058074/2011---street---printscreen-video_tpnx1i.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058077/2011---taxi---printscreen-video_jz9q4e.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058081/IMG-5444_qhrldc.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058066/4-survivors-trust_obqfxu.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737101295/Izabel.lind-trust-artist-2018_bltwqr.png",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": [],
+    "commissionedBy": [],
+    "fundedBy": []
+  },
+  {
+    "title": "Birth Sleep Sex Cease",
+    "year": 2020,
+    "material": "Sculpture",
+    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058169/Izabel-Lind-farnstrand-konstakademien-kkh-birth-sleep-sex-cease-skulptur-va%CC%88gg-gips-sa%CC%88ng-madrass-lakan_nzfxng.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058169/Izabel-Lind-farnstrand-konstakademien-kkh-birth-sleep-sex-cease-skulptur-va%CC%88gg-gips-sa%CC%88ng-madrass-lakan_nzfxng.jpg",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058166/izabel-lind-farnstrand-konstakademien-2020-lakan-birth-sleep-sex-cease-gipsskulptur-sang-madrass_i3bvdw.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058166/izabel-lind-farnstrand-konstakademien-2020-lakan-birth-sleep-sex-cease-gipsskulptur-sang-madrass_i3bvdw.jpg",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058173/izabel-lind-fa%CC%88rnstrand-liljevalchs-va%CC%8Arsalongen-2021-va%CC%88ggskulptur-gips-sa%CC%88ng_za8ipk.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058236/lakan-birth-sleep-sex-cease-1500_di1f0y.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": [],
+    "commissionedBy": [],
+    "fundedBy": []
+  },
+  {
+    "title": "Sirens",
+    "year": 2016,
+    "material": "Sculpture",
+    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737059283/izabel-lind-farnstrand-stavanger-norway-radisson-blu-hotel-art-konst-Young-art-stockholm_ljuksq.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737059283/izabel-lind-farnstrand-stavanger-norway-radisson-blu-hotel-art-konst-Young-art-stockholm_ljuksq.jpg",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": [],
+    "commissionedBy": [],
+    "fundedBy": []
+  },
+  {
+    "title": "Happy Land",
+    "year": 2016,
+    "material": "Sculpture",
+    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737403625/doom-happy-land-izabel-lind-konstn%C3%A4r_mnd4xt.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737403625/doom-happy-land-izabel-lind-konstn%C3%A4r_mnd4xt.jpg",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058810/Happyland-izabel-lind-farnstrand.2_hnvzdw.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058814/happyland-izabel-lind-farnstrand.3_k5aocq.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058818/DOOM-izabel-happyland-stuttgart-lind-farnstrand_owyn6m.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": [],
+    "commissionedBy": [],
+    "fundedBy": []
+  },
+  {
+    "title": "Sweet Sweat Swat",
+    "year": 2016,
+    "material": "Sculpture",
+    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058723/moon.2000.2.2_i88joo.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058723/moon.2000.2.2_i88joo.jpg",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058719/moon.n%C3%A4ra.2000_rsjcnw.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": [],
+    "commissionedBy": [],
+    "fundedBy": []
+  },
+  {
+    "title": "Drone",
+    "year": 2019,
+    "material": "Paintings",
+    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737098935/Izabel-lind-konstnar-2019-drone-4_twrkf8.png",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737098935/Izabel-lind-konstnar-2019-drone-4_twrkf8.png",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737098935/Izabel-lind-konstnar-2019-drone-2_ya4krn.png",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737098938/Izabel-lind-konstnar-2019-drone-3_irqh3l.png",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737098934/Izabel-lind-konstnar-2019-drone_ldqigx.png",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": ["Örebro Universitet"],
+    "commissionedBy": ["Akademiska hus", "Statens Konstråd"],
+    "fundedBy": ["Akademiska hus", "Statens Konstråd"]
+  },
+  {
+    "title": "The Low",
+    "year": 2016,
+    "material": "Sculpture",
+    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058550/2.izabel-lind-farnstrand-vaggskulptur-tavla-lakan-oscar-properties-art-residency-konst-art_onjsco.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058550/2.izabel-lind-farnstrand-vaggskulptur-tavla-lakan-oscar-properties-art-residency-konst-art_onjsco.jpg",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058477/norra_tornen_efoltg.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058477/norra_tornen_efoltg.jpg",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058547/d2_ncy05p.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058547/d2_ncy05p.jpg",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058543/2.izabel-lind-farnstrand-vaggskulptur-knopp-wall-sculpture-flower_ohktrz.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058537/2.izabel-lind-farnstrand-skulpto%CC%88r-konstna%CC%88r-lakan-textil-skrynklig-ha%CC%88ngande-tra%CC%88ram-vaggskulptur-ram_atav4q.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": [],
+    "commissionedBy": [],
+    "fundedBy": []
+  },
+  {
+    "title": "Soft?",
+    "year": 2016,
+    "material": "Sculpture",
+    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737059083/Soft.2023.corner_qnga5q.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737059083/Soft.2023.corner_qnga5q.jpg",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737059074/Soft.2023_adsknz.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737059074/Soft.2023_adsknz.jpg",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737059088/Soft.2023.colors_kthx3t.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737059079/Soft.2023.side.fyrkant_xc3acl.jpg",
+        "thumbnail": "",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": [],
+    "commissionedBy": [],
+    "fundedBy": []
+  },
+  {
+    "title": "Twisted",
+    "year": 2016,
+    "material": "Sculpture",
+    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737102753/izabel-lind-art-sculpture-wave-paper-2024_rk4zll.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737102753/izabel-lind-art-sculpture-wave-paper-2024_rk4zll.jpg",
+        "alt": "A seascape painting with twilight colors.",
+        "photographer": "Jane Doe"
+      },
+      {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737102753/izabel-lind-wave-paper_te8ql6.png",
         "thumbnail": "",
         "alt": "A seascape painting with twilight colors.",
@@ -20,558 +558,7 @@
     ],
     "video": null,
     "exhibitedAt": [],
-    "commissionedBy":  [],
+    "commissionedBy": [],
     "fundedBy": []
-  },
-  {
-        "title": "Oblivion",
-        "year": 2020,
-        "material": "3D, VR and sculpture",
-        "description": "A large metallic installation where the visitor can enter a virtual landscape of the scannet Nikehallen in Konstakademien",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650850/ung-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_qqzrd7.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737057966/1500-ung-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_hzqxza.jpg",
-            "alt": "Close-up of the brushstrokes in the painting.",
-            "photographer": "John Smith"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650485/Izabel_Lind_VR_Oblivion_2020_Konstakademin_nycope.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737057963/1500-oculus-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_cyc3f3.jpg",
-            "thumbnail": "",
-            "alt": "Close-up of the brushstrokes in the painting.",
-            "photographer": "John Smith"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737057975/1500-oblivion-Izabel-Lind-Fa%CC%88rnstrand_agjidz.jpg",
-            "thumbnail": "",
-            "alt": "Close-up of the brushstrokes in the painting.",
-            "photographer": "John Smith"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737057958/1500-oblivion-tra%CC%88d-2-izabel-lind-fa%CC%88rnstrand_kb5rob.jpg",
-            "thumbnail": "",
-            "alt": "Close-up of the brushstrokes in the painting.",
-            "photographer": "John Smith"
-          }
-          
-       
-        ],
-        "video": null,
-        "exhibitedAt": ["Konstakademien"],
-        "commissionedBy": null,
-        "fundedBy": ["KKH"]
-      },
-      {
-        "title": "Matrix",
-        "year": 2021,
-        "material": "Sculpture",
-        "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058965/Izabel-lind-farnstrand-brons-skulptur-Matrix-2000-1_j06rvo.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058965/Izabel-lind-farnstrand-brons-skulptur-Matrix-2000-1_j06rvo.jpg",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "jean baptiste béranger"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058961/Dripping.upwards.2023.detail.2500_kaoj7k.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "jean baptiste béranger"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728656186/Dripping_off_r1qtnm.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "jean baptiste béranger"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058852/Izabel-Matrix-2000-podie.2_n73ube.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "jean baptiste béranger"
-          }
-        ],
-        "video": null,
-        "exhibitedAt": "Oceanic Art Gallery, New York",
-        "commissionedBy": "Private collector",
-        "fundedBy": "Art Lovers Foundation"
-      },
-      {
-        "title": "Stream",
-        "year": 2024,
-        "material": "Live streamed light sculpture",
-        "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058683/sensor-stream-led-skulptur-orebro-universitet-izabel-lind_s5kwb7.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058683/sensor-stream-led-skulptur-orebro-universitet-izabel-lind_s5kwb7.jpg",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058578/2-stream-led-skulptur-orebro-universitet-izabel-lind_fymtig.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737099537/3D-skanning-orebro-universitet-izabel-lind_ptr71t.png",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737099459/skiss-stream-izabel-lind-orebro-universitet-statens-konstrad-2023_xbyedy.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          }
-        ],
-        "video": null,
-        "exhibitedAt": ["Örebro Universitet"],
-        "commissionedBy":  ["Akademiska hus", "Statens Konstråd"],
-        "fundedBy": ["Akademiska hus", "Statens Konstråd"]
-      },
-     
-      {
-        "title": "The Welcoming",
-        "year": 2022,
-        "material": "Painting",
-        "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058382/izabel-lind-farnstrand-the-welcoming-2022-konstna%CC%88r-kkh-_oatbin.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058382/izabel-lind-farnstrand-the-welcoming-2022-konstna%CC%88r-kkh-_oatbin.jpg",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058374/the-welcoming-izabel.lind.farnstrand-face_acyl0z.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          }
-
-        ],
-        "video": null,
-        "exhibitedAt": ["KKH"],
-        "commissionedBy":  [],
-        "fundedBy": []
-      },
-      {
-        "title": "Memoar",
-        "year": 2022,
-        "material": "Painting",
-        "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737059623/systrar3-izabel-lind_zr231d.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737059623/systrar3-izabel-lind_zr231d.jpg",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737059701/tryck-spelet-izabel-lind_vbbrda.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          }
-          
-        ],
-        "video": null,
-        "exhibitedAt": [],
-        "commissionedBy":  [],
-        "fundedBy": []
-      },  
-      {
-        "title": "How to prepare for death // HTPFD",
-        "year": 2019,
-        "material": "Painting",
-        "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058015/How-to-prepare-for-death-2000-3_hzix1m.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058015/How-to-prepare-for-death-2000-3_hzix1m.jpg",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058017/How-to-prepare-for-death-2000-1_pitxid.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058024/How-to-prepare-for-death-2000-4_y8ha6x.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058036/How-to-prepare-for-death-2000-11_oezjay.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058027/How-to-prepare-for-death-2000-12_put74r.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058033/How-to-prepare-for-death-2000-2_s64l4y.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058042/How-to-prepare-for-death-2000-10_gn3akt.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          }
-          ,
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058030/detalj2-va%CC%88gg-kroppssplitter-izabel-lind-farnstrand_b4sjex.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          }
-          ,
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058039/detalj3-va%CC%88gg-kroppssplitter-izabel-lind-farnstrand_pmxqnn.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          }
-          ,
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058011/2-va%CC%88gg-kroppssplitter-izabel-lind-farnstrand_npcghv.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          }
-          
-        ],
-        "video": null,
-        "exhibitedAt": [],
-        "commissionedBy":  [],
-        "fundedBy": []
-      },
-      {
-        "title": "Trust",
-        "year": 2018,
-        "material": "video",
-        "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058070/2011---hunt---printscreen-video_elzflc.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058070/2011---hunt---printscreen-video_elzflc.jpg",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058060/1-survivors-trust_hijp3h.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058074/2011---street---printscreen-video_tpnx1i.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058077/2011---taxi---printscreen-video_jz9q4e.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058081/IMG-5444_qhrldc.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058066/4-survivors-trust_obqfxu.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737101295/Izabel.lind-trust-artist-2018_bltwqr.png",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          }
-        ],
-        "video": null,
-        "exhibitedAt": [],
-        "commissionedBy":  [],
-        "fundedBy": []
-      },
-      {
-        "title": "Birth Sleep Sex Cease",
-        "year": 2020,
-        "material": "Sculpture",
-        "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058166/izabel-lind-farnstrand-konstakademien-2020-lakan-birth-sleep-sex-cease-gipsskulptur-sang-madrass_i3bvdw.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058166/izabel-lind-farnstrand-konstakademien-2020-lakan-birth-sleep-sex-cease-gipsskulptur-sang-madrass_i3bvdw.jpg",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058169/Izabel-Lind-farnstrand-konstakademien-kkh-birth-sleep-sex-cease-skulptur-va%CC%88gg-gips-sa%CC%88ng-madrass-lakan_nzfxng.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058173/izabel-lind-fa%CC%88rnstrand-liljevalchs-va%CC%8Arsalongen-2021-va%CC%88ggskulptur-gips-sa%CC%88ng_za8ipk.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058236/lakan-birth-sleep-sex-cease-1500_di1f0y.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          }
-        ],
-        "video": null,
-        "exhibitedAt": [],
-        "commissionedBy":  [],
-        "fundedBy": []
-      },
-      {
-        "title": "Sirens",
-        "year": 2016,
-        "material": "Sculpture",
-        "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737059283/izabel-lind-farnstrand-stavanger-norway-radisson-blu-hotel-art-konst-Young-art-stockholm_ljuksq.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737059283/izabel-lind-farnstrand-stavanger-norway-radisson-blu-hotel-art-konst-Young-art-stockholm_ljuksq.jpg",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          }
-        ],
-        "video": null,
-        "exhibitedAt": [],
-        "commissionedBy":  [],
-        "fundedBy": []
-      },
-      {
-        "title": "Happy Land",
-        "year": 2016,
-        "material": "Sculpture",
-        "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058822/DOOM-izabel_j8blwy.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058822/DOOM-izabel_j8blwy.jpg",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058810/Happyland-izabel-lind-farnstrand.2_hnvzdw.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058814/happyland-izabel-lind-farnstrand.3_k5aocq.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058818/DOOM-izabel-happyland-stuttgart-lind-farnstrand_owyn6m.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          }
-        ],
-        "video": null,
-        "exhibitedAt": [],
-        "commissionedBy":  [],
-        "fundedBy": []
-      },
-      {
-        "title": "Sweet Sweat Swat",
-        "year": 2016,
-        "material": "Sculpture",
-        "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058723/moon.2000.2.2_i88joo.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058723/moon.2000.2.2_i88joo.jpg",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058719/moon.n%C3%A4ra.2000_rsjcnw.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          }
-         
-        ],
-        "video": null,
-        "exhibitedAt": [],
-        "commissionedBy":  [],
-        "fundedBy": []
-      },
-      {
-        "title": "Drone",
-        "year": 2019,
-        "material": "Paintings",
-        "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737098935/Izabel-lind-konstnar-2019-drone-4_twrkf8.png",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737098935/Izabel-lind-konstnar-2019-drone-4_twrkf8.png",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737098935/Izabel-lind-konstnar-2019-drone-2_ya4krn.png",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737098938/Izabel-lind-konstnar-2019-drone-3_irqh3l.png",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737098934/Izabel-lind-konstnar-2019-drone_ldqigx.png",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          }
-        ],
-        "video": null,
-        "exhibitedAt": ["Örebro Universitet"],
-        "commissionedBy":  ["Akademiska hus", "Statens Konstråd"],
-        "fundedBy": ["Akademiska hus", "Statens Konstråd"]
-      },
-      {
-        "title": "The Low",
-        "year": 2016,
-        "material": "Sculpture",
-        "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058547/d2_ncy05p.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058547/d2_ncy05p.jpg",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058550/2.izabel-lind-farnstrand-vaggskulptur-tavla-lakan-oscar-properties-art-residency-konst-art_onjsco.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058543/2.izabel-lind-farnstrand-vaggskulptur-knopp-wall-sculpture-flower_ohktrz.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058477/norra_tornen_efoltg.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058537/2.izabel-lind-farnstrand-skulpto%CC%88r-konstna%CC%88r-lakan-textil-skrynklig-ha%CC%88ngande-tra%CC%88ram-vaggskulptur-ram_atav4q.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          }
-        ],
-        "video": null,
-        "exhibitedAt": [],
-        "commissionedBy":  [],
-        "fundedBy": []
-      },
-      {
-        "title": "Soft?",
-        "year": 2016,
-        "material": "Sculpture",
-        "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737059083/Soft.2023.corner_qnga5q.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737059083/Soft.2023.corner_qnga5q.jpg",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737059074/Soft.2023_adsknz.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737059074/Soft.2023_adsknz.jpg",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737059088/Soft.2023.colors_kthx3t.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737059079/Soft.2023.side.fyrkant_xc3acl.jpg",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          }
-        ],
-        "video": null,
-        "exhibitedAt": [],
-        "commissionedBy":  [],
-        "fundedBy": []
-      },
-      {
-        "title": "Twisted",
-        "year": 2016,
-        "material": "Sculpture",
-        "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737102753/izabel-lind-art-sculpture-wave-paper-2024_rk4zll.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737102753/izabel-lind-art-sculpture-wave-paper-2024_rk4zll.jpg",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737102753/izabel-lind-wave-paper_te8ql6.png",
-            "thumbnail": "",
-            "alt": "A seascape painting with twilight colors.",
-            "photographer": "Jane Doe"
-          }
-        ],
-        "video": null,
-        "exhibitedAt": [],
-        "commissionedBy":  [],
-        "fundedBy": []
-      }
+  }
 ]
-

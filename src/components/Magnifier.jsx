@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-export const Magnifier = ({ url, animation }) => {
+export const Magnifier = ({ url }) => {
   const [isLaptopWidth, setIsLaptopWidth] = useState(window.innerWidth > 1024);
   const [isVisible, setIsVisible] = useState(false);
   const [hasAnimated, setHasAnimated] = useState(false)
@@ -85,7 +85,7 @@ export const Magnifier = ({ url, animation }) => {
   }, [hasAnimated]);
 
   return (
-    <div className={`relative w-full tablet:w-2/3 laptop:w-1/4  object-cover`}>
+    <div className={`relative w-full object-cover`}>
       <div
         className="absolute h-[500px] w-[500px] rounded-full pointer-events-none z-20"
         style={{
@@ -98,7 +98,7 @@ export const Magnifier = ({ url, animation }) => {
         }}
       ></div>
       <div
-        className="w-full aspect-[4/3] tablet:aspect-[3/4] h-auto "
+        className="w-full aspect-[4/3] tablet:aspect-[3/4] laptop:aspect-[7/5] h-auto "
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
         ref={imageRef}
@@ -106,8 +106,7 @@ export const Magnifier = ({ url, animation }) => {
         <img
           src={`${url}`}
           alt="magnified"
-          className={`w-full h-full object-cover cursor-hollow  ${
-            isVisible ? `${animation}` : "opacity-0"}
+          className={`w-full h-full object-cover cursor-hollow  
           `}
         />
       </div>
