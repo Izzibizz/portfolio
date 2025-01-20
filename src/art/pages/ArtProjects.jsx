@@ -70,7 +70,7 @@ export const ArtProjects = () => {
       <ul className="w-full grid grid-cols-4 gap-2 tablet:grid-cols-8 laptop:grid-cols-16">
       {artProjects.map((project, index) => (
         <li key={index} className="list-none" onClick={() => setClickedImage(project.images[0].url)}>
-          <img src={project.images[0].url} alt={project.images[0].alt} className="aspect-[3/4] object-cover"/>
+          <img src={project.images[0].thumbnail} alt={project.images[0].alt} className="aspect-[3/4] object-cover"/>
         </li>
       ))}
   

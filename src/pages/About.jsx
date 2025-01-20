@@ -5,6 +5,7 @@ import { MovingBg } from "../components/MovingBg.jsx"
 import aboutDevData from "../development/data/aboutDevData.json"
 import aboutArtData from "../art/data/aboutArtData.json"
 
+
 export const About = () => {
 
     const { setFrontendPortfolioDisplay, frontendPortfolioDisplay, setArtPortfolioDisplay, artPortfolioDisplay, setBgWhite } = useProjectsStore()
@@ -38,14 +39,14 @@ export const About = () => {
     />
     <div className="flex flex-col flex-col-reverse laptop:flex-row justify-between gap-8 tablet:gap-10">
       <div className="flex flex-col laptop:max-w-[600px] gap-8">
-        <p className="text-justify w-full tablet:p-6 tablet:bg-black tablet:bg-opacity-[20%] h-fit rounded-xl">
+        <p className={`text-justify w-full tablet:p-6 tablet:bg-black ${frontendPortfolioDisplay ? "tablet:bg-opacity-[20%]" : "tablet:bg-opacity-[10%]"} h-fit rounded-xl`}>
           {frontendPortfolioDisplay && (<><span className="text-xl font-medium">Hey, </span><br/></>)}
            {currentPortfolioData?.[0]?.description}
         </p>
-        {artPortfolioDisplay && ( <p className="text-justify w-full tablet:p-6 tablet:bg-black tablet:bg-opacity-[20%] h-fit rounded-xl">
-           <span className="font-medium text-lg">Education: </span>{currentPortfolioData?.[0]?.education}
+        {artPortfolioDisplay && ( <p className="grid grid-cols-3 w-full tablet:p-6 tablet:bg-black tablet:bg-opacity-[10%] h-fit rounded-xl">
+           <span className="font-medium text-lg">Education: </span>{currentPortfolioData?.[0]?.education[0].name} <span className="font-medium italic">{currentPortfolioData?.[0]?.education[0].school}</span>
         </p>)}
-        <div className="p-4 rounded-xl w-full tablet:p-6 bg-black bg-opacity-[20%]">
+        <div className={`p-4 rounded-xl w-full tablet:p-6 bg-black ${frontendPortfolioDisplay ? "tablet:bg-opacity-[20%]" : "tablet:bg-opacity-[10%]"} `}>
           <ul className={`grid grid-cols-2 ${frontendPortfolioDisplay ? "tablet:grid-cols-4" : "tablet:grid-cols-3"} gap-4`}>
           { artPortfolioDisplay && <span className="font-medium text-lg row-span-4">Skills: </span>}
             {currentPortfolioData?.[0]?.skills?.map((skill, index) => (
@@ -65,12 +66,14 @@ export const About = () => {
           alt="portrait Izabel Lind - fullstack developer and artist" 
           className="h-full w-auto object-cover rounded-xl"
         />
-        <div className="absolute bottom-[-4%] laptop:bottom-[90%] right-[-5%] laptop:right-[-12%] w-[100px] h-[100px] border-none rounded-full group  ">
+        {frontendPortfolioDisplay && (
+        <a href="/CV-IZABEL-LIND-FRONTEND-DEVELOPER.pdf" target="_blank" rel="noopener noreferrer" alt="pdf cv Izabel Lind" className="absolute bottom-[-4%] laptop:bottom-[90%] right-[-5%] laptop:right-[-12%] w-[100px] h-[100px] border-none rounded-full group  ">
           <div className={`w-1/2 h-1/2 top-1/4 left-1/4 rounded-full relative flex justify-center items-center text-white bg-orange-500 text-white bg-orange-500 font-medium font-body text-xl laptop:group-hover:scale-[110%]`}>CV</div>
           <div className="absolute w-full h-full top-0 flex justify-center items-center animate-rotateCircle">
             <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1737379403/click-here-circle-lexend-orange_rbdrwu.svg" alt="click here"/>
           </div>
-        </div>
+        </a>
+        )}
       </div>
     </div>
   </div>

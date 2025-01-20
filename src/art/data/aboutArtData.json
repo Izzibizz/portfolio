@@ -1,12 +1,17 @@
 [{
     "description": "I am a contemporary professional artist working and living in Sweden. I come from sculpture and expanded my practice into digital art and painting and today I work with commissions in all these feilds, both locally and abroad.",
-    "education": "Master in Fine Arts @ Kungliga Konsthögskolan in Stockholm ",
+    "education": [
+        {"name": "Master in Fine Arts", "school": "Kungliga Konsthögskolan"}
+    ],
     "skills": [
         { "name": "Welding" },
         { "name": "Public art"},
         { "name": "Project leading"},
         { "name": "3D"},
-        { "name": "VR"}
+        { "name": "VR"},
+        { "name": "Painting"},
+        { "name": "Live visual art"},
+        { "name": "Sculpting"}
 ]
 }
 ]
