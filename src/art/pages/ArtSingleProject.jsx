@@ -42,7 +42,7 @@ export const ArtSingleProject = () => {
   return (
     <section className="animate-fadeIn font-body flex flex-col gap-10 mb-20">
            <NavLink to={`/art`}>
-          <SlArrowLeft className="cursor-hollow pl-2 w-6 h-6 laptop:w-8 laptop:h-6 absolute z-20 bottom-32 left-2 laptop:bottom-[10%] laptop:left-6 hover:scale-125" />{" "}
+          <SlArrowLeft className="cursor-hollow pl-4 w-6 h-6 laptop:w-8 laptop:h-6 absolute z-20 bottom-32 laptop:bottom-[10%] hover:scale-125" />{" "}
         </NavLink>
       <div className="fixed bottom-0 left-0 laptop:left-20 laptop:bottom-10 bg-light bg-opacity-80 p-4 laptop:rounded-xl w-full laptop:w-[300px]">
       <h3>{project.title}, {project.year}</h3>
@@ -62,7 +62,7 @@ export const ArtSingleProject = () => {
       {/* laptop */}
       <div className="flex-col gap-4 hidden laptop:flex">
       {(project.images?.length > 1) && (
-      <div className={`${project.images?.length < 3 ? "tablet:w-full":"tablet:w-3/4" } w-full  flex justify-between`}>
+      <div className={`${project.images?.length < 3 ? "tablet:w-10/12":"tablet:w-3/4" } w-full  flex justify-between`}>
       <img src={project.images?.[0]?.url} alt={project.images?.[0]?.alt} className={`${project.images?.length < 3 ? "h-[500px]" : "h-[400px]" }`}/>
       <img src={project.images?.[1]?.url} alt={project.images?.[1]?.alt} className={`${project.images?.length < 3 ? "h-[700px]" : "h-[200px]" }`}/>
       </div>
@@ -73,6 +73,7 @@ export const ArtSingleProject = () => {
       <img src={project.images?.[3]?.url} alt={project.images?.[3]?.alt} className="h-[200px]"/>
       </div>
       )}
+      <img src={project.images?.[4]?.url} alt={project.images?.[4]?.alt} className="h-[200px] absolute top-10 right-1/2"/>
       <img src={project.images?.[5]?.url} alt={project.images?.[5]?.alt} className="h-[200px] absolute bottom-[-10%] right-1/4"/>
       {(project.images?.length > 5) && (
       <div className="w full tablet:w-full flex justify-between">
