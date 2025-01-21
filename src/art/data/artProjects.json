@@ -3,18 +3,18 @@
     "title": "Embedded",
     "year": 2024,
     "material": "Painting",
-    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "description": "2 large paintings of 100 x 140 cm, Embedded and Core, about the inner fragile and strong.",
     "images": [
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737103188/embedded-2024-izabel-lind-painting_eousfi.jpg",
         "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737103188/embedded-2024-izabel-lind-painting_eousfi.jpg",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Embedded Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737103189/core-2024-izabel-lind-closeup_jv82kw.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Core Izabel Lind",
         "photographer": "Izabel Lind"
       }
     ],
@@ -27,103 +27,110 @@
     "title": "Oblivion",
     "year": 2020,
     "material": "3D, VR and sculpture",
-    "description": "A large metallic installation where the visitor can enter a virtual landscape of the scannet Nikehallen in Konstakademien",
+    "description": "A large metallic installation where the visitor can enter a virtual landscape of the scannet Nikehallen in Konstakademien.",
     "images": [
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737403398/konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_hnornw.jpg",
         "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737403398/konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_hnornw.jpg",
-        "alt": "Close-up of the brushstrokes in the painting.",
-        "photographer": "John Smith"
+        "alt": "Oblivion - VR sculpture of Nikehallen altered space",
+        "photographer": "jean baptiste béranger"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737057958/1500-oblivion-tra%CC%88d-2-izabel-lind-fa%CC%88rnstrand_kb5rob.jpg",
         "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737057958/1500-oblivion-tra%CC%88d-2-izabel-lind-fa%CC%88rnstrand_kb5rob.jpg",
-        "alt": "Close-up of the brushstrokes in the painting.",
-        "photographer": "John Smith"
+        "alt": "Oblivion - VR sculpture of Nikehallen altered space",
+        "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737057975/1500-oblivion-Izabel-Lind-Fa%CC%88rnstrand_agjidz.jpg",
         "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737057975/1500-oblivion-Izabel-Lind-Fa%CC%88rnstrand_agjidz.jpg",
-        "alt": "Close-up of the brushstrokes in the painting.",
-        "photographer": "John Smith"
+        "alt": "Oblivion - VR sculpture of Nikehallen altered space",
+        "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728650485/Izabel_Lind_VR_Oblivion_2020_Konstakademin_nycope.jpg",
         "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1728650485/Izabel_Lind_VR_Oblivion_2020_Konstakademin_nycope.jpg",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Oblivion - VR sculpture of Nikehallen altered space",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737057963/1500-oculus-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_cyc3f3.jpg",
         "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737057963/1500-oculus-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand_cyc3f3.jpg",
-        "alt": "Close-up of the brushstrokes in the painting.",
-        "photographer": "John Smith"
+        "alt": "Oblivion - VR sculpture of Nikehallen altered space",
+        "photographer": "jean baptiste béranger"
       }
     ],
     "video": null,
     "exhibitedAt": ["Konstakademien"],
-    "commissionedBy": null,
+    "commissionedBy": [],
     "fundedBy": ["KKH"]
   },
   {
     "title": "Matrix",
     "year": 2021,
     "material": "Sculpture",
-    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "description": "This negative bronze sculpture is displaying the void of the unpleasent but golden.",
     "images": [
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058965/Izabel-lind-farnstrand-brons-skulptur-Matrix-2000-1_j06rvo.jpg",
         "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058965/Izabel-lind-farnstrand-brons-skulptur-Matrix-2000-1_j06rvo.jpg",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Matrix - bronze sculpture - Izabel Lind",
         "photographer": "jean baptiste béranger"
       },
 
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1728656186/Dripping_off_r1qtnm.jpg",
-        "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1728656186/Dripping_off_r1qtnm.jpg",
+        "alt": "Matrix - bronze sculpture close up - Izabel Lind",
         "photographer": "jean baptiste béranger"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058852/Izabel-Matrix-2000-podie.2_n73ube.jpg",
-        "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058852/Izabel-Matrix-2000-podie.2_n73ube.jpg",
+        "alt": "Matrix - bronze sculpture on podium - Izabel Lind",
+        "photographer": "jean baptiste béranger"
+      },
+      {
+        "url": " https://res.cloudinary.com/dbf8xygxz/image/upload/v1737457201/Current.2023.side.zoom-izabel.lind_fisjhf.jpg",
+        "thumbnail": " https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737457201/Current.2023.side.zoom-izabel.lind_fisjhf.jpg",
+        "alt": "Matrix - bronze sculpture close up - Izabel Lind",
         "photographer": "jean baptiste béranger"
       }
+     
     ],
     "video": null,
-    "exhibitedAt": "Oceanic Art Gallery, New York",
-    "commissionedBy": "Private collector",
-    "fundedBy": "Art Lovers Foundation"
+    "exhibitedAt": ["Konstakademien"],
+    "commissionedBy": ["Private collector"],
+    "fundedBy": ["KKH"]
   },
   {
     "title": "Stream",
     "year": 2024,
     "material": "Live streamed light sculpture",
-    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "description": "This live sculpture is connected to an API of the sensors at the University, reacting to the amount of people moving in the buildings and showing different moods reflecting the atmosphere.",
     "images": [
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058683/sensor-stream-led-skulptur-orebro-universitet-izabel-lind_s5kwb7.jpg",
         "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058683/sensor-stream-led-skulptur-orebro-universitet-izabel-lind_s5kwb7.jpg",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Stream at Örebro Universitet - from underneath - Izabel Lind.",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058578/2-stream-led-skulptur-orebro-universitet-izabel-lind_fymtig.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Stream at Örebro Universitet - front of Labbet - Izabel Lind.",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737099537/3D-skanning-orebro-universitet-izabel-lind_ptr71t.png",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Stream at Örebro Universitet is based on the digitalization of campus - Izabel Lind.",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737099459/skiss-stream-izabel-lind-orebro-universitet-statens-konstrad-2023_xbyedy.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Stream at Örebro Universitet - fron of Labbet sketch - Izabel Lind.",
         "photographer": "Izabel Lind"
       }
     ],
@@ -136,19 +143,19 @@
   {
     "title": "The Welcoming",
     "year": 2022,
-    "material": "Painting",
-    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "material": "Sculpture",
+    "description": "A banner of the welcome where the happy is implied but easily altered.",
     "images": [
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058382/izabel-lind-farnstrand-the-welcoming-2022-konstna%CC%88r-kkh-_oatbin.jpg",
         "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058382/izabel-lind-farnstrand-the-welcoming-2022-konstna%CC%88r-kkh-_oatbin.jpg",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Banner in textile - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058374/the-welcoming-izabel.lind.farnstrand-face_acyl0z.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Close up of The Welcoming sculpture - Izabel Lind.",
         "photographer": "Izabel Lind"
       }
     ],
@@ -161,18 +168,18 @@
     "title": "Memoar",
     "year": 2022,
     "material": "Painting",
-    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "description": "Altered memories is a topic I have been interested in years, since my grandmother had alzeimers and seemed to be travelling inside her mind and the spaces she stored in there.",
     "images": [
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737059623/systrar3-izabel-lind_zr231d.jpg",
         "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737059623/systrar3-izabel-lind_zr231d.jpg",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "My mother and aunt dancing.",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737059701/tryck-spelet-izabel-lind_vbbrda.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Card games.",
         "photographer": "Izabel Lind"
       }
     ],
@@ -184,72 +191,72 @@
   {
     "title": "How to prepare for death",
     "year": 2019,
-    "material": "Painting",
-    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "material": "Installation",
+    "description": "A room installation / immersive experience at Galleri Mejan, with plaster sculptures, tinted windows and clay floor.",
     "images": [
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058015/How-to-prepare-for-death-2000-3_hzix1m.jpg",
         "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058015/How-to-prepare-for-death-2000-3_hzix1m.jpg",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Room installation How to prepare for Death - overview - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058017/How-to-prepare-for-death-2000-1_pitxid.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Room installation How to prepare for Death - close up sculpture - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058024/How-to-prepare-for-death-2000-4_y8ha6x.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Room installation How to prepare for Death - overview - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058036/How-to-prepare-for-death-2000-11_oezjay.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Room installation How to prepare for Death - overview - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058027/How-to-prepare-for-death-2000-12_put74r.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Room installation How to prepare for Death - close up sculpture - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058033/How-to-prepare-for-death-2000-2_s64l4y.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Room installation How to prepare for Death - overview - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058042/How-to-prepare-for-death-2000-10_gn3akt.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Room installation How to prepare for Death - floow - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058030/detalj2-va%CC%88gg-kroppssplitter-izabel-lind-farnstrand_b4sjex.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Room installation How to prepare for Death - in white - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058039/detalj3-va%CC%88gg-kroppssplitter-izabel-lind-farnstrand_pmxqnn.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Room installation How to prepare for Death - in white - Izabel Lind.",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058011/2-va%CC%88gg-kroppssplitter-izabel-lind-farnstrand_npcghv.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Room installation How to prepare for Death - in white - Izabel Lind.",
         "photographer": "Izabel Lind"
       }
     ],
     "video": null,
-    "exhibitedAt": [],
+    "exhibitedAt": ["Galleri Mejan"],
     "commissionedBy": [],
     "fundedBy": []
   },
@@ -257,48 +264,48 @@
     "title": "Trust",
     "year": 2018,
     "material": "video",
-    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "description": "Art video on loneliness abroad, the beauty of the foreign and the foreign within.",
     "images": [
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737403524/izabel-lind-trust-2011-2018-video_w7odmj.jpg",
         "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737403524/izabel-lind-trust-2011-2018-video_w7odmj.jpg",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Screenshot from video - deer - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058060/1-survivors-trust_hijp3h.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Screenshot from video - deer - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058074/2011---street---printscreen-video_tpnx1i.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Screenshot from video - street - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058077/2011---taxi---printscreen-video_jz9q4e.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Screenshot from video - street taxi - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058081/IMG-5444_qhrldc.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Screenshot from video - sheets - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058066/4-survivors-trust_obqfxu.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Screenshot from video - fountain pool - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737101295/Izabel.lind-trust-artist-2018_bltwqr.png",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Screenshot from video - deer - Izabel Lind",
         "photographer": "Izabel Lind"
       }
     ],
@@ -311,35 +318,35 @@
     "title": "Birth Sleep Sex Cease",
     "year": 2020,
     "material": "Sculpture",
-    "description": "A large seascape painting capturing the serene and turbulent aspects of the ocean during twilight.",
+    "description": "This casted bed with imprints was a part of my masters show, also exhibited in Liljevalchs Vårsalong.",
     "images": [
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058169/Izabel-Lind-farnstrand-konstakademien-kkh-birth-sleep-sex-cease-skulptur-va%CC%88gg-gips-sa%CC%88ng-madrass-lakan_nzfxng.jpg",
         "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058169/Izabel-Lind-farnstrand-konstakademien-kkh-birth-sleep-sex-cease-skulptur-va%CC%88gg-gips-sa%CC%88ng-madrass-lakan_nzfxng.jpg",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Closup of wall sculpture in plaster - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058166/izabel-lind-farnstrand-konstakademien-2020-lakan-birth-sleep-sex-cease-gipsskulptur-sang-madrass_i3bvdw.jpg",
         "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737058166/izabel-lind-farnstrand-konstakademien-2020-lakan-birth-sleep-sex-cease-gipsskulptur-sang-madrass_i3bvdw.jpg",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Wallsculpture in Konstnärsakademien 2020, Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058173/izabel-lind-fa%CC%88rnstrand-liljevalchs-va%CC%8Arsalongen-2021-va%CC%88ggskulptur-gips-sa%CC%88ng_za8ipk.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "Wall sculpture bed, Liljevalchs, 2021",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058236/lakan-birth-sleep-sex-cease-1500_di1f0y.jpg",
         "thumbnail": "",
-        "alt": "A seascape painting with twilight colors.",
+        "alt": "overview wall sculpture Izabel Lind",
         "photographer": "Izabel Lind"
       }
     ],
     "video": null,
-    "exhibitedAt": [],
+    "exhibitedAt": ["Liljevalchs", "Konstakademien"],
     "commissionedBy": [],
     "fundedBy": []
   },
@@ -357,15 +364,15 @@
       }
     ],
     "video": null,
-    "exhibitedAt": [],
-    "commissionedBy": [],
-    "fundedBy": []
+    "exhibitedAt": ["Radisson Blu Stavanger"],
+    "commissionedBy": ["Radisson Blu Stavanger", "YA Stockholm"],
+    "fundedBy": ["Radisson Blu Stavanger", "YA Stockholm"]
   },
   {
     "title": "Happy Land",
     "year": 2018,
     "material": "Video installation",
-    "description": "2 video works combined telling the story of the search for happiness. ",
+    "description": "2 video works combined telling the story of the search for happiness exhibited at Kunstlerhaus Stuttgart. ",
     "images": [
       {
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737403625/doom-happy-land-izabel-lind-konstn%C3%A4r_mnd4xt.jpg",
@@ -393,9 +400,9 @@
       }
     ],
     "video": null,
-    "exhibitedAt": [],
-    "commissionedBy": [],
-    "fundedBy": []
+    "exhibitedAt": ["Kunstlerhaus Stuttgart"],
+    "commissionedBy": ["Kunstlerhaus Stuttgart"],
+    "fundedBy": ["Kunstlerhaus Stuttgart"]
   },
   {
     "title": "Sweet Sweat Swat",
@@ -503,8 +510,8 @@
       }
     ],
     "video": null,
-    "exhibitedAt": [],
-    "commissionedBy": [],
+    "exhibitedAt": ["Maison Maju, Nice, France"],
+    "commissionedBy": ["Didier Claude Dechamps, Nice, France"],
     "fundedBy": []
   },
   {
@@ -536,10 +543,16 @@
         "thumbnail": "",
         "alt": "Side perspective of Soft - casted sculture, by Izabel Lind.",
         "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737453882/Izabel.lind.Soft.shell-2024-skulptur_qtqubb.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737453882/Izabel.lind.Soft.shell-2024-skulptur_qtqubb.jpg",
+        "alt": "Side perspective of Soft - casted sculture, by Izabel Lind.",
+        "photographer": "Izabel Lind"
       }
     ],
     "video": null,
-    "exhibitedAt": [],
+    "exhibitedAt": ["Maison Maju, Nice, France"],
     "commissionedBy": [],
     "fundedBy": []
   },

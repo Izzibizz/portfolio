@@ -42,7 +42,7 @@ export const ArtSingleProject = () => {
   return (
     <section className="animate-fadeIn font-body flex flex-col gap-10 mb-20">
            <NavLink to={`/art`}>
-          <SlArrowLeft className="cursor-hollow pl-4 w-6 h-6 laptop:w-8 laptop:h-6 absolute z-20 bottom-32 laptop:bottom-[10%] hover:scale-125" />{" "}
+          <SlArrowLeft className="cursor-hollow pl-4 w-6 h-6 laptop:w-8 laptop:h-8 fixed z-20 bottom-32 laptop:bottom-[10%] laptop:left-10 hover:scale-125" />{" "}
         </NavLink>
       <div className="fixed bottom-0 left-0 laptop:left-20 laptop:bottom-10 bg-light bg-opacity-80 p-4 laptop:rounded-xl w-full laptop:w-[300px]">
       <h3>{project.title}, {project.year}</h3>
