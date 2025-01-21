@@ -103,7 +103,18 @@
      
     ],
     "video": null,
-    "exhibitedAt": ["Konstakademien"],
+    "exhibitedAt": [
+    {
+      "place": "Konstakademien",
+      "year": "2020"
+    },{
+      "place": "Norra Tornen",
+      "year": "2021"
+    },{
+      "place": "Flimmer & Fladder, Grupputställning, Stockholm",
+      "year": "2024"
+    }
+  ],
     "commissionedBy": ["Private collector"],
     "fundedBy": ["KKH"]
   },
@@ -200,7 +211,15 @@
     ],
     "video": null,
     "exhibitedAt": [ {
-      "place": "Maison Maju, Nice, France",
+      "place": "Norra Tornen, Stockholm",
+      "year": "2021"
+    },
+    {
+      "place": "Showroom Maison Maju, France",
+      "year": "2024"
+    },
+    {
+      "place": "Project Azur, Nice, France",
       "year": "2024"
     }],
     "commissionedBy": ["Didier Claude Dechamps, Nice, France"],
