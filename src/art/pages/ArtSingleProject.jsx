@@ -77,13 +77,13 @@ export const ArtSingleProject = () => {
       {(project.images?.length > 5) && (
       <div className="w full tablet:w-full flex justify-between">
         <img src={project.images?.[6]?.url} alt={project.images?.[6]?.alt} className="h-[400px]"/>
-        <img src={project.images?.[8]?.url} alt={project.images?.alt} className="h-[400px]"/>
+        <img src={project.images?.[8]?.url} alt={project.images?.[8]?.alt} className="h-[400px]"/>
       <img src={project.images?.[7]?.url} alt={project.images?.[7]?.alt} className="h-[400px]"/>
       </div>
       )}
             {(project.images?.length > 9) && (
       <div className="w full tablet:w-1/2 mx-auto flex justify-between">
-      <img src={project.images?.[9]?.url} alt={project.images?.alt} className="h-[400px]"/>
+      <img src={project.images?.[9]?.url} alt={project.images?.[9]?.alt} className="h-[400px]"/>
       </div>)}
       </div>
     </section>
