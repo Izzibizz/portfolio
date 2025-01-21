@@ -50,7 +50,7 @@ export const ArtSingleProject = () => {
       </div>
       {(project.images?.length === 1) && (
         <div className="w-1/2 self-end">
-          <img src={project.images?.[0]?.url} alt={project.title} className="w-full"/>
+          <img src={project.images?.[0]?.url} alt={project.images?.[0]?.alt} className="w-full"/>
         </div>
       )}
       {/* mobile and tablet */}
@@ -63,27 +63,27 @@ export const ArtSingleProject = () => {
       <div className="flex-col gap-4 hidden laptop:flex">
       {(project.images?.length > 1) && (
       <div className={`${project.images?.length < 3 ? "tablet:w-full":"tablet:w-3/4" } w-full  flex justify-between`}>
-      <img src={project.images?.[0]?.url} alt={project.images.alt} className={`${project.images?.length < 3 ? "h-[500px]" : "h-[400px]" }`}/>
-      <img src={project.images?.[1]?.url} alt={project.images.alt} className={`${project.images?.length < 3 ? "h-[700px]" : "h-[200px]" }`}/>
+      <img src={project.images?.[0]?.url} alt={project.images?.[0]?.alt} className={`${project.images?.length < 3 ? "h-[500px]" : "h-[400px]" }`}/>
+      <img src={project.images?.[1]?.url} alt={project.images?.[1]?.alt} className={`${project.images?.length < 3 ? "h-[700px]" : "h-[200px]" }`}/>
       </div>
       )}
       {(project.images?.length > 2) && (
       <div className="w full tablet:w-3/4 flex justify-between self-end">
-      <img src={project.images?.[2]?.url} alt={project.images.alt} className="h-[400px]"/>
-      <img src={project.images?.[3]?.url} alt={project.images.alt} className="h-[200px]"/>
+      <img src={project.images?.[2]?.url} alt={project.images?.[2]?.alt} className="h-[400px]"/>
+      <img src={project.images?.[3]?.url} alt={project.images?.[3]?.alt} className="h-[200px]"/>
       </div>
       )}
-      <img src={project.images?.[5]?.url} alt={project.images.alt} className="h-[200px] absolute bottom-[-10%] right-1/4"/>
+      <img src={project.images?.[5]?.url} alt={project.images?.[5]?.alt} className="h-[200px] absolute bottom-[-10%] right-1/4"/>
       {(project.images?.length > 5) && (
       <div className="w full tablet:w-full flex justify-between">
-        <img src={project.images?.[6]?.url} alt={project.images.alt} className="h-[400px]"/>
-        <img src={project.images?.[8]?.url} alt={project.images.alt} className="h-[400px]"/>
-      <img src={project.images?.[7]?.url} alt={project.images.alt} className="h-[400px]"/>
+        <img src={project.images?.[6]?.url} alt={project.images?.[6]?.alt} className="h-[400px]"/>
+        <img src={project.images?.[8]?.url} alt={project.images?.alt} className="h-[400px]"/>
+      <img src={project.images?.[7]?.url} alt={project.images?.[7]?.alt} className="h-[400px]"/>
       </div>
       )}
             {(project.images?.length > 9) && (
       <div className="w full tablet:w-1/2 mx-auto flex justify-between">
-      <img src={project.images?.[9]?.url} alt={project.images.alt} className="h-[400px]"/>
+      <img src={project.images?.[9]?.url} alt={project.images?.alt} className="h-[400px]"/>
       </div>)}
       </div>
     </section>
