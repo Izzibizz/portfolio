@@ -61,7 +61,11 @@
       }
     ],
     "video": null,
-    "exhibitedAt": ["Konstakademien"],
+    "exhibitedAt": [
+      {
+        "place": "Konstakademien",
+        "year": "2020"
+      }],
     "commissionedBy": [],
     "fundedBy": ["KKH"]
   },
@@ -135,14 +139,18 @@
       }
     ],
     "video": null,
-    "exhibitedAt": ["Örebro Universitet"],
+    "exhibitedAt": [
+      {
+        "place": "Örebro Universitet",
+        "year": "2024"
+      }],
     "commissionedBy": ["Akademiska hus", "Statens Konstråd"],
     "fundedBy": ["Akademiska hus", "Statens Konstråd"]
   },
 
   {
     "title": "The Welcoming",
-    "year": 2022,
+    "year": 2018,
     "material": "Sculpture",
     "description": "A banner of the welcome where the happy is implied but easily altered.",
     "images": [
@@ -160,7 +168,11 @@
       }
     ],
     "video": null,
-    "exhibitedAt": ["KKH"],
+    "exhibitedAt": [
+      {
+        "place": "Kungliga Konsthögskolan",
+        "year": "2018"
+      }],
     "commissionedBy": [],
     "fundedBy": []
   },
@@ -256,7 +268,11 @@
       }
     ],
     "video": null,
-    "exhibitedAt": ["Galleri Mejan"],
+    "exhibitedAt": [
+      {
+        "place": "Galleri Mejan",
+        "year": "2019"
+      }],
     "commissionedBy": [],
     "fundedBy": []
   },
@@ -288,12 +304,6 @@
         "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058077/2011---taxi---printscreen-video_jz9q4e.jpg",
         "thumbnail": "",
         "alt": "Screenshot from video - street taxi - Izabel Lind",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737058081/IMG-5444_qhrldc.jpg",
-        "thumbnail": "",
-        "alt": "Screenshot from video - sheets - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
@@ -346,7 +356,15 @@
       }
     ],
     "video": null,
-    "exhibitedAt": ["Liljevalchs", "Konstakademien"],
+    "exhibitedAt": [
+      {
+        "place": "Liljevalchs",
+        "year": "2021"
+      },
+      {
+        "place": "Konstakademien",
+        "year": "2020"
+      }],
     "commissionedBy": [],
     "fundedBy": []
   },
@@ -364,7 +382,10 @@
       }
     ],
     "video": null,
-    "exhibitedAt": ["Radisson Blu Stavanger"],
+    "exhibitedAt":  [ {
+      "place": "Radisson Blu Stavanger, Norway",
+      "year": "2016"
+    }],
     "commissionedBy": ["Radisson Blu Stavanger", "YA Stockholm"],
     "fundedBy": ["Radisson Blu Stavanger", "YA Stockholm"]
   },
@@ -400,7 +421,10 @@
       }
     ],
     "video": null,
-    "exhibitedAt": ["Kunstlerhaus Stuttgart"],
+    "exhibitedAt":  [{
+      "place": "Kunstlerhaus Stuttgard, Germany",
+      "year": "2018"
+    }],
     "commissionedBy": ["Kunstlerhaus Stuttgart"],
     "fundedBy": ["Kunstlerhaus Stuttgart"]
   },
@@ -507,10 +531,19 @@
         "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737451901/maison-maju-Didier-Claude-Deschamps-nice-izabel-lind_objrgx.jpg",
         "alt": "Interior architecture Maison Maju project for Didier Claude Dechamps in Nice - art Izabel Lind",
         "photographer": "Julia Condro"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737457866/izabel-lind-farnstrand-konst-konstna%CC%88r-art-wallscultures-digital-3d-lakan-tyg_khcrlr.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737457866/izabel-lind-farnstrand-konst-konstna%CC%88r-art-wallscultures-digital-3d-lakan-tyg_khcrlr.jpg",
+        "alt": "private collector exhibited Norra Tornen 2021 - art Izabel Lind",
+        "photographer": "Izabel Lind"
       }
     ],
     "video": null,
-    "exhibitedAt": ["Maison Maju, Nice, France"],
+    "exhibitedAt": [ {
+      "place": "Maison Maju, Nice, France",
+      "year": "2024"
+    }],
     "commissionedBy": ["Didier Claude Dechamps, Nice, France"],
     "fundedBy": []
   },
@@ -549,10 +582,20 @@
         "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737453882/Izabel.lind.Soft.shell-2024-skulptur_qtqubb.jpg",
         "alt": "Side perspective of Soft - casted sculture, by Izabel Lind.",
         "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737457853/izabel-lind-v%C3%A4ggskulptur-stone-_ms5dsu.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737457853/izabel-lind-v%C3%A4ggskulptur-stone-_ms5dsu.jpg",
+        "alt": "Side perspective of Soft - casted sculture, by Izabel Lind.",
+        "photographer": "Izabel Lind"
       }
+      
     ],
     "video": null,
-    "exhibitedAt": ["Maison Maju, Nice, France"],
+    "exhibitedAt": [ {
+      "place": "Maison Maju, Nice, France",
+      "year": "2024"
+    }],
     "commissionedBy": [],
     "fundedBy": []
   },

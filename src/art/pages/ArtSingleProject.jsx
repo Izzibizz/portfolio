@@ -37,17 +37,34 @@ export const ArtSingleProject = () => {
     return <div>Loading...</div>;
   }
 
-  console.log(project)
+  console.log(project.exhibitedAt?.length)
     
   return (
-    <section className="animate-fadeIn font-body flex flex-col gap-10 mb-20">
-           <NavLink to={`/art`}>
-          <SlArrowLeft className="cursor-hollow pl-4 w-6 h-6 laptop:w-8 laptop:h-8 fixed z-20 bottom-32 laptop:bottom-[10%] laptop:left-10 hover:scale-125" />{" "}
+    <section className="animate-fadeIn font-body flex flex-col gap-10 mb-48 laptop:mb-20">
+           
+      <div className="fixed bottom-0 left-0 laptop:left-20 laptop:bottom-10 bg-light bg-opacity-80 p-4 laptop:rounded-xl w-full laptop:w-[300px] flex gap-2">
+      <NavLink to={`/art`}>
+          <SlArrowLeft className="cursor-hollow pl-4 w-8 h-8 z-20 hover:scale-125" />{" "}
         </NavLink>
-      <div className="fixed bottom-0 left-0 laptop:left-20 laptop:bottom-10 bg-light bg-opacity-80 p-4 laptop:rounded-xl w-full laptop:w-[300px]">
+        <div className="flex flex-col gap-4">
       <h3>{project.title}, {project.year}</h3>
       <p className="font-light">{project.description}</p>
-      </div>
+      {project.exhibitedAt && project.exhibitedAt?.length > 0 && (
+  <div className="flex gap-2 laptop:hidden">
+    <h4>Exhibited at:</h4>
+    {project.exhibitedAt?.length > 1 ? (
+      <ul className="font-light">
+        {project.exhibitedAt?.map((place, index) => (
+          <li key={index}>{place.place} ({place.year})</li>
+        ))}
+      </ul>
+    ) : (
+      <p className="font-light">{project.exhibitedAt?.[0].place} ({project.exhibitedAt?.[0].year})</p>
+    )}
+  </div>
+)}
+        </div>
+        </div>
       {(project.images?.length === 1) && (
         <div className="w-1/2 self-end">
           <img src={project.images?.[0]?.url} alt={project.images?.[0]?.alt} className="w-full"/>
@@ -87,6 +104,21 @@ export const ArtSingleProject = () => {
       <img src={project.images?.[9]?.url} alt={project.images?.[9]?.alt} className="h-[400px]"/>
       </div>)}
       </div>
+      {project.exhibitedAt && project.exhibitedAt?.length > 0 && (
+      <div className="fixed top-40 right-10 bg-light bg-opacity-80 p-4 hidden laptop:block rounded-xl w-[250px] laptop:w-[300px] font-light">
+  <div className="flex gap-2">
+    {project.exhibitedAt?.length > 1 ? (
+      <ul className="text-sm"><span className="font-medium">Exhibited at: </span>
+        {project.exhibitedAt?.map((place, index) => (
+          <li key={index}>{place.place} ({place.year})</li>
+        ))}
+      </ul>
+    ) : (
+      <p className="text-sm"><span className="font-medium">Exhibited at: </span>{project.exhibitedAt?.[0].place} ({project.year})</p>
+    )}
+  </div>
+        </div>
+)}
     </section>
   )
 }
