@@ -116,8 +116,8 @@
 
         ],
         "tags": ["JavaScript", "React", "vite", "REST API", "Zustand globalstore", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Figma"],
-        "netlify": "https://glim-skincare.netlify.app/",
-        "github": "https://github.com/Izzibizz/project-final"
+        "netlify": "https://glim-care.netlify.app/",
+        "github": "https://github.com/Izzibizz/glim"
       },
       {
         "title": "WeatherFlow",
