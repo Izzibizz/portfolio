@@ -52,7 +52,7 @@ export const LandingPage = () => {
         loop
         muted
         playsInline
-        className={`fixed top-1/2 left-1/2 w-screen h-screen object-cover transform -translate-x-1/2 -translate-y-1/2 transform transition-transform duration-500 ${
+        className={`fixed top-1/2 left-1/2 w-screen h-screen object-cover transform -translate-x-1/2 -translate-y-1/2 scale-110 transform transition-transform duration-500 ${
           zoom ? `laptop:scale-[180%] ${direction} ` : "scale-100 laptop:-translate-x-1/2"
         } ${
           bgWhite && direction === "laptop:-translate-x-[90%]"

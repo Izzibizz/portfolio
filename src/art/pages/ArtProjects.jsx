@@ -45,7 +45,7 @@ export const ArtProjects = () => {
             loop
             muted
             playsInline
-            className={`absolute top-0 left-0 w-screen h-screen min-h-screen object-cover invert z-10 ${fadeOut && "animate-fadeOut"}`}
+            className={`absolute top-0 left-0 w-screen h-screen min-h-screen object-cover scale-110 invert z-10 ${fadeOut && "animate-fadeOut"}`}
           >
             <source
               src="https://res.cloudinary.com/dbf8xygxz/video/upload/v1728898269/Sequence_01_8_qeiugg.mp4"
