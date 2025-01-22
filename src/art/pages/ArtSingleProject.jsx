@@ -47,7 +47,7 @@ export const ArtSingleProject = () => {
           <SlArrowLeft className="cursor-hollow pl-4 w-8 h-8 z-20 hover:scale-125" />{" "}
         </NavLink>
         <div className="flex flex-col gap-4">
-      <h3>{project.title}, {project.year}</h3>
+      <h3 className="text-lg">{project.title}, {project.year}</h3>
       <p className="font-light">{project.description}</p>
       {project.exhibitedAt && project.exhibitedAt?.length > 0 && (
   <div className="flex gap-2 laptop:hidden">

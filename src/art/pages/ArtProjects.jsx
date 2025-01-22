@@ -18,6 +18,7 @@ export const ArtProjects = () => {
   const [ imageTitle, setImageTitle ] = useState(artProjects[0].title)
   
   const chooseProject = (url, title) => {
+    window.scrollTo(0, 0);
     setClickedImage(url)
     setImageTitle(title)
   }
@@ -36,7 +37,7 @@ export const ArtProjects = () => {
   
 
   return (
-    <section className="font-body font-medium animate-fadeIn h-full w-11/12 laptop:w-[99%] mx-auto justify-between flex flex-col gap-10">
+    <section className="font-body font-medium animate-fadeIn h-full w-11/12 laptop:w-[99%] mx-auto justify-between flex flex-col gap-10 mb-10 laptop:mb-0">
       {titleAndVideoVisible ? (
         <>
           <video
