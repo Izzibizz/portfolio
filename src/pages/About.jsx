@@ -44,11 +44,11 @@ export const About = () => {
            {currentPortfolioData?.[0]?.description}
         </p>
         {artPortfolioDisplay && ( <p className="grid grid-cols-3 w-full tablet:p-6 tablet:bg-black tablet:bg-opacity-[10%] h-fit rounded-xl">
-           <span className="font-medium text-lg">Education: </span>{currentPortfolioData?.[0]?.education[0].name} <span className="font-medium italic">{currentPortfolioData?.[0]?.education[0].school}</span>
+           <span className="font-medium laptop:text-lg">Education: </span><span className=" italic col-span-2">{currentPortfolioData?.[0]?.education[0].name}<br/> {currentPortfolioData?.[0]?.education[0].school}</span>
         </p>)}
-        <div className={`p-4 rounded-xl w-full tablet:p-6 bg-black ${frontendPortfolioDisplay ? "tablet:bg-opacity-[20%]" : "tablet:bg-opacity-[10%]"} `}>
+        <div className={`p-4 rounded-xl w-full tablet:p-6 bg-black ${frontendPortfolioDisplay ? "tablet:bg-opacity-[20%]" : "bg-opacity-[10%]"} `}>
           <ul className={`grid grid-cols-2 ${frontendPortfolioDisplay ? "tablet:grid-cols-4" : "tablet:grid-cols-3"} gap-4`}>
-          { artPortfolioDisplay && <span className="font-medium text-lg row-span-4">Skills: </span>}
+          { artPortfolioDisplay && <span className="font-medium text-lg ">Skills: </span>}
             {currentPortfolioData?.[0]?.skills?.map((skill, index) => (
               <li key={index} className={`col-span-1 flex gap-2 ${frontendPortfolioDisplay && "tablet:justify-center"} `}>
                 {skill.name}
