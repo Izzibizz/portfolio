@@ -65,11 +65,12 @@ export const ArtSingleProject = () => {
 )}
         </div>
         </div>
-      {(project.images?.length === 1) && (
-        <div className="w-1/2 self-end">
+      {(project.images?.length === 1) ? (
+        <div className="laptop:w-1/2 self-center">
           <img src={project.images?.[0]?.url} alt={project.images?.[0]?.alt} className="w-full"/>
         </div>
-      )}
+      ):(
+        <>
       {/* mobile and tablet */}
       <div className="grid laptop:hidden grid-cols-2 gap-2">
         {project.images?.map((image, index) => (
@@ -104,6 +105,7 @@ export const ArtSingleProject = () => {
       <img src={project.images?.[9]?.url} alt={project.images?.[9]?.alt} className="h-[400px]"/>
       </div>)}
       </div>
+      </>)}
       {project.exhibitedAt && project.exhibitedAt?.length > 0 && (
       <div className="fixed top-40 right-10 bg-light bg-opacity-80 p-4 hidden laptop:block rounded-xl w-[250px] laptop:w-[300px] font-light">
   <div className="flex gap-2">
