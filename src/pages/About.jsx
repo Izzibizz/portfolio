@@ -28,7 +28,7 @@ export const About = () => {
   console.log(currentPortfolioData)
 
   return (
-    <section className={`${frontendPortfolioDisplay ? "text-white" : "text-black"} animate-fadeIn flex flex-col`}>
+    <section className={`${frontendPortfolioDisplay ? "text-white" : "text-black"} animate-fadeIn flex flex-col mb-20`}>
       {frontendPortfolioDisplay &&
   <MovingBg /> }
   <div className="flex flex-col w-10/12 laptop:w-8/12 mx-auto pt-6 z-20 font-body font-light">
