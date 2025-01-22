@@ -20,6 +20,7 @@ export const FrontendProjects = () => {
 
 
   const handleShowOther = () => {
+    window.scrollTo(0, 0);
     setShowOlder(!showOlder);
     if (showOlder) {
       setProjectsToShow(latestProjects);
