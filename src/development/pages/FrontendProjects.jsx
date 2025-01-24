@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useProjectsStore } from "../../stores/useProjectsStore";
 import devData from "../data/devData.json";
+import bgImage from "/bg-image-portfolio-izabel-lind.jpg"
 import { MovingBg } from "../../components/MovingBg";
 import { SlArrowDown } from "react-icons/sl";
 import { SlArrowUp } from "react-icons/sl";
@@ -15,9 +16,7 @@ export const FrontendProjects = () => {
   const latestProjects = devData.slice(0, 5);
   const olderProjects = devData.slice(5);
   const [projectsToShow, setProjectsToShow] = useState(latestProjects);
-
-
-
+  const [isLaptop, setIsLaptop] = useState(false);
 
   const handleShowOther = () => {
     window.scrollTo(0, 0);
@@ -29,9 +28,6 @@ export const FrontendProjects = () => {
     }
   };
 
-  
- 
-
   useEffect(() => {
     setFrontendPortfolioDisplay(true);
     setBgWhite(false)
@@ -40,15 +36,33 @@ export const FrontendProjects = () => {
 
   useEffect(() => {
     if (hoveredProjectTitle !== null) {
-      setShowImage(false); // Hide image to reset animation
-      setTimeout(() => setShowImage(true), 0); // Re-show image to trigger animation
+      setShowImage(false);
+      setTimeout(() => setShowImage(true), 0);
     }
   }, [hoveredProjectTitle]);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsLaptop(window.innerWidth >= 1024);
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
 
   return (
     <section className="font-body font-medium text-white flex flex-col ">
-      <MovingBg />
+       {isLaptop ? (
+        <MovingBg />
+      ) : (    <img
+        src={bgImage}
+        alt="background image"
+        className="absolute w-full max-w-full top-0 z-0 h-full max-h-full object-cover"
+      /> )}
       <div className="flex flex-col gap-0 w-9/12 tablet:w-7/12 laptop:w-8/12 mx-auto mt-20 z-20">
         <img
           src="/frontend-developer-w.svg"

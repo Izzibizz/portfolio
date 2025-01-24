@@ -2,10 +2,8 @@ import { useEffect, useState } from "react";
 import { useParams, NavLink } from "react-router-dom";
 import { useProjectsStore } from "../../stores/useProjectsStore";
 import { Swiper, SwiperSlide } from "swiper/react";
-import devData from "../data/devData.json";
 import { MovingBg } from "../../components/MovingBg";
 import { ImageModal } from "../../components/ImageModal";
-import projectHeading from "/project.svg";
 import { SlArrowLeft } from "react-icons/sl";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { FaNodeJs } from "react-icons/fa";
@@ -13,6 +11,9 @@ import { FaJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
+import devData from "../data/devData.json";
+import bgImage from "/bg-image-portfolio-izabel-lind.jpg"
+import projectHeading from "/project.svg";
 /* import { NotFound } from "./NotFound"; */
 
 // Import Swiper styles
@@ -34,6 +35,7 @@ export const FrontendSingleProject = () => {
   const [imageAlt, setImageAlt] = useState();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [techHovered, setTechHovered] = useState(null);
+  const [isLaptop, setIsLaptop] = useState(false);
 
   const technologyIcons = {
     "Node.js": <FaNodeJs />,
@@ -79,6 +81,18 @@ export const FrontendSingleProject = () => {
     }
   }, [id]);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setIsLaptop(window.innerWidth >= 1024);
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   if (!project) {
     return <div>Loading...</div>;
   }
@@ -87,7 +101,13 @@ export const FrontendSingleProject = () => {
 
   return (
     <section className="font-body font-medium text-white  flex flex-col">
-      <MovingBg />
+      {isLaptop ? (
+             <MovingBg />
+           ) : (    <img
+             src={bgImage}
+             alt="background image"
+             className="absolute w-full max-w-full top-0 z-0 h-full max-h-full object-cover"
+           /> )}
       <div className="flex flex-col w-10/12 laptop:w-9/12 mx-auto pt-6 z-20">
         <NavLink to={`/frontend`}>
           <SlArrowLeft className="cursor-hollow pl-2 w-6 h-6 laptop:w-8 laptop:h-6 absolute z-20 top-40 laptop:top-52 laptop:left-20 hover:scale-125" />{" "}
@@ -121,7 +141,6 @@ export const FrontendSingleProject = () => {
                   updateOnWindowResize
                   scrollbar={{ draggable: true }}
                   autoplay={{
-                    delay: 4000,
                     pauseOnMouseEnter: true,
                     disableOnInteraction: false,
                   }}
