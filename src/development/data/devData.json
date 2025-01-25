@@ -1,354 +1,435 @@
 [
-    {
-        "title": "Ama Kyei",
-        "year": 2024,
-        "genre": "Portfolio",
-        "category": ["Branding", "UX & UI design", "Fullstack development"],
-        "introduction": "Fullstack + design",
-        "description": "In this portfolio project for dancer & choreographer Ama Kyei I created a visual design focusing on her work using Figma. I started with and presented a few ideas for brainstorming to find her identity and preference. When we settled upon one direction I built a fullstack site where she can log in and upload new projects herself.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736263400/Sk%C3%A4rmbild_2024-10-07_154010_qwkpiw.png",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736263400/Sk%C3%A4rmbild_2024-10-07_154010_qwkpiw.png",
-            "alt": "Ama kyei portfolio website screenshot."
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-2_zxmal9.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-2_zxmal9.jpg",
-            "alt": "Ama kyei portfolio website screenshot."
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736416531/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind.flower_c5h4sj.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736416531/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind.flower_c5h4sj.jpg",
-            "alt": "Ama kyei portfolio website screenshot."
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-3_xnblch.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-3_xnblch.jpg",
-            "alt": "Ama kyei portfolio website screenshot."
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-4_p9g3xs.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-4_p9g3xs.jpg",
-            "alt": "Ama kyei portfolio website screenshot."
-          }
-        ],
-        "tags": ["JavaScript", "React", "vite", "REST API", "Zustand", "Node.js", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Postman", "Git", "Figma"],
-        "netlify": "https://amakyei.se",
-        "github": "https://github.com/Izzibizz/amakyei"
+  {
+    "title": "Ama Kyei",
+    "year": 2024,
+    "genre": "Portfolio",
+    "category": ["Branding", "UX & UI design", "Fullstack development"],
+    "introduction": "Fullstack + design",
+    "description": "In this portfolio project for dancer & choreographer Ama Kyei I created a visual design focusing on her work using Figma. I started with and presented a few ideas for brainstorming to find her identity and preference. When we settled upon one direction I built a fullstack site where she can log in and upload new projects herself.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736263400/Sk%C3%A4rmbild_2024-10-07_154010_qwkpiw.png",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736263400/Sk%C3%A4rmbild_2024-10-07_154010_qwkpiw.png",
+        "alt": "Ama kyei portfolio website screenshot."
       },
       {
-        "title": "Izabel Lind",
-        "year": 2025,
-        "genre": "Portfolio",
-        "category": ["Branding", "UX & UI design", "Frontend development"],
-        "introduction": "Frontend + design",
-        "description": "This project showcases my work as a frontend developer, highlighting both my frontend and fullstack projects. Built using React, this portfolio is designed for easy maintenance and scalability. The decision to keep it as a dedicated frontend project allows me to focus on delivering a seamless user experience, with a particular emphasis on animations and interactive elements. One of the standout features of this portfolio is the animated moving background in the frontend section (larger viewports).",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736932386/izabel-lind-portfolio-frontend-ux-designer_e21f9j.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736932386/izabel-lind-portfolio-frontend-ux-designer_e21f9j.jpg",
-            "alt": "Izabel Lind portfolio website screenshot."
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736932392/izabel-lind-portfolio-frontend-ux-designer-overview_i49gzf.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736932392/izabel-lind-portfolio-frontend-ux-designer-overview_i49gzf.jpg",
-            "alt": "Izabel Lind portfolio website screenshot."
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736932424/izabel-lind-portfolio-frontend-ux-designer-project-page_mfy03g.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736932424/izabel-lind-portfolio-frontend-ux-designer-project-page_mfy03g.jpg",
-            "alt": "Izabel Lind portfolio website screenshot."
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736932388/izabel-lind-portfolio-frontend-ux-designer-artist_kgqcxf.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736932388/izabel-lind-portfolio-frontend-ux-designer-artist_kgqcxf.jpg",
-            "alt": "Izabel Lind portfolio website screenshot."
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737462872/overview-art-project-portfolio-website-frontend-developer-artist-Izabel-Lind_nxxejg.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737462872/overview-art-project-portfolio-website-frontend-developer-artist-Izabel-Lind_nxxejg.jpg",
-            "alt": "Izabel Lind portfolio website screenshot."
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737462780/overview-art-single-project-portfolio-website-frontend-developer-artist-Izabel-Lind_bybklb.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737462780/overview-art-single-project-portfolio-website-frontend-developer-artist-Izabel-Lind_bybklb.jpg",
-            "alt": "Izabel Lind portfolio website screenshot."
-          }
-        ],
-        "tags": ["JavaScript", "React", "vite", "REST API", "Zustand", "Node.js", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Postman", "Git", "Figma"],
-        "netlify": "https://amakyei.se",
-        "github": "https://github.com/Izzibizz/amakyei"
-      },
-    {
-        "title": "Glim",
-        "year": 2024,
-        "genre": "E-commerce",
-        "category": ["Branding", "UX & UI design", "Fullstack development"],
-        "introduction": "Fullstack + design",
-        "description": "Glim is a test e-commerce I created as my final exam in a team of 3. It is specialized at personalized skincare and beauty products, where you create a user with your specific skin and hair type and get recommendations.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736774194/glim.hemsida.products-izabel.lind_wqrssl.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736774194/glim.hemsida.products-izabel.lind_wqrssl.jpg",
-            "alt": "Website screenshot of Glim overview page"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736773964/glim-startsida.izabel.lind_eufnkd.png",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736773964/glim-startsida.izabel.lind_eufnkd.png",
-            "alt": "Website screenshot of Glim start page"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736774413/glim.hemsida.product-page-izabel.lind_zveawt.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736774413/glim.hemsida.product-page-izabel.lind_zveawt.jpg",
-            "alt": "Website screenshot of product Glim"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736774361/glim.hemsida.account-user-page-izabel.lind_pyl4ir.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736774361/glim.hemsida.account-user-page-izabel.lind_pyl4ir.jpg",
-            "alt": "Website screenshot of Glim user page"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736774752/glim.hemsida.account-checkout-page-izabel.lind_z3ktuj.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736774752/glim.hemsida.account-checkout-page-izabel.lind_z3ktuj.jpg",
-            "alt": "Website screenshot of Glim checkout page"
-          }
-
-        ],
-        "tags": ["JavaScript", "React", "vite", "REST API", "Zustand globalstore", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Figma"],
-        "netlify": "https://glim-care.netlify.app/",
-        "github": "https://github.com/Izzibizz/glim"
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-2_zxmal9.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-2_zxmal9.jpg",
+        "alt": "Ama kyei portfolio website screenshot."
       },
       {
-        "title": "WeatherFlow",
-        "year": 2024,
-        "genre": "Forecast",
-        "category": ["Branding", "UX & UI design", "Frontend development"],
-        "introduction": "Frontend + design",
-        "description": "In this weather forecast I am fetching and displaying live data from the API service X so that one can search for a city and browse through the information availbale.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413622/weatherflow-izabel.lind-frontend-developer_ocic2f.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736413622/weatherflow-izabel.lind-frontend-developer_ocic2f.jpg",
-            "alt": "website preview of Weatherflow"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413623/weather-flow-izabel-lind-izla-bonita-2_cvgjao.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736413623/weather-flow-izabel-lind-izla-bonita-2_cvgjao.jpg",
-            "alt": "website preview of Weatherflow"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413622/weatherflow-izabel.lind-frontend-developer-3_pur0tj.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736413622/weatherflow-izabel.lind-frontend-developer-3_pur0tj.jpg",
-            "alt": "website preview of Weatherflow"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736776508/weatherflow-izabel.lind-frontend-developer-snow_esfaxf.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736776508/weatherflow-izabel.lind-frontend-developer-snow_esfaxf.jpg",
-            "alt": "website preview of Weatherflow"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736776507/weatherflow-izabel.lind-frontend-developer-night_ofoemj.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736776507/weatherflow-izabel.lind-frontend-developer-night_ofoemj.jpg",
-            "alt": "website preview of Weatherflow"
-          }
-         
-        ],
-        "tags": ["JavaScript", "React", "vite", "REST API", "Zustand globalstore", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3", "Tailwind", "Figma"],
-        "netlify": "https://weather-flow.netlify.app/",
-        "github": "https://github.com/Izzibizz/weatherflow"
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736416531/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind.flower_c5h4sj.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736416531/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind.flower_c5h4sj.jpg",
+        "alt": "Ama kyei portfolio website screenshot."
       },
       {
-        "title": "Artsome",
-        "year": 2024,
-        "genre": "Art",
-        "category": ["Branding", "UX & UI design", "Fullstack development"],
-        "introduction": "Fullstack + design",
-        "description": "Artsome is my first fullstack project where I learned how to create an API using Express.js during my education. It presents information on famous artists and their works.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262931/artsome_rszks4.png",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736262931/artsome_rszks4.png",
-            "alt": "Website preview of Artsome"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262931/artsome_rszks4.png",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736262931/artsome_rszks4.png",
-            "alt": "Website preview of Artsome"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262931/artsome_rszks4.png",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736262931/artsome_rszks4.png",
-            "alt": "Website preview of Artsome"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262931/artsome_rszks4.png",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736262931/artsome_rszks4.png",
-            "alt": "Website preview of Artsome"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262931/artsome_rszks4.png",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736262931/artsome_rszks4.png",
-            "alt": "Website preview of Artsome"
-          }
-        ],
-        "tags": ["JavaScript", "React", "REST API", "Zustand", "Express.js", "MongoDB", "Mongoose", "HTML5", "CSS3"],
-        "netlify": "https://artsome.netlify.app/",
-        "github": "https://github.com/Izzibizz/artsome"
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-3_xnblch.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-3_xnblch.jpg",
+        "alt": "Ama kyei portfolio website screenshot."
       },
       {
-        "title": "The Survivors",
-        "year": 2024,
-        "genre": "Story",
-        "category": ["Branding", "UX & UI design", "Fullstack development"],
-        "introduction": "Frontend + design",
-        "description": "This story telling navigation lets the user interact and move back and forth between different phases/locations of the 'game' using an excisting API. The project was created during the Technigo Bootcamp to learn how to use Zustand Global store and POST the reply of the user to the API, also learning how to use Postman.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778877/survivors-story-frontend-api-3-izabel.lind_j0do2m.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736778877/survivors-story-frontend-api-3-izabel.lind_j0do2m.jpg",
-            "alt": "Website preview of survivors story game"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778878/survivors-story-frontend-api-4-izabel.lind_lmx2h2.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736778878/survivors-story-frontend-api-4-izabel.lind_lmx2h2.jpg",
-            "alt": "Website preview of survivors story game"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778881/survivors-story-frontend-api-izabel.lind_vfyyli.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736778881/survivors-story-frontend-api-izabel.lind_vfyyli.jpg",
-            "alt": "Website preview of survivors story game"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778880/survivors-story-frontend-api-5-izabel.lind_jmrfez.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736778880/survivors-story-frontend-api-5-izabel.lind_jmrfez.jpg",
-            "alt": "Website preview of survivors story game"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778876/survivors-story-frontend-api-2-izabel.lind_xrrnjv.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736778876/survivors-story-frontend-api-2-izabel.lind_xrrnjv.jpg",
-            "alt": "Website preview of survivors story game"
-          }
-        ],
-        "tags": ["JavaScript", "React", "REST API", "Zustand", "UseSound", "Postman", "HTML5", "CSS3"],
-        "netlify": "https://the-survivors.netlify.app/",
-        "github": "https://github.com/Izzibizz/project-labyrinth-zustand-vite"
-      },
-      {
-        "title": "Liftly",
-        "year": 2024,
-        "genre": "Training",
-        "category": ["Branding", "UX-designer teamwork", "Frontend development"],
-        "introduction": "Frontend",
-        "description": "This project was part of the Frontend Bootcamp where we got to co-operate with an UX-designer who had set a design in Figma that we had to follow to the pixel. It is a design-test website therefore its only a static starting page",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736779488/liftly-ux-designer-handoff-frontend-izabel.lind_ozz7ei.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736779488/liftly-ux-designer-handoff-frontend-izabel.lind_ozz7ei.jpg",
-            "alt": "Website preview of Liftly"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736780714/liftly-ux-designer-handoff-frontend-3-izabel.lind_bhl1yh.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736780714/liftly-ux-designer-handoff-frontend-3-izabel.lind_bhl1yh.jpg",
-            "alt": "Website preview of Liftly"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736780712/liftly-ux-designer-handoff-frontend-2-izabel.lind_dumzgy.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736780712/liftly-ux-designer-handoff-frontend-2-izabel.lind_dumzgy.jpg",
-            "alt": "Website preview of Liftly"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736780715/liftly-ux-designer-handoff-frontend-izabel.cta_o3dglr.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736780715/liftly-ux-designer-handoff-frontend-izabel.cta_o3dglr.jpg",
-            "alt": "Website preview of Liftly"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736780711/liftly-ux-designer-handoff-frontend-figma-izabel.lind_vilpbh.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736780711/liftly-ux-designer-handoff-frontend-figma-izabel.lind_vilpbh.jpg",
-            "alt": "Website preview of Liftly"
-          }
-        ],
-        "tags": ["JavaScript", "React", "Zustand", "HTML5", "CSS3", "Figma"],
-        "netlify": "https://liftly.netlify.app/",
-        "github": "https://github.com/Izzibizz/project-design-handoff-vite",
-        "link": "https://www.linkedin.com/in/elin-bradway-75a8aa2a9/?locale=sv_SE"
-      },
-      {
-        "title": "Music Releases",
-        "year": 2024,
-        "genre": "Music",
-        "category": ["Branding", "UX & UI design", "Frontend development"],
-        "introduction": "Frontend + design",
-        "description": "Using a restful Music API, me and a collegue built this music release site during the Technigo Bootcamp, to learn how to work with an API and develop more skills in css.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
-            "alt": "Website preview of Music releases."
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
-            "alt": "Website preview of Music releases."
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
-            "alt": "Website preview of Music releases."
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
-            "alt": "Website preview of Music releases."
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
-            "alt": "Website preview of Music releases."
-          }
-        ],
-        "tags": ["JavaScript", "React", "REST API", "Zustand", "HTML5", "CSS3"],
-        "netlify": "https://vite-music-releases.netlify.app/",
-        "github": "https://github.com/Izzibizz/project-music-releases"
-      },
-      {
-        "title": "Cinemove",
-        "year": 2024,
-        "genre": "Movies",
-        "category": ["Branding", "UX & UI design", "Frontend development"],
-        "introduction": "Frontend + design",
-        "description": "Working with a REST API, we developed this movie site to display movies from different genres.",
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736262927/cine-movies_ull9ic.png",
-            "alt": "Website preview of Cinemove"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
-            "alt": "Website preview of Cinemove"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
-            "alt": "Website preview of Cinemove"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
-            "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
-            "alt": "Website preview of Cinemove"
-          },
-          {
-            "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
-            "thumbnail": "",
-            "alt": "Website preview of Cinemove"
-          }
-        ],
-        "tags": ["JavaScript", "React", "REST API", "Zustand", "UseSound", "HTML5", "CSS3"],
-        "netlify": "https://glim-skincare.netlify.app/",
-        "github": "https://github.com/Izzibizz/project-labyrinth-zustand-vite"
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-4_p9g3xs.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736413777/Ama-kyei.hemsida-frontend-fullstack-developer-izabel.lind-4_p9g3xs.jpg",
+        "alt": "Ama kyei portfolio website screenshot."
       }
-
-      
+    ],
+    "tags": [
+      "JavaScript",
+      "React",
+      "vite",
+      "REST API",
+      "Zustand",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "HTML5",
+      "CSS3",
+      "Tailwind",
+      "Postman",
+      "Git",
+      "Figma"
+    ],
+    "netlify": "https://amakyei.se",
+    "github": "https://github.com/Izzibizz/amakyei"
+  },
+  {
+    "title": "Izabel Lind",
+    "year": 2025,
+    "genre": "Portfolio",
+    "category": ["Branding", "UX & UI design", "Frontend development"],
+    "introduction": "Frontend + design",
+    "description": "This project showcases my work as a frontend developer, highlighting both my frontend and fullstack projects. Built using React, this portfolio is designed for easy maintenance and scalability. The decision to keep it as a dedicated frontend project allows me to focus on delivering a seamless user experience, with a particular emphasis on animations and interactive elements. One of the standout features of this portfolio is the animated moving background in the frontend section (larger viewports).",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736932386/izabel-lind-portfolio-frontend-ux-designer_e21f9j.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736932386/izabel-lind-portfolio-frontend-ux-designer_e21f9j.jpg",
+        "alt": "Izabel Lind portfolio website screenshot."
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736932392/izabel-lind-portfolio-frontend-ux-designer-overview_i49gzf.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736932392/izabel-lind-portfolio-frontend-ux-designer-overview_i49gzf.jpg",
+        "alt": "Izabel Lind portfolio website screenshot."
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736932424/izabel-lind-portfolio-frontend-ux-designer-project-page_mfy03g.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736932424/izabel-lind-portfolio-frontend-ux-designer-project-page_mfy03g.jpg",
+        "alt": "Izabel Lind portfolio website screenshot."
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736932388/izabel-lind-portfolio-frontend-ux-designer-artist_kgqcxf.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736932388/izabel-lind-portfolio-frontend-ux-designer-artist_kgqcxf.jpg",
+        "alt": "Izabel Lind portfolio website screenshot."
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737462872/overview-art-project-portfolio-website-frontend-developer-artist-Izabel-Lind_nxxejg.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737462872/overview-art-project-portfolio-website-frontend-developer-artist-Izabel-Lind_nxxejg.jpg",
+        "alt": "Izabel Lind portfolio website screenshot."
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737462780/overview-art-single-project-portfolio-website-frontend-developer-artist-Izabel-Lind_bybklb.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737462780/overview-art-single-project-portfolio-website-frontend-developer-artist-Izabel-Lind_bybklb.jpg",
+        "alt": "Izabel Lind portfolio website screenshot."
+      }
+    ],
+    "tags": [
+      "JavaScript",
+      "React",
+      "vite",
+      "REST API",
+      "Zustand",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "HTML5",
+      "CSS3",
+      "Tailwind",
+      "Postman",
+      "Git",
+      "Figma"
+    ],
+    "netlify": "https://amakyei.se",
+    "github": "https://github.com/Izzibizz/amakyei"
+  },
+  {
+    "title": "Glim",
+    "year": 2024,
+    "genre": "E-commerce",
+    "category": ["Branding", "UX & UI design", "Fullstack development"],
+    "introduction": "Fullstack + design",
+    "description": "Glim is a test e-commerce I created as my final exam in a team of 3. It is specialized at personalized skincare and beauty products, where you create a user with your specific skin and hair type and get recommendations.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736774194/glim.hemsida.products-izabel.lind_wqrssl.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736774194/glim.hemsida.products-izabel.lind_wqrssl.jpg",
+        "alt": "Website screenshot of Glim overview page"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736773964/glim-startsida.izabel.lind_eufnkd.png",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736773964/glim-startsida.izabel.lind_eufnkd.png",
+        "alt": "Website screenshot of Glim start page"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736774413/glim.hemsida.product-page-izabel.lind_zveawt.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736774413/glim.hemsida.product-page-izabel.lind_zveawt.jpg",
+        "alt": "Website screenshot of product Glim"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736774361/glim.hemsida.account-user-page-izabel.lind_pyl4ir.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736774361/glim.hemsida.account-user-page-izabel.lind_pyl4ir.jpg",
+        "alt": "Website screenshot of Glim user page"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736774752/glim.hemsida.account-checkout-page-izabel.lind_z3ktuj.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736774752/glim.hemsida.account-checkout-page-izabel.lind_z3ktuj.jpg",
+        "alt": "Website screenshot of Glim checkout page"
+      }
+    ],
+    "tags": [
+      "JavaScript",
+      "React",
+      "vite",
+      "REST API",
+      "Zustand globalstore",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "HTML5",
+      "CSS3",
+      "Tailwind",
+      "Figma"
+    ],
+    "netlify": "https://glim-care.netlify.app/",
+    "github": "https://github.com/Izzibizz/glim"
+  },
+  {
+    "title": "WeatherFlow",
+    "year": 2024,
+    "genre": "Forecast",
+    "category": ["Branding", "UX & UI design", "Frontend development"],
+    "introduction": "Frontend + design",
+    "description": "In this weather forecast I am fetching and displaying live data from the API service X so that one can search for a city and browse through the information availbale.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413622/weatherflow-izabel.lind-frontend-developer_ocic2f.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736413622/weatherflow-izabel.lind-frontend-developer_ocic2f.jpg",
+        "alt": "website preview of Weatherflow"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413623/weather-flow-izabel-lind-izla-bonita-2_cvgjao.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736413623/weather-flow-izabel-lind-izla-bonita-2_cvgjao.jpg",
+        "alt": "website preview of Weatherflow"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736413622/weatherflow-izabel.lind-frontend-developer-3_pur0tj.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736413622/weatherflow-izabel.lind-frontend-developer-3_pur0tj.jpg",
+        "alt": "website preview of Weatherflow"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736776508/weatherflow-izabel.lind-frontend-developer-snow_esfaxf.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736776508/weatherflow-izabel.lind-frontend-developer-snow_esfaxf.jpg",
+        "alt": "website preview of Weatherflow"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736776507/weatherflow-izabel.lind-frontend-developer-night_ofoemj.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736776507/weatherflow-izabel.lind-frontend-developer-night_ofoemj.jpg",
+        "alt": "website preview of Weatherflow"
+      }
+    ],
+    "tags": [
+      "JavaScript",
+      "React",
+      "vite",
+      "REST API",
+      "Zustand globalstore",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "HTML5",
+      "CSS3",
+      "Tailwind",
+      "Figma"
+    ],
+    "netlify": "https://weather-flow.netlify.app/",
+    "github": "https://github.com/Izzibizz/weatherflow"
+  },
+  {
+    "title": "Artsome",
+    "year": 2024,
+    "genre": "Art",
+    "category": ["Branding", "UX & UI design", "Fullstack development"],
+    "introduction": "Fullstack + design",
+    "description": "Artsome is my first fullstack project where I learned how to create an API using Express.js during my education. It presents information on famous artists and their works.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737826428/artsome-izabel.lind.frontend-developer-fullstack-home_oy1inq.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737826428/artsome-izabel.lind.frontend-developer-fullstack-home_oy1inq.jpg",
+        "alt": "Website preview of Artsome"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737826428/artsome-izabel.lind.frontend-developer-fullstack-home_oy1inq.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737826428/artsome-izabel.lind.frontend-developer-fullstack-home_oy1inq.jpg",
+        "alt": "Website preview of Artsome"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737826428/artsome-izabel.lind.frontend-developer-fullstack-home_oy1inq.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737826428/artsome-izabel.lind.frontend-developer-fullstack-home_oy1inq.jpg",
+        "alt": "Website preview of Artsome"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737826428/artsome-izabel.lind.frontend-developer-fullstack-home_oy1inq.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737826428/artsome-izabel.lind.frontend-developer-fullstack-home_oy1inq.jpg",
+        "alt": "Website preview of Artsome"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737826428/artsome-izabel.lind.frontend-developer-fullstack-home_oy1inq.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737826428/artsome-izabel.lind.frontend-developer-fullstack-home_oy1inq.jpg",
+        "alt": "Website preview of Artsome"
+      }
+    ],
+    "tags": [
+      "JavaScript",
+      "React",
+      "REST API",
+      "Zustand",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "HTML5",
+      "CSS3"
+    ],
+    "netlify": "https://artsome.netlify.app/",
+    "github": "https://github.com/Izzibizz/artsome"
+  },
+  {
+    "title": "The Survivors",
+    "year": 2024,
+    "genre": "Story",
+    "category": ["Branding", "UX & UI design", "Fullstack development"],
+    "introduction": "Frontend + design",
+    "description": "This story telling navigation lets the user interact and move back and forth between different phases/locations of the 'game' using an excisting API. The project was created during the Technigo Bootcamp to learn how to use Zustand Global store and POST the reply of the user to the API, also learning how to use Postman.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778877/survivors-story-frontend-api-3-izabel.lind_j0do2m.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736778877/survivors-story-frontend-api-3-izabel.lind_j0do2m.jpg",
+        "alt": "Website preview of survivors story game"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778878/survivors-story-frontend-api-4-izabel.lind_lmx2h2.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736778878/survivors-story-frontend-api-4-izabel.lind_lmx2h2.jpg",
+        "alt": "Website preview of survivors story game"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778881/survivors-story-frontend-api-izabel.lind_vfyyli.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736778881/survivors-story-frontend-api-izabel.lind_vfyyli.jpg",
+        "alt": "Website preview of survivors story game"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778880/survivors-story-frontend-api-5-izabel.lind_jmrfez.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736778880/survivors-story-frontend-api-5-izabel.lind_jmrfez.jpg",
+        "alt": "Website preview of survivors story game"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736778876/survivors-story-frontend-api-2-izabel.lind_xrrnjv.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736778876/survivors-story-frontend-api-2-izabel.lind_xrrnjv.jpg",
+        "alt": "Website preview of survivors story game"
+      }
+    ],
+    "tags": [
+      "JavaScript",
+      "React",
+      "REST API",
+      "Zustand",
+      "UseSound",
+      "Postman",
+      "HTML5",
+      "CSS3"
+    ],
+    "netlify": "https://the-survivors.netlify.app/",
+    "github": "https://github.com/Izzibizz/project-labyrinth-zustand-vite"
+  },
+  {
+    "title": "Liftly",
+    "year": 2024,
+    "genre": "Training",
+    "category": ["Branding", "UX-designer teamwork", "Frontend development"],
+    "introduction": "Frontend",
+    "description": "This project was part of the Frontend Bootcamp where we got to co-operate with an UX-designer who had set a design in Figma that we had to follow to the pixel. It is a design-test website therefore its only a static starting page",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736779488/liftly-ux-designer-handoff-frontend-izabel.lind_ozz7ei.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736779488/liftly-ux-designer-handoff-frontend-izabel.lind_ozz7ei.jpg",
+        "alt": "Website preview of Liftly"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736780714/liftly-ux-designer-handoff-frontend-3-izabel.lind_bhl1yh.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736780714/liftly-ux-designer-handoff-frontend-3-izabel.lind_bhl1yh.jpg",
+        "alt": "Website preview of Liftly"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736780712/liftly-ux-designer-handoff-frontend-2-izabel.lind_dumzgy.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736780712/liftly-ux-designer-handoff-frontend-2-izabel.lind_dumzgy.jpg",
+        "alt": "Website preview of Liftly"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736780715/liftly-ux-designer-handoff-frontend-izabel.cta_o3dglr.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736780715/liftly-ux-designer-handoff-frontend-izabel.cta_o3dglr.jpg",
+        "alt": "Website preview of Liftly"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736780711/liftly-ux-designer-handoff-frontend-figma-izabel.lind_vilpbh.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736780711/liftly-ux-designer-handoff-frontend-figma-izabel.lind_vilpbh.jpg",
+        "alt": "Website preview of Liftly"
+      }
+    ],
+    "tags": ["JavaScript", "React", "Zustand", "HTML5", "CSS3", "Figma"],
+    "netlify": "https://liftly.netlify.app/",
+    "github": "https://github.com/Izzibizz/project-design-handoff-vite",
+    "link": "https://www.linkedin.com/in/elin-bradway-75a8aa2a9/?locale=sv_SE"
+  },
+  {
+    "title": "Music Releases",
+    "year": 2024,
+    "genre": "Music",
+    "category": ["Branding", "UX & UI design", "Frontend development"],
+    "introduction": "Frontend + design",
+    "description": "Using a restful Music API, me and a collegue built this music release site during the Technigo Bootcamp, to learn how to work with an API and develop more skills in css.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+        "alt": "Website preview of Music releases."
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+        "alt": "Website preview of Music releases."
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+        "alt": "Website preview of Music releases."
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+        "alt": "Website preview of Music releases."
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736772170/music-releases-frontend-izabel.lind_vqw2wy.jpg",
+        "alt": "Website preview of Music releases."
+      }
+    ],
+    "tags": ["JavaScript", "React", "REST API", "Zustand", "HTML5", "CSS3"],
+    "netlify": "https://vite-music-releases.netlify.app/",
+    "github": "https://github.com/Izzibizz/project-music-releases"
+  },
+  {
+    "title": "Cinemove",
+    "year": 2024,
+    "genre": "Movies",
+    "category": ["Branding", "UX & UI design", "Frontend development"],
+    "introduction": "Frontend + design",
+    "description": "Working with a REST API, we developed this movie site to display movies from different genres.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1736262927/cine-movies_ull9ic.png",
+        "alt": "Website preview of Cinemove"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
+        "alt": "Website preview of Cinemove"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
+        "alt": "Website preview of Cinemove"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
+        "alt": "Website preview of Cinemove"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736262927/cine-movies_ull9ic.png",
+        "thumbnail": "",
+        "alt": "Website preview of Cinemove"
+      }
+    ],
+    "tags": [
+      "JavaScript",
+      "React",
+      "REST API",
+      "Zustand",
+      "UseSound",
+      "HTML5",
+      "CSS3"
+    ],
+    "netlify": "https://glim-skincare.netlify.app/",
+    "github": "https://github.com/Izzibizz/project-labyrinth-zustand-vite"
+  }
 ]
