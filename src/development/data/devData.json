@@ -54,6 +54,54 @@
     "github": "https://github.com/Izzibizz/amakyei"
   },
   {
+    "title": "Artsome",
+    "year": 2025,
+    "genre": "Art",
+    "category": ["Branding", "UX & UI design", "Fullstack development"],
+    "introduction": "Fullstack + design",
+    "description": "Artsome is my first fullstack project where I learned how to create an API using Express.js during my education. It presents information on famous artists and their works.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1738077018/artsome-izabel.lind.frontend-developer-fullstack-home2_cdp8rw.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1738077018/artsome-izabel.lind.frontend-developer-fullstack-home2_cdp8rw.jpg",
+        "alt": "Website preview of Artsome"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1738077016/artsome-izabel.lind.frontend-developer-fullstack-artists_toqmkb.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1738077016/artsome-izabel.lind.frontend-developer-fullstack-artists_toqmkb.jpg",
+        "alt": "Website preview of Artsome"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1738077015/artsome-izabel.lind.frontend-developer-fullstack-artistpage-2_gf0ill.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1738077015/artsome-izabel.lind.frontend-developer-fullstack-artistpage-2_gf0ill.jpg",
+        "alt": "Website preview of Artsome"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1738077015/artsome-izabel.lind.frontend-developer-fullstack-artistpage_i3nfq3.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1738077015/artsome-izabel.lind.frontend-developer-fullstack-artistpage_i3nfq3.jpg",
+        "alt": "Website preview of Artsome"
+      },
+      {
+        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1738077014/artsome-izabel.lind.frontend-developer-fullstack-about_bngnzv.jpg",
+        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1738077014/artsome-izabel.lind.frontend-developer-fullstack-about_bngnzv.jpg",
+        "alt": "Website preview of Artsome"
+      }
+    ],
+    "tags": [
+      "JavaScript",
+      "React",
+      "REST API",
+      "Zustand",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "HTML5",
+      "CSS3"
+    ],
+    "netlify": "https://artsome.netlify.app/",
+    "github": "https://github.com/Izzibizz/artsome"
+  },
+  {
     "title": "Izabel Lind",
     "year": 2025,
     "genre": "Portfolio",
@@ -213,54 +261,6 @@
     ],
     "netlify": "https://weather-flow.netlify.app/",
     "github": "https://github.com/Izzibizz/weatherflow"
-  },
-  {
-    "title": "Artsome",
-    "year": 2024,
-    "genre": "Art",
-    "category": ["Branding", "UX & UI design", "Fullstack development"],
-    "introduction": "Fullstack + design",
-    "description": "Artsome is my first fullstack project where I learned how to create an API using Express.js during my education. It presents information on famous artists and their works.",
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1738077018/artsome-izabel.lind.frontend-developer-fullstack-home2_cdp8rw.jpg",
-        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1738077018/artsome-izabel.lind.frontend-developer-fullstack-home2_cdp8rw.jpg",
-        "alt": "Website preview of Artsome"
-      },
-      {
-        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1738077016/artsome-izabel.lind.frontend-developer-fullstack-artists_toqmkb.jpg",
-        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1738077016/artsome-izabel.lind.frontend-developer-fullstack-artists_toqmkb.jpg",
-        "alt": "Website preview of Artsome"
-      },
-      {
-        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1738077015/artsome-izabel.lind.frontend-developer-fullstack-artistpage-2_gf0ill.jpg",
-        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1738077015/artsome-izabel.lind.frontend-developer-fullstack-artistpage-2_gf0ill.jpg",
-        "alt": "Website preview of Artsome"
-      },
-      {
-        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1738077015/artsome-izabel.lind.frontend-developer-fullstack-artistpage_i3nfq3.jpg",
-        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1738077015/artsome-izabel.lind.frontend-developer-fullstack-artistpage_i3nfq3.jpg",
-        "alt": "Website preview of Artsome"
-      },
-      {
-        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1738077014/artsome-izabel.lind.frontend-developer-fullstack-about_bngnzv.jpg",
-        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1738077014/artsome-izabel.lind.frontend-developer-fullstack-about_bngnzv.jpg",
-        "alt": "Website preview of Artsome"
-      }
-    ],
-    "tags": [
-      "JavaScript",
-      "React",
-      "REST API",
-      "Zustand",
-      "Express.js",
-      "MongoDB",
-      "Mongoose",
-      "HTML5",
-      "CSS3"
-    ],
-    "netlify": "https://artsome.netlify.app/",
-    "github": "https://github.com/Izzibizz/artsome"
   },
   {
     "title": "The Survivors",
