@@ -104,9 +104,7 @@ export const ArtSingleProject = () => {
             alt={project.images?.[0]?.alt}
             className="w-full"
             onClick={() => handleOpenModal(project.images?.[0]?.url, project.images?.[0]?.alt )}
-                          onTouchStart={() =>
-                            handleOpenModal(project.images?.[0]?.url, project.images?.[0]?.alt )
-                          }
+                         
           />
         </div>
       ) : (
@@ -120,9 +118,7 @@ export const ArtSingleProject = () => {
                 className="aspect-[3/4] object-cover"
                 alt={image.alt || project.title}
                 onClick={() => handleOpenModal(image.url, image.alt )}
-                          onTouchStart={() =>
-                            handleOpenModal(image.url, image.alt )
-                          }
+                          
               />
             ))}
           </div>
@@ -141,9 +137,7 @@ export const ArtSingleProject = () => {
                     project.images?.length < 3 ? "h-[500px]" : "h-[400px]"
                   }`}
                   onClick={() => handleOpenModal(project.images?.[0]?.url, project.images?.[0]?.alt )}
-                          onTouchStart={() =>
-                            handleOpenModal(project.images?.[0]?.url, project.images?.[0]?.alt )
-                          }
+                         
                 />
                 <img
                   src={project.images?.[1]?.url}
@@ -153,9 +147,7 @@ export const ArtSingleProject = () => {
                     
                   }`}
                   onClick={() => handleOpenModal(project.images?.[1]?.url, project.images?.[1]?.alt )}
-                          onTouchStart={() =>
-                            handleOpenModal(project.images?.[1]?.url, project.images?.[1]?.alt )
-                          }
+                         
                 />
               </div>
             )}
@@ -166,18 +158,14 @@ export const ArtSingleProject = () => {
                   alt={project.images?.[2]?.alt}
                   className="h-[400px]"
                   onClick={() => handleOpenModal(project.images?.[2]?.url, project.images?.[2]?.alt )}
-                          onTouchStart={() =>
-                            handleOpenModal(project.images?.[2]?.url, project.images?.[2]?.alt )
-                          }
+                         
                 />
                 <img
                   src={project.images?.[3]?.url}
                   alt={project.images?.[3]?.alt}
                   className="h-[200px]"
                   onClick={() => handleOpenModal(project.images?.[3]?.url, project.images?.[3]?.alt )}
-                          onTouchStart={() =>
-                            handleOpenModal(project.images?.[3]?.url, project.images?.[3]?.alt )
-                          }
+                        
                 />
               </div>
             )}
@@ -186,18 +174,14 @@ export const ArtSingleProject = () => {
               alt={project.images?.[4]?.alt}
               className="h-[200px] absolute top-10 right-1/2"
               onClick={() => handleOpenModal(project.images?.[4]?.url, project.images?.[4]?.alt )}
-                          onTouchStart={() =>
-                            handleOpenModal(project.images?.[4]?.url, project.images?.[4]?.alt )
-                          }
+                        
             />
             <img
               src={project.images?.[5]?.url}
               alt={project.images?.[5]?.alt}
               className="h-[200px] absolute bottom-[-10%] right-1/4"
               onClick={() => handleOpenModal(project.images?.[5]?.url, project.images?.[5]?.alt )}
-                          onTouchStart={() =>
-                            handleOpenModal(project.images?.[5]?.url, project.images?.[5]?.alt )
-                          }
+                          
             />
             {project.images?.length > 5 && (
               <div className="w full tablet:w-full flex justify-between">
@@ -206,27 +190,21 @@ export const ArtSingleProject = () => {
                   alt={project.images?.[6]?.alt}
                   className="h-[400px]"
                   onClick={() => handleOpenModal(project.images?.[6]?.url, project.images?.[6]?.alt )}
-                          onTouchStart={() =>
-                            handleOpenModal(project.images?.[6]?.url, project.images?.[6]?.alt )
-                          }
+                          
                 />
                 <img
                   src={project.images?.[8]?.url}
                   alt={project.images?.[8]?.alt}
                   className="h-[400px]"
                   onClick={() => handleOpenModal(project.images?.[8]?.url, project.images?.[8]?.alt )}
-                          onTouchStart={() =>
-                            handleOpenModal(project.images?.[8]?.url, project.images?.[8]?.alt )
-                          }
+                          
                 />
                 <img
                   src={project.images?.[7]?.url}
                   alt={project.images?.[7]?.alt}
                   className="h-[400px]"
                   onClick={() => handleOpenModal(project.images?.[7]?.url, project.images?.[7]?.alt )}
-                          onTouchStart={() =>
-                            handleOpenModal(project.images?.[7]?.url, project.images?.[7]?.alt )
-                          }
+                         
                 />
               </div>
             )}
@@ -237,9 +215,7 @@ export const ArtSingleProject = () => {
                   alt={project.images?.[9]?.alt}
                   className="h-[400px]"
                   onClick={() => handleOpenModal(project.images?.[9]?.url, project.images?.[9]?.alt )}
-                          onTouchStart={() =>
-                            handleOpenModal(project.images?.[9]?.url, project.images?.[9]?.alt )
-                          }
+                        
                 />
               </div>
             )}
