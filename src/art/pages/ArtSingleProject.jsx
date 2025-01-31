@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { Helmet } from "react-helmet";
 import { useParams, NavLink, useNavigate } from "react-router-dom";
 import { useProjectsStore } from "../../stores/useProjectsStore";
@@ -11,14 +11,16 @@ export const ArtSingleProject = () => {
     useProjectsStore();
   const { id } = useParams();
   const navigate = useNavigate();
+  const infoRef = useRef(null);
   const [project, setProject] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [imageSrc, setImageSrc] = useState();
   const [imageAlt, setImageAlt] = useState();
+  const [sectionMarginBottom, setSectionMarginBottom] = useState("20px");
 
   const handleOpenModal = (img, alt) => {
-    setImageSrc(img)
-    setImageAlt(alt)
+    setImageSrc(img);
+    setImageAlt(alt);
     setIsModalOpen(true);
   };
 
@@ -43,6 +45,17 @@ export const ArtSingleProject = () => {
   }, [id, navigate]);
 
   useEffect(() => {
+    if (infoRef.current) {
+      const infoHeight = infoRef.current.offsetHeight; 
+      if (window.innerWidth < 1024) { 
+        setSectionMarginBottom(`${infoHeight + 20}px`);
+      } else {
+        setSectionMarginBottom("40px");
+      }
+    }
+  }, [project]);
+
+  useEffect(() => {
     setArtPortfolioDisplay(true);
     setFrontendPortfolioDisplay(false);
     setBgWhite(true);
@@ -52,8 +65,10 @@ export const ArtSingleProject = () => {
     return null; // Optionally render a loader while navigating
   }
 
+
   return (
-    <section className="animate-fadeIn font-body flex flex-col gap-10 mb-48 laptop:mb-20">
+    <section className="animate-fadeIn font-body flex flex-col gap-10"
+    style={{ marginBottom: sectionMarginBottom }} >
       <Helmet>
         <title>
           {project?.title ? `${project.title} - Art Project` : "Art Project"}
@@ -67,7 +82,10 @@ export const ArtSingleProject = () => {
           }
         />
       </Helmet>
-      <div className="fixed bottom-0 left-0 laptop:left-20 laptop:bottom-10 bg-light bg-opacity-80 p-4 laptop:rounded-xl w-full laptop:w-[300px] flex gap-2">
+      <div
+        ref={infoRef}
+        className="fixed bottom-0 left-0 laptop:left-20 laptop:bottom-10 bg-light bg-opacity-80 p-4 laptop:rounded-xl w-full laptop:w-[350px] flex gap-2"
+      >
         <NavLink to={`/art`}>
           <SlArrowLeft className="cursor-hollow pl-4 w-8 h-8 z-20 hover:scale-125" />{" "}
         </NavLink>
@@ -103,8 +121,12 @@ export const ArtSingleProject = () => {
             src={project.images?.[0]?.url}
             alt={project.images?.[0]?.alt}
             className="w-full"
-            onClick={() => handleOpenModal(project.images?.[0]?.url, project.images?.[0]?.alt )}
-                         
+            onClick={() =>
+              handleOpenModal(
+                project.images?.[0]?.url,
+                project.images?.[0]?.alt
+              )
+            }
           />
         </div>
       ) : (
@@ -117,8 +139,7 @@ export const ArtSingleProject = () => {
                 key={index}
                 className="aspect-[3/4] object-cover"
                 alt={image.alt || project.title}
-                onClick={() => handleOpenModal(image.url, image.alt )}
-                          
+                onClick={() => handleOpenModal(image.url, image.alt)}
               />
             ))}
           </div>
@@ -136,18 +157,25 @@ export const ArtSingleProject = () => {
                   className={`${
                     project.images?.length < 3 ? "h-[500px]" : "h-[400px]"
                   }`}
-                  onClick={() => handleOpenModal(project.images?.[0]?.url, project.images?.[0]?.alt )}
-                         
+                  onClick={() =>
+                    handleOpenModal(
+                      project.images?.[0]?.url,
+                      project.images?.[0]?.alt
+                    )
+                  }
                 />
                 <img
                   src={project.images?.[1]?.url}
                   alt={project.images?.[1]?.alt}
                   className={`${
-                    project.images?.length < 3 ? "h-[700px]" : "h-[200px]"
-                    
+                    project.images?.length < 3 ? "h-[550px] " : "h-[200px]"
                   }`}
-                  onClick={() => handleOpenModal(project.images?.[1]?.url, project.images?.[1]?.alt )}
-                         
+                  onClick={() =>
+                    handleOpenModal(
+                      project.images?.[1]?.url,
+                      project.images?.[1]?.alt
+                    )
+                  }
                 />
               </div>
             )}
@@ -157,15 +185,23 @@ export const ArtSingleProject = () => {
                   src={project.images?.[2]?.url}
                   alt={project.images?.[2]?.alt}
                   className="h-[400px]"
-                  onClick={() => handleOpenModal(project.images?.[2]?.url, project.images?.[2]?.alt )}
-                         
+                  onClick={() =>
+                    handleOpenModal(
+                      project.images?.[2]?.url,
+                      project.images?.[2]?.alt
+                    )
+                  }
                 />
                 <img
                   src={project.images?.[3]?.url}
                   alt={project.images?.[3]?.alt}
                   className="h-[200px]"
-                  onClick={() => handleOpenModal(project.images?.[3]?.url, project.images?.[3]?.alt )}
-                        
+                  onClick={() =>
+                    handleOpenModal(
+                      project.images?.[3]?.url,
+                      project.images?.[3]?.alt
+                    )
+                  }
                 />
               </div>
             )}
@@ -173,15 +209,23 @@ export const ArtSingleProject = () => {
               src={project.images?.[4]?.url}
               alt={project.images?.[4]?.alt}
               className="h-[200px] absolute top-10 right-1/2"
-              onClick={() => handleOpenModal(project.images?.[4]?.url, project.images?.[4]?.alt )}
-                        
+              onClick={() =>
+                handleOpenModal(
+                  project.images?.[4]?.url,
+                  project.images?.[4]?.alt
+                )
+              }
             />
             <img
               src={project.images?.[5]?.url}
               alt={project.images?.[5]?.alt}
               className="h-[200px] absolute bottom-[-10%] right-1/4"
-              onClick={() => handleOpenModal(project.images?.[5]?.url, project.images?.[5]?.alt )}
-                          
+              onClick={() =>
+                handleOpenModal(
+                  project.images?.[5]?.url,
+                  project.images?.[5]?.alt
+                )
+              }
             />
             {project.images?.length > 5 && (
               <div className="w full tablet:w-full flex justify-between">
@@ -189,22 +233,34 @@ export const ArtSingleProject = () => {
                   src={project.images?.[6]?.url}
                   alt={project.images?.[6]?.alt}
                   className="h-[400px]"
-                  onClick={() => handleOpenModal(project.images?.[6]?.url, project.images?.[6]?.alt )}
-                          
+                  onClick={() =>
+                    handleOpenModal(
+                      project.images?.[6]?.url,
+                      project.images?.[6]?.alt
+                    )
+                  }
                 />
                 <img
                   src={project.images?.[8]?.url}
                   alt={project.images?.[8]?.alt}
                   className="h-[400px]"
-                  onClick={() => handleOpenModal(project.images?.[8]?.url, project.images?.[8]?.alt )}
-                          
+                  onClick={() =>
+                    handleOpenModal(
+                      project.images?.[8]?.url,
+                      project.images?.[8]?.alt
+                    )
+                  }
                 />
                 <img
                   src={project.images?.[7]?.url}
                   alt={project.images?.[7]?.alt}
                   className="h-[400px]"
-                  onClick={() => handleOpenModal(project.images?.[7]?.url, project.images?.[7]?.alt )}
-                         
+                  onClick={() =>
+                    handleOpenModal(
+                      project.images?.[7]?.url,
+                      project.images?.[7]?.alt
+                    )
+                  }
                 />
               </div>
             )}
@@ -214,8 +270,12 @@ export const ArtSingleProject = () => {
                   src={project.images?.[9]?.url}
                   alt={project.images?.[9]?.alt}
                   className="h-[400px]"
-                  onClick={() => handleOpenModal(project.images?.[9]?.url, project.images?.[9]?.alt )}
-                        
+                  onClick={() =>
+                    handleOpenModal(
+                      project.images?.[9]?.url,
+                      project.images?.[9]?.alt
+                    )
+                  }
                 />
               </div>
             )}
@@ -243,13 +303,9 @@ export const ArtSingleProject = () => {
           </div>
         </div>
       )}
-         {isModalOpen && (
-              <ImageModal
-                src={imageSrc}
-                alt={imageAlt}
-                onClose={handleCloseModal}
-              />
-            )}
+      {isModalOpen && (
+        <ImageModal src={imageSrc} alt={imageAlt} onClose={handleCloseModal} />
+      )}
     </section>
   );
 };
