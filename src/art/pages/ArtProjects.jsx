@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom"
+import { Helmet } from "react-helmet"
 import { useProjectsStore } from "../../stores/useProjectsStore";
 import { Magnifier } from "../../components/Magnifier";
 import artProjects from "../data/artProjects.json"
@@ -38,6 +39,17 @@ export const ArtProjects = () => {
 
   return (
     <section className="font-body font-medium animate-fadeIn h-full w-11/12 laptop:w-[99%] mx-auto justify-between flex flex-col gap-10 mb-10 laptop:mb-0">
+      <Helmet>
+        <title>
+         Art Projects by Izabel Lind
+        </title>
+        <meta
+          name="description"
+          content={
+            "Overview of artprojects by Izabel Lind"
+          }
+        />
+      </Helmet>
       {titleAndVideoVisible ? (
         <>
           <video
@@ -85,11 +97,12 @@ export const ArtProjects = () => {
             to={`/art/${imageTitle
               .replace(/\s+/g, "-")
               .toLowerCase()}`}
+            aria-label={`Go to ${imageTitle}`}
             key={imageTitle}
             className="flex gap-1 items-center relative after:content-[''] after:block after:w-0 after:h-[1px] after:bg-orange-500 after:absolute after:left-0 after:bottom-0 after:transition-all after:duration-300 group-hover:after:w-full"
           > <MdOutlineArrowOutward className="group-hover:text-orange-500" />
           See more</NavLink></div>
-          <p className="text-medium">"{imageTitle}"</p>
+          <p className="text-medium italic">{imageTitle}</p>
                        </div>
           </div>
             </div>

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { useParams, NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet";
+import { useParams, NavLink, useNavigate } from "react-router-dom";
 import { useProjectsStore } from "../../stores/useProjectsStore";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { MovingBg } from "../../components/MovingBg";
@@ -12,9 +13,8 @@ import { SiMongodb } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import devData from "../data/devData.json";
-import bgImage from "/bg-image-portfolio-izabel-lind.jpg"
+import bgImage from "/bg-image-portfolio-izabel-lind.jpg";
 import projectHeading from "/project.svg";
-/* import { NotFound } from "./NotFound"; */
 
 // Import Swiper styles
 import "swiper/css";
@@ -30,7 +30,8 @@ export const FrontendSingleProject = () => {
   const { setFrontendPortfolioDisplay, setArtPortfolioDisplay } =
     useProjectsStore();
   const { id } = useParams();
-  const [project, setProject] = useState([]);
+  const navigate = useNavigate(); 
+  const [project, setProject] = useState(null);
   const [imageSrc, setImageSrc] = useState();
   const [imageAlt, setImageAlt] = useState();
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -77,7 +78,8 @@ export const FrontendSingleProject = () => {
       setImageAlt(devData[currentProjectIndex].images[0].alt);
     } else {
       console.error("Project not found");
-      setProject(null); // Or handle the case where project is not found
+      setProject(null); 
+      navigate("/404", { replace: true }); 
     }
   }, [id]);
 
@@ -97,24 +99,47 @@ export const FrontendSingleProject = () => {
     return <div>Loading...</div>;
   }
 
-  console.log(project.images);
+  console.log(project?.images);
 
   return (
     <section className="font-body font-medium text-white  flex flex-col">
+      <Helmet>
+        <title>
+          {project?.title
+            ? `${project.title} - Frontend Project`
+            : "Frontend Project"}
+        </title>
+        <meta
+          name="description"
+          content={
+            project?.title
+              ? ` ${
+                  project.title
+                }, a frontend project by Izabel Lind built using ${project.tags.join(", ")}.`
+              : "Discover frontend project by Izabel Lind."
+          }
+        />
+      </Helmet>
       {isLaptop ? (
-             <MovingBg />
-           ) : (    <img
-             src={bgImage}
-             alt="background image"
-             className="absolute w-full max-w-full top-0 z-0 h-full max-h-full object-cover"
-           /> )}
+        <MovingBg />
+      ) : (
+        <img
+          src={bgImage}
+          alt="background image"
+          className="absolute w-full max-w-full top-0 z-0 h-full max-h-full object-cover"
+        />
+      )}
       <div className="flex flex-col w-10/12 laptop:w-9/12 mx-auto pt-6 z-20">
-        <NavLink to={`/frontend`}>
+        <NavLink to={`/frontend`} aria-label="Go to Frontend section">
           <SlArrowLeft className="cursor-hollow pl-2 w-6 h-6 laptop:w-8 laptop:h-6 absolute z-20 top-40 laptop:top-52 laptop:left-20 hover:scale-125" />{" "}
         </NavLink>
         {project.images && project.images.length > 0 && (
           <>
-            <img src={projectHeading} className="h-[50px] w-auto self-end animate-longFadeIn" />
+            <img
+              src={projectHeading}
+              className="h-[50px] w-auto self-end animate-longFadeIn"
+              alt="Project"
+            />
             <a
               href={project.netlify}
               target="_blank"
@@ -173,7 +198,9 @@ export const FrontendSingleProject = () => {
                         <div
                           className="absolute rounded laptop:rounded-xl max-w-full max-h-full inset-0 bg-black opacity-40 group-hover:opacity-0 transition-opacity duration-500 ease-in-out"
                           onClick={() => handlePreviewClick(file.url, file.alt)}
-                          onTouchStart={() => handlePreviewClick(file.url, file.alt)}
+                          onTouchStart={() =>
+                            handlePreviewClick(file.url, file.alt)
+                          }
                         ></div>
                       </div>
                     </SwiperSlide>

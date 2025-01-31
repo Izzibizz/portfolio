@@ -1,47 +1,62 @@
-import { useEffect, useState } from "react" 
-import { useParams, NavLink } from "react-router-dom"
-import { useProjectsStore } from "../../stores/useProjectsStore"
-import artProjects from "../data/artProjects.json"
+import { useEffect, useState } from "react"; 
+import { Helmet } from "react-helmet"; 
+import { useParams, NavLink, useNavigate } from "react-router-dom"; 
+import { useProjectsStore } from "../../stores/useProjectsStore"; 
+import artProjects from "../data/artProjects.json"; 
 import { SlArrowLeft } from "react-icons/sl";
 
-
 export const ArtSingleProject = () => {
+  const { setArtPortfolioDisplay, setBgWhite, setFrontendPortfolioDisplay } = useProjectsStore(); 
+  const { id } = useParams(); 
+  const navigate = useNavigate(); 
+  const [project, setProject] = useState(null); 
 
-    const { setArtPortfolioDisplay, setBgWhite, setFrontendPortfolioDisplay } = useProjectsStore() 
-    const { id } = useParams()
-    const [ project, setProject ] = useState([])
+  useEffect(() => {
+    if (!id) return;
 
-    useEffect(() => {
-      if (!id) return;
-  
-      const currentProjectIndex = artProjects.findIndex((project) => {
-        const projectEndpoint = project.title.replace(/\s+/g, "-").toLowerCase();
-        return projectEndpoint === id;
-      });
-  
-      if (currentProjectIndex !== -1) {
-        setProject(artProjects[currentProjectIndex]);
-      } else {
-        console.error("Project not found");
-        setProject(null); // Or handle the case where project is not found
-      }
-    }, [id]);
+    const currentProject = artProjects.find((project) => {
+      const projectEndpoint = project.title.replace(/\s+/g, "-").toLowerCase();
+      return projectEndpoint === id;
+    });
 
-  useEffect(()=> {
-    setArtPortfolioDisplay(true)
-    setFrontendPortfolioDisplay(false)
-    setBgWhite(true)
-  }, [])
+    if (currentProject) {
+      setProject(currentProject);
+    } else {
+      console.error("Project not found");
+      navigate("/404", { replace: true }); // Redirect to NotFound
+    }
+  }, [id, navigate]);
+
+  useEffect(() => {
+    setArtPortfolioDisplay(true);
+    setFrontendPortfolioDisplay(false);
+    setBgWhite(true);
+  }, []);
 
   if (!project) {
-    return <div>Loading...</div>;
+    return null; // Optionally render a loader while navigating
   }
 
-  console.log(project.exhibitedAt?.length)
     
   return (
-    <section className="animate-fadeIn font-body flex flex-col gap-10 mb-48 laptop:mb-20">
-           
+    <section className="animate-fadeIn font-body flex flex-col gap-10 mb-48 laptop:mb-20">      
+          <Helmet>
+        <title>
+          {project?.title
+            ? `${project.title} - Art Project`
+            : "Art Project"}
+        </title>
+        <meta
+          name="description"
+          content={
+            project?.title
+              ? ` ${
+                  project.title
+                }, an art project by Izabel Lind}.`
+              : "Discover art project by Izabel Lind."
+          }
+        />
+      </Helmet>
       <div className="fixed bottom-0 left-0 laptop:left-20 laptop:bottom-10 bg-light bg-opacity-80 p-4 laptop:rounded-xl w-full laptop:w-[300px] flex gap-2">
       <NavLink to={`/art`}>
           <SlArrowLeft className="cursor-hollow pl-4 w-8 h-8 z-20 hover:scale-125" />{" "}

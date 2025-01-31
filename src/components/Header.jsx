@@ -79,6 +79,7 @@ export const Header = () => {
         {bgWhite ? (
           <img
             src="/Izabel-svart.svg"
+            alt="Izabel Lind Logo"
             className={`w-[90px] cursor-hollowDark pr-4 py-8 transform transition-transform duration-300 ease-in-out ${
               artPortfolioDisplay && "hover:scale-125"
             } `}
@@ -86,6 +87,7 @@ export const Header = () => {
         ) : (
           <img
             src="/izabel-white.svg"
+            alt="Izabel Lind Logo"
             className={`w-[90px] opacity-[70%] cursor-hollow pr-4 py-8 transform transition-transform duration-300 ease-in-out ${
               frontendPortfolioDisplay && "hover:scale-125"
             } `}

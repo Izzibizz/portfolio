@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useProjectsStore } from "../stores/useProjectsStore";
+import { Helmet } from "react-helmet";
 import { NavLink } from "react-router-dom";
 
 export const LandingPage = () => {
@@ -8,7 +9,7 @@ export const LandingPage = () => {
     setArtPortfolioDisplay,
     setFrontendPortfolioDisplay,
     bgWhite,
-    setTitleAndVideoVisible
+    setTitleAndVideoVisible,
   } = useProjectsStore();
   const [zoom, setZoom] = useState(false);
   const [direction, setDirection] = useState("");
@@ -34,7 +35,7 @@ export const LandingPage = () => {
     } else if (choice === "art") {
       setArtPortfolioDisplay(true);
       setFrontendPortfolioDisplay(false);
-      setTitleAndVideoVisible(true)
+      setTitleAndVideoVisible(true);
     }
   };
 
@@ -42,18 +43,27 @@ export const LandingPage = () => {
     setBgWhite(false);
     setArtPortfolioDisplay(false);
     setFrontendPortfolioDisplay(false);
-    setTitleAndVideoVisible(true)
+    setTitleAndVideoVisible(true);
   }, []);
 
   return (
     <section className="animate-fadeIn ">
+      <Helmet>
+        <title>Artist and Frontend developer Izabel Lind - portfolio website</title>
+        <meta
+          name="description"
+          content={"portfolio for frontend development and artprojects by Izabel Lind"}
+        />
+      </Helmet>
       <video
         autoPlay
         loop
         muted
         playsInline
         className={`fixed top-1/2 left-1/2 w-screen h-screen object-cover transform -translate-x-1/2 -translate-y-1/2 scale-110 transform transition-transform duration-500 ${
-          zoom ? `laptop:scale-[180%] ${direction} ` : "scale-100 laptop:-translate-x-1/2"
+          zoom
+            ? `laptop:scale-[180%] ${direction} `
+            : "scale-100 laptop:-translate-x-1/2"
         } ${
           bgWhite && direction === "laptop:-translate-x-[90%]"
             ? "invert transition-all duration-1000 fadeIn"
@@ -67,7 +77,9 @@ export const LandingPage = () => {
       </video>
       <div
         className={`w-full h-full absolute top-0 left-0 pt-10 tablet:pt-0 flex flex-col laptop:flex-row justify-center items-center gap-20 tablet:gap-72 laptop:gap-1/3 desktop:gap-[600px] ${
-          direction === "laptop:-translate-x-[90%]" ? "text-black" : "text-white"
+          direction === "laptop:-translate-x-[90%]"
+            ? "text-black"
+            : "text-white"
         } `}
       >
         <NavLink

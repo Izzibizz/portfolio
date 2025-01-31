@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet"
 import { NavLink } from "react-router-dom";
 import { useProjectsStore } from "../../stores/useProjectsStore";
 import devData from "../data/devData.json";
@@ -56,6 +57,17 @@ export const FrontendProjects = () => {
 
   return (
     <section className="font-body font-medium text-white flex flex-col ">
+            <Helmet>
+        <title>
+         Frontend Projects by Izabel Lind
+        </title>
+        <meta
+          name="description"
+          content={
+            "Overview of frontend projects by Izabel Lind"
+          }
+        />
+      </Helmet>
        {isLaptop ? (
         <MovingBg />
       ) : (    <img
@@ -89,13 +101,13 @@ export const FrontendProjects = () => {
 
         <ul className="flex flex-col laptop:w-5/12 laptop:self-end animate-longFadeIn">
           {projectsToShow.map((project, index) => (
-            <NavLink
+              <li
+              key={project.title}
+              >
+                            <NavLink
               to={`/frontend/${project.title
                 .replace(/\s+/g, "-")
                 .toLowerCase()}`}
-              key={project.title}
-            >
-              <li
                 className={`flex border-b justify-between pb-2 laptop:cursor-hollow group ${
                   index === 0 ? "pt-0" : "pt-10"
                 } animate-mediumSlideIn transform transition-transform`}
@@ -105,7 +117,7 @@ export const FrontendProjects = () => {
                 }}
                 onMouseEnter={() => setHoveredProjectTitle(project.title)} // Set hovered title
                 onMouseLeave={() => setHoveredProjectTitle(null)}
-              >
+            >
                 <h3 className="text-xl laptop:text-2xl laptop:cursor-hollow transition-transform transform origin-left laptop:group-hover:scale-125">
                   {project.title}
                 </h3>
@@ -125,10 +137,11 @@ export const FrontendProjects = () => {
                     return `${word} `;
                   })}
                 </p>
+                </NavLink>
               </li>
-            </NavLink>
           ))}
-          <button
+        </ul>
+        <button
             onClick={handleShowOther}
             className="mt-4 text-gray-400 laptop:hover:scale-105 laptop:cursor-hollow flex items-center gap-2 self-end group animate-longFadeIn"
           >
@@ -141,7 +154,6 @@ export const FrontendProjects = () => {
               </>
             )}
           </button>
-        </ul>
       </div>
     </section>
   );

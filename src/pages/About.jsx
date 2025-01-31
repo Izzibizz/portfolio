@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react" 
+import { Helmet } from "react-helmet"
 import { useLocation } from "react-router-dom"
 import { useProjectsStore } from "../stores/useProjectsStore.jsx"
 import { MovingBg } from "../components/MovingBg.jsx"
@@ -29,6 +30,17 @@ export const About = () => {
 
   return (
     <section className={`${frontendPortfolioDisplay ? "text-white" : "text-black"} animate-fadeIn flex flex-col mb-20`}>
+            <Helmet>
+        <title>
+         About Izabel Lind
+        </title>
+        <meta
+          name="description"
+          content={
+            "Information about Izabel Lind, artist and frontend developer"
+          }
+        />
+      </Helmet>
       {frontendPortfolioDisplay &&
   <MovingBg /> }
   <div className="flex flex-col w-10/12 laptop:w-8/12 mx-auto pt-6 z-20 font-body font-light">
