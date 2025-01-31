@@ -30,7 +30,7 @@ export const FrontendSingleProject = () => {
   const { setFrontendPortfolioDisplay, setArtPortfolioDisplay } =
     useProjectsStore();
   const { id } = useParams();
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
   const [project, setProject] = useState(null);
   const [imageSrc, setImageSrc] = useState();
   const [imageAlt, setImageAlt] = useState();
@@ -78,8 +78,8 @@ export const FrontendSingleProject = () => {
       setImageAlt(devData[currentProjectIndex].images[0].alt);
     } else {
       console.error("Project not found");
-      setProject(null); 
-      navigate("/404", { replace: true }); 
+      setProject(null);
+      navigate("/404", { replace: true });
     }
   }, [id]);
 
@@ -115,7 +115,9 @@ export const FrontendSingleProject = () => {
             project?.title
               ? ` ${
                   project.title
-                }, a frontend project by Izabel Lind built using ${project.tags.join(", ")}.`
+                }, a frontend project by Izabel Lind built using ${project.tags.join(
+                  ", "
+                )}.`
               : "Discover frontend project by Izabel Lind."
           }
         />
