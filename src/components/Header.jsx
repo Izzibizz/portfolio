@@ -68,7 +68,7 @@ export const Header = () => {
     >
       <NavLink
         to="/"
-        aria-label={`Link to Home page`}
+        aria-label={`Link to Home page Izabel Lind`}
         className="h-fit"
         onClick={() => {
           setBgWhite(false);
