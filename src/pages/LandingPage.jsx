@@ -60,6 +60,7 @@ export const LandingPage = () => {
         loop
         muted
         playsInline
+        alt="Izabel Lind Artist and Frontend Developer"
         className={`fixed top-1/2 left-1/2 w-screen h-screen object-cover transform -translate-x-1/2 -translate-y-1/2 scale-110 transform transition-transform duration-500 ${
           zoom
             ? `laptop:scale-[180%] ${direction} `
@@ -84,7 +85,7 @@ export const LandingPage = () => {
       >
         <NavLink
           to="/frontend"
-          aria-label={`Link to frontend portfolio page`}
+          aria-label={`Link to Izabel Lind frontend portfolio page`}
           onClick={() => choosePortfolio("frontend")}
         >
           <img
@@ -98,7 +99,7 @@ export const LandingPage = () => {
         </NavLink>
         <NavLink
           to="/art"
-          aria-label={`Link to art portfolio page`}
+          aria-label={`Link to Izabel Lind art portfolio page`}
           onClick={() => choosePortfolio("art")}
         >
           <img
