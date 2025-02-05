@@ -129,6 +129,7 @@ export const Header = () => {
                 isOpen ? "h-screen w-screen" : "h-0 w-0"
               }`}
             >
+              <nav>
               <ul
                 className={`flex flex-col items-center mt-[30%] gap-6 p-10 ${textColor} font-body font-light`}
               >
@@ -154,6 +155,7 @@ export const Header = () => {
                   Contact
                 </NavLink>
               </ul>
+              </nav>
             </div>
           )}
           <div
