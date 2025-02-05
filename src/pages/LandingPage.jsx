@@ -49,7 +49,7 @@ export const LandingPage = () => {
   return (
     <section className="animate-fadeIn ">
       <Helmet>
-        <title>Artist and Frontend developer Izabel Lind - portfolio website</title>
+        <title>Izabel Lind | Creative Frontend Developer & Digital Artist - portfolio website</title>
         <meta
           name="description"
           content={"portfolio for frontend development and artprojects by Izabel Lind"}
