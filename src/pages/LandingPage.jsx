@@ -18,7 +18,7 @@ export const LandingPage = () => {
     setZoom(true); // Enable zoom on hover
     setDirection(dir);
     if (dir === "laptop:-translate-x-[90%]") {
-      setTimeout(() => setBgWhite(true), 100);
+     setBgWhite(true);
     }
   };
 
