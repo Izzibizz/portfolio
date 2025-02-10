@@ -45,6 +45,16 @@ export const ArtSingleProject = () => {
   }, [id, navigate]);
 
   useEffect(() => {
+    if (project?.images?.length) {
+      project.images.forEach((image) => {
+        const preloadImage = new Image();
+        preloadImage.src = image.url;
+      });
+    }
+  }, [project]);
+
+
+  useEffect(() => {
     if (infoRef.current) {
       const infoHeight = infoRef.current.offsetHeight; 
       if (window.innerWidth < 1024) { 

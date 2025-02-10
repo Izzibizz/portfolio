@@ -36,6 +36,15 @@ export const FrontendProjects = () => {
   }, []);
 
   useEffect(() => {
+    devData.forEach((project) => {
+      if (project.images.length > 0) {
+        const preloadImage = new Image();
+        preloadImage.src = project.images[0].url;
+      }
+    });
+  }, []);
+
+  useEffect(() => {
     if (hoveredProjectTitle !== null) {
       setShowImage(false);
       setTimeout(() => setShowImage(true), 0);

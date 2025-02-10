@@ -36,6 +36,14 @@ export const ArtProjects = () => {
     }, 2000);
   }, []);
   
+  useEffect(() => {
+    artProjects.forEach((project) => {
+      if (project.images.length > 0) {
+        const preloadImage = new Image();
+        preloadImage.src = project.images[0].url;
+      }
+    });
+  }, []);
 
   return (
     <section className="font-body font-medium animate-fadeIn h-full w-11/12 laptop:w-[99%] mx-auto justify-between flex flex-col gap-10 mb-10 laptop:mb-0">

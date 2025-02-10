@@ -84,6 +84,15 @@ export const FrontendSingleProject = () => {
   }, [id]);
 
   useEffect(() => {
+    if (project?.images?.length) {
+      project.images.forEach((image) => {
+        const preloadImage = new Image();
+        preloadImage.src = image.url;
+      });
+    }
+  }, [project]);
+
+  useEffect(() => {
     const handleResize = () => {
       setIsLaptop(window.innerWidth >= 1024);
     };
@@ -99,7 +108,7 @@ export const FrontendSingleProject = () => {
     return <div>Loading...</div>;
   }
 
-  console.log(project?.images);
+
 
   return (
     <section className="font-body font-medium text-white  flex flex-col">
