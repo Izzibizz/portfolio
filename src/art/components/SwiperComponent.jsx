@@ -1,5 +1,5 @@
 
-
+import { useEffect } from "react"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/controller';
@@ -11,6 +11,16 @@ import { Autoplay, Navigation, Pagination, Grid } from 'swiper/modules';
 
 
 export const SwiperComponent = ({projects}) => {
+
+  useEffect(() => {
+    if (projects?.images?.length) {
+      projects.images.forEach((image) => {
+        const preloadImage = new Image();
+        preloadImage.src = image.url;
+      });
+    }
+  }, [projects]);
+
   return (
     <Swiper
     spaceBetween={10}
