@@ -61,15 +61,11 @@ export const LandingPage = () => {
         muted
         playsInline
         alt="Izabel Lind Artist and Frontend Developer"
-        className={`fixed top-1/2 left-1/2 w-screen h-screen object-cover transform -translate-x-1/2 -translate-y-1/2 scale-110 transform transition-transform duration-500 ${
-          zoom
-            ? `laptop:scale-[180%] ${direction} `
-            : "scale-100 laptop:-translate-x-1/2"
-        } ${
-          bgWhite && direction === "laptop:-translate-x-[90%]"
-            ? "invert transition-all duration-1000 fadeIn"
-            : ""
-        }`}
+        className={`fixed top-1/2 left-1/2 w-screen h-screen object-cover transform 
+          -translate-x-1/2 -translate-y-1/2 scale-110 transition-all duration-[1000ms] ease-in-out
+          ${zoom ? `laptop:scale-[180%] ${direction}` : "scale-100 laptop:-translate-x-1/2"}
+          transition-[filter, transform] 
+          ${bgWhite && direction === "laptop:-translate-x-[90%]" ? "invert brightness-110" : "brightness-100"}`}
       >
         <source
           src="https://res.cloudinary.com/dbf8xygxz/video/upload/v1728898269/Sequence_01_8_qeiugg.mp4"
@@ -89,10 +85,8 @@ export const LandingPage = () => {
           onClick={() => choosePortfolio("frontend")}
         >
           <img
-            src={
-              bgWhite ? "/frontend-developer.svg" : "/frontend-developer-w.svg"
-            }
-            className={`relative cursor-hollow laptop:hover:scale-[160%] transform text-center transition-transform duration-500 font-heading text-lg p-4  h-[190px] tablet:h-[240px]`}
+            src="/frontend-developer-w.svg"
+            className={`relative cursor-hollow laptop:hover:scale-[160%] transform text-center transition-transform duration-500 font-heading text-lg p-4  h-[190px] tablet:h-[240px] ${bgWhite ? "invert" : ""}`}
             onMouseEnter={() => handleHover("laptop:-translate-x-[10%]")}
             onMouseLeave={handleHoverOut}
           />
@@ -103,8 +97,8 @@ export const LandingPage = () => {
           onClick={() => choosePortfolio("art")}
         >
           <img
-            src={bgWhite ? "/artist.svg" : "/artist-w.svg"}
-            className={`relative cursor-hollowDark laptop:hover:scale-[180%] transform transition-transform duration-500 font-heading text-lg p-4 h-[190px] tablet:h-[240px]`}
+            src="artist-w.svg"
+            className={`relative cursor-hollowDark laptop:hover:scale-[180%] transform transition-transform duration-500 font-heading text-lg p-4 h-[190px] tablet:h-[240px] ${bgWhite ? "invert" : ""}`}
             onMouseEnter={() => handleHover("laptop:-translate-x-[90%]")}
             onMouseLeave={handleHoverOut}
           />
