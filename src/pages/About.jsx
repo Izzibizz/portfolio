@@ -74,7 +74,7 @@ export const About = () => {
       </div>
       <div className="relative w-full tablet:w-auto h-auto tablet:h-[500px] laptop:h-[600px] flex tablet:justify-end mt-8 tablet:mt-0">
         <img 
-          src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1737376333/izabel-lind-frontend-developer-artist-3_hnitne.jpg" 
+          src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1744022177/Izabel-Lind-farnstrand-frontend-utvecklare-itflows_t5kd4c.png" 
           alt="portrait Izabel Lind - fullstack developer and artist" 
           className="h-full w-auto object-cover rounded-xl"
         />

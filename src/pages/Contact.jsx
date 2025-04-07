@@ -57,7 +57,7 @@ export const Contact = () => {
             <MdOutlineArrowOutward className="group-hover:text-orange-500" />
             <a
               href="mailto:contact@izabellind.com"
-              className="relative after:content-[''] after:block after:w-0 after:h-[1px] after:bg-orange-500 after:absolute after:left-0 after:bottom-0 after:transition-all after:duration-300 group-hover:after:w-full"
+              className="relative after:content-[''] after:block after:w-0 after:h-[1px] after:bg-orange-500 after:absolute after:left-0 after:bottom-0 after:transition-all after:duration-300 group-hover:after:w-full hover:cursor-hollow"
             >
               contact@izabellind.com
             </a>
