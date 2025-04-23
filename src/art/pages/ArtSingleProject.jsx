@@ -94,7 +94,7 @@ export const ArtSingleProject = () => {
       </Helmet>
       <div
         ref={infoRef}
-        className="fixed bottom-0 left-0 laptop:left-20 laptop:bottom-10 bg-light bg-opacity-80 p-4 laptop:rounded-xl w-full laptop:w-[350px] flex gap-2"
+        className="fixed bottom-0 left-0 laptop:left-20 laptop:bottom-10 bg-light bg-opacity-85 backdrop-blur-sm p-4 laptop:rounded-xl w-full laptop:w-[350px] flex gap-2"
       >
         <NavLink to={`/art`}>
           <SlArrowLeft className="cursor-hollow pl-4 w-8 h-8 z-20 hover:scale-125" />{" "}
@@ -103,12 +103,12 @@ export const ArtSingleProject = () => {
           <h3 className="text-lg">
             {project.title}, {project.year}
           </h3>
-          <p className="font-light">{project.description}</p>
+          <p className="font-medium">{project.description}</p>
           {project.exhibitedAt && project.exhibitedAt?.length > 0 && (
             <div className="flex gap-2 laptop:hidden">
               <h4>Exhibited at:</h4>
               {project.exhibitedAt?.length > 1 ? (
-                <ul className="font-light">
+                <ul className="font-medium">
                   {project.exhibitedAt?.map((place, index) => (
                     <li key={index}>
                       {place.place} ({place.year})
@@ -116,7 +116,7 @@ export const ArtSingleProject = () => {
                   ))}
                 </ul>
               ) : (
-                <p className="font-light">
+                <p className="font-medium">
                   {project.exhibitedAt?.[0].place} (
                   {project.exhibitedAt?.[0].year})
                 </p>
@@ -293,11 +293,11 @@ export const ArtSingleProject = () => {
         </>
       )}
       {project.exhibitedAt && project.exhibitedAt?.length > 0 && (
-        <div className="fixed top-40 right-10 bg-light bg-opacity-80 p-4 hidden laptop:block rounded-xl w-[250px] laptop:w-[300px] font-light">
+        <div className="fixed top-40 right-10 bg-light bg-opacity-80 p-4 hidden laptop:block rounded-xl w-[250px] laptop:w-[300px] font-medium">
           <div className="flex gap-2">
             {project.exhibitedAt?.length > 1 ? (
               <ul className="text-sm">
-                <span className="font-medium">Exhibited at: </span>
+                <span className="font-semibold">Exhibited at: </span>
                 {project.exhibitedAt?.map((place, index) => (
                   <li key={index}>
                     {place.place} ({place.year})
@@ -306,7 +306,7 @@ export const ArtSingleProject = () => {
               </ul>
             ) : (
               <p className="text-sm">
-                <span className="font-medium">Exhibited at: </span>
+                <span className="font-semibold">Exhibited at: </span>
                 {project.exhibitedAt?.[0].place} ({project.year})
               </p>
             )}

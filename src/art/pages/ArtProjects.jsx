@@ -110,7 +110,7 @@ export const ArtProjects = () => {
             className="flex gap-1 items-center relative after:content-[''] after:block after:w-0 after:h-[1px] after:bg-orange-500 after:absolute after:left-0 after:bottom-0 after:transition-all after:duration-300 group-hover:after:w-full"
           > <MdOutlineArrowOutward className="group-hover:text-orange-500" />
           See more</NavLink></div>
-          <p className="text-medium italic">{imageTitle}</p>
+          <p className="text-medium italic mr-1">{imageTitle}</p>
                        </div>
           </div>
             </div>
@@ -118,7 +118,7 @@ export const ArtProjects = () => {
           
       <ul className="w-full grid grid-cols-4 gap-2 tablet:grid-cols-8 laptop:grid-cols-16 animate-longFadeIn">
       {artProjects.map((project, index) => (
-        <li key={index} className="list-none" onClick={() => chooseProject(project.images[0].url, project.title)}>
+        <li key={index} className="list-none" onClick={() => chooseProject(project.images[0].horizontal ? project.images[0].horizontal : project.images[0].url, project.title)}>
           <img src={project.images[0].thumbnail} alt={project.images[0].alt} className="aspect-[3/4] w-auto object-cover"/>
         </li>
       ))}
