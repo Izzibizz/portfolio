@@ -6,15 +6,52 @@
     "description": "2 large paintings of 100 x 140 cm, Embedded and Core, about the inner fragile and strong.",
     "images": [
       {
-        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737103188/embedded-2024-izabel-lind-painting_eousfi.jpg",
-        "thumbnail": "https://res.cloudinary.com/dbf8xygxz/image/upload/c_thumb,w_200,g_face/v1737103188/embedded-2024-izabel-lind-painting_eousfi.jpg",
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745418097/embedded.2024-1-ww_qrtesr.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745418097/embedded.2024-1-ww_qrtesr.webp",
         "alt": "Embedded Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
-        "url": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737103189/core-2024-izabel-lind-closeup_jv82kw.jpg",
-        "thumbnail": "",
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745416985/embedded.side.2024-w_ubt435.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745416985/embedded.side.2024-w_ubt435.webp",
+        "alt": "Side angle Embedded Izabel Lind",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745416986/red-core-2024-w_z6liyr.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745416986/red-core-2024-w_z6liyr.webp",
+        "alt": "Side anlge Core Izabel Lind",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745417187/core.2024-w_owdloq.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745417187/core.2024-w_owdloq.webp",
         "alt": "Core Izabel Lind",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745417529/energies.2024-2-w-h_lvmnnk.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745417529/energies.2024-2-w-h_lvmnnk.webp",
+        "alt": "Embedded Izabel Lind",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745417827/energies.2024.side-w_zbtnk9.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745417827/energies.2024.side-w_zbtnk9.webp",
+        "alt": "Embedded Izabel Lind",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745417713/core.frame.2024-side-w_usokdf.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745417713/core.frame.2024-side-w_usokdf.webp",
+        "alt": "Embedded Izabel Lind",
+        "photographer": "Izabel Lind"
+      },
+
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309725/core-2024-izabel-lind-closeup_m79wox.jpg",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745309725/core-2024-izabel-lind-closeup_m79wox.jpg",
+        "alt": "Embedded Izabel Lind",
         "photographer": "Izabel Lind"
       }
     ],
@@ -65,7 +102,8 @@
       {
         "place": "Konstakademien",
         "year": "2020"
-      }],
+      }
+    ],
     "commissionedBy": [],
     "fundedBy": ["KKH"]
   },
@@ -100,21 +138,22 @@
         "alt": "Matrix - bronze sculpture close up - Izabel Lind",
         "photographer": "jean baptiste béranger"
       }
-     
     ],
     "video": null,
     "exhibitedAt": [
-    {
-      "place": "Konstakademien",
-      "year": "2020"
-    },{
-      "place": "Norra Tornen",
-      "year": "2021"
-    },{
-      "place": "Flimmer & Fladder, Grupputställning, Stockholm",
-      "year": "2024"
-    }
-  ],
+      {
+        "place": "Konstakademien",
+        "year": "2020"
+      },
+      {
+        "place": "Norra Tornen",
+        "year": "2021"
+      },
+      {
+        "place": "Flimmer & Fladder, Grupputställning, Stockholm",
+        "year": "2024"
+      }
+    ],
     "commissionedBy": ["Private collector"],
     "fundedBy": ["KKH"]
   },
@@ -154,7 +193,8 @@
       {
         "place": "Örebro Universitet",
         "year": "2024"
-      }],
+      }
+    ],
     "commissionedBy": ["Akademiska hus", "Statens Konstråd"],
     "fundedBy": ["Akademiska hus", "Statens Konstråd"]
   },
@@ -210,18 +250,20 @@
       }
     ],
     "video": null,
-    "exhibitedAt": [ {
-      "place": "Norra Tornen, Stockholm",
-      "year": "2021"
-    },
-    {
-      "place": "Showroom Maison Maju, France",
-      "year": "2024"
-    },
-    {
-      "place": "Project Azur, Nice, France",
-      "year": "2024"
-    }],
+    "exhibitedAt": [
+      {
+        "place": "Norra Tornen, Stockholm",
+        "year": "2021"
+      },
+      {
+        "place": "Showroom Maison Maju, France",
+        "year": "2024"
+      },
+      {
+        "place": "Project Azur, Nice, France",
+        "year": "2024"
+      }
+    ],
     "commissionedBy": ["Didier Claude Dechamps, Nice, France"],
     "fundedBy": []
   },
@@ -267,13 +309,14 @@
         "alt": "Side perspective of Soft - casted sculture, by Izabel Lind.",
         "photographer": "Izabel Lind"
       }
-      
     ],
     "video": null,
-    "exhibitedAt": [ {
-      "place": "Maison Maju, Nice, France",
-      "year": "2024"
-    }],
+    "exhibitedAt": [
+      {
+        "place": "Maison Maju, Nice, France",
+        "year": "2024"
+      }
+    ],
     "commissionedBy": [],
     "fundedBy": []
   },
@@ -325,7 +368,8 @@
       {
         "place": "Kungliga Konsthögskolan",
         "year": "2018"
-      }],
+      }
+    ],
     "commissionedBy": [],
     "fundedBy": []
   },
@@ -425,7 +469,8 @@
       {
         "place": "Galleri Mejan",
         "year": "2019"
-      }],
+      }
+    ],
     "commissionedBy": [],
     "fundedBy": []
   },
@@ -517,7 +562,8 @@
       {
         "place": "Konstakademien",
         "year": "2020"
-      }],
+      }
+    ],
     "commissionedBy": [],
     "fundedBy": []
   },
@@ -535,10 +581,12 @@
       }
     ],
     "video": null,
-    "exhibitedAt":  [ {
-      "place": "Radisson Blu Stavanger, Norway",
-      "year": "2016"
-    }],
+    "exhibitedAt": [
+      {
+        "place": "Radisson Blu Stavanger, Norway",
+        "year": "2016"
+      }
+    ],
     "commissionedBy": ["Radisson Blu Stavanger", "YA Stockholm"],
     "fundedBy": ["Radisson Blu Stavanger", "YA Stockholm"]
   },
@@ -574,10 +622,12 @@
       }
     ],
     "video": null,
-    "exhibitedAt":  [{
-      "place": "Kunstlerhaus Stuttgard, Germany",
-      "year": "2018"
-    }],
+    "exhibitedAt": [
+      {
+        "place": "Kunstlerhaus Stuttgard, Germany",
+        "year": "2018"
+      }
+    ],
     "commissionedBy": ["Kunstlerhaus Stuttgart"],
     "fundedBy": ["Kunstlerhaus Stuttgart"]
   },
@@ -641,5 +691,4 @@
     "commissionedBy": [],
     "fundedBy": []
   }
- 
 ]

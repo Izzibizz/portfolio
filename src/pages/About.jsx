@@ -45,7 +45,7 @@ export const About = () => {
   <MovingBg /> }
   <div className="flex flex-col w-10/12 laptop:w-8/12 mx-auto pt-6 z-20 font-body font-light">
     <img 
-      src={ frontendPortfolioDisplay ? "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736934642/about-me-white_vitglw.svg" : "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736934562/about-me_skgmd9.svg" } 
+      src={ frontendPortfolioDisplay ? "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309310/about-me-white_ehoyzr.svg" : "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309310/about-me_mwu0ij.svg" } 
       alt="about text" 
       className="h-[100px] w-auto self-start laptop:mb-8"
     />
@@ -74,7 +74,7 @@ export const About = () => {
       </div>
       <div className="relative w-full tablet:w-auto h-auto tablet:h-[500px] laptop:h-[600px] flex tablet:justify-end mt-8 tablet:mt-0">
         <img 
-          src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1744022722/Izabel-Lind-farnstrand-frontend-utvecklare-itflows-2_i8xohu.png" 
+          src="https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309032/Izabel-Lind-farnstrand-frontend-utvecklare-itflows-2_vahr87.png" 
           alt="portrait Izabel Lind - fullstack developer and artist" 
           className="h-full w-auto object-cover rounded-xl"
         />
@@ -82,7 +82,7 @@ export const About = () => {
         <a href="/CV-IZABEL-LIND-FRONTEND-DEVELOPER.pdf" target="_blank" rel="noopener noreferrer" alt="pdf cv Izabel Lind" className="absolute bottom-[-4%] laptop:bottom-[90%] right-[-5%] laptop:right-[-12%] w-[100px] h-[100px] border-none rounded-full group  ">
           <div className={`w-1/2 h-1/2 top-1/4 left-1/4 rounded-full relative flex justify-center items-center text-white bg-orange-500 text-white bg-orange-500 font-medium font-body text-xl laptop:group-hover:scale-[110%]`}>CV</div>
           <div className="absolute w-full h-full top-0 flex justify-center items-center animate-rotateCircle">
-            <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1737379403/click-here-circle-lexend-orange_rbdrwu.svg" alt="click here"/>
+            <img src="https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309134/click-here-circle-lexend-orange_adbwhp.svg" alt="click here"/>
           </div>
         </a>
         )}

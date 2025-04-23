@@ -163,7 +163,7 @@ export const FrontendSingleProject = () => {
                 <img
                   src={imageSrc}
                   alt={imageAlt}
-                  className="rounded-xl cursor-hollow"
+                  className="rounded-xl cursor-hollow aspect-[18/9]"
                   onClick={() => handleOpenModal()}
                 />
 
@@ -204,7 +204,7 @@ export const FrontendSingleProject = () => {
                         <img
                           src={file.thumbnail}
                           alt={file.alt}
-                          className="w-full h-full object-cover cursor-hollow rounded laptop:rounded-xl "
+                          className="w-full h-full  object-cover cursor-hollow rounded laptop:rounded-xl "
                         />
                         <div
                           className="absolute rounded laptop:rounded-xl max-w-full max-h-full inset-0 bg-black opacity-40 group-hover:opacity-0 transition-opacity duration-500 ease-in-out"

@@ -68,7 +68,7 @@ export const ArtProjects = () => {
             className={`absolute top-0 left-0 w-screen h-screen min-h-screen object-cover scale-110 invert z-10 ${fadeOut && "animate-fadeOut"}`}
           >
             <source
-              src="https://res.cloudinary.com/dbf8xygxz/video/upload/v1728898269/Sequence_01_8_qeiugg.mp4"
+              src="https://res.cloudinary.com/dlp85vjwx/video/upload/v1745309420/bakgrund-video_luy2lt_bloxsy.mp4"
               type="video/mp4"
             />
           </video>
@@ -85,7 +85,7 @@ export const ArtProjects = () => {
         <>
         <div className="flex flex-col tablet:flex-row justify-between">
         <div className="flex flex-col self-end px-4">
-        <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1737399671/projects-black_ane550.svg" alt="art projects Izabel Lind" className=" h-[80px] laptop:h-[150px]"/>
+        <img src="https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309108/projects-black_lqo9x7.svg" alt="art projects Izabel Lind" className=" h-[80px] laptop:h-[150px]"/>
 
               </div>
               <div className=" tablet:w-2/3 laptop:w-[45%] animate-smallSlideInRight">

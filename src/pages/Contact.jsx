@@ -44,8 +44,8 @@ export const Contact = () => {
         <img
           src={
             frontendPortfolioDisplay
-              ? "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737018034/contact-white_iq24qr.svg"
-              : "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737018032/contact-black_hef8ar.svg"
+              ? "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309295/contact-white_gs4q08.svgg"
+              : "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309296/contact-black_affumm.svg"
           }
           alt="about text"
           className="h-[100px] w-auto self-start"

@@ -2,22 +2,22 @@
     "description": "I am a frontend developer & artist with a strong background in sculpture, painting and artistic digital technologies such as VR and 3D. My interest in frontend development grew from collaborations on a public digital art project, leading me to complete the Javascript Technigo bootcamp in 2024. I specialize in building interesting and user-friendly responsive interfaces and I am constantly on a journey to improve my skills. By creating dynamic, animated web experiences, I can seamlessly blend my artistic creativity with technical expertise.",
     "education": "",
     "skills": [
-        { "name": "JavaScript", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951901/javascript-1_qllikc.svg" },
-        { "name": "TypeScript", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951913/typescript_tnugd2.svg" },
-        { "name": "React", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736952418/react-2_zkmwnn.svg" },
-        { "name": "Vite", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736952315/vitejs_kc0y8s.svg" },
-        { "name": "REST API", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737012305/rest-api-svgrepo-com_h5uxvy.svg" },
-        { "name": "Zustand", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1737012310/zustand_rnobga.svg" },
-        { "name": "Node.js", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736952400/nodejs-1_pzr808.svg" },
-        { "name": "Express.js", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951898/icons8-express-js_fhohjs.svg" },
-        { "name": "MongoDB", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951903/mongodb-icon-1_trxjth.svg" },
-        { "name": "Mongoose", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951988/mongoose_h5tiqy.svg" },
-        { "name": "HTML5", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951896/html5-2_qz3cuy.svg" },
-        { "name": "CSS3", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951891/css-3_ljhrcr.svg" },
-        { "name": "Tailwind CSS", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951910/tailwind-css-2_rqcyf2.svg" },
+        { "name": "JavaScript", "image": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309001/javascript-1_mzo69v.svg" },
+        { "name": "TypeScript", "image": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309021/typescript_tsq3ec.svg" },
+        { "name": "React", "image": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309007/react-2_kdarrk.svg" },
+        { "name": "Vite", "image": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309022/vitejs_adj0gm.svg" },
+        { "name": "REST API", "image": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309008/rest-api-svgrepo-com_zv5jfp.svg" },
+        { "name": "Zustand", "image": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309023/zustand_jaigoc.svg" },
+        { "name": "Node.js", "image": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309005/nodejs-1_g05xle.svg" },
+        { "name": "Express.js", "image": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309000/icons8-express-js_yddjak.svg" },
+        { "name": "MongoDB", "image": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309002/mongodb-icon-1_if4tfy.svg" },
+        { "name": "Mongoose", "image": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309004/mongoose_pdbrdk.svg" },
+        { "name": "HTML5", "image": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745308999/html5-2_mzqvwy.svg" },
+        { "name": "CSS3", "image": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745308997/css-3_cmhvxv.svg" },
+        { "name": "Tailwind CSS", "image": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309009/tailwind-css-2_cz1wlo.svg" },
         { "name": "Postman", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951908/postman_epro8l.svg" },
-        { "name": "Git", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736952405/git-icon_b9ox0d.svg" },
-        { "name": "Figma", "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/v1736951893/figma-icon_voe5mx.svg" }
+        { "name": "Git", "image": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309006/postman_gnvkc2.svg" },
+        { "name": "Figma", "image": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745308997/figma-icon_mnef2n.svg" }
 ]
 }
 ]

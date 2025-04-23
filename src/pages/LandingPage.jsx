@@ -68,7 +68,7 @@ export const LandingPage = () => {
           ${bgWhite && direction === "laptop:-translate-x-[90%]" ? "invert brightness-110" : "brightness-100"}`}
       >
         <source
-          src="https://res.cloudinary.com/dbf8xygxz/video/upload/v1728898269/Sequence_01_8_qeiugg.mp4"
+          src="https://res.cloudinary.com/dlp85vjwx/video/upload/v1745309420/bakgrund-video_luy2lt_bloxsy.mp4"
           type="video/mp4"
         />
       </video>
