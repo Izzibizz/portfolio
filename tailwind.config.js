@@ -104,6 +104,10 @@ export default {
         pointer: "url(/circle.svg), pointer",
         default: "url(/circle-white.svg), default",
       },
+      transitionDuration: {
+        2000: '2000ms',
+        3000: '3000ms',
+      },
     },
   },
   plugins: [],

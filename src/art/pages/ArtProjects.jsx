@@ -12,9 +12,8 @@ export const ArtProjects = () => {
     setBgWhite,
     setFrontendPortfolioDisplay,
     setTitleAndVideoVisible,
-    titleAndVideoVisible,
   } = useProjectsStore();
-  const [ fadeOut, setFadeout ] = useState(false)
+
   const [ clickedImage, setClickedImage ] = useState(artProjects[0].images[0].url)
   const [ imageTitle, setImageTitle ] = useState(artProjects[0].title)
   
@@ -28,9 +27,6 @@ export const ArtProjects = () => {
     setArtPortfolioDisplay(true);
     setFrontendPortfolioDisplay(false);
     setBgWhite(true);
-    setTimeout(() => {
-      setFadeout(true)
-    }, 1000)
     setTimeout(() => {
       setTitleAndVideoVisible(false);
     }, 2000);
@@ -58,34 +54,11 @@ export const ArtProjects = () => {
           }
         />
       </Helmet>
-      {titleAndVideoVisible ? (
-        <>
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className={`absolute top-0 left-0 w-screen h-screen min-h-screen object-cover scale-110 invert z-10 ${fadeOut && "animate-fadeOut"}`}
-          >
-            <source
-              src="https://res.cloudinary.com/dlp85vjwx/video/upload/v1745309420/bakgrund-video_luy2lt_bloxsy.mp4"
-              type="video/mp4"
-            />
-          </video>
-          <img
-            src="/art-portfolio.svg"
-            className={`hidden laptop:block w-full tablet:w-10/12 laptop:w-1/2 mx-auto laptop:mt-[10%] z-20 ${fadeOut && "animate-fadeOut"}`}
-          />
-          <img
-            src="/art-portfolio-vertical.svg"
-            className={`w-6/12 laptop:hidden mx-auto mt-10 z-20 ${fadeOut && "animate-fadeOut"}`}
-          />
-        </>
-      ) : (
+
         <>
         <div className="flex flex-col tablet:flex-row justify-between">
         <div className="flex flex-col self-end px-4">
-        <img src="https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309108/projects-black_lqo9x7.svg" alt="art projects Izabel Lind" className=" h-[80px] laptop:h-[150px]"/>
+        <img src="https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309108/projects-black_lqo9x7.svg" alt="art projects Izabel Lind" className="animate-fadeIn h-[80px] laptop:h-[150px]"/>
 
               </div>
               <div className=" tablet:w-2/3 laptop:w-[45%] animate-smallSlideInRight">
@@ -125,7 +98,7 @@ export const ArtProjects = () => {
   
      </ul>
      </>
-      )}
+  
 
     </section>
   );
