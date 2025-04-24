@@ -44,6 +44,7 @@ export const LandingPage = () => {
 
   useEffect(() => {
     setBgWhite(false);
+    setDirection("")
     setArtPortfolioDisplay(false);
     setFrontendPortfolioDisplay(false);
     setTitleAndVideoVisible(true);
