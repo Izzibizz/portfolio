@@ -67,8 +67,7 @@ export const LandingPage = () => {
         alt="Izabel Lind Artist and Frontend Developer"
         className={`fixed top-1/2 left-1/2 w-screen h-screen object-cover transform 
           -translate-x-1/2 -translate-y-1/2 scale-110 transition-all duration-[1000ms] ease-in-out
-          ${zoom ? 
-            (window.innerWidth < 768 ? `scale-[300%] ${direction}` : `scale-[180%] ${direction}`) 
+          ${zoom ? `scale-[180%] ${direction}`
             : "scale-100 -translate-x-1/2"} 
           transition-[filter, transform] 
           ${bgWhite  ? "invert brightness-110" : "brightness-100"}`}
