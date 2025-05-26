@@ -1,0 +1,54 @@
+[[redirects]]
+  from = "/bio"
+  to = "/art/about"
+  status = 301
+
+[[redirects]]
+  from = "/news"
+  to = "/art"
+  status = 301
+
+[[redirects]]
+  from = "/the-welcoming"
+  to = "/art/the-welcoming"
+  status = 301
+
+[[redirects]]
+  from = "/contact"
+  to = "/art/contact"
+  status = 301
+
+[[redirects]]
+  from = "/birth-sleep-sex-cease"
+  to = "/art/birth-sleep-sex-cease"
+  status = 301
+
+[[redirects]]
+  from = "/how-to-prepare-for-death"
+  to = "/art/how-to-prepare-for-death"
+  status = 301
+
+[[redirects]]
+  from = "/cure"
+  to = "/art"
+  status = 301
+
+[[redirects]]
+  from = "/happyland"
+  to = "/art/happy-land"
+  status = 301
+
+[[redirects]]
+  from = "/sheets"
+  to = "/art/birth-sleep-sex-cease"
+  status = 301
+
+[[redirects]]
+  from = "/oblivion"
+  to = "/art/oblivion"
+  status = 301
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
