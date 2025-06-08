@@ -80,7 +80,7 @@ export const ArtProjects = () => {
                 >
                   {" "}
                   <MdOutlineArrowOutward className="group-hover:text-orange-500" />
-                  See more
+                  See project
                 </NavLink>
               </div>
               <p className="text-medium italic mr-1">{imageTitle}</p>
