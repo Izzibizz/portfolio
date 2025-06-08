@@ -1,17 +1,8 @@
 [{
-    "description": "I am a contemporary professional artist working and living in Sweden. I come from sculpture and expanded my practice into digital art and painting and today I work with commissions in all these feilds, both locally and abroad.",
+    "description": ["Izabel is a contemporary artist working and living in Sweden, graduating from Kungliga Konsthögskolan 2020. She comes from the field of sculpture and expanded her practice into digital art and painting and today she work with commissions in all these feilds, both locally and abroad.", "After implementing code in her art Izabel also educated herself as a frontend developer, building websites in javascript and typescript"],
     "education": [
-        {"name": "Master in Fine Arts", "school": "Kungliga Konsthögskolan"}
-    ],
-    "skills": [
-        { "name": "Welding" },
-        { "name": "Public art"},
-        { "name": "Project leading"},
-        { "name": "3D"},
-        { "name": "VR"},
-        { "name": "Painting"},
-        { "name": "Data based art"},
-        { "name": "Sculpting"}
-]
+        {"name": "Master in Fine Arts", "school": "Kungliga Konsthögskolan"},
+         {"name": "Prepartion School, Fine Arts, 2 years", "school": "Ölands Folkhögskola"}
+    ]
 }
 ]

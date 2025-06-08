@@ -46,7 +46,11 @@ export const About = () => {
         />
       </Helmet>
       {frontendPortfolioDisplay && <MovingBg />}
-      <div className="flex flex-col w-10/12 laptop:w-8/12 mx-auto pt-6 z-20 font-body font-light">
+      <div
+        className={`flex flex-col w-10/12 laptop:w-8/12 mx-auto pt-6 z-20 font-body font-light ${
+          artPortfolioDisplay && "text-lg"
+        } `}
+      >
         <img
           src={
             frontendPortfolioDisplay
@@ -58,66 +62,67 @@ export const About = () => {
         />
         <div className="flex flex-col flex-col-reverse laptop:flex-row justify-between gap-8 tablet:gap-10">
           <div className="flex flex-col laptop:max-w-[600px] gap-8">
-            <p
-              className={`text-justify w-full tablet:p-6 tablet:bg-black ${
-                frontendPortfolioDisplay
-                  ? "tablet:bg-opacity-[20%]"
-                  : "tablet:bg-opacity-[10%]"
-              } h-fit rounded-xl`}
-            >
-              {frontendPortfolioDisplay && (
-                <>
-                  <span className="text-xl font-medium">Hey, </span>
-                  <br />
-                </>
-              )}
-              {currentPortfolioData?.[0]?.description}
-            </p>
+            {frontendPortfolioDisplay && (
+              <div className="text-justify w-full tablet:bg-black tablet:p-6 tablet:bg-opacity-[20%] h-fit rounded-xl">
+                <span className="text-xl font-medium">Hey, </span>
+                <br />
+                <p>{currentPortfolioData?.[0]?.description}</p>
+              </div>
+            )}
+
             {artPortfolioDisplay && (
-              <p className="grid grid-cols-3 w-full tablet:p-6 tablet:bg-black tablet:bg-opacity-[10%] h-fit rounded-xl">
-                <span className="font-medium laptop:text-lg">Education: </span>
+              <div className="text-justify flex flex-col gap-2 w-full tablet:bg-black tablet:bg-opacity-[0%] h-fit rounded-xl">
+                {currentPortfolioData?.[0]?.description?.map((item, index) => (
+                  <p key={index}>{item}</p>
+                ))}
+              </div>
+            )}
+            {artPortfolioDisplay && (
+              <div className="flex flex-col gap-4">
+              <h4  className="underline underline-offset-2 decoration-dotted decoration-1 text-xl">Art education:</h4>
+              {currentPortfolioData?.[0]?.education?.map((item, index) => (
+ <p className="grid grid-cols-3 w-full h-fit rounded-xl" key={index}>
                 <span className=" italic col-span-2">
-                  {currentPortfolioData?.[0]?.education[0].name}
-                  <br /> {currentPortfolioData?.[0]?.education[0].school}
+                  {item.name}
+                  <br /> {item.school}
                 </span>
               </p>
+              ))}
+              </div>
             )}
-            <div
-              className={`p-4 rounded-xl w-full tablet:p-6 bg-black ${
-                frontendPortfolioDisplay
-                  ? "tablet:bg-opacity-[20%]"
-                  : "bg-opacity-[10%]"
-              } `}
-            >
-              <ul
-                className={`grid grid-cols-2 ${
-                  frontendPortfolioDisplay
-                    ? "tablet:grid-cols-4"
-                    : "tablet:grid-cols-3"
-                } gap-4`}
+            {frontendPortfolioDisplay && (
+              <div
+                className={`p-4 rounded-xl w-full tablet:p-6 bg-black tablet:bg-opacity-[20%] `}
               >
-                {artPortfolioDisplay && (
-                  <span className="font-medium text-lg ">Skills: </span>
-                )}
-                {currentPortfolioData?.[0]?.skills?.map((skill, index) => (
-                  <li
-                    key={index}
-                    className={`col-span-1 flex gap-2 ${
-                      frontendPortfolioDisplay && "tablet:justify-center"
-                    } `}
-                  >
-                    {skill.name}
-                    {skill.image?.length > 0 && (
-                      <img src={skill.image} className="w-[20px]" alt="logo" />
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </div>
+                <ul
+                  className={`grid grid-cols-2 ${
+                    frontendPortfolioDisplay
+                      ? "tablet:grid-cols-4"
+                      : "tablet:grid-cols-3"
+                  } gap-4`}
+                >
+                  {currentPortfolioData?.[0]?.skills?.map((skill, index) => (
+                    <li
+                      key={index}
+                      className={`col-span-1 flex gap-2 tablet:justify-center`}
+                    >
+                      {skill.name}
+                      {skill.image?.length > 0 && (
+                        <img
+                          src={skill.image}
+                          className="w-[20px]"
+                          alt="logo"
+                        />
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
           <div className="relative w-full tablet:w-auto h-auto tablet:h-[500px] laptop:h-[600px] flex tablet:justify-end mt-8 tablet:mt-0">
             <img
-              src="https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309032/Izabel-Lind-farnstrand-frontend-utvecklare-itflows-2_vahr87.png"
+              src="https://res.cloudinary.com/dlp85vjwx/image/upload/v1746174843/izabel-lind-farnstrand-webbyra-itflows-2_jcc3ec.webp"
               alt="portrait Izabel Lind - fullstack developer and artist"
               className="h-full w-auto object-cover rounded-xl"
             />
