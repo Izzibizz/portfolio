@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import { Helmet } from "react-helmet"
+import { Helmet } from "react-helmet";
 import { NavLink } from "react-router-dom";
 import { useProjectsStore } from "../../stores/useProjectsStore";
 import devData from "../data/devData.json";
-import bgImage from "/bg-image-portfolio-izabel-lind.jpg"
+import bgImage from "/bg-image-portfolio-izabel-lind.jpg";
 import { MovingBg } from "../../components/MovingBg";
 import { SlArrowDown } from "react-icons/sl";
 import { SlArrowUp } from "react-icons/sl";
@@ -31,7 +31,7 @@ export const FrontendProjects = () => {
 
   useEffect(() => {
     setFrontendPortfolioDisplay(true);
-    setBgWhite(false)
+    setBgWhite(false);
     setArtPortfolioDisplay(false);
   }, []);
 
@@ -63,27 +63,24 @@ export const FrontendProjects = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-
   return (
     <section className="font-body font-medium text-white flex flex-col ">
-            <Helmet>
-        <title>
-         Frontend Projects by Izabel Lind
-        </title>
+      <Helmet>
+        <title>Frontend Projects by Izabel Lind</title>
         <meta
           name="description"
-          content={
-            "Overview of frontend projects by Izabel Lind"
-          }
+          content={"Overview of frontend projects by Izabel Lind"}
         />
       </Helmet>
-       {isLaptop ? (
+      {isLaptop ? (
         <MovingBg />
-      ) : (    <img
-        src={bgImage}
-        alt="background image"
-        className="absolute w-full max-w-full top-0 z-0 h-full max-h-full object-cover"
-      /> )}
+      ) : (
+        <img
+          src={bgImage}
+          alt="background image"
+          className="absolute w-full max-w-full top-0 z-0 h-full max-h-full object-cover"
+        />
+      )}
       <div className="flex flex-col gap-0 w-9/12 tablet:w-7/12 laptop:w-8/12 mx-auto mt-20 z-20">
         <img
           src="/frontend-developer-w.svg"
@@ -110,23 +107,21 @@ export const FrontendProjects = () => {
 
         <ul className="flex flex-col laptop:w-5/12 laptop:self-end animate-longFadeIn">
           {projectsToShow.map((project, index) => (
-              <li
-              key={project.title}
-              >
-                            <NavLink
-              to={`/frontend/${project.title
-                .replace(/\s+/g, "-")
-                .toLowerCase()}`}
+            <li key={project.title}>
+              <NavLink
+                to={`/frontend/${project.title
+                  .replace(/\s+/g, "-")
+                  .toLowerCase()}`}
                 className={`flex border-b justify-between pb-2 laptop:cursor-hollow group ${
                   index === 0 ? "pt-0" : "pt-10"
                 } animate-mediumSlideIn transform transition-transform`}
                 style={{
                   opacity: 0,
-                  animationDelay: `${(index + 1) * 200}ms`
+                  animationDelay: `${(index + 1) * 200}ms`,
                 }}
                 onMouseEnter={() => setHoveredProjectTitle(project.title)} // Set hovered title
                 onMouseLeave={() => setHoveredProjectTitle(null)}
-            >
+              >
                 <h3 className="text-xl laptop:text-2xl laptop:cursor-hollow transition-transform transform origin-left laptop:group-hover:scale-125">
                   {project.title}
                 </h3>
@@ -146,23 +141,26 @@ export const FrontendProjects = () => {
                     return `${word} `;
                   })}
                 </p>
-                </NavLink>
-              </li>
+              </NavLink>
+            </li>
           ))}
         </ul>
         <button
-            onClick={handleShowOther}
-            className="mt-4 text-gray-400 laptop:hover:scale-105 laptop:cursor-hollow flex items-center gap-2 self-end group animate-longFadeIn"
-          >
-            {showOlder ? (
-              <>
-                New Projects <SlArrowUp className="laptop:group-hover:animate-bounceUpDown"/> 
-              </>
-            ) : (
-              <>Older Projects <SlArrowDown className="laptop:group-hover:animate-bounceUpDown" />
-              </>
-            )}
-          </button>
+          onClick={handleShowOther}
+          className="mt-4 text-gray-400 laptop:hover:scale-105 laptop:cursor-hollow flex items-center gap-2 self-end group animate-longFadeIn"
+        >
+          {showOlder ? (
+            <>
+              New Projects{" "}
+              <SlArrowUp className="laptop:group-hover:animate-bounceUpDown" />
+            </>
+          ) : (
+            <>
+              Older Projects{" "}
+              <SlArrowDown className="laptop:group-hover:animate-bounceUpDown" />
+            </>
+          )}
+        </button>
       </div>
     </section>
   );

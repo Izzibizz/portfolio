@@ -53,11 +53,10 @@ export const ArtSingleProject = () => {
     }
   }, [project]);
 
-
   useEffect(() => {
     if (infoRef.current) {
-      const infoHeight = infoRef.current.offsetHeight; 
-      if (window.innerWidth < 1024) { 
+      const infoHeight = infoRef.current.offsetHeight;
+      if (window.innerWidth < 1024) {
         setSectionMarginBottom(`${infoHeight + 20}px`);
       } else {
         setSectionMarginBottom("40px");
@@ -75,10 +74,11 @@ export const ArtSingleProject = () => {
     return null; // Optionally render a loader while navigating
   }
 
-
   return (
-    <section className="animate-fadeIn font-body flex flex-col gap-10"
-    style={{ marginBottom: sectionMarginBottom }} >
+    <section
+      className="animate-fadeIn font-body flex flex-col gap-10"
+      style={{ marginBottom: sectionMarginBottom }}
+    >
       <Helmet>
         <title>
           {project?.title ? `${project.title} - Art Project` : "Art Project"}

@@ -10,7 +10,7 @@ export const Header = () => {
     setArtPortfolioDisplay,
     frontendPortfolioDisplay,
     setFrontendPortfolioDisplay,
-    isScrolled
+    isScrolled,
   } = useProjectsStore();
   const dropdownRef = useRef();
   const buttonRef = useRef();
@@ -59,12 +59,15 @@ export const Header = () => {
     };
   }, []);
 
-
   return (
     <header
       className={`w-full max-w-screen h-20 flex justify-between fixed top-0 left-0 z-50 animate-fadeIn px-8 ${
-      artPortfolioDisplay ? "bg-light" : frontendPortfolioDisplay ? "bg-black" : ""
-      } ${isScrolled ? "bg-opacity-90" : "bg-opacity-0"}` }
+        artPortfolioDisplay
+          ? "bg-light"
+          : frontendPortfolioDisplay
+          ? "bg-black"
+          : ""
+      } ${isScrolled ? "bg-opacity-90" : "bg-opacity-0"}`}
     >
       <NavLink
         to="/"
@@ -130,31 +133,31 @@ export const Header = () => {
               }`}
             >
               <nav>
-              <ul
-                className={`flex flex-col items-center mt-[30%] gap-6 p-10 ${textColor} font-body font-light`}
-              >
-                <NavLink
-                  to={projectsPath}
-                  aria-label={`Link to Projects page`}
-                  onClick={toggleMenu}
+                <ul
+                  className={`flex flex-col items-center mt-[30%] gap-6 p-10 ${textColor} font-body font-light`}
                 >
-                  Seleted Projects
-                </NavLink>
-                <NavLink
-                  to={aboutPath}
-                  aria-label={`Link to about page`}
-                  onClick={toggleMenu}
-                >
-                  About
-                </NavLink>
-                <NavLink
-                  to={contactPath}
-                  aria-label={`Link to contact page`}
-                  onClick={toggleMenu}
-                >
-                  Contact
-                </NavLink>
-              </ul>
+                  <NavLink
+                    to={projectsPath}
+                    aria-label={`Link to Projects page`}
+                    onClick={toggleMenu}
+                  >
+                    Seleted Projects
+                  </NavLink>
+                  <NavLink
+                    to={aboutPath}
+                    aria-label={`Link to about page`}
+                    onClick={toggleMenu}
+                  >
+                    About
+                  </NavLink>
+                  <NavLink
+                    to={contactPath}
+                    aria-label={`Link to contact page`}
+                    onClick={toggleMenu}
+                  >
+                    Contact
+                  </NavLink>
+                </ul>
               </nav>
             </div>
           )}

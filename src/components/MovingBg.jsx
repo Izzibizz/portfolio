@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 const rand = (min, max) => Math.random() * (max - min) + min;
 
@@ -11,9 +11,9 @@ export const MovingBg = () => {
   const [isMobile, setIsMobile] = useState(false); // State for detecting mobile
   const blurValue = 60;
   const colors = [
-    ['#303438', '#210c0d'],
-    ['#1c1b24', '#131e29'],
-    ['#1f1216', '#000000'],
+    ["#303438", "#210c0d"],
+    ["#1c1b24", "#131e29"],
+    ["#1f1216", "#000000"],
   ];
 
   useEffect(() => {
@@ -27,10 +27,10 @@ export const MovingBg = () => {
     };
 
     handleResize(); // Set the initial screen size
-    window.addEventListener('resize', handleResize); // Update on window resize
+    window.addEventListener("resize", handleResize); // Update on window resize
 
     return () => {
-      window.removeEventListener('resize', handleResize); // Clean up the event listener
+      window.removeEventListener("resize", handleResize); // Clean up the event listener
     };
   }, []);
 
@@ -70,16 +70,22 @@ export const MovingBg = () => {
           let { x, y, initialXDirection, initialYDirection } = circle;
 
           // Boundary conditions
-          if (x + (initialXDirection * adjustSpeed) >= window.innerWidth || x + (initialXDirection * adjustSpeed) <= 0) {
+          if (
+            x + initialXDirection * adjustSpeed >= window.innerWidth ||
+            x + initialXDirection * adjustSpeed <= 0
+          ) {
             initialXDirection = -initialXDirection;
           }
-          if (y + (initialYDirection * adjustSpeed) >= window.innerHeight || y + (initialYDirection * adjustSpeed) <= 0) {
+          if (
+            y + initialYDirection * adjustSpeed >= window.innerHeight ||
+            y + initialYDirection * adjustSpeed <= 0
+          ) {
             initialYDirection = -initialYDirection;
           }
 
           // Update position
-          x += (initialXDirection * adjustSpeed);
-          y += (initialYDirection * adjustSpeed);
+          x += initialXDirection * adjustSpeed;
+          y += initialYDirection * adjustSpeed;
 
           return {
             ...circle,
@@ -115,7 +121,7 @@ export const MovingBg = () => {
             width: `${circle.radius * 2}px`,
             height: `${circle.radius * 2}px`,
             background: `linear-gradient(to right, ${circle.colorOne}, ${circle.colorTwo})`,
-            borderRadius: '50%',
+            borderRadius: "50%",
             filter: `blur(${circle.blur}px)`,
           }}
         />

@@ -108,8 +108,6 @@ export const FrontendSingleProject = () => {
     return <div>Loading...</div>;
   }
 
-
-
   return (
     <section className="font-body font-medium text-white  flex flex-col">
       <Helmet>

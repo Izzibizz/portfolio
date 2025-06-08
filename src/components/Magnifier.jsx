@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 export const Magnifier = ({ url }) => {
   const [isLaptopWidth, setIsLaptopWidth] = useState(window.innerWidth > 1024);
   const [isVisible, setIsVisible] = useState(false);
-  const [hasAnimated, setHasAnimated] = useState(false)
+  const [hasAnimated, setHasAnimated] = useState(false);
   const imageRef = useRef();
 
   const [magnifierStyle, setMagnifierStyle] = useState({
@@ -33,7 +33,7 @@ export const Magnifier = ({ url }) => {
   };
 
   const handleMouseLeave = () => {
-    if (isLaptopWidth && isVisible ) {
+    if (isLaptopWidth && isVisible) {
       setMagnifierStyle({
         display: "none",
         top: 0,
@@ -64,12 +64,12 @@ export const Magnifier = ({ url }) => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting && !hasAnimated) {
-          setIsVisible(true); 
+          setIsVisible(true);
           setHasAnimated(true);
         }
       },
       {
-        threshold: 0.1, 
+        threshold: 0.1,
       }
     );
 
