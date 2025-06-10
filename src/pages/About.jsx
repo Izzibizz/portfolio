@@ -128,20 +128,20 @@ export const About = () => {
             />
             {frontendPortfolioDisplay && (
               <a
-                href="/CV-IZABEL-LIND-FRONTEND-DEVELOPER.pdf"
+                href="/CV-Frontend-developer-Izabel-Lind.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 alt="pdf cv Izabel Lind"
                 className="absolute bottom-[-4%] laptop:bottom-[90%] right-[-5%] laptop:right-[-12%] w-[100px] h-[100px] border-none rounded-full group  "
               >
                 <div
-                  className={`w-1/2 h-1/2 top-1/4 left-1/4 rounded-full relative flex justify-center items-center text-white bg-orange-500 text-white bg-orange-500 font-medium font-body text-xl laptop:group-hover:scale-[110%]`}
+                  className={`w-1/2 h-1/2 top-1/4 left-1/4 rounded-full relative flex justify-center items-center text-black bg-white font-medium font-body text-xl laptop:group-hover:scale-[110%]`}
                 >
                   CV
                 </div>
-                <div className="absolute w-full h-full top-0 flex justify-center items-center animate-rotateCircle">
+                <div className="absolute w-full h-full top-0 flex justify-center items-center animate-rotateCircle ">
                   <img
-                    src="https://res.cloudinary.com/dlp85vjwx/image/upload/v1745309134/click-here-circle-lexend-orange_adbwhp.svg"
+                    src="https://res.cloudinary.com/dlp85vjwx/image/upload/v1749545172/click-here-circle-lexend_mj1zof.svg"
                     alt="click here"
                   />
                 </div>

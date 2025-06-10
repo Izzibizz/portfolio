@@ -7,23 +7,16 @@ import { MovingBg } from "../../components/MovingBg";
 import { ImageModal } from "../../components/ImageModal";
 import { SlArrowLeft } from "react-icons/sl";
 import { MdOutlineArrowOutward } from "react-icons/md";
-import { FaNodeJs } from "react-icons/fa";
-import { FaJs } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
 import devData from "../data/devData.json";
 import bgImage from "/bg-image-portfolio-izabel-lind.jpg";
 import projectHeading from "/project.svg";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/controller";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
 import "swiper/css/free-mode";
 
-// Import required modules for Swiper
 import { Autoplay } from "swiper/modules";
 
 export const FrontendSingleProject = () => {
@@ -35,16 +28,8 @@ export const FrontendSingleProject = () => {
   const [imageSrc, setImageSrc] = useState();
   const [imageAlt, setImageAlt] = useState();
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [techHovered, setTechHovered] = useState(null);
   const [isLaptop, setIsLaptop] = useState(false);
 
-  const technologyIcons = {
-    "Node.js": <FaNodeJs />,
-    "Express.js": <FaJs />,
-    MongoDB: <SiMongodb />,
-    React: <FaReact />,
-    Javascript: <IoLogoJavascript />,
-  };
 
   const handlePreviewClick = (src, alt) => {
     setImageSrc(src);
@@ -140,7 +125,7 @@ export const FrontendSingleProject = () => {
       )}
       <div className="flex flex-col w-10/12 laptop:w-9/12 mx-auto pt-6 z-20">
         <NavLink to={`/frontend`} aria-label="Go to Frontend section">
-          <SlArrowLeft className="cursor-hollow pl-2 w-6 h-6 laptop:w-8 laptop:h-6 absolute z-20 top-40 laptop:top-52 laptop:left-20 hover:scale-125" />{" "}
+          <SlArrowLeft className="cursor-hollow p-2 laptop:p-4 w-10 h-10 laptop:w-14 laptop:h-14 absolute z-20 top-40 laptop:top-52 laptop:left-20 hover:scale-125" />{" "}
         </NavLink>
         {project.images && project.images.length > 0 && (
           <>
@@ -259,13 +244,8 @@ export const FrontendSingleProject = () => {
                       <li
                         key={index}
                         className="flex gap-1 items-center"
-                        onMouseEnter={() => setTechHovered(tech)}
-                        onMouseLeave={() => setTechHovered(null)}
                       >
                         {tech}
-                        {techHovered === tech && (
-                          <span className="">{technologyIcons[tech]}</span>
-                        )}
                       </li>
                     ))}
                   </ul>

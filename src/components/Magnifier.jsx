@@ -45,10 +45,9 @@ export const Magnifier = ({ url }) => {
 
   useEffect(() => {
     const handleResize = () => {
-      const laptopWidth = window.innerWidth > 1024; // Change this value as needed
+      const laptopWidth = window.innerWidth > 1024;
       setIsLaptopWidth(laptopWidth);
 
-      // Hide magnifier if the screen is resized to a width that isn't laptop size
       if (!laptopWidth) {
         setMagnifierStyle((prev) => ({ ...prev, display: "none" }));
       }

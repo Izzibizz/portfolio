@@ -1,15 +1,16 @@
 import { useEffect, useState } from "react";
 
 const rand = (min, max) => Math.random() * (max - min) + min;
+const randInt = (min, max) => Math.floor(rand(min, max));
 
 export const MovingBg = () => {
   const [circles, setCircles] = useState([]);
-  const [count] = useState(30); // Fixed number of circles
-  const [radiusRange] = useState([10, 500]); // Fixed size range
-  const [adjustSpeed] = useState(0.9); // Fixed speed
 
-  const [isMobile, setIsMobile] = useState(false); // State for detecting mobile
+  const count = 30;
+  const radiusRange = [10, 500];
+  const adjustSpeed = 0.9;
   const blurValue = 60;
+
   const colors = [
     ["#303438", "#210c0d"],
     ["#1c1b24", "#131e29"],
@@ -17,100 +18,68 @@ export const MovingBg = () => {
   ];
 
   useEffect(() => {
-    // Detect the screen size to decide if it's mobile or desktop
-    const handleResize = () => {
-      if (window.innerWidth <= 768) {
-        setIsMobile(true);
-      } else {
-        setIsMobile(false);
-      }
-    };
-
-    handleResize(); // Set the initial screen size
-    window.addEventListener("resize", handleResize); // Update on window resize
-
-    return () => {
-      window.removeEventListener("resize", handleResize); // Clean up the event listener
-    };
-  }, []);
-
-  useEffect(() => {
-    const generatedCircles = [];
-    for (let i = 0; i < count; i++) {
-      const radius = rand(radiusRange[0], radiusRange[1]);
+    const generatedCircles = Array.from({ length: count }, () => {
+      const radius = rand(...radiusRange);
       const x = rand(-100, window.innerWidth + 100);
       const y = rand(-100, window.innerHeight + 100);
-      const colorIndex = Math.floor(rand(0, 299) / 100);
-      const colorOne = colors[colorIndex][0];
-      const colorTwo = colors[colorIndex][1];
+      const [colorOne, colorTwo] = colors[randInt(0, colors.length)];
 
-      generatedCircles.push({
+      return {
         x,
         y,
         radius,
         blur: blurValue,
         colorOne,
         colorTwo,
-        initialXDirection: Math.round(rand(-99, 99) / 100),
-        initialYDirection: Math.round(rand(-99, 99) / 100),
-      });
-    }
+        initialXDirection: randInt(0, 2) === 0 ? -1 : 1,
+        initialYDirection: randInt(0, 2) === 0 ? -1 : 1,
+      };
+    });
 
     setCircles(generatedCircles);
-  }, [count, radiusRange]); // Initial circle generation
+  }, [count]);
 
+  // Animation (endast desktop)
   useEffect(() => {
-    if (isMobile) return; // Skip animation on mobile
-
     let animationFrameId;
 
     const moveCircles = () => {
-      setCircles((prevCircles) => {
-        return prevCircles.map((circle) => {
+      setCircles((prev) =>
+        prev.map((circle) => {
           let { x, y, initialXDirection, initialYDirection } = circle;
 
-          // Boundary conditions
           if (
             x + initialXDirection * adjustSpeed >= window.innerWidth ||
-            x + initialXDirection * adjustSpeed <= 0
+            x <= 0
           ) {
-            initialXDirection = -initialXDirection;
+            initialXDirection *= -1;
           }
           if (
             y + initialYDirection * adjustSpeed >= window.innerHeight ||
-            y + initialYDirection * adjustSpeed <= 0
+            y <= 0
           ) {
-            initialYDirection = -initialYDirection;
+            initialYDirection *= -1;
           }
-
-          // Update position
-          x += initialXDirection * adjustSpeed;
-          y += initialYDirection * adjustSpeed;
 
           return {
             ...circle,
-            x,
-            y,
+            x: x + initialXDirection * adjustSpeed,
+            y: y + initialYDirection * adjustSpeed,
             initialXDirection,
             initialYDirection,
           };
-        });
-      });
+        })
+      );
 
-      // Schedule the next frame
-      animationFrameId = window.requestAnimationFrame(moveCircles);
+      animationFrameId = requestAnimationFrame(moveCircles);
     };
 
     moveCircles();
-
-    // Cleanup function to cancel the animation
-    return () => {
-      window.cancelAnimationFrame(animationFrameId);
-    };
-  }, [adjustSpeed, isMobile]); // Only run on desktop
+    return () => cancelAnimationFrame(animationFrameId);
+  }, []);
 
   return (
-    <div className="z-0 w-full max-h-full h-full relative">
+    <div className="z-0 w-full h-full relative">
       {circles.map((circle, index) => (
         <div
           key={index}
