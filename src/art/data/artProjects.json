@@ -1,9 +1,9 @@
 [
   {
-    "title": "Embedded",
+    "title": "Av inre orsaker",
     "year": 2024,
     "material": "Painting",
-    "description": "2 large paintings of 100 x 140 cm, Embedded and Core, about the inner fragile and strong.",
+    "description": "Dyptyk of 100 x 140 cm each. This dyptyk explores inner states as both physical and mental landscapes – places where energies gather, collide or tear apart. The paintings depict a movement between fragmentation and gathering, where ruptures and traces suggest processes that unfold beyond consciousness. Like microscopic events or emotional fragments of memory, the work carries a story of something happening inside – in silence, in layers, in between.",
     "images": [
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745432233/embedded.2024-complete-w_q3rn9y.webp",
@@ -115,10 +115,10 @@
     "fundedBy": ["KKH"]
   },
   {
-    "title": "Matrix",
+    "title": "Brist",
     "year": 2021,
     "material": "Sculpture",
-    "description": "This negative bronze sculpture is displaying the void of the unpleasent but golden.",
+    "description": "The negative bronze sculpture revolves around absence – that which no longer exists, or perhaps never really existed. A void that both hides and defines the lost. Through the negative, a presence is formed in the very absence. A silent marker for something whose possible existence never took shape, but is still felt.",
     "images": [
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433661/Current-matrix.2023.side.zoom-izabel.lind-w_jwwmjx.webp",
@@ -164,6 +164,89 @@
     ],
     "commissionedBy": ["Private collector"],
     "fundedBy": ["KKH"]
+  },
+  {
+    "title": "Stream",
+    "year": 2024,
+    "material": "Live streamed light sculpture",
+    "description": "This live sculpture is connected to an API of the sensors at the University, reacting to the amount of people moving in the buildings and showing different moods reflecting the atmosphere.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310496/sensor-stream-led-skulptur-orebro-universitet-izabel-lind_ksizgv.jpg",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745310496/sensor-stream-led-skulptur-orebro-universitet-izabel-lind_ksizgv.jpg",
+        "alt": "Stream at Örebro Universitet - from underneath - Izabel Lind.",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310897/3D-skanning-orebro-universitet-izabel-lind_ube1oo.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745310897/3D-skanning-orebro-universitet-izabel-lind_ube1oo.png",
+        "alt": "Stream based on the digitalization of the University - Izabel Lind.",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745434408/Photo_2022-05-16_13_37_23_tpvwmg.jpg",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745434408/Photo_2022-05-16_13_37_23_tpvwmg.jpg",
+        "alt": "Preparation of sculpture in KKV Stockholm - Izabel Lind.",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310507/2-stream-led-skulptur-orebro-universitet-izabel-lind_g3tidb.jpg",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745310507/2-stream-led-skulptur-orebro-universitet-izabel-lind_g3tidb.jpg",
+        "alt": "Stream at Örebro Universitet - front of Labbet Winter - Izabel Lind.",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310497/skiss-stream-izabel-lind-orebro-universitet-statens-konstrad-2023_heirgh.jpg",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745310497/skiss-stream-izabel-lind-orebro-universitet-statens-konstrad-2023_heirgh.jpg",
+        "alt": "Stream at Örebro Universitet - front of Labbet sketch - Izabel Lind.",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745434317/o%CC%88rebro_universitet_ry1yj4.jpg",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745434317/o%CC%88rebro_universitet_ry1yj4.jpg",
+        "alt": "Örebro Universitet",
+        "photographer": "Izabel Lind"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": [
+      {
+        "place": "Örebro Universitet",
+        "year": "2024"
+      }
+    ],
+    "commissionedBy": ["Akademiska hus", "Statens Konstråd"],
+    "fundedBy": ["Akademiska hus", "Statens Konstråd"]
+  },
+  {
+    "title": "Meänmaa",
+    "year": 2025,
+    "material": "Sculpture",
+    "description": "“Meänmaa” – our land – is a work that revolves around imprints, belonging and the emotional charge of a place. It carries a longing to take a place with you, to hold on to something that otherwise slips away. In Meänmaa, the place becomes both present and absent – ​​something to touch, but also something inanimate and only a hint. An attempt to own a place through memory, when language, culture or history have been silenced.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dknoal1v0/image/upload/v1763125635/Mea%CC%88nmaa-1_fzju7d.png",
+        "thumbnail": "https://res.cloudinary.com/dknoal1v0/image/upload/a_-90/a_90/c_pad,w_250/v1763125635/Mea%CC%88nmaa-1_fzju7d.png",
+        "alt": "close up of Meänmaa - by Izabel Lind",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dknoal1v0/image/upload/v1763125629/mea%CC%88nmaa-2_jzbipf.png",
+        "thumbnail": "https://res.cloudinary.com/dknoal1v0/image/upload/a_-90/a_90/c_pad,w_250/v1763125629/mea%CC%88nmaa-2_jzbipf.png",
+        "alt": "Meänmaa - sculpture by Izabel Lind",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dknoal1v0/image/upload/v1763125623/mea%CC%88nmaa_meydx6.png",
+        "thumbnail": "https://res.cloudinary.com/dknoal1v0/image/upload/a_-90/a_90/c_pad,w_250/v1763125623/mea%CC%88nmaa_meydx6.png",
+        "alt": "Meänmaa - paper sculpture by Izabel Lind",
+        "photographer": "Izabel Lind"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": [],
+    "commissionedBy": [],
+    "fundedBy": []
   },
   {
     "title": "Upward falling",
@@ -240,60 +323,6 @@
     "commissionedBy": ["Didier Claude Dechamps, Nice, France"],
     "fundedBy": []
   },
-  {
-    "title": "Stream",
-    "year": 2024,
-    "material": "Live streamed light sculpture",
-    "description": "This live sculpture is connected to an API of the sensors at the University, reacting to the amount of people moving in the buildings and showing different moods reflecting the atmosphere.",
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310496/sensor-stream-led-skulptur-orebro-universitet-izabel-lind_ksizgv.jpg",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745310496/sensor-stream-led-skulptur-orebro-universitet-izabel-lind_ksizgv.jpg",
-        "alt": "Stream at Örebro Universitet - from underneath - Izabel Lind.",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310897/3D-skanning-orebro-universitet-izabel-lind_ube1oo.png",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745310897/3D-skanning-orebro-universitet-izabel-lind_ube1oo.png",
-        "alt": "Stream based on the digitalization of the University - Izabel Lind.",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745434408/Photo_2022-05-16_13_37_23_tpvwmg.jpg",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745434408/Photo_2022-05-16_13_37_23_tpvwmg.jpg",
-        "alt": "Preparation of sculpture in KKV Stockholm - Izabel Lind.",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310507/2-stream-led-skulptur-orebro-universitet-izabel-lind_g3tidb.jpg",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745310507/2-stream-led-skulptur-orebro-universitet-izabel-lind_g3tidb.jpg",
-        "alt": "Stream at Örebro Universitet - front of Labbet Winter - Izabel Lind.",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310497/skiss-stream-izabel-lind-orebro-universitet-statens-konstrad-2023_heirgh.jpg",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745310497/skiss-stream-izabel-lind-orebro-universitet-statens-konstrad-2023_heirgh.jpg",
-        "alt": "Stream at Örebro Universitet - front of Labbet sketch - Izabel Lind.",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745434317/o%CC%88rebro_universitet_ry1yj4.jpg",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745434317/o%CC%88rebro_universitet_ry1yj4.jpg",
-        "alt": "Örebro Universitet",
-        "photographer": "Izabel Lind"
-      }
-    ],
-    "video": null,
-    "exhibitedAt": [
-      {
-        "place": "Örebro Universitet",
-        "year": "2024"
-      }
-    ],
-    "commissionedBy": ["Akademiska hus", "Statens Konstråd"],
-    "fundedBy": ["Akademiska hus", "Statens Konstråd"]
-  },
-
   {
     "title": "Soft",
     "year": 2024,
@@ -442,7 +471,7 @@
         "alt": "Room installation How to prepare for Death - overview - Izabel Lind",
         "photographer": "Izabel Lind"
       },
- 
+
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437219/How-to-prepare-for-death-2000-11-w_pscyl4.webp",
         "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437219/How-to-prepare-for-death-2000-11-w_pscyl4.webp",
@@ -659,30 +688,7 @@
     "commissionedBy": ["Kunstlerhaus Stuttgart"],
     "fundedBy": ["Kunstlerhaus Stuttgart"]
   },
-  {
-    "title": "Sweet Sweat Swat",
-    "year": 2024,
-    "material": "Sculpture",
-    "description": "The process of wax is one of many shapes, and while making mold for my sculptures outside I end up with my surrrounding having soiled the last parts of my wax. Leaving a trace.",
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745311039/moon.2000.2.2_d9qgl9.jpg",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745311039/moon.2000.2.2_d9qgl9.jpg",
-        "alt": "Wax sculpture on wall Izabel Lind.",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745311032/moon.n%C3%A4ra.2000_fau2vt.jpg",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745311032/moon.n%C3%A4ra.2000_fau2vt.jpg",
-        "alt": "Closup wax sculpture Izabel Lind",
-        "photographer": "Izabel Lind"
-      }
-    ],
-    "video": null,
-    "exhibitedAt": [],
-    "commissionedBy": [],
-    "fundedBy": []
-  },
+
   {
     "title": "Drone",
     "year": 2019,
