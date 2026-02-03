@@ -1,59 +1,210 @@
-[  {
-  "title": "Light Body Yoga",
-  "year": 2025,
-  "genre": "Booking and Schedule",
-  "category": ["Branding", "UX & UI design", "Frontend development"],
-  "introduction": "Frontend + design",
-  "description": "Light Body Yoga aka Therese is a yoga teacher, healer and massage therapist whom I helped create a strong visual brand, logo, illustrations, design, collaborated with a photographer and built the frontend. Therese needs to clearly communicate her services and her energy/personality and display her schedule, booking and events.",
-  "images": [
-    {
-      "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745411967/hemsida-therese-lind-bjellder-light-body--w_v7o0k7.webp",
-      "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745411967/hemsida-therese-lind-bjellder-light-body--w_v7o0k7.webp",
-      "alt": "Website preview of landing page/hero Light Body Yoga"
-    },
-    {
-      "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745412788/light-body-yoga-Izabel-Lind-hemsida-w_dgjpgf.webp",
-      "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745412788/light-body-yoga-Izabel-Lind-hemsida-w_dgjpgf.webp",
-      "alt": "Website preview of landing page/hero Light Body Yoga"
-    },
-    {
-      "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745411965/massage-hemsida-therese-lind-bjellder-light-body-overview-w_lsnmmv.webp",
-      "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745411965/massage-hemsida-therese-lind-bjellder-light-body-overview-w_lsnmmv.webp",
-      "alt": "Website preview of Overview categories Light Body Yoga"
-    },
-    {
-      "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745411964/schedule-schema-hemsida-therese-lind-bjellder-light-body-yoga-ww_xljtma.webp",
-      "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745411964/schedule-schema-hemsida-therese-lind-bjellder-light-body-yoga-ww_xljtma.webp",
-      "alt": "Website preview of Schedule Light Body Yoga"
-    },
-    {
-      "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745411968/massage-hemsida-therese-lind-bjellder-light-body-w_kdlbo8.webp",
-      "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745411968/massage-hemsida-therese-lind-bjellder-light-body-w_kdlbo8.webp",
-      "alt": "Website preview of treatments Light Body Yoga"
-    },
-    {
-      "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745411965/contact-hemsida-therese-lind-bjellder-light-body-yoga-w_ky4iih.webp",
-      "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745411965/contact-hemsida-therese-lind-bjellder-light-body-yoga-w_ky4iih.webp",
-      "alt": "Website preview of about Light Body Yoga"
-    }
-  ],
-  "tags": [
-    "JavaScript",
-    "React",
-    "vite",
-    "REST API",
-    "Zustand globalstore",
-    "Express.js",
-    "MongoDB",
-    "Mongoose",
-    "HTML5",
-    "CSS3",
-    "Tailwind",
-    "Figma"
-  ],
-  "netlify": "https://lightbodyyoga.se",
-  "github": "https://github.com/Izzibizz/Light-body-yoga"
-},
+[ {
+    "title": "Hagsätra Collective",
+    "year": 2026,
+    "genre": "Association website",
+    "category": ["Branding", "UX & UI design", "Frontend development"],
+    "introduction": "Frontend + design",
+    "description": "Hagsätra Collective is a community association subletting studios to local artists. I am chair of the board and in collaboration with graphic designer Linn Bredberg, who made the graphic design, I was responsible for the complete webdesign and frontend development of the website, focusing on creating an engaging user experience that highlights the collective's mission and activities.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770117731/Hags%C3%A4tra-collective-animation-itflows-izabel-lind-website_hzddoa.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117731/Hags%C3%A4tra-collective-animation-itflows-izabel-lind-website_hzddoa.png",
+        "alt": "Website preview of Intro animation fpr Hagsätra Collective"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770117731/Hags%C3%A4tra-collective-landingpage-ateljeer-itflows-izabel-lind-website_jgnzyl.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117731/Hags%C3%A4tra-collective-landingpage-ateljeer-itflows-izabel-lind-website_jgnzyl.png",
+        "alt": "Website preview of Landing page for Hagsätra Collective"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770117732/Hags%C3%A4tra-collective-om-oss-ateljeer-itflows-izabel-lind-website_qu3uqk.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117732/Hags%C3%A4tra-collective-om-oss-ateljeer-itflows-izabel-lind-website_qu3uqk.png",
+        "alt": "Website preview of about is page Hagsätra Collective"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770117732/Hags%C3%A4tra-collective-studios-ateljeer-itflows-izabel-lind-website_ldxi3b.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117732/Hags%C3%A4tra-collective-studios-ateljeer-itflows-izabel-lind-website_ldxi3b.png",
+        "alt": "Website preview of free studios Hagsätra Collective"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770117731/Hags%C3%A4tra-collective-contact-ateljeer-itflows-izabel-lind-website_smgyec.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117731/Hags%C3%A4tra-collective-contact-ateljeer-itflows-izabel-lind-website_smgyec.png",
+        "alt": "Website preview of contact page Hagsätra Collective"
+      }
+    ],
+    "tags": [
+      "Typescript",
+      "React",
+      "vite",
+      "Zustand globalstore",
+      "HTML5",
+      "CSS3",
+      "Tailwind",
+      "Sanity",
+      "Figma"
+    ],
+    "netlify": "https://hagsatracollective.se",
+    "github": "https://github.com/Izzibizz/hagsatra-collective"
+  }, {
+    "title": "Josefine Östlund",
+    "year": 2025,
+    "genre": "Portfolio website",
+    "category": ["Branding", "UX & UI design", "Fullstack development"],
+    "introduction": "Fullstack + design",
+    "description": "Josefine Östlund is a swedish artist specializing in sculpture and performance. I created a fullstack portfolio website for her to showcase her artwork, exhibitions, and contact information. I focused on minimalistic design to let the art be in focus and maximalist bold typography to reflect her estetic.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770117665/Josefine-ostlund-artist-portfolio-website-itflows-izabel-lind-Landing_ehgn6o.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117678/Josefine-ostlund-artist-portfolio-website-itflows-izabel-lind-Landing_ehgn6o.png",
+        "alt": "Website preview of landing page/hero Josefine Östlund"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770117665/Josefine-ostlund-artist-portfolio-website-itflows-izabel-lind-project-overview-page_kxvabh.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117678/Josefine-ostlund-artist-portfolio-website-itflows-izabel-lind-project-overview-page_kxvabh.png",
+        "alt": "Website preview of project overview page Josefine Östlund"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770117665/Josefine-ostlund-artist-portfolio-website-itflows-izabel-lind-projectpage_z1ka8z.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117678/Josefine-ostlund-artist-portfolio-website-itflows-izabel-lind-projectpage_z1ka8z.png",
+        "alt": "Website preview of project page Josefine Östlund"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770119893/Josefine-ostlund-project-itflows-izabel-lind_oidu39.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117678/Josefine-ostlund-project-itflows-izabel-lind_oidu39.png",
+        "alt": "Website preview of project Josefine Östlund"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770119892/Josefine-ostlund-about-information-itflows-izabel-lind_p4m7r9.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117678/Josefine-ostlund-about-information-itflows-izabel-lind_p4m7r9.png",
+        "alt": "Website preview of about page Josefine Östlund"
+      }
+    ],
+    "tags": [
+      "Typescript",
+      "React",
+      "vite",
+      "REST API",
+      "Zustand globalstore",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "HTML5",
+      "CSS3",
+      "Tailwind",
+      "Figma"
+    ],
+    "netlify": "https://josefineostlund.se",
+    "github": "https://github.com/Izzibizz/josefineostlund"
+  },
+  {
+    "title": "itFlows",
+    "year": 2025,
+    "genre": "Company website",
+    "category": ["Branding", "UX & UI design", "Frontend development"],
+    "introduction": "Frontend + design",
+    "description": "Itflows is my creative web agency that helps businesses and individuals establish a strong online presence through innovative web solutions. I had complete responsibility for all design and frontend development of the website, focusing on user experience and visual appeal to effectively communicate my services and values. I also collaborate with Studio Mamama, and our branch is included in a section of the website.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770117678/itFlows-website-hero-Izabel-lind-webbutvecklare-designer_fjuu99.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117678/itFlows-website-hero-Izabel-lind-webbutvecklare-designer_fjuu99.png",
+        "alt": "Website preview of landing page/hero itFlows"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770117678/itFlows-website-clients-slider-Izabel-lind-webbutvecklare-designer_vokmrn.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117678/itFlows-website-clients-slider-Izabel-lind-webbutvecklare-designer_vokmrn.png",
+        "alt": "Website preview of client slider itFlows"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770117679/itFlows-website-step-by-step-Izabel-lind-webbutvecklare-designer_i6wyz2.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117679/itFlows-website-step-by-step-Izabel-lind-webbutvecklare-designer_i6wyz2.png",
+        "alt": "Website preview of step-by-step itFlows"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770117678/itFlows-website-services-Izabel-lind-webbutvecklare-designer_b2cgnw.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117678/itFlows-website-services-Izabel-lind-webbutvecklare-designer_b2cgnw.png",
+        "alt": "Website preview of Overview categories itFlows"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770117678/itFlows-website-collab-studio-mamama-Izabel-lind-webbutvecklare-designer_znqixa.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117678/itFlows-website-collab-studio-mamama-Izabel-lind-webbutvecklare-designer_znqixa.png",
+        "alt": "Website preview of collaboration itFlows"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770117665/itFlows-website-collab-studio-mamama-popup-Izabel-lind-webbutvecklare-designer_eiwqdf.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117665/itFlows-website-collab-studio-mamama-popup-Izabel-lind-webbutvecklare-designer_eiwqdf.png",
+        "alt": "Website preview of about itFlows"
+      }
+    ],
+    "tags": [
+      "Typescript",
+      "React",
+      "vite",
+      "REST API",
+      "Zustand globalstore",
+      "HTML5",
+      "CSS3",
+      "Tailwind",
+      "Figma"
+    ],
+    "netlify": "https://itflows.se",
+    "github": "https://github.com/Izzibizz/itflows"
+  },
+  {
+    "title": "Light Body Yoga",
+    "year": 2025,
+    "genre": "Booking and Schedule",
+    "category": ["Branding", "UX & UI design", "Frontend development"],
+    "introduction": "Frontend + design",
+    "description": "Light Body Yoga aka Therese is a yoga teacher, healer and massage therapist whom I helped create a strong visual brand, logo, illustrations, design, collaborated with a photographer and built the frontend. Therese needs to clearly communicate her services and her energy/personality and display her schedule, booking and events.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745411967/hemsida-therese-lind-bjellder-light-body--w_v7o0k7.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745411967/hemsida-therese-lind-bjellder-light-body--w_v7o0k7.webp",
+        "alt": "Website preview of landing page/hero Light Body Yoga"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745412788/light-body-yoga-Izabel-Lind-hemsida-w_dgjpgf.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745412788/light-body-yoga-Izabel-Lind-hemsida-w_dgjpgf.webp",
+        "alt": "Website preview of landing page/hero Light Body Yoga"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745411965/massage-hemsida-therese-lind-bjellder-light-body-overview-w_lsnmmv.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745411965/massage-hemsida-therese-lind-bjellder-light-body-overview-w_lsnmmv.webp",
+        "alt": "Website preview of Overview categories Light Body Yoga"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745411964/schedule-schema-hemsida-therese-lind-bjellder-light-body-yoga-ww_xljtma.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745411964/schedule-schema-hemsida-therese-lind-bjellder-light-body-yoga-ww_xljtma.webp",
+        "alt": "Website preview of Schedule Light Body Yoga"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745411968/massage-hemsida-therese-lind-bjellder-light-body-w_kdlbo8.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745411968/massage-hemsida-therese-lind-bjellder-light-body-w_kdlbo8.webp",
+        "alt": "Website preview of treatments Light Body Yoga"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745411965/contact-hemsida-therese-lind-bjellder-light-body-yoga-w_ky4iih.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745411965/contact-hemsida-therese-lind-bjellder-light-body-yoga-w_ky4iih.webp",
+        "alt": "Website preview of about Light Body Yoga"
+      }
+    ],
+    "tags": [
+      "JavaScript",
+      "React",
+      "vite",
+      "REST API",
+      "Zustand globalstore",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "HTML5",
+      "CSS3",
+      "Tailwind",
+      "Figma"
+    ],
+    "netlify": "https://lightbodyyoga.se",
+    "github": "https://github.com/Izzibizz/Light-body-yoga"
+  },
   {
     "title": "Ama Kyei",
     "year": 2024,
