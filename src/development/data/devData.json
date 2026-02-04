@@ -591,49 +591,6 @@
     ],
     "netlify": "https://the-survivors.netlify.app/",
     "github": "https://github.com/Izzibizz/project-labyrinth-zustand-vite"
-  },
-  {
-    "title": "Liftly",
-    "year": 2024,
-    "genre": "Training",
-    "category": ["Branding", "UX-designer teamwork", "Frontend development"],
-    "introduction": "Frontend + UX collab",
-    "description": "This project was part of the Frontend Bootcamp where we got to co-operate with an UX-designer who had set a design in Figma that we had to follow to the pixel. It is a design-test website therefore its only a static starting page",
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745413444/liftly-ux-designer-handoff-frontend-2-izabel.lind.-w_iutsjy.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745413444/liftly-ux-designer-handoff-frontend-2-izabel.lind.-w_iutsjy.webp",
-        "alt": "Website preview of Liftly"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745413443/liftly-ux-designer-handoff-frontend-izabel.lind-w_yueyan.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745413443/liftly-ux-designer-handoff-frontend-izabel.lind-w_yueyan.webp",
-        "alt": "Website preview of Liftly"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745413445/liftly-ux-designer-handoff-frontend-3-izabel.lind-w_eu83ge.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745413445/liftly-ux-designer-handoff-frontend-3-izabel.lind-w_eu83ge.webp",
-        "alt": "Website preview of Liftly"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745413447/liftly-ux-designer-handoff-frontend-2-izabel.lindw-_ebs0m1.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745413447/liftly-ux-designer-handoff-frontend-2-izabel.lindw-_ebs0m1.webp",
-        "alt": "Website preview of Liftly"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745413449/liftly-ux-designer-handoff-frontend-izabel.cta-w_vgl0mx.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745413449/liftly-ux-designer-handoff-frontend-izabel.cta-w_vgl0mx.webp",
-        "alt": "Website preview of Liftly"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745413441/liftly-ux-designer-handoff-frontend-figma-izabel.lind-w_qcbp5i.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745413441/liftly-ux-designer-handoff-frontend-figma-izabel.lind-w_qcbp5i.webp",
-        "alt": "Liftly Website design in Figma"
-      }
-    ],
-    "tags": ["JavaScript", "React", "Zustand", "HTML5", "CSS3", "Figma"],
-    "netlify": "https://liftly.netlify.app/",
-    "github": "https://github.com/Izzibizz/project-design-handoff-vite",
-    "link": "https://www.linkedin.com/in/elin-bradway-75a8aa2a9/?locale=sv_SE"
   }
+
 ]
