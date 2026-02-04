@@ -213,6 +213,7 @@ export const FrontendSingleProject = () => {
                   <p>Year</p> {project.year}
                   <p>View project</p>
                   <div className=" flex flex-col gap-2 ">
+                    {project.netlify && (
                     <a
                       href={project.netlify}
                       target="_blank"
@@ -222,6 +223,7 @@ export const FrontendSingleProject = () => {
                       <MdOutlineArrowOutward className="group-hover:text-orange-500" />
                       Website
                     </a>
+                    )}
                     <a
                       href={project.github}
                       target="_blank"
