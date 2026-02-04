@@ -1,4 +1,5 @@
-[ {
+[
+  {
     "title": "Hagsätra Collective",
     "year": 2026,
     "genre": "Association website",
@@ -11,10 +12,16 @@
         "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117731/Hags%C3%A4tra-collective-animation-itflows-izabel-lind-website_hzddoa.png",
         "alt": "Website preview of Intro animation fpr Hagsätra Collective"
       },
+
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770117731/Hags%C3%A4tra-collective-landingpage-ateljeer-itflows-izabel-lind-website_jgnzyl.png",
         "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117731/Hags%C3%A4tra-collective-landingpage-ateljeer-itflows-izabel-lind-website_jgnzyl.png",
         "alt": "Website preview of Landing page for Hagsätra Collective"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770225181/Hags%C3%A4tra-collective-animation-itflows-izabel-lind-website-mobile_darnn7.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770225181/Hags%C3%A4tra-collective-animation-itflows-izabel-lind-website-mobile_darnn7.png",
+        "alt": "Website preview of mobile version - Hagsätra Collective"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770117732/Hags%C3%A4tra-collective-om-oss-ateljeer-itflows-izabel-lind-website_qu3uqk.png",
@@ -45,7 +52,8 @@
     ],
     "netlify": "https://hagsatracollective.se",
     "github": "https://github.com/Izzibizz/hagsatra-collective"
-  }, {
+  },
+  {
     "title": "Josefine Östlund",
     "year": 2025,
     "genre": "Portfolio website",
@@ -58,6 +66,7 @@
         "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117678/Josefine-ostlund-artist-portfolio-website-itflows-izabel-lind-Landing_ehgn6o.png",
         "alt": "Website preview of landing page/hero Josefine Östlund"
       },
+
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770117665/Josefine-ostlund-artist-portfolio-website-itflows-izabel-lind-project-overview-page_kxvabh.png",
         "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770117678/Josefine-ostlund-artist-portfolio-website-itflows-izabel-lind-project-overview-page_kxvabh.png",
@@ -204,6 +213,54 @@
     ],
     "netlify": "https://lightbodyyoga.se",
     "github": "https://github.com/Izzibizz/Light-body-yoga"
+  },
+  {
+    "title": "Carlie Consulting",
+    "year": 2025,
+    "genre": "Company website",
+    "category": ["Branding", "UX & UI design", "Frontend development"],
+    "introduction": "Frontend + design",
+    "description": "Carlie Consulting is a company that offers consulting services in the restaurant industry. I created a their complete identity, logo, colors, fonts and the website for them to showcase their services and contact information. The design focuses on playfulness and simplicity to create a userfriendly onepage site.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770225318/Carlie-consulting-hemsida-itflows-Izabel-Lind-webbutveckling-design-landing_kdy7im.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770225318/Carlie-consulting-hemsida-itflows-Izabel-Lind-webbutveckling-design-landing_kdy7im.png",
+        "alt": "Website preview of landing page/hero Carlie Consulting"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770225318/Carlie-consulting-hemsida-itflows-Izabel-Lind-webbutveckling-design-services_j8ujel.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770225318/Carlie-consulting-hemsida-itflows-Izabel-Lind-webbutveckling-design-services_j8ujel.png",
+        "alt": "Website preview of services page Carlie Consulting"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770225318/carlie-consulting-hemsida-itflows-izabel-lind-mobile_v16lkj.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770225318/carlie-consulting-hemsida-itflows-izabel-lind-mobile_v16lkj.png",
+        "alt": "Website preview of mobile version Carlie Consulting"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770225318/Carlie-consulting-hemsida-itflows-Izabel-Lind-webbutveckling-design-about_opxuwo.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770225318/Carlie-consulting-hemsida-itflows-Izabel-Lind-webbutveckling-design-about_opxuwo.png",
+        "alt": "Website preview of about page Carlie Consulting"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1770225317/Carlie-consulting-hemsida-itflows-Izabel-Lind-webbutveckling-design-menu_n04zfo.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1770225317/Carlie-consulting-hemsida-itflows-Izabel-Lind-webbutveckling-design-menu_n04zfo.png",
+        "alt": "Website preview of treatments Carlie Consulting"
+      }
+    ],
+    "tags": [
+      "JavaScript",
+      "React",
+      "vite",
+      "Zustand globalstore",
+      "HTML5",
+      "CSS3",
+      "Tailwind",
+      "Figma",
+      "Adobe suite"
+    ],
+    "netlify": "https://carlieconsulting.com/",
+    "github": "https://github.com/Izzibizz/carlieconsulting"
   },
   {
     "title": "Ama Kyei",
