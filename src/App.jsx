@@ -5,6 +5,7 @@ import { MainRoutes } from "./routes/MainRoutes";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { useProjectsStore } from "./stores/useProjectsStore";
 import { Helmet } from "react-helmet";
+import AnalyticsTracker from "./components/AnalyticsTracker";
 
 const App = () => {
 
@@ -39,6 +40,7 @@ const App = () => {
         <meta property="og:type" content="website" />
         </Helmet>
       <ScrollToTop />
+       <AnalyticsTracker />
       <Header />
       <main className={` ${frontendPortfolioDisplay ? "mt-28 mb-20": "mt-24 "}  h-full w-full`}>
       <MainRoutes />
