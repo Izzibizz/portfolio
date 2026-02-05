@@ -4,7 +4,7 @@ import { useParams, NavLink, useNavigate } from "react-router-dom";
 import { useProjectsStore } from "../../stores/useProjectsStore";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { MovingBg } from "../../components/MovingBg";
-import { ImageModal } from "../../components/ImageModal";
+import { ImageModalSlider } from "../../components/ImageModalSlider";
 import { SlArrowLeft } from "react-icons/sl";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import devData from "../data/devData.json";
@@ -29,11 +29,12 @@ export const FrontendSingleProject = () => {
   const [imageAlt, setImageAlt] = useState();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isLaptop, setIsLaptop] = useState(false);
+  const [startIndex, setStartIndex] = useState(0);
 
-
-  const handlePreviewClick = (src, alt) => {
+  const handlePreviewClick = (src, alt, index) => {
     setImageSrc(src);
     setImageAlt(alt);
+    setStartIndex(index);
   };
 
   const handleOpenModal = () => {
@@ -108,7 +109,7 @@ export const FrontendSingleProject = () => {
               ? ` ${
                   project.title
                 }, a frontend project by Izabel Lind built using ${project.tags.join(
-                  ", "
+                  ", ",
                 )}.`
               : "Discover frontend project by Izabel Lind."
           }
@@ -191,9 +192,11 @@ export const FrontendSingleProject = () => {
                         />
                         <div
                           className="absolute rounded laptop:rounded-xl max-w-full max-h-full inset-0 bg-black opacity-40 group-hover:opacity-0 transition-opacity duration-500 ease-in-out"
-                          onClick={() => handlePreviewClick(file.url, file.alt)}
+                          onClick={() =>
+                            handlePreviewClick(file.url, file.alt, index)
+                          }
                           onTouchStart={() =>
-                            handlePreviewClick(file.url, file.alt)
+                            handlePreviewClick(file.url, file.alt, index)
                           }
                         ></div>
                       </div>
@@ -214,15 +217,15 @@ export const FrontendSingleProject = () => {
                   <p>View project</p>
                   <div className=" flex flex-col gap-2 ">
                     {project.netlify && (
-                    <a
-                      href={project.netlify}
-                      target="_blank"
-                      alt="website link"
-                      className="h-[20px] cursor-hollow rounded-xl bg-grey flex gap-1 items-center transform translate-transform hover:scale-110 origin-left group"
-                    >
-                      <MdOutlineArrowOutward className="group-hover:text-orange-500" />
-                      Website
-                    </a>
+                      <a
+                        href={project.netlify}
+                        target="_blank"
+                        alt="website link"
+                        className="h-[20px] cursor-hollow rounded-xl bg-grey flex gap-1 items-center transform translate-transform hover:scale-110 origin-left group"
+                      >
+                        <MdOutlineArrowOutward className="group-hover:text-orange-500" />
+                        Website
+                      </a>
                     )}
                     <a
                       href={project.github}
@@ -243,10 +246,7 @@ export const FrontendSingleProject = () => {
                   Tech
                   <ul className="col-span-2 grid grid-cols-2 w-full gap-x-10">
                     {project.tags.map((tech, index) => (
-                      <li
-                        key={index}
-                        className="flex gap-1 items-center"
-                      >
+                      <li key={index} className="flex gap-1 items-center">
                         {tech}
                       </li>
                     ))}
@@ -268,9 +268,9 @@ export const FrontendSingleProject = () => {
               </div>
             </div>
             {isModalOpen && (
-              <ImageModal
-                src={imageSrc}
-                alt={imageAlt}
+              <ImageModalSlider
+                images={project.images}
+                startIndex={startIndex}
                 onClose={handleCloseModal}
               />
             )}

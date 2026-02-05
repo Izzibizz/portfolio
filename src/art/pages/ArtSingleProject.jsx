@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from "react";
 import { Helmet } from "react-helmet";
 import { useParams, NavLink, useNavigate } from "react-router-dom";
 import { useProjectsStore } from "../../stores/useProjectsStore";
-import { ImageModal } from "../../components/ImageModal";
+import { ImageModalSlider } from "../../components/ImageModalSlider";
 import artProjects from "../data/artProjects.json";
 import { SlArrowLeft } from "react-icons/sl";
 
@@ -16,11 +16,13 @@ export const ArtSingleProject = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [imageSrc, setImageSrc] = useState();
   const [imageAlt, setImageAlt] = useState();
+  const [startIndex, setStartIndex] = useState(0);
   const [sectionMarginBottom, setSectionMarginBottom] = useState("20px");
 
-  const handleOpenModal = (img, alt) => {
+  const handleOpenModal = (img, alt, index) => {
     setImageSrc(img);
     setImageAlt(alt);
+    setStartIndex(index);
     setIsModalOpen(true);
   };
 
@@ -134,7 +136,8 @@ export const ArtSingleProject = () => {
             onClick={() =>
               handleOpenModal(
                 project.images?.[0]?.url,
-                project.images?.[0]?.alt
+                project.images?.[0]?.alt,
+                0,
               )
             }
           />
@@ -149,7 +152,7 @@ export const ArtSingleProject = () => {
                 key={index}
                 className="aspect-[3/4] object-cover"
                 alt={image.alt || project.title}
-                onClick={() => handleOpenModal(image.url, image.alt)}
+                onClick={() => handleOpenModal(image.url, image.alt, index)}
               />
             ))}
           </div>
@@ -170,7 +173,8 @@ export const ArtSingleProject = () => {
                   onClick={() =>
                     handleOpenModal(
                       project.images?.[0]?.url,
-                      project.images?.[0]?.alt
+                      project.images?.[0]?.alt,
+                      0,
                     )
                   }
                 />
@@ -183,7 +187,8 @@ export const ArtSingleProject = () => {
                   onClick={() =>
                     handleOpenModal(
                       project.images?.[1]?.url,
-                      project.images?.[1]?.alt
+                      project.images?.[1]?.alt,
+                      1,
                     )
                   }
                 />
@@ -198,7 +203,8 @@ export const ArtSingleProject = () => {
                   onClick={() =>
                     handleOpenModal(
                       project.images?.[2]?.url,
-                      project.images?.[2]?.alt
+                      project.images?.[2]?.alt,
+                      2,
                     )
                   }
                 />
@@ -209,7 +215,8 @@ export const ArtSingleProject = () => {
                   onClick={() =>
                     handleOpenModal(
                       project.images?.[3]?.url,
-                      project.images?.[3]?.alt
+                      project.images?.[3]?.alt,
+                      3,
                     )
                   }
                 />
@@ -222,7 +229,8 @@ export const ArtSingleProject = () => {
               onClick={() =>
                 handleOpenModal(
                   project.images?.[4]?.url,
-                  project.images?.[4]?.alt
+                  project.images?.[4]?.alt,
+                  4,
                 )
               }
             />
@@ -233,7 +241,8 @@ export const ArtSingleProject = () => {
               onClick={() =>
                 handleOpenModal(
                   project.images?.[5]?.url,
-                  project.images?.[5]?.alt
+                  project.images?.[5]?.alt,
+                  5,
                 )
               }
             />
@@ -246,7 +255,8 @@ export const ArtSingleProject = () => {
                   onClick={() =>
                     handleOpenModal(
                       project.images?.[6]?.url,
-                      project.images?.[6]?.alt
+                      project.images?.[6]?.alt,
+                      6,
                     )
                   }
                 />
@@ -257,7 +267,8 @@ export const ArtSingleProject = () => {
                   onClick={() =>
                     handleOpenModal(
                       project.images?.[8]?.url,
-                      project.images?.[8]?.alt
+                      project.images?.[8]?.alt,
+                      8,
                     )
                   }
                 />
@@ -268,7 +279,8 @@ export const ArtSingleProject = () => {
                   onClick={() =>
                     handleOpenModal(
                       project.images?.[7]?.url,
-                      project.images?.[7]?.alt
+                      project.images?.[7]?.alt,
+                      7,
                     )
                   }
                 />
@@ -283,7 +295,8 @@ export const ArtSingleProject = () => {
                   onClick={() =>
                     handleOpenModal(
                       project.images?.[9]?.url,
-                      project.images?.[9]?.alt
+                      project.images?.[9]?.alt,
+                      9,
                     )
                   }
                 />
@@ -314,7 +327,11 @@ export const ArtSingleProject = () => {
         </div>
       )}
       {isModalOpen && (
-        <ImageModal src={imageSrc} alt={imageAlt} onClose={handleCloseModal} />
+        <ImageModalSlider
+          images={project.images}
+          startIndex={startIndex}
+          onClose={handleCloseModal}
+        />
       )}
     </section>
   );
