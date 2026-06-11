@@ -78,28 +78,28 @@
     "description": "The negative bronze sculpture revolves around absence – that which no longer exists, or perhaps never really existed. A void that both hides and defines the lost. Through the negative, a presence is formed in the very absence. A silent marker for something whose possible existence never took shape, but is still felt.",
     "images": [
       {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433661/Current-Brist.2023.side.zoom-izabel.lind-w_jwwmjx.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433661/Current-Brist.2023.side.zoom-izabel.lind-w_jwwmjx.webp",
-        "horizontal": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433673/Brist.2023.detail.2500-w_ydpglx.webp",
-        "alt": "Brist - bronze sculpture - Izabel Lind",
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433661/Current-matrix.2023.side.zoom-izabel.lind-w_jwwmjx.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433661/Current-matrix.2023.side.zoom-izabel.lind-w_jwwmjx.webp",
+        "horizontal": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433673/matrix.2023.detail.2500-w_ydpglx.webp",
+        "alt": "Matrix - bronze sculpture - Izabel Lind",
         "photographer": "jean baptiste béranger"
       },
 
       {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433669/Izabel-lind-farnstrand-brons-skulptur-Brist-2000-1-w_qbepbv.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433669/Izabel-lind-farnstrand-brons-skulptur-Brist-2000-1-w_qbepbv.webp",
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433669/Izabel-lind-farnstrand-brons-skulptur-Matrix-2000-1-w_qbepbv.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433669/Izabel-lind-farnstrand-brons-skulptur-Matrix-2000-1-w_qbepbv.webp",
         "alt": "Brist - bronze sculpture close up - Izabel Lind",
         "photographer": "jean baptiste béranger"
       },
       {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433673/Brist.2023.detail.2500-w_ydpglx.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433673/Brist.2023.detail.2500-w_ydpglx.webp",
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433673/matrix.2023.detail.2500-w_ydpglx.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433673/matrix.2023.detail.2500-w_ydpglx.webp",
         "alt": "Brist - bronze sculpture on podium - Izabel Lind",
         "photographer": "jean baptiste béranger"
       },
       {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433664/Izabel-Brist-2000-podie.2-w_mqpdhk.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433664/Izabel-Brist-2000-podie.2-w_mqpdhk.webp",
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433664/Izabel-Matrix-2000-podie.2-w_mqpdhk.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433664/Izabel-Matrix-2000-podie.2-w_mqpdhk.webp",
         "alt": "Brist - bronze sculpture close up - Izabel Lind",
         "photographer": "jean baptiste béranger"
       },
@@ -118,7 +118,7 @@
       {
         "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781185283/StudioMamama_MGL8385_utst%C3%A4llning-av-inre-orsaker-2026-izabel-birst-str%C3%B6mmen_vo0xfv.png",
         "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781185283/StudioMamama_MGL8385_utst%C3%A4llning-av-inre-orsaker-2026-izabel-birst-str%C3%B6mmen_vo0xfv.png",
-        "alt": "Matrix - bronze sculpture exhibtition view, with Strömmen, - Izabel Lind",
+        "alt": "Brist - bronze sculpture exhibtition view, with Strömmen, - Izabel Lind",
         "photographer": "Emma Vistrand"
       }
     ],
@@ -155,7 +155,7 @@
       {
         "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781168544/str%C3%B6mmen-izabel-lind-2026-StudioMamama_MGL8301_zoom_hnkbdl.png",
         "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781168544/str%C3%B6mmen-izabel-lind-2026-StudioMamama_MGL8301_zoom_hnkbdl.png",
-        "horizontal": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433673/Brist.2023.detail.2500-w_ydpglx.webp",
+        "horizontal": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433673/matrix.2023.detail.2500-w_ydpglx.webp",
         "alt": "Strömmen - painting - Izabel Lind",
         "photographer": "Emma Vistrand"
       },
@@ -430,7 +430,7 @@
       {
         "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781183289/me%C3%A4nmaa-izabel-lind-utst%C3%A4llning-av-inre-orsaker-2026_fwyikr.png",
         "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781183289/me%C3%A4nmaa-izabel-lind-utst%C3%A4llning-av-inre-orsaker-2026_fwyikr.png",
-        "alt": "Brist - bronze sculpture close up - Izabel Lind",
+        "alt": "Matrix - bronze sculpture close up - Izabel Lind",
         "photographer": "Emma Vistrand"
       }
     ],
