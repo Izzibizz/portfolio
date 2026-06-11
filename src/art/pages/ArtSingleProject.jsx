@@ -14,14 +14,11 @@ export const ArtSingleProject = () => {
   const infoRef = useRef(null);
   const [project, setProject] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [imageSrc, setImageSrc] = useState();
-  const [imageAlt, setImageAlt] = useState();
   const [startIndex, setStartIndex] = useState(0);
   const [sectionMarginBottom, setSectionMarginBottom] = useState("20px");
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1024);
 
   const handleOpenModal = (img, alt, index) => {
-    setImageSrc(img);
-    setImageAlt(alt);
     setStartIndex(index);
     setIsModalOpen(true);
   };
@@ -72,6 +69,16 @@ export const ArtSingleProject = () => {
     setBgWhite(true);
   }, []);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 1024);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   if (!project) {
     return null; // Optionally render a loader while navigating
   }
@@ -94,39 +101,41 @@ export const ArtSingleProject = () => {
           }
         />
       </Helmet>
-      <div
-        ref={infoRef}
-        className="fixed bottom-0 left-0 laptop:left-20 laptop:bottom-10 bg-light bg-opacity-85 backdrop-blur-sm p-4 laptop:rounded-xl w-full laptop:w-[350px] flex gap-2"
-      >
-        <NavLink to={`/art`}>
-          <SlArrowLeft className="cursor-hollow pl-4 w-8 h-8 z-20 hover:scale-125" />{" "}
-        </NavLink>
-        <div className="flex flex-col gap-4">
-          <h3 className="text-lg">
-            {project.title}, {project.year}
-          </h3>
-          <p className="font-medium">{project.description}</p>
-          {project.exhibitedAt && project.exhibitedAt?.length > 0 && (
-            <div className="flex gap-2 laptop:hidden">
-              <h4>Exhibited at:</h4>
-              {project.exhibitedAt?.length > 1 ? (
-                <ul className="font-medium">
-                  {project.exhibitedAt?.map((place, index) => (
-                    <li key={index}>
-                      {place.place} ({place.year})
-                    </li>
-                  ))}
-                </ul>
-              ) : (
-                <p className="font-medium">
-                  {project.exhibitedAt?.[0].place} (
-                  {project.exhibitedAt?.[0].year})
-                </p>
-              )}
-            </div>
-          )}
+      {!isMobile && (
+        <div
+          ref={infoRef}
+          className="laptop:fixed laptop:left-20 laptop:bottom-10 bg-light bg-opacity-85 backdrop-blur-sm p-4 laptop:rounded-xl w-full laptop:w-[350px] flex gap-2"
+        >
+          <NavLink to={`/art`}>
+            <SlArrowLeft className="cursor-hollow pl-4 w-8 h-8 z-20 hover:scale-125" />{" "}
+          </NavLink>
+          <div className="flex flex-col gap-4">
+            <h3 className="text-lg">
+              {project.title}, {project.year}
+            </h3>
+            <p className="font-medium">{project.description}</p>
+            {project.exhibitedAt && project.exhibitedAt?.length > 0 && (
+              <div className="flex gap-2 laptop:hidden">
+                <h4>Exhibited at:</h4>
+                {project.exhibitedAt?.length > 1 ? (
+                  <ul className="font-medium">
+                    {project.exhibitedAt?.map((place, index) => (
+                      <li key={index}>
+                        {place.place} ({place.year})
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="font-medium">
+                    {project.exhibitedAt?.[0].place} (
+                    {project.exhibitedAt?.[0].year})
+                  </p>
+                )}
+              </div>
+            )}
+          </div>
         </div>
-      </div>
+      )}
       {project.images?.length === 1 ? (
         <div className="laptop:w-1/2 self-center">
           <img
@@ -144,6 +153,9 @@ export const ArtSingleProject = () => {
         </div>
       ) : (
         <>
+          <NavLink to={`/art`}>
+            <SlArrowLeft className="cursor-hollow pl-4 w-8 h-8 z-20 hover:scale-125" />{" "}
+          </NavLink>
           {/* mobile and tablet */}
           <div className="grid laptop:hidden grid-cols-2 gap-2">
             {project.images?.map((image, index) => (
@@ -324,6 +336,36 @@ export const ArtSingleProject = () => {
               </p>
             )}
           </div>
+        </div>
+      )}
+      {isMobile && (
+        <div
+          ref={infoRef}
+          className="p-4 laptop:rounded-xl w-full flex flex-col gap-4"
+        >
+          <h3 className="text-lg">
+            {project.title}, {project.year}
+          </h3>
+          <p className="font-medium">{project.description}</p>
+          {project.exhibitedAt && project.exhibitedAt?.length > 0 && (
+            <div className="flex gap-2 laptop:hidden">
+              <h4>Exhibited at:</h4>
+              {project.exhibitedAt?.length > 1 ? (
+                <ul className="font-medium">
+                  {project.exhibitedAt?.map((place, index) => (
+                    <li key={index}>
+                      {place.place} ({place.year})
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="font-medium">
+                  {project.exhibitedAt?.[0].place} (
+                  {project.exhibitedAt?.[0].year})
+                </p>
+              )}
+            </div>
+          )}
         </div>
       )}
       {isModalOpen && (
