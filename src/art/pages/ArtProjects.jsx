@@ -66,15 +66,16 @@ export const ArtProjects = () => {
 
       <div className="flex-1">
         {/* Mobile: keep grid layout */}
-        <ul className="w-full grid grid-cols-1 gap-4 laptop:hidden animate-longFadeIn">
+        <ul className="w-full grid grid-cols-1 gap-6 laptop:hidden animate-longFadeIn">
           {artProjects.map((project, index) => (
             <li
               key={index}
-              className="list-none flex items-end"
+              className="list-none flex flex-col gap-1 cursor-pointer"
               onClick={() =>
                 navigate(`/art/${createProjectSlug(project.title)}`)
               }
             >
+              <p>{project.title} </p>
               <img
                 src={project.images[0].thumbnail}
                 alt={project.images[0].alt}
@@ -89,7 +90,7 @@ export const ArtProjects = () => {
       {!isMobile && (
         <div className="fixed laptop:bottom-0 laptop:left-0 laptop:right-0 laptop:z-40 ml-6">
           <Swiper
-            slidesPerView={6}
+            slidesPerView={7}
             spaceBetween={20}
             grabCursor={true}
             speed={1200}

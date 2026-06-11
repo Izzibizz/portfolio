@@ -7,19 +7,19 @@
     "images": [
       {
         "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781090392/i-mellanrum-2025-izabel-lind-utanram_n2ib5h.png",
-        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-800/v1781090392/i-mellanrum-2025-izabel-lind-utanram_n2ib5h.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781090392/i-mellanrum-2025-izabel-lind-utanram_n2ib5h.png",
         "alt": "Embedded Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781090553/i-mellanrum-2025-izabel-lind_vq3ax6.png",
-        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-800/v1781090553/i-mellanrum-2025-izabel-lind_vq3ax6.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781090553/i-mellanrum-2025-izabel-lind_vq3ax6.png",
         "alt": "Side angle Embedded Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781090541/i-mellanrum-2025-izabel-lind-n%C3%A4rbild-detalj_bswmf7.png",
-        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-800/v1781090541/i-mellanrum-2025-izabel-lind-n%C3%A4rbild-detalj_bswmf7.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781090541/i-mellanrum-2025-izabel-lind-n%C3%A4rbild-detalj_bswmf7.png",
         "alt": "Side angle Core Izabel Lind",
         "photographer": "Izabel Lind"
       }
@@ -35,27 +35,27 @@
     "material": "Painting",
     "description": "Dyptyk of 100 x 140 cm each. This dyptyk explores inner states as both physical and mental landscapes – places where energies gather, collide or tear apart. The paintings depict a movement between fragmentation and gathering, where ruptures and traces suggest processes that unfold beyond consciousness. Like microscopic events or emotional fragments of memory, the work carries a story of something happening inside – in silence, in layers, in between.",
     "images": [
-       {
+      {
         "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781091334/I-Kavitet-2026-Izabel-Lind-utram2_aphk2j.png",
-        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-800/v1781091334/I-Kavitet-2026-Izabel-Lind-utram2_aphk2j.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-500/v1781091334/I-Kavitet-2026-Izabel-Lind-utram2_aphk2j.png",
         "alt": "Embedded Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781082718/I-Kavitet-2026-Izabel-Lind_rk89d4.png",
-        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-800/v1781082718/I-Kavitet-2026-Izabel-Lind_rk89d4.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-500/v1781082718/I-Kavitet-2026-Izabel-Lind_rk89d4.png",
         "alt": "Embedded Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781082679/I-Kavitet-ram-vinkel-2026-izabel-lind_fudsc0.png",
-        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-800/v1781082679/I-Kavitet-ram-vinkel-2026-izabel-lind_fudsc0.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-500/v1781082679/I-Kavitet-ram-vinkel-2026-izabel-lind_fudsc0.png",
         "alt": "Side angle Embedded Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781088810/I-Kavitet-2026-Izabel-Lind-n%C3%A4rbild_t2bmux.png",
-        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-800/v1781088810/I-Kavitet-2026-Izabel-Lind-n%C3%A4rbild_t2bmux.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-500/v1781088810/I-Kavitet-2026-Izabel-Lind-n%C3%A4rbild_t2bmux.png",
         "alt": "Close-up Embedded Izabel Lind",
         "photographer": "Izabel Lind"
       }
@@ -66,132 +66,6 @@
     "fundedBy": []
   },
   {
-    "title": "Undangömd",
-    "year": 2025,
-    "material": "Painting",
-    "description": "Dyptyk of 100 x 140 cm each. This dyptyk explores inner states as both physical and mental landscapes – places where energies gather, collide or tear apart. The paintings depict a movement between fragmentation and gathering, where ruptures and traces suggest processes that unfold beyond consciousness. Like microscopic events or emotional fragments of memory, the work carries a story of something happening inside – in silence, in layers, in between.",
-    "images": [
-      
-      {
-        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781087938/StudioMamama_MGL8441_undang%C3%B6md-Izabel-lind-2026-noframe_bp9wos.png",
-        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-800/v1781087938/StudioMamama_MGL8441_undang%C3%B6md-Izabel-lind-2026-noframe_bp9wos.png",
-        "alt": "Undangömd Izabel Lind",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781087938/StudioMamama_MGL8441_undang%C3%B6md-Izabel-lind-2026-v%C3%A4gg_nm7zkf.png",
-        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-800/v1781087938/StudioMamama_MGL8441_undang%C3%B6md-Izabel-lind-2026-v%C3%A4gg_nm7zkf.png",
-        "alt": "Side angle Undangömd Izabel Lind",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781087937/StudioMamama_MGL8441_undang%C3%B6md-Izabel-lind-2026_gpl1j3.png",
-        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-800/v1781087937/StudioMamama_MGL8441_undang%C3%B6md-Izabel-lind-2026_gpl1j3.png",
-        "alt": "Side angle Undangömd Izabel Lind",
-        "photographer": "Izabel Lind"
-      }
-    ],
-    "video": null,
-    "exhibitedAt": [],
-    "commissionedBy": [],
-    "fundedBy": []
-  },
-  {
-    "title": "Snösmältning",
-    "year": 2026,
-    "material": "Painting",
-    "description": "Dyptyk of 100 x 140 cm each. This dyptyk explores inner states as both physical and mental landscapes – places where energies gather, collide or tear apart. The paintings depict a movement between fragmentation and gathering, where ruptures and traces suggest processes that unfold beyond consciousness. Like microscopic events or emotional fragments of memory, the work carries a story of something happening inside – in silence, in layers, in between.",
-    "images": [
-       {
-        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781091193/Sn%C3%B6sm%C3%A4ltning-2026-izabel-lind-utanram_sqlacs.png",
-        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-800/v1781091193/Sn%C3%B6sm%C3%A4ltning-2026-izabel-lind-utanram_sqlacs.png",
-        "alt": "Snösmältning Izabel Lind",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781088224/Sn%C3%B6sm%C3%A4ltning-2026_uoygb0.png",
-        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-800/v1781088224/Sn%C3%B6sm%C3%A4ltning-2026_uoygb0.png",
-        "alt": "Snösmältning Izabel Lind",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781088411/Sn%C3%B6sm%C3%A4ltning-detalj-2026-2_kjfjgw.png",
-        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-800/v1781088411/Sn%C3%B6sm%C3%A4ltning-detalj-2026-2_kjfjgw.png",
-        "alt": "Snösmältning Izabel Lind",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781088801/Sn%C3%B6sm%C3%A4ltning-2026-detalj-2-izabel.lind_ufurt1.png",
-        "thumbnail": "https://res.cloudinary.com/dknoal1v0/image/upload/a_-90/a_90/c_pad,t_w-800/v1763125635/Mea%CC%88nmaa-1_fzju7d.png",
-        "alt": "Snösmältning Izabel Lind",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781088958/Sn%C3%B6sm%C3%A4ltning-2026-izabel-lind_ey6zd8.png",
-        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-800/v1781088958/Sn%C3%B6sm%C3%A4ltning-2026-izabel-lind_ey6zd8.png",
-        "alt": "Snösmältning Izabel Lind",
-        "photographer": "Izabel Lind"
-      }
-    ],
-    "video": null,
-    "exhibitedAt": [],
-    "commissionedBy": [],
-    "fundedBy": []
-  },
-  {
-    "title": "Oblivion",
-    "year": 2020,
-    "material": "3D, VR and sculpture",
-    "description": "A large metallic installation where the visitor can enter a virtual landscape of the scannet Nikehallen in Konstakademien.",
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745432577/konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand-w_nbm2gf.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745432577/konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand-w_nbm2gf.webp",
-        "alt": "Oblivion - VR sculpture of Nikehallen altered space",
-        "photographer": "Jean Baptiste Béranger"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745432573/1500-oblivion-tra%CC%88d-2-izabel-lind-fa%CC%88rnstrand-w_znsyvx.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745432573/1500-oblivion-tra%CC%88d-2-izabel-lind-fa%CC%88rnstrand-w_znsyvx.webp",
-        "alt": "Oblivion - VR sculpture of Nikehallen altered space",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745432569/1500-oblivion-Izabel-Lind-Fa%CC%88rnstrand-w_wutlca.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745432569/1500-oblivion-Izabel-Lind-Fa%CC%88rnstrand-w_wutlca.webp",
-        "alt": "Oblivion - VR sculpture of Nikehallen altered space",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745432566/1500-oblivion-entre-izabel-lind-fa%CC%88rnstrand-w_mauhha.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745432566/1500-oblivion-entre-izabel-lind-fa%CC%88rnstrand-w_mauhha.webp",
-        "alt": "Oblivion - VR sculpture of Nikehallen altered space",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745432581/1500-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand___serialized2-w_jbzh0q.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745432581/1500-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand___serialized2-w_jbzh0q.webp",
-        "alt": "Oblivion - VR sculpture of Nikehallen altered space",
-        "photographer": "Jean Baptiste Béranger"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745432585/1500-oculus-digital-konst-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand-w_unzdbn.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745432585/1500-oculus-digital-konst-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand-w_unzdbn.webp",
-        "alt": "Oblivion - VR sculpture of Nikehallen altered space",
-        "photographer": "Jean Baptiste Béranger"
-      }
-    ],
-    "video": null,
-    "exhibitedAt": [
-      {
-        "place": "Konstakademien",
-        "year": "2020"
-      }
-    ],
-    "commissionedBy": [],
-    "fundedBy": ["KKH"]
-  },
-  {
     "title": "Brist",
     "year": 2021,
     "material": "Sculpture",
@@ -199,7 +73,7 @@
     "images": [
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433661/Current-matrix.2023.side.zoom-izabel.lind-w_jwwmjx.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745433661/Current-matrix.2023.side.zoom-izabel.lind-w_jwwmjx.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433661/Current-matrix.2023.side.zoom-izabel.lind-w_jwwmjx.webp",
         "horizontal": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433673/matrix.2023.detail.2500-w_ydpglx.webp",
         "alt": "Matrix - bronze sculpture - Izabel Lind",
         "photographer": "jean baptiste béranger"
@@ -207,19 +81,19 @@
 
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433669/Izabel-lind-farnstrand-brons-skulptur-Matrix-2000-1-w_qbepbv.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745433669/Izabel-lind-farnstrand-brons-skulptur-Matrix-2000-1-w_qbepbv.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433669/Izabel-lind-farnstrand-brons-skulptur-Matrix-2000-1-w_qbepbv.webp",
         "alt": "Matrix - bronze sculpture close up - Izabel Lind",
         "photographer": "jean baptiste béranger"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433673/matrix.2023.detail.2500-w_ydpglx.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745433673/matrix.2023.detail.2500-w_ydpglx.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433673/matrix.2023.detail.2500-w_ydpglx.webp",
         "alt": "Matrix - bronze sculpture on podium - Izabel Lind",
         "photographer": "jean baptiste béranger"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433664/Izabel-Matrix-2000-podie.2-w_mqpdhk.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745433664/Izabel-Matrix-2000-podie.2-w_mqpdhk.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433664/Izabel-Matrix-2000-podie.2-w_mqpdhk.webp",
         "alt": "Matrix - bronze sculpture close up - Izabel Lind",
         "photographer": "jean baptiste béranger"
       }
@@ -243,6 +117,195 @@
     "fundedBy": ["KKH"]
   },
   {
+    "title": "Strömmen",
+    "year": 2026,
+    "material": "Painting",
+    "description": "The negative bronze sculpture revolves around absence – that which no longer exists, or perhaps never really existed. A void that both hides and defines the lost. Through the negative, a presence is formed in the very absence. A silent marker for something whose possible existence never took shape, but is still felt.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781168544/str%C3%B6mmen-izabel-lind-2026-StudioMamama_MGL8301_zoom_hnkbdl.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781168544/str%C3%B6mmen-izabel-lind-2026-StudioMamama_MGL8301_zoom_hnkbdl.png",
+        "horizontal": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433673/matrix.2023.detail.2500-w_ydpglx.webp",
+        "alt": "Strömmen - painting - Izabel Lind",
+        "photographer": "Emma Vistrand"
+      },
+
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781168517/str%C3%B6mmen-izabel-lind-2026-StudioMamama_MGL8301_full_msq6c2.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781168517/str%C3%B6mmen-izabel-lind-2026-StudioMamama_MGL8301_full_msq6c2.png",
+        "alt": "Strömmen - painting - Izabel Lind",
+        "photographer": "Emma Vistrand"
+      },
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781168515/str%C3%B6mmen-izabel-lind-2026-StudioMamama_MGL8301_zoom-v_s37msg.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781168515/str%C3%B6mmen-izabel-lind-2026-StudioMamama_MGL8301_zoom-v_s37msg.png",
+        "alt": "Strömmen - painting - Izabel Lind",
+        "photographer": "Emma Vistrand"
+      },
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781170167/str%C3%B6mmen-izabel-lind-2026-StudioMamama_MGL8301_detaalj_nlkjum.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781170167/str%C3%B6mmen-izabel-lind-2026-StudioMamama_MGL8301_detaalj_nlkjum.png",
+        "alt": "Strömmen - painting - Izabel Lind",
+        "photographer": "Emma Vistrand"
+      },
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781170170/str%C3%B6mmen-izabel-lind-2026-StudioMamama_MGL8301_detalj_daaori.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781170170/str%C3%B6mmen-izabel-lind-2026-StudioMamama_MGL8301_detalj_daaori.png",
+        "alt": "Strömmen - painting - Izabel Lind",
+        "photographer": "Emma Vistrand"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": [
+      {
+        "place": "Konstakademien",
+        "year": "2020"
+      },
+      {
+        "place": "Norra Tornen",
+        "year": "2021"
+      },
+      {
+        "place": "Flimmer & Fladder, Grupputställning, Stockholm",
+        "year": "2024"
+      }
+    ],
+    "commissionedBy": ["Private collector"],
+    "fundedBy": ["KKH"]
+  },
+  {
+    "title": "Snösmältning",
+    "year": 2026,
+    "material": "Painting",
+    "description": "Dyptyk of 100 x 140 cm each. This dyptyk explores inner states as both physical and mental landscapes – places where energies gather, collide or tear apart. The paintings depict a movement between fragmentation and gathering, where ruptures and traces suggest processes that unfold beyond consciousness. Like microscopic events or emotional fragments of memory, the work carries a story of something happening inside – in silence, in layers, in between.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781091193/Sn%C3%B6sm%C3%A4ltning-2026-izabel-lind-utanram_sqlacs.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781091193/Sn%C3%B6sm%C3%A4ltning-2026-izabel-lind-utanram_sqlacs.png",
+        "alt": "Snösmältning Izabel Lind",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781088224/Sn%C3%B6sm%C3%A4ltning-2026_uoygb0.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781088224/Sn%C3%B6sm%C3%A4ltning-2026_uoygb0.png",
+        "alt": "Snösmältning Izabel Lind",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781088411/Sn%C3%B6sm%C3%A4ltning-detalj-2026-2_kjfjgw.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-500/v1781088411/Sn%C3%B6sm%C3%A4ltning-detalj-2026-2_kjfjgw.png",
+        "alt": "Snösmältning Izabel Lind",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781088801/Sn%C3%B6sm%C3%A4ltning-2026-detalj-2-izabel.lind_ufurt1.png",
+        "thumbnail": "https://res.cloudinary.com/dknoal1v0/image/upload/a_-90/a_90/c_pad,t_w-500/v1763125635/Mea%CC%88nmaa-1_fzju7d.png",
+        "alt": "Snösmältning Izabel Lind",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781088958/Sn%C3%B6sm%C3%A4ltning-2026-izabel-lind_ey6zd8.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-500/v1781088958/Sn%C3%B6sm%C3%A4ltning-2026-izabel-lind_ey6zd8.png",
+        "alt": "Snösmältning Izabel Lind",
+        "photographer": "Izabel Lind"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": [],
+    "commissionedBy": [],
+    "fundedBy": []
+  },
+  {
+    "title": "Undangömd",
+    "year": 2025,
+    "material": "Painting",
+    "description": "Dyptyk of 100 x 140 cm each. This dyptyk explores inner states as both physical and mental landscapes – places where energies gather, collide or tear apart. The paintings depict a movement between fragmentation and gathering, where ruptures and traces suggest processes that unfold beyond consciousness. Like microscopic events or emotional fragments of memory, the work carries a story of something happening inside – in silence, in layers, in between.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781087938/StudioMamama_MGL8441_undang%C3%B6md-Izabel-lind-2026-noframe_bp9wos.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-500/v1781087938/StudioMamama_MGL8441_undang%C3%B6md-Izabel-lind-2026-noframe_bp9wos.png",
+        "alt": "Undangömd Izabel Lind",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781087938/StudioMamama_MGL8441_undang%C3%B6md-Izabel-lind-2026-v%C3%A4gg_nm7zkf.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-500/v1781087938/StudioMamama_MGL8441_undang%C3%B6md-Izabel-lind-2026-v%C3%A4gg_nm7zkf.png",
+        "alt": "Side angle Undangömd Izabel Lind",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781087937/StudioMamama_MGL8441_undang%C3%B6md-Izabel-lind-2026_gpl1j3.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-500/v1781087937/StudioMamama_MGL8441_undang%C3%B6md-Izabel-lind-2026_gpl1j3.png",
+        "alt": "Side angle Undangömd Izabel Lind",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781170295/StudioMamama_MGL8441_undang%C3%B6md-Izabel-lind-2026-v%C3%A4gg-vernissage_kglszm.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/a_-90/a_90/t_w-500/v1781170295/StudioMamama_MGL8441_undang%C3%B6md-Izabel-lind-2026-v%C3%A4gg-vernissage_kglszm.png",
+        "alt": "Side angle Undangömd Izabel Lind",
+        "photographer": "Izabel Lind"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": [],
+    "commissionedBy": [],
+    "fundedBy": []
+  },
+
+  {
+    "title": "Oblivion",
+    "year": 2020,
+    "material": "3D, VR and sculpture",
+    "description": "A large metallic installation where the visitor can enter a virtual landscape of the scannet Nikehallen in Konstakademien.",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745432577/konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand-w_nbm2gf.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745432577/konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand-w_nbm2gf.webp",
+        "alt": "Oblivion - VR sculpture of Nikehallen altered space",
+        "photographer": "Jean Baptiste Béranger"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745432573/1500-oblivion-tra%CC%88d-2-izabel-lind-fa%CC%88rnstrand-w_znsyvx.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745432573/1500-oblivion-tra%CC%88d-2-izabel-lind-fa%CC%88rnstrand-w_znsyvx.webp",
+        "alt": "Oblivion - VR sculpture of Nikehallen altered space",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745432569/1500-oblivion-Izabel-Lind-Fa%CC%88rnstrand-w_wutlca.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745432569/1500-oblivion-Izabel-Lind-Fa%CC%88rnstrand-w_wutlca.webp",
+        "alt": "Oblivion - VR sculpture of Nikehallen altered space",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745432566/1500-oblivion-entre-izabel-lind-fa%CC%88rnstrand-w_mauhha.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745432566/1500-oblivion-entre-izabel-lind-fa%CC%88rnstrand-w_mauhha.webp",
+        "alt": "Oblivion - VR sculpture of Nikehallen altered space",
+        "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745432581/1500-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand___serialized2-w_jbzh0q.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745432581/1500-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand___serialized2-w_jbzh0q.webp",
+        "alt": "Oblivion - VR sculpture of Nikehallen altered space",
+        "photographer": "Jean Baptiste Béranger"
+      },
+      {
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745432585/1500-oculus-digital-konst-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand-w_unzdbn.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745432585/1500-oculus-digital-konst-konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand-w_unzdbn.webp",
+        "alt": "Oblivion - VR sculpture of Nikehallen altered space",
+        "photographer": "Jean Baptiste Béranger"
+      }
+    ],
+    "video": null,
+    "exhibitedAt": [
+      {
+        "place": "Konstakademien",
+        "year": "2020"
+      }
+    ],
+    "commissionedBy": [],
+    "fundedBy": ["KKH"]
+  },
+  {
     "title": "Stream",
     "year": 2024,
     "material": "Live streamed light sculpture",
@@ -250,37 +313,37 @@
     "images": [
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310496/sensor-stream-led-skulptur-orebro-universitet-izabel-lind_ksizgv.jpg",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745310496/sensor-stream-led-skulptur-orebro-universitet-izabel-lind_ksizgv.jpg",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745310496/sensor-stream-led-skulptur-orebro-universitet-izabel-lind_ksizgv.jpg",
         "alt": "Stream at Örebro Universitet - from underneath - Izabel Lind.",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310897/3D-skanning-orebro-universitet-izabel-lind_ube1oo.png",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745310897/3D-skanning-orebro-universitet-izabel-lind_ube1oo.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745310897/3D-skanning-orebro-universitet-izabel-lind_ube1oo.png",
         "alt": "Stream based on the digitalization of the University - Izabel Lind.",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745434408/Photo_2022-05-16_13_37_23_tpvwmg.jpg",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745434408/Photo_2022-05-16_13_37_23_tpvwmg.jpg",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745434408/Photo_2022-05-16_13_37_23_tpvwmg.jpg",
         "alt": "Preparation of sculpture in KKV Stockholm - Izabel Lind.",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310507/2-stream-led-skulptur-orebro-universitet-izabel-lind_g3tidb.jpg",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745310507/2-stream-led-skulptur-orebro-universitet-izabel-lind_g3tidb.jpg",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745310507/2-stream-led-skulptur-orebro-universitet-izabel-lind_g3tidb.jpg",
         "alt": "Stream at Örebro Universitet - front of Labbet Winter - Izabel Lind.",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310497/skiss-stream-izabel-lind-orebro-universitet-statens-konstrad-2023_heirgh.jpg",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745310497/skiss-stream-izabel-lind-orebro-universitet-statens-konstrad-2023_heirgh.jpg",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745310497/skiss-stream-izabel-lind-orebro-universitet-statens-konstrad-2023_heirgh.jpg",
         "alt": "Stream at Örebro Universitet - front of Labbet sketch - Izabel Lind.",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745434317/o%CC%88rebro_universitet_ry1yj4.jpg",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745434317/o%CC%88rebro_universitet_ry1yj4.jpg",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745434317/o%CC%88rebro_universitet_ry1yj4.jpg",
         "alt": "Örebro Universitet",
         "photographer": "Izabel Lind"
       }
@@ -333,51 +396,51 @@
     "images": [
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745435094/2.izabel-lind-farnstrand-vaggskulptur-tavla-lakan-oscar-properties-art-residency-konst-art-w_urctwr.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745435094/2.izabel-lind-farnstrand-vaggskulptur-tavla-lakan-oscar-properties-art-residency-konst-art-w_urctwr.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745435094/2.izabel-lind-farnstrand-vaggskulptur-tavla-lakan-oscar-properties-art-residency-konst-art-w_urctwr.webp",
         "alt": "A wall sculpture of wavy plastic - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745435072/izabel-lind-farnstrand-skulpto%CC%88r-konstna%CC%88r-lakan-textil-skrynklig-ha%CC%88ngande-tra%CC%88ram-vaggskulptur-ram-1700-w_xxovob.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745435072/izabel-lind-farnstrand-skulpto%CC%88r-konstna%CC%88r-lakan-textil-skrynklig-ha%CC%88ngande-tra%CC%88ram-vaggskulptur-ram-1700-w_xxovob.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745435072/izabel-lind-farnstrand-skulpto%CC%88r-konstna%CC%88r-lakan-textil-skrynklig-ha%CC%88ngande-tra%CC%88ram-vaggskulptur-ram-1700-w_xxovob.webp",
         "alt": "Solo exhibition Norra tornen - Oscar Properties - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745435055/maison-maju-Didier-Claude-Deschamps-nice-izabel-lind.-2_hffecm.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745435055/maison-maju-Didier-Claude-Deschamps-nice-izabel-lind.-2_hffecm.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745435055/maison-maju-Didier-Claude-Deschamps-nice-izabel-lind.-2_hffecm.webp",
         "alt": "Interior architecture Maison Maju project for Didier Claude Dechamps in Nice - art Izabel Lind",
         "photographer": "Julia Condro"
       },
 
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745435356/izabel-lind-farnstrand-vaggskulptur-knopp-wall-sculpture-flower-w_lsoe4y.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745435356/izabel-lind-farnstrand-vaggskulptur-knopp-wall-sculpture-flower-w_lsoe4y.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745435356/izabel-lind-farnstrand-vaggskulptur-knopp-wall-sculpture-flower-w_lsoe4y.webp",
         "alt": "A wall sculpture of wavy plastic - Izabel Lind",
         "photographer": "Izabel Lind"
       },
 
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745435077/2.izabel-lind-farnstrand-skulpto%CC%88r-konstna%CC%88r-lakan-textil-skrynklig-ha%CC%88ngande-tra%CC%88ram-vaggskulptur-ram-w_eer0df.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745435077/2.izabel-lind-farnstrand-skulpto%CC%88r-konstna%CC%88r-lakan-textil-skrynklig-ha%CC%88ngande-tra%CC%88ram-vaggskulptur-ram-w_eer0df.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745435077/2.izabel-lind-farnstrand-skulpto%CC%88r-konstna%CC%88r-lakan-textil-skrynklig-ha%CC%88ngande-tra%CC%88ram-vaggskulptur-ram-w_eer0df.webp",
         "alt": "Owner Interior architecture Maison Maju in Nice - art Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745435060/maison-maju-Didier-Claude-Deschamps-nice-izabel-lind-w_qib8cc.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745435060/maison-maju-Didier-Claude-Deschamps-nice-izabel-lind-w_qib8cc.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745435060/maison-maju-Didier-Claude-Deschamps-nice-izabel-lind-w_qib8cc.webp",
         "alt": "Interior architecture Maison Maju project for Didier Claude Dechamps in Nice - art Izabel Lind",
         "photographer": "Julia Condro"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745435348/izabel-lind-farnstrand-konst-konstna%CC%88r-art-wallscultures-digital-3d-lakan-tyg-w_hiz7ok.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745435348/izabel-lind-farnstrand-konst-konstna%CC%88r-art-wallscultures-digital-3d-lakan-tyg-w_hiz7ok.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745435348/izabel-lind-farnstrand-konst-konstna%CC%88r-art-wallscultures-digital-3d-lakan-tyg-w_hiz7ok.webp",
         "alt": "private collector exhibited Norra Tornen 2021 - art Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745435498/izabel-lind-farnstrand-bird-sheet-art-wall-scultpture-vaggskulptur-stockholmw_ezhfc0.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745435498/izabel-lind-farnstrand-bird-sheet-art-wall-scultpture-vaggskulptur-stockholmw_ezhfc0.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745435498/izabel-lind-farnstrand-bird-sheet-art-wall-scultpture-vaggskulptur-stockholmw_ezhfc0.webp",
         "alt": "private collector exhibited Norra Tornen 2021 - art Izabel Lind",
         "photographer": "Izabel Lind"
       }
@@ -408,37 +471,37 @@
     "images": [
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745435782/Soft.2023.side.fyrkant-w_rrcvrq.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745435782/Soft.2023.side.fyrkant-w_rrcvrq.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745435782/Soft.2023.side.fyrkant-w_rrcvrq.webp",
         "alt": "Closeup of Soft - casted sculture, by Izabel Lind.",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745435791/Soft.2023.corner-w_lxd49e.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745435791/Soft.2023.corner-w_lxd49e.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745435791/Soft.2023.corner-w_lxd49e.webp",
         "alt": "Closeup of Soft - casted sculture, by Izabel Lind.",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745435776/Izabel.lind.Soft.shell-2024-skulptur-w_butyu4.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745435776/Izabel.lind.Soft.shell-2024-skulptur-w_butyu4.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745435776/Izabel.lind.Soft.shell-2024-skulptur-w_butyu4.webp",
         "alt": "Side perspective of Soft - casted sculture, by Izabel Lind.",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745436024/Soft.2023_adsknz-w_sdmlne.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745436024/Soft.2023_adsknz-w_sdmlne.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745436024/Soft.2023_adsknz-w_sdmlne.webp",
         "alt": "Front image of Soft - casted sculture, by Izabel Lind.",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745435787/Soft.2023.colors-w_uwiith.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745435787/Soft.2023.colors-w_uwiith.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745435787/Soft.2023.colors-w_uwiith.webp",
         "alt": "Side perspective of Soft - casted sculture, by Izabel Lind.",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745436217/izabel-lind-v%C3%A4ggskulptur-stone-w_rtrxma.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745436217/izabel-lind-v%C3%A4ggskulptur-stone-w_rtrxma.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745436217/izabel-lind-v%C3%A4ggskulptur-stone-w_rtrxma.webp",
         "alt": "Side perspective of Soft - casted sculture, by Izabel Lind.",
         "photographer": "Izabel Lind"
       }
@@ -461,13 +524,13 @@
     "images": [
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745436496/izabel-lind-art-sculpture-wave-paper-2024w_jan5zo.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745436496/izabel-lind-art-sculpture-wave-paper-2024w_jan5zo.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745436496/izabel-lind-art-sculpture-wave-paper-2024w_jan5zo.webp",
         "alt": "close up of Twisted - by Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745436504/izabel-lind-wave-paper-w_llz1x3.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745436504/izabel-lind-wave-paper-w_llz1x3.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745436504/izabel-lind-wave-paper-w_llz1x3.webp",
         "alt": "Twisted - paper sculpture by Izabel Lind",
         "photographer": "Izabel Lind"
       }
@@ -485,13 +548,13 @@
     "images": [
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745436735/izabel-lind-farnstrand-the-welcoming-2022-konstna%CC%88r-kkh-w_qirtis.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745436735/izabel-lind-farnstrand-the-welcoming-2022-konstna%CC%88r-kkh-w_qirtis.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745436735/izabel-lind-farnstrand-the-welcoming-2022-konstna%CC%88r-kkh-w_qirtis.webp",
         "alt": "Banner in textile - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745436714/the_welcoming-izabel.lind.farnstrand-na%CC%88rbild-w_ldc9fl.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745436714/the_welcoming-izabel.lind.farnstrand-na%CC%88rbild-w_ldc9fl.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745436714/the_welcoming-izabel.lind.farnstrand-na%CC%88rbild-w_ldc9fl.webp",
         "alt": "Close up of The Welcoming sculpture - Izabel Lind.",
         "photographer": "Izabel Lind"
       }
@@ -514,13 +577,13 @@
     "images": [
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745436891/systrar3-izabel-lind-w_w41o12.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745436891/systrar3-izabel-lind-w_w41o12.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745436891/systrar3-izabel-lind-w_w41o12.webp",
         "alt": "My mother and aunt dancing.",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745436894/tryck-spelet-izabel-lind-w_jiy9uw.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745436894/tryck-spelet-izabel-lind-w_jiy9uw.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745436894/tryck-spelet-izabel-lind-w_jiy9uw.webp",
         "alt": "Card games.",
         "photographer": "Izabel Lind"
       }
@@ -538,62 +601,62 @@
     "images": [
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437210/How-to-prepare-for-death-2000-3-w_eftcdk.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437210/How-to-prepare-for-death-2000-3-w_eftcdk.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437210/How-to-prepare-for-death-2000-3-w_eftcdk.webp",
         "alt": "Room installation How to prepare for Death - close up sculpture - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437206/How-to-prepare-for-death-2000-2-w_lk1j3o.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437206/How-to-prepare-for-death-2000-2-w_lk1j3o.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437206/How-to-prepare-for-death-2000-2-w_lk1j3o.webp",
         "alt": "Room installation How to prepare for Death - overview - Izabel Lind",
         "photographer": "Izabel Lind"
       },
 
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437219/How-to-prepare-for-death-2000-11-w_pscyl4.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437219/How-to-prepare-for-death-2000-11-w_pscyl4.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437219/How-to-prepare-for-death-2000-11-w_pscyl4.webp",
         "alt": "Room installation How to prepare for Death - overview - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437213/How-to-prepare-for-death-2000-4-w_ujfpic.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437213/How-to-prepare-for-death-2000-4-w_ujfpic.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437213/How-to-prepare-for-death-2000-4-w_ujfpic.webp",
         "alt": "Room installation How to prepare for Death - overview - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437203/How-to-prepare-for-death-2000-12-w_fqtakq.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437203/How-to-prepare-for-death-2000-12-w_fqtakq.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437203/How-to-prepare-for-death-2000-12-w_fqtakq.webp",
         "alt": "Room installation How to prepare for Death - close up sculpture - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437216/How-to-prepare-for-death-2000-10-w_q9rc9c.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437216/How-to-prepare-for-death-2000-10-w_q9rc9c.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437216/How-to-prepare-for-death-2000-10-w_q9rc9c.webp",
         "alt": "Room installation How to prepare for Death - overview - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437190/detalj1-v%C3%A4gg-kroppssplitter-izabel-lind-farnstrand.2ljus-w_hytsr1.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437190/detalj1-v%C3%A4gg-kroppssplitter-izabel-lind-farnstrand.2ljus-w_hytsr1.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437190/detalj1-v%C3%A4gg-kroppssplitter-izabel-lind-farnstrand.2ljus-w_hytsr1.webp",
         "alt": "Detail How to prepare for Death - floow - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437193/detalj3-va%CC%88gg-kroppssplitter-izabel-lind-farnstrand-w_jqb6ev.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437193/detalj3-va%CC%88gg-kroppssplitter-izabel-lind-farnstrand-w_jqb6ev.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437193/detalj3-va%CC%88gg-kroppssplitter-izabel-lind-farnstrand-w_jqb6ev.webp",
         "alt": "Detail How to prepare for Death - in white - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437197/detalj2-va%CC%88gg-kroppssplitter-izabel-lind-farnstrand-w_datrdv.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437197/detalj2-va%CC%88gg-kroppssplitter-izabel-lind-farnstrand-w_datrdv.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437197/detalj2-va%CC%88gg-kroppssplitter-izabel-lind-farnstrand-w_datrdv.webp",
         "alt": "Detail How to prepare for Death - in white - Izabel Lind.",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437187/2-va%CC%88gg-kroppssplitter-izabel-lind-farnstrand-w_jfjkdp.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437187/2-va%CC%88gg-kroppssplitter-izabel-lind-farnstrand-w_jfjkdp.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437187/2-va%CC%88gg-kroppssplitter-izabel-lind-farnstrand-w_jfjkdp.webp",
         "alt": "Wall test How to prepare for Death - in white - Izabel Lind.",
         "photographer": "Izabel Lind"
       }
@@ -616,37 +679,37 @@
     "images": [
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310964/Izabel.lind-trust-artist-2018_lr31ph.png",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745310964/Izabel.lind-trust-artist-2018_lr31ph.png",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745310964/Izabel.lind-trust-artist-2018_lr31ph.png",
         "alt": "Screenshot from video - deer - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437612/2011---hunt---printscreen-video-w_vukleu.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437612/2011---hunt---printscreen-video-w_vukleu.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437612/2011---hunt---printscreen-video-w_vukleu.webp",
         "alt": "Screenshot from video - deer - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437653/2011---taxi---printscreen-video-w_ua4mer.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437653/2011---taxi---printscreen-video-w_ua4mer.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437653/2011---taxi---printscreen-video-w_ua4mer.webp",
         "alt": "Screenshot from video - street - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437661/1-survivors-trust-w_re0fyq.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437661/1-survivors-trust-w_re0fyq.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437661/1-survivors-trust-w_re0fyq.webp",
         "alt": "Screenshot from video - street taxi - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437656/2011---street---printscreen-video-w_v5u8bu.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437656/2011---street---printscreen-video-w_v5u8bu.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437656/2011---street---printscreen-video-w_v5u8bu.webp",
         "alt": "Screenshot from video - fountain pool - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437600/4-survivors-trust-w_e95vyp.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437600/4-survivors-trust-w_e95vyp.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437600/4-survivors-trust-w_e95vyp.webp",
         "alt": "Screenshot from video - deer - Izabel Lind",
         "photographer": "Izabel Lind"
       }
@@ -664,25 +727,25 @@
     "images": [
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437994/Izabel-Lind-farnstrand-konstakademien-kkh-birth-sleep-sex-cease-skulptur-va%CC%88gg-gips-sa%CC%88ng-madrass-lakan-w_tpooig.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437994/Izabel-Lind-farnstrand-konstakademien-kkh-birth-sleep-sex-cease-skulptur-va%CC%88gg-gips-sa%CC%88ng-madrass-lakan-w_tpooig.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437994/Izabel-Lind-farnstrand-konstakademien-kkh-birth-sleep-sex-cease-skulptur-va%CC%88gg-gips-sa%CC%88ng-madrass-lakan-w_tpooig.webp",
         "alt": "Closup of wall sculpture in plaster - Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437987/izabel-lind-farnstrand-konstakademien-2020-lakan-birth-sleep-sex-cease-gipsskulptur-sang-madrass-w_hddtnc.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437987/izabel-lind-farnstrand-konstakademien-2020-lakan-birth-sleep-sex-cease-gipsskulptur-sang-madrass-w_hddtnc.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437987/izabel-lind-farnstrand-konstakademien-2020-lakan-birth-sleep-sex-cease-gipsskulptur-sang-madrass-w_hddtnc.webp",
         "alt": "Wallsculpture in Konstnärsakademien 2020, Izabel Lind",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437991/lakan-birth-sleep-sex-cease-1500-w_jcsgoq.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437991/lakan-birth-sleep-sex-cease-1500-w_jcsgoq.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437991/lakan-birth-sleep-sex-cease-1500-w_jcsgoq.webp",
         "alt": "Wall sculpture bed",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745437895/izabel-lind-fa%CC%88rnstrand-liljevalchs-2021-va%CC%88ggskulptur-gips-sa%CC%88ng-ko%CC%88p-w_hbb7tx.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745437895/izabel-lind-fa%CC%88rnstrand-liljevalchs-2021-va%CC%88ggskulptur-gips-sa%CC%88ng-ko%CC%88p-w_hbb7tx.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745437895/izabel-lind-fa%CC%88rnstrand-liljevalchs-2021-va%CC%88ggskulptur-gips-sa%CC%88ng-ko%CC%88p-w_hbb7tx.webp",
         "alt": "overview wall Liljevalchs 2021, sculpture Izabel Lind",
         "photographer": "Izabel Lind"
       }
@@ -709,7 +772,7 @@
     "images": [
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310925/izabel-lind-farnstrand-stavanger-norway-radisson-blu-hotel-art-konst-Young-art-stockholm_tvasqy.jpg",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745310925/izabel-lind-farnstrand-stavanger-norway-radisson-blu-hotel-art-konst-Young-art-stockholm_tvasqy.jpg",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745310925/izabel-lind-farnstrand-stavanger-norway-radisson-blu-hotel-art-konst-Young-art-stockholm_tvasqy.jpg",
         "alt": "Closup of Sirens in Stavanger, Izabel Lind",
         "photographer": "Izabel Lind"
       }
@@ -732,25 +795,25 @@
     "images": [
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745438304/Happyland-izabel-lind-farnstrand.2-w_hkuhpz.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745438304/Happyland-izabel-lind-farnstrand.2-w_hkuhpz.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745438304/Happyland-izabel-lind-farnstrand.2-w_hkuhpz.webp",
         "alt": "Church in Stuttgart, Germany",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745438278/doom-happy-land-izabel-lind-konstn%C3%A4r-w_cqlsri.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745438278/doom-happy-land-izabel-lind-konstn%C3%A4r-w_cqlsri.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745438278/doom-happy-land-izabel-lind-konstn%C3%A4r-w_cqlsri.webp",
         "alt": "Google maps, Disney Land",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745438308/happyland-izabel-lind-farnstrand.3-w_zjmvhm.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745438308/happyland-izabel-lind-farnstrand.3-w_zjmvhm.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745438308/happyland-izabel-lind-farnstrand.3-w_zjmvhm.webp",
         "alt": "Google maps, Disney Land.",
         "photographer": "Izabel Lind"
       },
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745438290/happyland-izabel-lind-farnstrand-w_p7ub3g.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-250/v1745438290/happyland-izabel-lind-farnstrand-w_p7ub3g.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745438290/happyland-izabel-lind-farnstrand-w_p7ub3g.webp",
         "alt": "Google maps",
         "photographer": "Izabel Lind"
       }
