@@ -2,8 +2,10 @@
   {
     "title": "Av inre orsaker",
     "year": 2024,
-    "material": "Painting",
-    "description": "Dyptyk of 100 x 140 cm each. This dyptyk explores inner states as both physical and mental landscapes – places where energies gather, collide or tear apart. The paintings depict a movement between fragmentation and gathering, where ruptures and traces suggest processes that unfold beyond consciousness. Like microscopic events or emotional fragments of memory, the work carries a story of something happening inside – in silence, in layers, in between.",
+    "category": "Painting",
+    "material": "Oil pastel, acrylic and oil on MDF, walnut frame",
+    "size": "100 x 140 cm",
+    "description": "This painting explores inner states as both physical and mental landscapes – places where energies gather, collide or tear apart. The painting depict a movement between fragmentation and gathering, where ruptures and traces suggest processes that unfold beyond consciousness. Like microscopic events or emotional fragments of memory, the work carries a story of something happening inside – in silence, in layers, in between.",
     "images": [
       {
         "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781090392/i-mellanrum-2025-izabel-lind-utanram_n2ib5h.png",
@@ -32,8 +34,10 @@
   {
     "title": "I kavitet",
     "year": 2026,
-    "material": "Painting",
-    "description": "Dyptyk of 100 x 140 cm each. This dyptyk explores inner states as both physical and mental landscapes – places where energies gather, collide or tear apart. The paintings depict a movement between fragmentation and gathering, where ruptures and traces suggest processes that unfold beyond consciousness. Like microscopic events or emotional fragments of memory, the work carries a story of something happening inside – in silence, in layers, in between.",
+    "category": "Painting",
+    "material":"Oil pastel, acrylic and oil on canvas, oak frame",
+    "size": "207 x 80 cm",
+    "description": "I kaviter is a painting that explores the cave. The cave as a metaphor for the inner, the hidden, the unconscious. The painting explores the idea of a space that is both protective and confining, a place where one can retreat but also get lost.",
     "images": [
       {
         "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781091334/I-Kavitet-2026-Izabel-Lind-utram2_aphk2j.png",
@@ -68,34 +72,54 @@
   {
     "title": "Brist",
     "year": 2021,
-    "material": "Sculpture",
+    "category": "Sculpture",
+    "material":"bronze",
+    "size": "20 x 29 x 38 cm",
     "description": "The negative bronze sculpture revolves around absence – that which no longer exists, or perhaps never really existed. A void that both hides and defines the lost. Through the negative, a presence is formed in the very absence. A silent marker for something whose possible existence never took shape, but is still felt.",
     "images": [
       {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433661/Current-matrix.2023.side.zoom-izabel.lind-w_jwwmjx.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433661/Current-matrix.2023.side.zoom-izabel.lind-w_jwwmjx.webp",
-        "horizontal": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433673/matrix.2023.detail.2500-w_ydpglx.webp",
-        "alt": "Matrix - bronze sculpture - Izabel Lind",
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433661/Current-Brist.2023.side.zoom-izabel.lind-w_jwwmjx.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433661/Current-Brist.2023.side.zoom-izabel.lind-w_jwwmjx.webp",
+        "horizontal": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433673/Brist.2023.detail.2500-w_ydpglx.webp",
+        "alt": "Brist - bronze sculpture - Izabel Lind",
         "photographer": "jean baptiste béranger"
       },
 
       {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433669/Izabel-lind-farnstrand-brons-skulptur-Matrix-2000-1-w_qbepbv.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433669/Izabel-lind-farnstrand-brons-skulptur-Matrix-2000-1-w_qbepbv.webp",
-        "alt": "Matrix - bronze sculpture close up - Izabel Lind",
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433669/Izabel-lind-farnstrand-brons-skulptur-Brist-2000-1-w_qbepbv.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433669/Izabel-lind-farnstrand-brons-skulptur-Brist-2000-1-w_qbepbv.webp",
+        "alt": "Brist - bronze sculpture close up - Izabel Lind",
         "photographer": "jean baptiste béranger"
       },
       {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433673/matrix.2023.detail.2500-w_ydpglx.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433673/matrix.2023.detail.2500-w_ydpglx.webp",
-        "alt": "Matrix - bronze sculpture on podium - Izabel Lind",
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433673/Brist.2023.detail.2500-w_ydpglx.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433673/Brist.2023.detail.2500-w_ydpglx.webp",
+        "alt": "Brist - bronze sculpture on podium - Izabel Lind",
         "photographer": "jean baptiste béranger"
       },
       {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433664/Izabel-Matrix-2000-podie.2-w_mqpdhk.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433664/Izabel-Matrix-2000-podie.2-w_mqpdhk.webp",
-        "alt": "Matrix - bronze sculpture close up - Izabel Lind",
+        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433664/Izabel-Brist-2000-podie.2-w_mqpdhk.webp",
+        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745433664/Izabel-Brist-2000-podie.2-w_mqpdhk.webp",
+        "alt": "Brist - bronze sculpture close up - Izabel Lind",
         "photographer": "jean baptiste béranger"
+      },
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781183138/StudioMamama_MGL8410_full-utst%C3%A4llning-av-inre-orsaker-v%C3%A4ster%C3%A5s-Izabel-lind-brist_qg91bs.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781183138/StudioMamama_MGL8410_full-utst%C3%A4llning-av-inre-orsaker-v%C3%A4ster%C3%A5s-Izabel-lind-brist_qg91bs.png",
+        "alt": "Brist - bronze sculpture close up - Izabel Lind",
+        "photographer": "Emma Vistrand"
+      },
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781183289/me%C3%A4nmaa-izabel-lind-utst%C3%A4llning-av-inre-orsaker-2026_fwyikr.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781183289/me%C3%A4nmaa-izabel-lind-utst%C3%A4llning-av-inre-orsaker-2026_fwyikr.png",
+        "alt": "Brist - bronze sculpture close up - Izabel Lind",
+        "photographer": "Emma Vistrand"
+      },
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781185283/StudioMamama_MGL8385_utst%C3%A4llning-av-inre-orsaker-2026-izabel-birst-str%C3%B6mmen_vo0xfv.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781185283/StudioMamama_MGL8385_utst%C3%A4llning-av-inre-orsaker-2026-izabel-birst-str%C3%B6mmen_vo0xfv.png",
+        "alt": "Matrix - bronze sculpture exhibtition view, with Strömmen, - Izabel Lind",
+        "photographer": "Emma Vistrand"
       }
     ],
     "video": null,
@@ -111,7 +135,11 @@
       {
         "place": "Flimmer & Fladder, Grupputställning, Stockholm",
         "year": "2024"
-      }
+      },
+    {
+       "place": "Västerås Konsthall",
+        "year": "2026"
+    }
     ],
     "commissionedBy": ["Private collector"],
     "fundedBy": ["KKH"]
@@ -119,13 +147,15 @@
   {
     "title": "Strömmen",
     "year": 2026,
-    "material": "Painting",
+    "category": "Painting",
+    "material": "Oil pastel, acrylic and oil on MDF, walnut frame",
+    "size": "100 x 140 cm",
     "description": "The negative bronze sculpture revolves around absence – that which no longer exists, or perhaps never really existed. A void that both hides and defines the lost. Through the negative, a presence is formed in the very absence. A silent marker for something whose possible existence never took shape, but is still felt.",
     "images": [
       {
         "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781168544/str%C3%B6mmen-izabel-lind-2026-StudioMamama_MGL8301_zoom_hnkbdl.png",
         "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781168544/str%C3%B6mmen-izabel-lind-2026-StudioMamama_MGL8301_zoom_hnkbdl.png",
-        "horizontal": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433673/matrix.2023.detail.2500-w_ydpglx.webp",
+        "horizontal": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745433673/Brist.2023.detail.2500-w_ydpglx.webp",
         "alt": "Strömmen - painting - Izabel Lind",
         "photographer": "Emma Vistrand"
       },
@@ -153,6 +183,12 @@
         "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781170170/str%C3%B6mmen-izabel-lind-2026-StudioMamama_MGL8301_detalj_daaori.png",
         "alt": "Strömmen - painting - Izabel Lind",
         "photographer": "Emma Vistrand"
+      },
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781185283/StudioMamama_MGL8385_utst%C3%A4llning-av-inre-orsaker-2026-izabel-birst-str%C3%B6mmen_vo0xfv.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781185283/StudioMamama_MGL8385_utst%C3%A4llning-av-inre-orsaker-2026-izabel-birst-str%C3%B6mmen_vo0xfv.png",
+        "alt": "Strömmer - bronze sculpture exhibtition view, with Brist, - Izabel Lind",
+        "photographer": "Emma Vistrand"
       }
     ],
     "video": null,
@@ -176,8 +212,10 @@
   {
     "title": "Snösmältning",
     "year": 2026,
-    "material": "Painting",
-    "description": "Dyptyk of 100 x 140 cm each. This dyptyk explores inner states as both physical and mental landscapes – places where energies gather, collide or tear apart. The paintings depict a movement between fragmentation and gathering, where ruptures and traces suggest processes that unfold beyond consciousness. Like microscopic events or emotional fragments of memory, the work carries a story of something happening inside – in silence, in layers, in between.",
+    "category": "Painting",
+    "material": "Oil pastel, acrylic and oil on canvas, walnut frame",
+    "size": "120 x 80 cm",
+    "description": "Snösmältning is a painting that explores the idea of transition and natural processes, as a metaphor for the movements and time passing in the body and mind. The mountainous landscape and paths and their resemblance with our insides. The viewer is invited to reflect on the beauty found in moments of change and the inevitable passage of time.",
     "images": [
       {
         "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781091193/Sn%C3%B6sm%C3%A4ltning-2026-izabel-lind-utanram_sqlacs.png",
@@ -218,8 +256,10 @@
   {
     "title": "Undangömd",
     "year": 2025,
-    "material": "Painting",
-    "description": "Dyptyk of 100 x 140 cm each. This dyptyk explores inner states as both physical and mental landscapes – places where energies gather, collide or tear apart. The paintings depict a movement between fragmentation and gathering, where ruptures and traces suggest processes that unfold beyond consciousness. Like microscopic events or emotional fragments of memory, the work carries a story of something happening inside – in silence, in layers, in between.",
+    "category": "Painting",
+    "material": "Oil pastel, acrylic and oil on MDF, walnut frame",
+    "size": "100 x 140 cm",
+    "description": "The color red - associated with blood, passion, love, and energy to power, dominance, danger, and warning. Diving into the body as a physical space but also as a somewhat scary idea of everything that is hidden inside us. A reminder of our fragility and physicality. The hidden that holds our core and ties our consousness to the physical world.",
     "images": [
       {
         "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781087938/StudioMamama_MGL8441_undang%C3%B6md-Izabel-lind-2026-noframe_bp9wos.png",
@@ -255,8 +295,9 @@
   {
     "title": "Oblivion",
     "year": 2020,
-    "material": "3D, VR and sculpture",
-    "description": "A large metallic installation where the visitor can enter a virtual landscape of the scannet Nikehallen in Konstakademien.",
+    "category": "3D, VR and sculpture",
+    "material": "VR headset, metal structure",
+    "description": "Oblivion is a large metallic installation where the visitor can enter a virtual landscape of the scannet Nikehallen in Konstakademien. Each visitor can experience the space in their own way, as the virtual space is generated differently by the movement of the visitors. The installation explores the relationship between physical and virtual space, and how our perception of space can be altered and transformed through technology.",
     "images": [
       {
         "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745432577/konstakademien-oblivion-varutstallning-examensutstallning-2020-mejan-kkh-kungliga-konsthogskolan-konst-vr-3d-metallskulptur-virtual-reality-nikesalen-izabel-lind-farnstrand-w_nbm2gf.webp",
@@ -308,7 +349,9 @@
   {
     "title": "Stream",
     "year": 2024,
-    "material": "Live streamed light sculpture",
+    "category": "Sculpture",
+    "material": "LED lights, electronic components and metal structure",
+    "size": "500 x 300 cm",
     "description": "This live sculpture is connected to an API of the sensors at the University, reacting to the amount of people moving in the buildings and showing different moods reflecting the atmosphere.",
     "images": [
       {
@@ -361,7 +404,9 @@
   {
     "title": "Meänmaa",
     "year": 2025,
-    "material": "Sculpture",
+    "category": "Sculpture",
+    "material": "Acrystal, walnut frame",
+    "size": "98 x 88 cm",
     "description": "“Meänmaa” – our land – is a work that revolves around imprints, belonging and the emotional charge of a place. It carries a longing to take a place with you, to hold on to something that otherwise slips away. In Meänmaa, the place becomes both present and absent – ​​something to touch, but also something inanimate and only a hint. An attempt to own a place through memory, when language, culture or history have been silenced.",
     "images": [
       {
@@ -381,6 +426,12 @@
         "thumbnail": "https://res.cloudinary.com/dknoal1v0/image/upload/a_-90/a_90/c_pad,w_250/v1763125623/mea%CC%88nmaa_meydx6.png",
         "alt": "Meänmaa - paper sculpture by Izabel Lind",
         "photographer": "Izabel Lind"
+      },
+      {
+        "url": "https://res.cloudinary.com/dxpmuv7p6/image/upload/v1781183289/me%C3%A4nmaa-izabel-lind-utst%C3%A4llning-av-inre-orsaker-2026_fwyikr.png",
+        "thumbnail": "https://res.cloudinary.com/dxpmuv7p6/image/upload/t_w-500/v1781183289/me%C3%A4nmaa-izabel-lind-utst%C3%A4llning-av-inre-orsaker-2026_fwyikr.png",
+        "alt": "Brist - bronze sculpture close up - Izabel Lind",
+        "photographer": "Emma Vistrand"
       }
     ],
     "video": null,
@@ -391,7 +442,9 @@
   {
     "title": "Upward falling",
     "year": 2021,
-    "material": "Sculpture",
+    "category": "Sculpture",
+    "material": "Acrystal, walnut frame",
+    "size": "120 x 80 cm",
     "description": "This project is a collection of wallsculptures created on demand for different venues and clients, casted in Acrystal.",
     "images": [
       {
@@ -466,7 +519,8 @@
   {
     "title": "Soft",
     "year": 2024,
-    "material": "Sculpture",
+    "category": "Sculpture",
+    "material": "Acrystal, oak frame",
     "description": "Casted Acrystal sculpture in oak frame. Molded from pure cliffs outside using wax, 'Soft' is a hardened version of an imprint, trasing time and place and therefore symbolize how they can hold memories and nostalgic importance.",
     "images": [
       {
@@ -517,86 +571,9 @@
     "fundedBy": []
   },
   {
-    "title": "Twisted",
-    "year": 2024,
-    "material": "Sculpture",
-    "description": "Twisted is a wall sculpture in twisted paper, 60x60 cm, hardened in its position it holds strenght and fragility in an ambiguous way.",
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745436496/izabel-lind-art-sculpture-wave-paper-2024w_jan5zo.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745436496/izabel-lind-art-sculpture-wave-paper-2024w_jan5zo.webp",
-        "alt": "close up of Twisted - by Izabel Lind",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745436504/izabel-lind-wave-paper-w_llz1x3.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745436504/izabel-lind-wave-paper-w_llz1x3.webp",
-        "alt": "Twisted - paper sculpture by Izabel Lind",
-        "photographer": "Izabel Lind"
-      }
-    ],
-    "video": null,
-    "exhibitedAt": [],
-    "commissionedBy": [],
-    "fundedBy": []
-  },
-  {
-    "title": "The Welcoming",
-    "year": 2018,
-    "material": "Sculpture",
-    "description": "A banner of the welcome where the happy is implied but easily altered.",
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745436735/izabel-lind-farnstrand-the-welcoming-2022-konstna%CC%88r-kkh-w_qirtis.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745436735/izabel-lind-farnstrand-the-welcoming-2022-konstna%CC%88r-kkh-w_qirtis.webp",
-        "alt": "Banner in textile - Izabel Lind",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745436714/the_welcoming-izabel.lind.farnstrand-na%CC%88rbild-w_ldc9fl.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745436714/the_welcoming-izabel.lind.farnstrand-na%CC%88rbild-w_ldc9fl.webp",
-        "alt": "Close up of The Welcoming sculpture - Izabel Lind.",
-        "photographer": "Izabel Lind"
-      }
-    ],
-    "video": null,
-    "exhibitedAt": [
-      {
-        "place": "Kungliga Konsthögskolan",
-        "year": "2018"
-      }
-    ],
-    "commissionedBy": [],
-    "fundedBy": []
-  },
-  {
-    "title": "Memoar",
-    "year": 2022,
-    "material": "Painting",
-    "description": "Altered memories is a topic I have been interested in years, since my grandmother had alzeimers and seemed to be travelling inside her mind and the spaces she stored in there.",
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745436891/systrar3-izabel-lind-w_w41o12.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745436891/systrar3-izabel-lind-w_w41o12.webp",
-        "alt": "My mother and aunt dancing.",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745436894/tryck-spelet-izabel-lind-w_jiy9uw.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745436894/tryck-spelet-izabel-lind-w_jiy9uw.webp",
-        "alt": "Card games.",
-        "photographer": "Izabel Lind"
-      }
-    ],
-    "video": null,
-    "exhibitedAt": [],
-    "commissionedBy": [],
-    "fundedBy": []
-  },
-  {
     "title": "How to prepare for death",
     "year": 2019,
-    "material": "Installation",
+    "category": "Installation",
     "description": "A room installation / immersive experience at Galleri Mejan, with plaster sculptures, tinted windows and clay floor.",
     "images": [
       {
@@ -674,7 +651,7 @@
   {
     "title": "Trust",
     "year": 2018,
-    "material": "video",
+    "category": "video",
     "description": "Art video on loneliness abroad, the beauty of the foreign and the foreign within.",
     "images": [
       {
@@ -722,7 +699,7 @@
   {
     "title": "Birth Sleep Sex Cease",
     "year": 2020,
-    "material": "Sculpture",
+    "category": "Sculpture",
     "description": "This casted bed with imprints was a part of my masters show, also exhibited in Liljevalchs Vårsalong.",
     "images": [
       {
@@ -761,119 +738,6 @@
         "year": "2020"
       }
     ],
-    "commissionedBy": [],
-    "fundedBy": []
-  },
-  {
-    "title": "Sirens",
-    "year": 2016,
-    "material": "Sculpture",
-    "description": "A large commissioned sculpture for Radisson Blu Stavanger, Norway",
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310925/izabel-lind-farnstrand-stavanger-norway-radisson-blu-hotel-art-konst-Young-art-stockholm_tvasqy.jpg",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745310925/izabel-lind-farnstrand-stavanger-norway-radisson-blu-hotel-art-konst-Young-art-stockholm_tvasqy.jpg",
-        "alt": "Closup of Sirens in Stavanger, Izabel Lind",
-        "photographer": "Izabel Lind"
-      }
-    ],
-    "video": null,
-    "exhibitedAt": [
-      {
-        "place": "Radisson Blu Stavanger, Norway",
-        "year": "2016"
-      }
-    ],
-    "commissionedBy": ["Radisson Blu Stavanger", "YA Stockholm"],
-    "fundedBy": ["Radisson Blu Stavanger", "YA Stockholm"]
-  },
-  {
-    "title": "Happy Land",
-    "year": 2018,
-    "material": "Video installation",
-    "description": "2 video works combined telling the story of the search for happiness exhibited at Kunstlerhaus Stuttgart. ",
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745438304/Happyland-izabel-lind-farnstrand.2-w_hkuhpz.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745438304/Happyland-izabel-lind-farnstrand.2-w_hkuhpz.webp",
-        "alt": "Church in Stuttgart, Germany",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745438278/doom-happy-land-izabel-lind-konstn%C3%A4r-w_cqlsri.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745438278/doom-happy-land-izabel-lind-konstn%C3%A4r-w_cqlsri.webp",
-        "alt": "Google maps, Disney Land",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745438308/happyland-izabel-lind-farnstrand.3-w_zjmvhm.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745438308/happyland-izabel-lind-farnstrand.3-w_zjmvhm.webp",
-        "alt": "Google maps, Disney Land.",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745438290/happyland-izabel-lind-farnstrand-w_p7ub3g.webp",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/t_w-500/v1745438290/happyland-izabel-lind-farnstrand-w_p7ub3g.webp",
-        "alt": "Google maps",
-        "photographer": "Izabel Lind"
-      }
-    ],
-    "video": null,
-    "exhibitedAt": [
-      {
-        "place": "Kunstlerhaus Stuttgard, Germany",
-        "year": "2018"
-      }
-    ],
-    "commissionedBy": ["Kunstlerhaus Stuttgart"],
-    "fundedBy": ["Kunstlerhaus Stuttgart"]
-  },
-
-  {
-    "title": "Drone",
-    "year": 2019,
-    "material": "Photos",
-    "description": "The gace and the angle of an image alteres how we relate to the camera and the unknown camera man. What does it mean to be part of someoneelses souvenir?",
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310211/Izabel-lind-konstnar-2019-drone-2_ond0cb.png",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310211/Izabel-lind-konstnar-2019-drone-2_ond0cb.png",
-        "alt": "Photo of plastic chair on a beach Izabel Lind",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310213/Izabel-lind-konstnar-2019-drone-3_grq9iw.png",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310213/Izabel-lind-konstnar-2019-drone-3_grq9iw.png",
-        "alt": "Abstract Drone photo Izabel Lind",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310212/Izabel-lind-konstnar-2019-drone-4_pr1b83.png",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310212/Izabel-lind-konstnar-2019-drone-4_pr1b83.png",
-        "alt": "People on a beach Izabel Lind",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310211/Izabel-lind-konstnar-2019-drone_od8xod.png",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310211/Izabel-lind-konstnar-2019-drone_od8xod.png",
-        "alt": "Beach drone photo Izabel Lind",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310185/chaser_-trapper_-huntess-2020-izabel-lind-farnstrand_bqa0io.jpg",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310185/chaser_-trapper_-huntess-2020-izabel-lind-farnstrand_bqa0io.jpg",
-        "alt": "People on a beach Izabel Lind",
-        "photographer": "Izabel Lind"
-      },
-      {
-        "url": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310185/chaser_-trapper_-huntess-2019-izabel-lind-farnstrand_nyodcs.jpg",
-        "thumbnail": "https://res.cloudinary.com/dlp85vjwx/image/upload/v1745310185/chaser_-trapper_-huntess-2019-izabel-lind-farnstrand_nyodcs.jpg",
-        "alt": "Beach drone photo Izabel Lind",
-        "photographer": "Izabel Lind"
-      }
-    ],
-    "video": null,
-    "exhibitedAt": [],
     "commissionedBy": [],
     "fundedBy": []
   }

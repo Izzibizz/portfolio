@@ -15,7 +15,6 @@ export const ArtSingleProject = () => {
   const [project, setProject] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [startIndex, setStartIndex] = useState(0);
-  const [sectionMarginBottom, setSectionMarginBottom] = useState("20px");
   const [isMobile, setIsMobile] = useState(window.innerWidth < 1024);
 
   const handleOpenModal = (img, alt, index) => {
@@ -52,16 +51,6 @@ export const ArtSingleProject = () => {
     }
   }, [project]);
 
-  useEffect(() => {
-    if (infoRef.current) {
-      const infoHeight = infoRef.current.offsetHeight;
-      if (window.innerWidth < 1024) {
-        setSectionMarginBottom(`${infoHeight + 20}px`);
-      } else {
-        setSectionMarginBottom("40px");
-      }
-    }
-  }, [project]);
 
   useEffect(() => {
     setArtPortfolioDisplay(true);
@@ -86,7 +75,6 @@ export const ArtSingleProject = () => {
   return (
     <section
       className="animate-fadeIn font-body flex flex-col gap-10"
-      style={{ marginBottom: sectionMarginBottom }}
     >
       <Helmet>
         <title>
@@ -106,9 +94,6 @@ export const ArtSingleProject = () => {
           ref={infoRef}
           className="laptop:fixed laptop:left-20 laptop:bottom-10 bg-light bg-opacity-85 backdrop-blur-sm p-4 laptop:rounded-xl w-full laptop:w-[350px] flex gap-2"
         >
-          <NavLink to={`/art`}>
-            <SlArrowLeft className="cursor-hollow pl-4 w-8 h-8 z-20 hover:scale-125" />{" "}
-          </NavLink>
           <div className="flex flex-col gap-4">
             <h3 className="text-lg">
               {project.title}, {project.year}
