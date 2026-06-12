@@ -75,12 +75,13 @@ export const ArtProjects = () => {
                 navigate(`/art/${createProjectSlug(project.title)}`)
               }
             >
-              <p>{project.title} </p>
+              {!isMobile && ( <p>{project.title} </p> )}
               <img
                 src={project.images[0].thumbnail}
                 alt={project.images[0].alt}
                 className="w-full object-cover object-bottom"
               />
+               {isMobile && ( <p className="text-end pr-1">{project.title} </p> )}
             </li>
           ))}
         </ul>
